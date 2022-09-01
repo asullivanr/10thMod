@@ -1,1 +1,4 @@
-./@LocalModTest/addons/
+./@LocalModTest/addons/*
+
+*.pbo
+*.spp
