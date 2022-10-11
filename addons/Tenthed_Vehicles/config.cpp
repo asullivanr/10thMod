@@ -21,6 +21,8 @@ class CfgVehicles {
 		  author = "PocketsTheWizard";
 		  scope = 2;
 		  scopeCurator = 2;
+		  editorCategory = "Tenthed_EditorCategory_Objects";
+		  editorSubcategory = "Tenthed_EditorSubcategory_Objects_Vehicles";
 		  hiddenSelectionsTextures[] =
 		  {
 			  "10th_AC\data\vehicles\10th_PelicanExterior.paa",
@@ -32,6 +34,8 @@ class CfgVehicles {
 		author = "PocketsTheWizard";
 		scope = 2;
 		scopeCurator = 2;
+		editorCategory = "Tenthed_EditorCategory_Objects";
+		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Vehicles";
 		hiddenSelectionsTextures[] =
 		{
 			"10th_AC\data\vehicles\archanglePelican.paa",
@@ -43,6 +47,8 @@ class CfgVehicles {
 		author = "PocketsTheWizard";
 		scope = 2;
 		scopeCurator = 2;
+		editorCategory = "Tenthed_EditorCategory_Objects";
+		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Vehicles";
 		hiddenSelectionsTextures[] =
 		{
 			"10th_AC\data\vehicles\DodoPelican.paa",
@@ -54,6 +60,8 @@ class CfgVehicles {
 		scopeCurator = 2;
 		author = "PcoketsTheWizard";
 		displayName = "b(ee)Hornet";
+		editorCategory = "Tenthed_EditorCategory_Objects";
+		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Vehicles";
 		hiddenSelectionsTextures[] =
 		{
 			"10th_AC\data\vehicles\beeHornet.paa"
@@ -64,6 +72,8 @@ class CfgVehicles {
 		scopeCurator = 2;
 		author = "PcoketsTheWizard";
 		displayName = "Red Comet Hornet";
+		editorCategory = "Tenthed_EditorCategory_Objects";
+		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Vehicles";
 		hiddenSelectionsTextures[] =
 		{
 			"10th_AC\data\vehicles\ZakuHornet.paa"
@@ -74,6 +84,8 @@ class CfgVehicles {
 		scopeCurator = 2;
 		author = "PcoketsTheWizard";
 		displayName = "AresScorpion";
+		editorCategory = "Tenthed_EditorCategory_Objects";
+		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Vehicles";
 		magazines[] =
 		{
 			"OPTRE_60Rnd_105mm_APBC",
@@ -105,6 +117,8 @@ class CfgVehicles {
 		author = "PocketsTheWizard";
 		scope = 2;
 		scopeCurator = 2;
+		editorCategory = "Tenthed_EditorCategory_Objects";
+		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Vehicles";
 		hiddenSelectionsTextures[] =
 		{
 			"10th_AC\data\vehicles\Bison_Body_tan_CO.paa",
@@ -121,6 +135,8 @@ class CfgVehicles {
 		author = "Kodiak";
 		scope = 2;
 		scopeCurator = 2;
+		editorCategory = "Tenthed_EditorCategory_Objects";
+		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Vehicles";
 		hiddenSelectionsTextures[] =
 		{
 			"10th_AC\data\vehicles\zeusstallion.paa",
