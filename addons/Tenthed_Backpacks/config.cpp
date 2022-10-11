@@ -3,13 +3,12 @@ class CfgPatches {
 		author = "Silver, Kodiak, Crow, Akira";
 		name = "10th ODST: Backpacks";
 		requiredAddons[] = {
-			"OPTRE_Core",
+			"Tenthed_core",
 		};
 		weapons[] = {};
-		units[] =
-		{
-			"10th_ANPRC_521"
-		};
+		units[] = {
+		"Tenthed_ANPRC_521",
+		"Tenthed_ILCS_Rucksack_Medical"};
 	};
 };
 class cfgVehicles {
@@ -44,7 +43,7 @@ class cfgVehicles {
 	};
 	class Tenthed_ILCS_Rucksack_Medical : OPTRE_ILCS_Rucksack_Black {
 		dlc = "OPTRE";
-		author = "Article 2 Studios";
+		author = "Crow";
 		displayName = "[10th] ILCS Backpack [Medic]";
 		maximumLoad = 400;
 		mass = 40;
