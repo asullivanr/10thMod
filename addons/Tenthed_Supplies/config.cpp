@@ -24,6 +24,8 @@ class CfgVehicles {
 		author = "PocketsTheWizard,Kodiak";
 		scope = 2;
 		scopeCurator = 2;
+		editorCategory = "Tenthed_EditorCategory_Objects";
+		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Supplies";
 		hiddenSelectionsTextures[] =
 		{
 			"10th_AC\data\containers\commonpool.paa",
@@ -208,6 +210,8 @@ class CfgVehicles {
 	{
 		displayName = "10thSupplyExplosivesPod";
 		author = "PocketsTheWizard,Kodiak";
+		editorCategory = "Tenthed_EditorCategory_Objects";
+		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Supplies";
 		class TransportMagazines
 		{
 			class M19SACLOS
@@ -317,6 +321,8 @@ class CfgVehicles {
 	class Supply10thMedPod : OPTRE_Ammo_SupplyPod_Empty
 	{
 		displayName = "10thSupplyPod(Med)";
+		editorCategory = "Tenthed_EditorCategory_Objects";
+		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Supplies";
 		hiddenSelectionsTextures[] =
 		{
 		"10th_AC\data\vehicles\SupplyPod_10th.paa"
