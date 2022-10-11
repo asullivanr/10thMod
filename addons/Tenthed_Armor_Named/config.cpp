@@ -25,6 +25,8 @@ class cfgWeapons {
 	class Tenthed_Pilot_Vest;
 	class Tenthed_Pilot_Armored;
 
+	// Added update 1
+
 	// Named Armors
 	class Tenthed_Jinx_Armor : Tenthed_Pilot_Vest {
 		dlc = "OPTRE";
@@ -156,7 +158,7 @@ class cfgWeapons {
 			"optre_unsc_units\army\data\armor_odst_co.paa",
 			"Tenthed_Armor_Named\data\odst_legs_co.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"Tenthed_Armor_Named\data\Crow's armour v3.paa"
+			"Tenthed_Armor_Named\data\crowarmor.paa"
 		};
 	};
 	class Tenthed_Jogn_Armor : Tenthed_Specialist2_Armor {
@@ -603,4 +605,20 @@ class cfgWeapons {
 			"Tenthed_Armor_Named\data\marvelarmor.paa"
 		};
 	};
+
+	// Added update 2
+	class Tenthed_Arctic_Armor : Tenthed_Specialist2_Armor {
+		scope = 2;
+		author = "Wolfe,Kodiak";
+		displayName = "[10th] M52D 'Arctic'";
+		hiddenSelectionsTextures[] = {
+			"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa",
+			"optre_unsc_units\army\data\armor_odst_co.paa",
+			"Tenthed_Armor_Named\data\odst_legs_co.paa",
+			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
+			"Tenthed_Armor_Named\data\arcticarmor.paa"
+		};
+	};
+
+
 }

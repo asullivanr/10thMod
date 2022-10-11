@@ -14,6 +14,7 @@ class CfgPatches {
 };
 class cfgVehicles {
 	class OPTRE_UNSC_Rucksack;
+	class OPTRE_ILCS_Rucksack_Black;
 
 	class Tenthed_ANPRC_521 : OPTRE_UNSC_Rucksack {
 		author = "Kodiak and Crow";
@@ -40,5 +41,19 @@ class cfgVehicles {
 		tf_range = 25000;
 		tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
 		tf_hasLRradio = 1;
+	};
+	class Tenthed_ILCS_Rucksack_Medical : OPTRE_ILCS_Rucksack_Black {
+		dlc = "OPTRE";
+		author = "Article 2 Studios";
+		displayName = "[10th] ILCS Backpack [Medic]";
+		maximumLoad = 400;
+		mass = 40;
+		hiddenSelections[] = {
+			"camo1",
+			"AP_Heavy"
+		};
+		hiddenSelectionsTextures[] = {
+			"Tenthed_Backpacks\data\ruck_med_CO V1.paa"
+		};
 	};
 };
