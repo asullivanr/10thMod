@@ -31,8 +31,8 @@ class CfgVehicles {
 		  author = "PocketsTheWizard";
 		  scope = 2;
 		  scopeCurator = 2;
-		  faction = "Tenthed_EditorCategory_Objects";
-		  editorCategory = "Tenthed_EditorCategory_Objects";
+		  faction = "Tenthed_UnitFact_Main";
+		  editorCategory = "Tenthed_EditorCategory_Main";
 		  editorSubcategory = "Tenthed_EditorSubcategory_Objects_Pelicans";
 		  hiddenSelectionsTextures[] =
 		  {
@@ -45,8 +45,8 @@ class CfgVehicles {
 		author = "PocketsTheWizard";
 		scope = 2;
 		scopeCurator = 2;
-		faction = "Tenthed_EditorCategory_Objects";
-		editorCategory = "Tenthed_EditorCategory_Objects";
+		faction = "Tenthed_UnitFact_Main";
+		editorCategory = "Tenthed_EditorCategory_Main";
 		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Pelicans";
 		hiddenSelectionsTextures[] =
 		{
@@ -59,8 +59,8 @@ class CfgVehicles {
 		author = "PocketsTheWizard";
 		scope = 2;
 		scopeCurator = 2;
-		faction = "Tenthed_EditorCategory_Objects";
-		editorCategory = "Tenthed_EditorCategory_Objects";
+		faction = "Tenthed_UnitFact_Main";
+		editorCategory = "Tenthed_EditorCategory_Main";
 		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Pelicans";
 		hiddenSelectionsTextures[] =
 		{
@@ -73,8 +73,8 @@ class CfgVehicles {
 		scopeCurator = 2;
 		author = "PcoketsTheWizard";
 		displayName = "b(ee)Hornet";
-		faction = "Tenthed_EditorCategory_Objects";
-		editorCategory = "Tenthed_EditorCategory_Objects";
+		faction = "Tenthed_UnitFact_Main";
+		editorCategory = "Tenthed_EditorCategory_Main";
 		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Hornets";
 		hiddenSelectionsTextures[] =
 		{
@@ -86,8 +86,8 @@ class CfgVehicles {
 		scopeCurator = 2;
 		author = "PcoketsTheWizard";
 		displayName = "Red Comet Hornet";
-		faction = "Tenthed_EditorCategory_Objects";
-		editorCategory = "Tenthed_EditorCategory_Objects";
+		faction = "Tenthed_UnitFact_Main";
+		editorCategory = "Tenthed_EditorCategory_Main";
 		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Hornets";
 		hiddenSelectionsTextures[] =
 		{
@@ -99,8 +99,8 @@ class CfgVehicles {
 		scopeCurator = 2;
 		author = "PcoketsTheWizard";
 		displayName = "AresScorpion";
-		faction = "Tenthed_EditorCategory_Objects";
-		editorCategory = "Tenthed_EditorCategory_Objects";
+		faction = "Tenthed_UnitFact_Main";
+		editorCategory = "Tenthed_EditorCategory_Main";
 		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Vehicles";
 		magazines[] =
 		{
@@ -133,8 +133,8 @@ class CfgVehicles {
 		author = "PocketsTheWizard";
 		scope = 2;
 		scopeCurator = 2;
-		faction = "Tenthed_EditorCategory_Objects";
-		editorCategory = "Tenthed_EditorCategory_Objects";
+		faction = "Tenthed_UnitFact_Main";
+		editorCategory = "Tenthed_EditorCategory_Main";
 		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Vehicles";
 		hiddenSelectionsTextures[] =
 		{
@@ -152,8 +152,8 @@ class CfgVehicles {
 		author = "Kodiak";
 		scope = 2;
 		scopeCurator = 2;
-		faction = "Tenthed_EditorCategory_Objects";
-		editorCategory = "Tenthed_EditorCategory_Objects";
+		faction = "Tenthed_UnitFact_Main";
+		editorCategory = "Tenthed_EditorCategory_Main";
 		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Vehicles";
 		hiddenSelectionsTextures[] =
 		{
