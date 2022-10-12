@@ -51,4 +51,11 @@ class CfgEditorSubcategories {
     class Tenthed_EditorSubcategory_Objects_Vehicles {
         displayName = "Vehicles";
     };
+
+    class Tenthed_EditorSubcategory_Objects_Pelicans {
+        displayName = "Pelicans";
+    };
+    class Tenthed_EditorSubcategory_Objects_Hornets {
+        displayName = "Hornets";
+    };
 };
