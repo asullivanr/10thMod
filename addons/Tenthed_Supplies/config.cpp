@@ -8,6 +8,7 @@ class CfgPatches {
 		};
 		units[] =
 		{
+			"Tenthed_SupplyPod_Empty",
 			"Supply10thMedPod",
 			"Supply10thAmmoPod",
 			"Supply10thExplosivesPod",
@@ -16,20 +17,38 @@ class CfgPatches {
 };
 
 class CfgVehicles {
-	class OPTRE_Ammo_SupplyPod_Empty;
+	class NATO_Box_Base;
 
-	class Supply10thAmmoPod : OPTRE_Ammo_SupplyPod_Empty
-	{
-		displayName = "10thSupplyAmmoPod";
-		author = "PocketsTheWizard,Kodiak";
+	class Tenthed_SupplyPod_Empty : NATO_Box_Base {
 		scope = 2;
 		scopeCurator = 2;
+		displayName = "Supply Pod - Empty";
+		model = "\OPTRE_misc\crates\Supply_pod.p3d";
+		hiddenSelections[] = {
+			"attach_Cover"
+		};
+		faction = "Empty";
 		editorCategory = "Tenthed_EditorCategory_Objects";
 		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Supplies";
-		hiddenSelectionsTextures[] =
-		{
-			"10th_AC\data\containers\commonpool.paa",
-		};
+		author = "Akira";
+		icon = "iconCrateWpns";
+		transportMaxWeapons = 2;
+		transportMaxMagazines = 20;
+		maximumLoad = 1000;
+		transportMaxBackpacks = 0;
+		transportAmmo = 0;
+		transportRepair = 0;
+		transportFuel = 0;
+		supplyRadius = 1.5;
+		armor = 10000;
+		class TransportMagazines {};
+		class TransportWeapons {};
+		class TransportItems {};
+	};
+
+	class Supply10thAmmoPod : Tenthed_SupplyPod_Empty
+	{
+		displayName = "Supply Pod - Ammo";
 		class TransportMagazines
 		{
 			class M7xMag
@@ -199,19 +218,12 @@ class CfgVehicles {
 			};
 
 		};
-		class TransportWeapons
-		{
-		};
-		class TransportItems
-		{
-		};
+		class TransportWeapons {};
+		class TransportItems {};
 	};
-	class Supply10thExplosivesPod : OPTRE_Ammo_SupplyPod_Empty
+	class Supply10thExplosivesPod : Tenthed_SupplyPod_Empty
 	{
-		displayName = "10thSupplyExplosivesPod";
-		author = "PocketsTheWizard,Kodiak";
-		editorCategory = "Tenthed_EditorCategory_Objects";
-		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Supplies";
+		displayName = "Supply Pod - Explosives";
 		class TransportMagazines
 		{
 			class M19SACLOS
@@ -295,10 +307,7 @@ class CfgVehicles {
 				count = 10;
 			};
 		};
-
-		class TransportWeapons
-		{
-		};
+		class TransportWeapons {};
 		class TransportItems
 		{
 			class EntrenchingTool
@@ -318,23 +327,11 @@ class CfgVehicles {
 			};
 		};
 	};
-	class Supply10thMedPod : OPTRE_Ammo_SupplyPod_Empty
+	class Supply10thMedPod : Tenthed_SupplyPod_Empty
 	{
-		displayName = "10thSupplyPod(Med)";
-		editorCategory = "Tenthed_EditorCategory_Objects";
-		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Supplies";
-		hiddenSelectionsTextures[] =
-		{
-		"10th_AC\data\vehicles\SupplyPod_10th.paa"
-		};
-		author = "PocketsTheWizard";
-		class TransportMagazines
-		{
-		};
-
-		class TransportWeapons
-		{
-		};
+		displayName = "Supply Pod - Medical";
+		class TransportMagazines {};
+		class TransportWeapons {};
 		class TransportItems
 		{
 			class ACEsurguicalKit
