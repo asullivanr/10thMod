@@ -20,6 +20,9 @@ class cfgVehicles {
 		displayName = "[10th] AN/PRC-521";
 		descriptionShort = "AN/PRC-521<br>UNSC Long Range Radio<br>25km Effective Range";
 		picture = "\OPTRE_weapons\backpacks\icons\icon_b_anprc521_ca.paa";
+		faction = "Tenthed_UnitFact_Main";
+		editorCategory = "Tenthed_EditorCategory_Items";
+		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Backpacks";
 		maximumLoad = 300;
 		mass = 50;
 		hiddenSelections[] =
@@ -44,6 +47,9 @@ class cfgVehicles {
 	class Tenthed_ILCS_Rucksack_Medical : OPTRE_ILCS_Rucksack_Black {
 		dlc = "OPTRE";
 		author = "Crow";
+		faction = "Tenthed_UnitFact_Main";
+		editorCategory = "Tenthed_EditorCategory_Items";
+		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Backpacks";
 		displayName = "[10th] ILCS Backpack [Medic]";
 		maximumLoad = 400;
 		mass = 40;
