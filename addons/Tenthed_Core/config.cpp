@@ -10,8 +10,9 @@ class CfgPatches {
     };
 };
 class CfgFactionClasses {
+    // Primary 10th ODST faction
     class Tenthed_UnitFact_Main {
-        displayname = "[10th] ODST";
+        displayname = "[10th] ODST Faction";
         priority = 1;
         side = 1;
         icon = "\Tenthed_Core\data\logo.paa";
@@ -19,43 +20,58 @@ class CfgFactionClasses {
     };
 };
 class CfgEditorCategories {
+    // Primary unit category used for units
+    class Tenthed_EditorCategory_Main {
+        displayName = "[10th] Units";
+    };
+    // Category used for Objects
     class Tenthed_EditorCategory_Objects {
-        displayName = "[10th] ODST";
+        displayName = "[10th] Objects";
     };
-    class Tenthed_EditorCategory_Turrets {
-        displayName = "[10th] Turrets";
-    };
+    // Category used for Items
     class Tenthed_EditorCategory_Items {
         displayName = "[10th] Items";
     };
 };
 class CfgEditorSubcategories {
+    // Prop Categories //
     class Tenthed_EditorSubcategory_Objects_Military {
         displayName = "Military";
     };
     class Tenthed_EditorSubcategory_Objects_Banners {
         displayName = "Banners";
     };
-    class Tenthed_EditorSubcategory_Objects_Weapons {
-        displayName = "Weapons";
-    };
-    class Tenthed_EditorSubcategory_Objects_Backpacks {
-        displayName = "Backpacks";
-    };
-    class Tenthed_EditorSubcategory_Objects_Turrets {
-        displayName = "Turrets";
-    };
+    // All supply props. Pods boxes or others
     class Tenthed_EditorSubcategory_Objects_Supplies {
         displayName = "Supplies";
     };
+
+    // Item Categories //
+    // All weapons
+    class Tenthed_EditorSubcategory_Objects_Weapons {
+        displayName = "Weapons";
+    };
+    // All backbacks
+    class Tenthed_EditorSubcategory_Objects_Backpacks {
+        displayName = "Backpacks";
+    };
+
+    // Vehicle Categories //
+    // Generic uncategorized vehicles
     class Tenthed_EditorSubcategory_Objects_Vehicles {
         displayName = "Vehicles";
     };
-
+    // All Pelicans categorized
     class Tenthed_EditorSubcategory_Objects_Pelicans {
         displayName = "Pelicans";
     };
+    // All Hornets categorized
     class Tenthed_EditorSubcategory_Objects_Hornets {
         displayName = "Hornets";
     };
+    // Generic for turrets
+    class Tenthed_EditorSubcategory_Objects_Turrets {
+        displayName = "Turrets";
+    };
+
 };
