@@ -728,7 +728,7 @@ class cfgVehicles {
 		scope = 2;
 		side = 1;
 		faction = "Tenthed_UnitFact_Main";
-		editorCategory = "Tenthed_EditorCategory_Objects";
+		editorCategory = "Tenthed_EditorCategory_Main";
 		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Turrets";
 		//crew = "I_Soldier_F";
 		class assembleInfo {
