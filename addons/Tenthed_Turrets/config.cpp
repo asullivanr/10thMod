@@ -481,27 +481,22 @@ class cfgVehicles {
 
 	class Bag_Base;
 	class Tenthed_Weapon_Bag_Base : Bag_Base {
-		//author = "$STR_A3_Bohemia_Interactive";
 		_generalMacro = "Tenthed_Weapon_Bag_Base";
-		//model = "\A3\Weapons_F\Ammoboxes\Bags\Backpack_Small.p3d";
-		//picture = "\A3\Weapons_F\Ammoboxes\Bags\data\UI\icon_B_C_Small_khk.paa";
-		//icon = "iconBackpack";
-		model = "\OPTRE_unsc_units\army\rucksack.p3d";
 		picture = "\OPTRE_weapons\backpacks\icons\icon_b_anprc521_ca.paa";
+
+		model = "\OPTRE_unsc_units\army\rucksack.p3d";
 		hiddenSelections[] =
 		{
 			"camo",
 			"camo2",
 			"B_Medic",
-			"B_Addons"
+			"B_Radio"
 		};
 		hiddenSelectionsTextures[] =
 		{
 			"optre_unsc_units\army\data\soft_backpack_co.paa",
-			"Tenthed_Backpacks\data\10thcompack.paa"
+			""
 		};
-
-
 
 		maximumLoad = 0;
 		class assembleInfo {
@@ -752,9 +747,7 @@ class cfgVehicles {
 	};
 	class Tenthed_I_HMG_01_weapon_F : Tenthed_Weapon_Bag_Base {
 		scope = 2;
-		//author = "$STR_A3_Bohemia_Interactive";
 		_generalMacro = "Tenthed_I_HMG_01_weapon_F";
-		//displayName = "$STR_A3_CFGVEHICLES_B_HMG_01_WPN2";
 		displayName = "[10th] HMG Backback";
 		hiddenSelectionsTextures[] = {
 			"\A3\Weapons_F\Ammoboxes\Bags\Data\backpack_small_oli_co.paa"
