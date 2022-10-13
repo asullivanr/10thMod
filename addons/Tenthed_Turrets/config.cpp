@@ -9,8 +9,8 @@ class CfgPatches {
 			"Tenthed_HMG_static"
 		};
 		units[] = {
-			"Tenthed_I_HMG_01_F",
-			"Tenthed_I_HMG_01_weapon_F"
+			"Tenthed_HMG_Turret",
+			"Tenthed_HMG_Backpack"
 		};
     };
 };
@@ -483,7 +483,10 @@ class cfgVehicles {
 	class Tenthed_Weapon_Bag_Base : Bag_Base {
 		_generalMacro = "Tenthed_Weapon_Bag_Base";
 		picture = "\OPTRE_weapons\backpacks\icons\icon_b_anprc521_ca.paa";
-
+		scope = 2;
+		faction = "Tenthed_UnitFact_Main";
+		editorCategory = "Tenthed_EditorCategory_Items";
+		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Backpacks";
 		model = "\OPTRE_unsc_units\army\rucksack.p3d";
 		hiddenSelections[] =
 		{
@@ -494,10 +497,9 @@ class cfgVehicles {
 		};
 		hiddenSelectionsTextures[] =
 		{
-			"optre_unsc_units\army\data\soft_backpack_co.paa",
+			"\Tenthed_Turrets\data\TurretBackpack\soft_backpack_co.paa",
 			""
 		};
-
 		maximumLoad = 0;
 		class assembleInfo {
 			primary = 1;
@@ -508,7 +510,7 @@ class cfgVehicles {
 		};
 	};
 
-	class Tenthed_I_HMG_01_F : Tenthed_HMG_01_base_F {
+	class Tenthed_HMG_Turret : Tenthed_HMG_01_base_F {
 		author = "$STR_A3_Bohemia_Interactive";
 		displayName = "[10th] HMG";
 		class SimpleObject {
@@ -719,7 +721,7 @@ class cfgVehicles {
 			init = "''";
 		};
 		editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\I_HMG_01_F.jpg";
-		_generalMacro = "Tenthed_I_HMG_01_F";
+		_generalMacro = "Tenthed_HMG_Turret";
 		scope = 2;
 		side = 1;
 		faction = "Tenthed_UnitFact_Main";
@@ -730,7 +732,7 @@ class cfgVehicles {
 			primary = 0;
 			base = "";
 			assembleTo = "";
-			dissasembleTo[] = { "Tenthed_I_HMG_01_weapon_F" };
+			dissasembleTo[] = { "Tenthed_HMG_Backpack" };
 			displayName = "";
 		};
 		class Turrets : Turrets {
@@ -745,20 +747,13 @@ class cfgVehicles {
 			};
 		};
 	};
-	class Tenthed_I_HMG_01_weapon_F : Tenthed_Weapon_Bag_Base {
-		scope = 2;
-		_generalMacro = "Tenthed_I_HMG_01_weapon_F";
+	class Tenthed_HMG_Backpack : Tenthed_Weapon_Bag_Base {
+		_generalMacro = "Tenthed_HMG_Backpack";
 		displayName = "[10th] HMG Backback";
-		hiddenSelectionsTextures[] = {
-			"\A3\Weapons_F\Ammoboxes\Bags\Data\backpack_small_oli_co.paa"
-		};
 		picture = "\A3\Weapons_F\Ammoboxes\Bags\data\UI\icon_B_C_Small_oli.paa";
-		faction = "Tenthed_UnitFact_Main";
-		editorCategory = "Tenthed_EditorCategory_Items";
-		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Backpacks";
 		class assembleInfo : assembleInfo {
 			displayName = "Assemble [10th] HMG";
-			assembleTo = "Tenthed_I_HMG_01_F";
+			assembleTo = "Tenthed_HMG_Turret";
 		};
 	};
 };
