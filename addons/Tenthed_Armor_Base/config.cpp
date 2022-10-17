@@ -1477,7 +1477,7 @@ class cfgWeapons {
 		scope = 1;
 		scopeArsenal = 1;
 		scopeCurator = 1;
-		author = "Wolfe,Kodiak,Spash";
+		author = "Wolfe,Kodiak,Crow";
 		model = "\OPTRE_UNSC_Units\Army\odst_helmet_dp.p3d";
 		hiddenSelections[] =
 		{
