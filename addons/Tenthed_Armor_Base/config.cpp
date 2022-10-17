@@ -21,6 +21,144 @@ class cfgWeapons {
 
 	class OPTRE_UNSC_Dress_Hat; // why?
 	
+	// Base armor
+	// Not yet implemented
+	class Tenthed_Base_Armor : OPTRE_UNSC_M52D_Armor {
+		scope = 0;
+		hiddenSelections[] = {
+			"camo",
+			"camo2",
+			"camo3",
+			"camo4",
+			"camo5",
+			"A_KneesMarLeft",
+			"A_KneesMarRight",
+			"A_Ghillie",
+			"AS_LargeLeft",
+			"AS_LargeRight",
+			"AS_MediumLeft",
+			"AS_MediumRight",
+			"AS_ODSTLeft",
+			"AS_ODSTCQBLeft",
+			"AS_ODSTCQBRight",
+			"AS_ODSTSniperRight",
+			"AS_SmallLeft",
+			"AS_SmallRight",
+			"AP_AR",
+			"AP_BR",
+			"AP_Canteen",
+			"AP_GL",
+			"AP_MGThigh",
+			"AP_AR",
+			"AP_Pack",
+			"AP_Pistol",
+			"AP_Rounds",
+			"AP_SG",
+			"AP_SMG",
+			"AP_Sniper",
+			"AP_Frag",
+			"AP_Smoke",
+			"APO_AR",
+			"APO_BR",
+			"CustomKit_Scorch",
+			"APO_SMG"
+		};
+		hiddenSelectionsTextures[] = {
+			"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa",
+			"optre_unsc_units\army\data\armor_odst_co.paa",
+			"Tenthed_Armor_Base\data\odst_legs_co.paa",
+			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
+			"optre_unsc_units\army\data\armor_odst_co.paa",
+		};
+		class ItemInfo : VestItem {
+			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
+			hiddenSelections[] = {
+				"camo",
+				"camo2",
+				"camo3",
+				"camo4",
+				"camo5",
+				"A_KneesMarLeft",
+				"A_KneesMarRight",
+				"A_Ghillie",
+				"AS_LargeLeft",
+				"AS_LargeRight",
+				"AS_MediumLeft",
+				"AS_MediumRight",
+				"AS_ODSTLeft",
+				"AS_ODSTCQBLeft",
+				"AS_ODSTCQBRight",
+				"AS_ODSTSniperRight",
+				"AS_SmallLeft",
+				"AS_SmallRight",
+				"AP_AR",
+				"AP_BR",
+				"AP_Canteen",
+				"AP_GL",
+				"AP_MGThigh",
+				"AP_AR",
+				"AP_Pack",
+				"AP_Pistol",
+				"AP_Rounds",
+				"AP_SG",
+				"AP_SMG",
+				"AP_Sniper",
+				"AP_Frag",
+				"AP_Smoke",
+				"APO_AR",
+				"APO_BR",
+				"CustomKit_Scorch",
+				"APO_SMG"
+			};
+			containerClass = "Supply350";
+			overlaySelectionsInfo[] = {
+				"Ghillie_hide"
+			};
+			class HitpointsProtectionInfo {
+				class Neck {
+					hitpointName = "HitNeck";
+					armor = 150;
+					passThrough = 0.1;
+				};
+				class Legs {
+					hitpointName = "HitLegs";
+					armor = 150;
+					passThrough = 0.1;
+				};
+				class Arms {
+					hitpointName = "HitArms";
+					armor = 150;
+					passThrough = 0.1;
+				};
+				class Hands {
+					hitpointName = "HitHands";
+					armor = 150;
+					passThrough = 0.1;
+				};
+				class Chest {
+					hitpointName = "HitChest";
+					armor = 150;
+					passThrough = 0.1;
+				};
+				class Diaphragm {
+					hitpointName = "HitDiaphragm";
+					armor = 150;
+					passThrough = 0.1;
+				};
+				class Abdomen {
+					hitpointName = "HitAbdomen";
+					armor = 150;
+					passThrough = 0.1;
+				};
+				class Body {
+					hitpointName = "HitBody";
+					armor = 150;
+					passThrough = 0.1;
+				};
+			};
+		};
+	};
+
 	// Template Armors
 	class Tenthed_Specialist_Armor : OPTRE_UNSC_M52D_Armor {
 		author = "Wolfe,Kodiak";
