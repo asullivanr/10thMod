@@ -79,21 +79,15 @@ class ACEX_Fortify_Presets {
     class Tenthed_Fortify01 {
         displayName = "10th ODST - Fortify";
         objects[] = {
-            // Used for testing
-            //{"Tenthed_HMG_Turret", 5},
-            //{"Tenthed_BagBunker_Small_F", 15},
-            //{"Tenthed_BagBunker_Large_F", 50}
-
-            {"Land_Plank_01_4m_F", 10},
-            {"Land_OPTRE_M72S_barrier", 10},
-            {"Land_OPTRE_M72_barrier", 10},
-            {"Land_HBarrier_1_F", 10},
-            {"Land_HBarrierWall4_F", 10},
-            {"Land_HBarrierWall6_F", 10},
-            {"Land_HBarrierWall_corner_F", 10},
-            {"Land_HBarrierWall_corridor_F", 10},
+            {"Land_Plank_01_4m_F", 5},
+            {"Land_OPTRE_M72S_barrier", 13},
+            {"Land_OPTRE_M72_barrier", 13},
+            {"Land_HBarrier_1_F", 15},
+            {"Land_HBarrierWall4_F", 15},
+            {"Land_HBarrierWall6_F", 15},
+            {"Land_HBarrierWall_corner_F", 15},
+            {"Land_HBarrierWall_corridor_F", 15},
             {"Land_HBarrierTower_F", 20}
-
         };
     };
 };
