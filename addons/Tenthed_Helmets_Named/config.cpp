@@ -18,7 +18,7 @@ class cfgWeapons {
 	// Added update 1
 
 	// Kodiak
-	class Tenthed_Kodiak_Helmet : Tenthed_CH252D_Base {
+	class SCT_10th_Kodiak_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
 		displayName = "[10th] CH252D 'Kodiak'";
@@ -35,7 +35,7 @@ class cfgWeapons {
 		};
 		optreHUDStyle = "ODST_1";
 	};
-	class Tenthed_Kodiak_Helmet_dp : Tenthed_CH252D_Base_dp {
+	class SCT_10th_Kodiak_Helmet_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
 		scope = 1;
 		displayName = "[10th] CH252D 'Kodiak'";
@@ -52,7 +52,7 @@ class cfgWeapons {
 	};
 
 	// Lion
-	class Tenthed_Lion_Helmet : Tenthed_CH252D_Base {
+	class SCT_10th_Lion_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
 		author = "Wolfe,Kodiak";
@@ -68,7 +68,7 @@ class cfgWeapons {
 		};
 		optreHUDStyle = "ODST_1";
 	};
-	class Tenthed_Lion_Helmet_dp : Tenthed_CH252D_Base_dp {
+	class SCT_10th_Lion_Helmet_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
 		scope = 1;
 		scopeArsenal = 1;
@@ -85,7 +85,7 @@ class cfgWeapons {
 	};
 
 	// Wolfe
-	class Tenthed_Wolfe_Helmet : Tenthed_CH252D_Base {
+	class SCT_10th_Wolfe_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
 		author = "Wolfe,Kodiak";
@@ -101,7 +101,7 @@ class cfgWeapons {
 		};
 		optreHUDStyle = "ODST_1";
 	};
-	class Tenthed_Wolfe_Helmet_dp : Tenthed_CH252D_Base_dp {
+	class SCT_10th_Wolfe_Helmet_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
 		scope = 1;
 		scopeArsenal = 1;
@@ -118,7 +118,7 @@ class cfgWeapons {
 	};
 
 	// Kitsune
-	class Tenthed_Kitsune_Helmet : Tenthed_CH252D_Base {
+	class SCT_10th_Kitsune_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
 		displayName = "[10th] CH252D 'Kitsune'";
@@ -135,7 +135,7 @@ class cfgWeapons {
 		};
 		optreHUDStyle = "ODST_1";
 	};
-	class Tenthed_Kitsune_Helmet_dp : Tenthed_CH252D_Base_dp {
+	class SCT_10th_Kitsune_Helmet_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
 		scope = 1;
 		scopeArsenal = 1;
@@ -152,7 +152,7 @@ class cfgWeapons {
 	};
 
 	// Altered
-	class Tenthed_Altered_Helmet : Tenthed_CH252D_Base {
+	class SCT_10th_Altered_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
 		author = "Wolfe,Kodiak";
@@ -168,7 +168,7 @@ class cfgWeapons {
 		};
 		optreHUDStyle = "ODST_1";
 	};
-	class Tenthed_Altered_Helmet_dp : Tenthed_CH252D_Base_dp {
+	class SCT_10th_Altered_Helmet_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
 		scope = 1;
 		scopeArsenal = 1;
@@ -185,7 +185,7 @@ class cfgWeapons {
 	};
 
 	// Chop
-	class Tenthed_Chop_Helmet : Tenthed_CH252D_Base {
+	class SCT_10th_Chop_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
 		author = "Wolfe,Kodiak";
@@ -201,7 +201,7 @@ class cfgWeapons {
 		};
 		optreHUDStyle = "ODST_1";
 	};
-	class Tenthed_Chop_Helmet_dp : Tenthed_CH252D_Base_dp {
+	class SCT_10th_Chop_Helmet_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
 		scope = 1;
 		scopeArsenal = 1;
@@ -218,7 +218,7 @@ class cfgWeapons {
 	};
 
 	// Firefly
-	class Tenthed_Firefly_Helmet : Tenthed_CH252D_Base {
+	class SCT_10th_Firefly_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
 		author = "Wolfe,Kodiak";
@@ -234,7 +234,7 @@ class cfgWeapons {
 		};
 		optreHUDStyle = "ODST_1";
 	};
-	class Tenthed_Firefly_Helmet_dp : Tenthed_CH252D_Base_dp {
+	class SCT_10th_Firefly_Helmet_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
 		scope = 1;
 		scopeArsenal = 1;
@@ -251,7 +251,7 @@ class cfgWeapons {
 	};
 
 	// Dave
-	class Tenthed_Dave_Helmet : Tenthed_CH252D_Base {
+	class SCT_10th_Dave_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
 		author = "Wolfe,Kodiak";
@@ -267,7 +267,7 @@ class cfgWeapons {
 		};
 		optreHUDStyle = "ODST_1";
 	};
-	class Tenthed_Dave_Helmet_dp : Tenthed_CH252D_Base_dp {
+	class SCT_10th_Dave_Helmet_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
 		scope = 1;
 		scopeArsenal = 1;
@@ -284,7 +284,7 @@ class cfgWeapons {
 	};
 
 	// Pockets
-	class Tenthed_pockets_Helmet : Tenthed_CH252D_Base {
+	class SCT_10th_pocket_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
 		author = "Wolfe,Kodiak";
@@ -300,7 +300,7 @@ class cfgWeapons {
 		};
 		optreHUDStyle = "ODST_1";
 	};
-	class Tenthed_pocket_Helmet_dp : Tenthed_CH252D_Base_dp {
+	class SCT_10th_pocket_Helmet_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
 		scope = 1;
 		scopeArsenal = 1;
@@ -317,7 +317,7 @@ class cfgWeapons {
 	};
 
 	// Sixfour
-	class Tenthed_Sixfour_Helmet : Tenthed_CH252D_Base {
+	class SCT_10th_Sixfour_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
 		author = "Wolfe,Kodiak";
@@ -333,7 +333,7 @@ class cfgWeapons {
 		};
 		optreHUDStyle = "ODST_1";
 	};
-	class Tenthed_Sixfour_Helmet_dp : Tenthed_CH252D_Base_dp {
+	class SCT_10th_Sixfour_Helmet_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
 		scope = 1;
 		scopeArsenal = 1;
@@ -350,7 +350,7 @@ class cfgWeapons {
 	};
 
 	// Tino
-	class Tenthed_Tino_Helmet : Tenthed_CH252D_Base {
+	class SCT_10th_Tino_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
 		author = "Wolfe,Kodiak";
@@ -366,7 +366,7 @@ class cfgWeapons {
 		};
 		optreHUDStyle = "ODST_1";
 	};
-	class Tenthed_Tino_Helmet_dp : Tenthed_CH252D_Base_dp {
+	class SCT_10th_Tino_Helmet_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
 		scope = 1;
 		scopeArsenal = 1;
@@ -382,7 +382,7 @@ class cfgWeapons {
 	};
 
 	// Trojan
-	class Tenthed_Trojan_Helmet : Tenthed_CH252D_Base {
+	class SCT_10th_Trojan_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
 		author = "Wolfe,Kodiak";
@@ -398,7 +398,7 @@ class cfgWeapons {
 		};
 		optreHUDStyle = "ODST_1";
 	};
-	class Tenthed_Trojan_Helmet_dp : Tenthed_CH252D_Base_dp {
+	class SCT_10th_Trojan_Helmet_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
 		scope = 1;
 		scopeArsenal = 1;
@@ -415,7 +415,7 @@ class cfgWeapons {
 	};
 
 	// Tower
-	class Tenthed_Tower_Helmet : Tenthed_CH252D_Base {
+	class SCT_10th_Tower_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
 		author = "Wolfe,Kodiak";
@@ -431,7 +431,7 @@ class cfgWeapons {
 		};
 		optreHUDStyle = "ODST_1";
 	};
-	class Tenthed_Tower_Helmet_dp : Tenthed_CH252D_Base_dp {
+	class SCT_10th_Tower_Helmet_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
 		scope = 1;
 		scopeArsenal = 1;
@@ -448,7 +448,7 @@ class cfgWeapons {
 	};
 
 	// Teal
-	class Tenthed_Teal_Helmet : Tenthed_CH252D_Base {
+	class SCT_10th_Teal_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
 		author = "Wolfe,Kodiak";
@@ -464,7 +464,7 @@ class cfgWeapons {
 		};
 		optreHUDStyle = "ODST_1";
 	};
-	class Tenthed_Teal_Helmet_dp : Tenthed_CH252D_Base_dp {
+	class SCT_10th_Teal_Helmet_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
 		scope = 1;
 		scopeArsenal = 1;
@@ -481,7 +481,7 @@ class cfgWeapons {
 	};
 
 	// Slim
-	class Tenthed_Slim_Helmet : Tenthed_CH252D_Base {
+	class SCT_10th_Slim_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
 		author = "Wolfe,Kodiak";
@@ -497,7 +497,7 @@ class cfgWeapons {
 		};
 		optreHUDStyle = "ODST_1";
 	};
-	class Tenthed_Slim_Helmet_dp : Tenthed_CH252D_Base_dp {
+	class SCT_10th_Slim_Helmet_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
 		scope = 1;
 		scopeArsenal = 1;
@@ -514,7 +514,7 @@ class cfgWeapons {
 	};
 
 	// Lilly
-	class Tenthed_Lilly_Helmet : Tenthed_CH252D_Base {
+	class SCT_10th_Lilly_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
 		author = "Wolfe,Kodiak";
@@ -530,7 +530,7 @@ class cfgWeapons {
 		};
 		optreHUDStyle = "ODST_1";
 	};
-	class Tenthed_Lilly_Helmet_dp : Tenthed_CH252D_Base_dp {
+	class SCT_10th_Lilly_Helmet_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
 		scope = 1;
 		scopeArsenal = 1;
@@ -547,7 +547,7 @@ class cfgWeapons {
 	}
 
 	// Metro
-	class Tenthed_Metro_Helmet : Tenthed_CH252D_Base {
+	class SCT_10th_Metro_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
 		author = "Wolfe,Kodiak";
@@ -563,7 +563,7 @@ class cfgWeapons {
 		};
 		optreHUDStyle = "ODST_1";
 	};
-	class Tenthed_Metro_Helmet_dp : Tenthed_CH252D_Base_dp {
+	class SCT_10th_Metro_Helmet_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
 		scope = 1;
 		scopeArsenal = 1;
@@ -580,7 +580,7 @@ class cfgWeapons {
 	};
 
 	// Nobody
-	class Tenthed_Nobody_Helmet : Tenthed_CH252D_Base {
+	class SCT_10th_Nobody_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
 		author = "Wolfe,Kodiak";
@@ -596,7 +596,7 @@ class cfgWeapons {
 		};
 		optreHUDStyle = "ODST_1";
 	};
-	class Tenthed_Nobody_Helmet_dp : Tenthed_CH252D_Base_dp {
+	class SCT_10th_Nobody_Helmet_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
 		scope = 1;
 		scopeArsenal = 1;
@@ -613,7 +613,7 @@ class cfgWeapons {
 	};
 
 	// Thor
-	class Tenthed_Thor_Helmet : Tenthed_CH252D_Base {
+	class SCT_10th_Thor_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
 		author = "Wolfe,Kodiak";
@@ -631,7 +631,7 @@ class cfgWeapons {
 		};
 		optreHUDStyle = "ODST_1";
 	};
-	class Tenthed_Thor_Helmet_dp : Tenthed_CH252D_Base_dp {
+	class SCT_10th_Thor_Helmet_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
 		scope = 1;
 		scopeArsenal = 1;
@@ -650,7 +650,7 @@ class cfgWeapons {
 	}
 
 	// Baer
-	class Tenthed_Baer_Helmet : Tenthed_CH252D_Base {
+	class SCT_10th_Baer_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
 		author = "Wolfe,Kodiak";
@@ -668,7 +668,7 @@ class cfgWeapons {
 		};
 		optreHUDStyle = "ODST_1";
 	};
-	class Tenthed_Baer_Helmet_dp : Tenthed_CH252D_Base_dp {
+	class SCT_10th_Baer_Helmet_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
 		scope = 1;
 		scopeArsenal = 1;
@@ -687,7 +687,7 @@ class cfgWeapons {
 	};
 
 	// Panzer
-	class Tenthed_Panzer_Helmet : Tenthed_CH252D_Base {
+	class SCT_10th_Panzer_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
 		author = "Wolfe,Kodiak";
@@ -705,7 +705,7 @@ class cfgWeapons {
 		};
 		optreHUDStyle = "ODST_1";
 	};
-	class Tenthed_Panzer_Helmet_dp : Tenthed_CH252D_Base_dp {
+	class SCT_10th_Panzer_Helmet_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
 		scope = 1;
 		scopeArsenal = 1;
@@ -761,7 +761,7 @@ class cfgWeapons {
 	};
 
 	// Iceman
-	class Tenthed_Iceman_Helmet : Tenthed_CH252D_Base {
+	class SCT_10th_Iceman_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
 		author = "Wolfe,Kodiak";
@@ -779,7 +779,7 @@ class cfgWeapons {
 		};
 		optreHUDStyle = "ODST_1";
 	};
-	class Tenthed_Iceman_Helmet_dp : Tenthed_CH252D_Base_dp {
+	class SCT_10th_Iceman_Helmet_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
 		scope = 1;
 		scopeArsenal = 1;
@@ -798,7 +798,7 @@ class cfgWeapons {
 	};
 
 	// Havoc
-	class Tenthed_Havoc_Helmet : Tenthed_CH252D_Base {
+	class SCT_10th_Havoc_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
 		author = "Wolfe,Kodiak";
@@ -816,7 +816,7 @@ class cfgWeapons {
 		};
 		optreHUDStyle = "ODST_1";
 	};
-	class Tenthed_Havoc_Helmet_dp : Tenthed_CH252D_Base_dp {
+	class SCT_10th_Havoc_Helmet_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
 		scope = 1;
 		scopeArsenal = 1;
@@ -834,7 +834,7 @@ class cfgWeapons {
 	};
 
 	// Hatchet
-	class Tenthed_Hatchet_Helmet : Tenthed_CH252D_Base {
+	class SCT_10th_Hatchet_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
 		author = "Wolfe,Kodiak";
@@ -852,7 +852,7 @@ class cfgWeapons {
 		};
 		optreHUDStyle = "ODST_1";
 	};
-	class Tenthed_Hatchet_Helmet_dp : Tenthed_CH252D_Base_dp {
+	class SCT_10th_Hatchet_Helmet_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
 		scope = 1;
 		scopeArsenal = 1;
@@ -871,7 +871,7 @@ class cfgWeapons {
 	};
 
 	// Fixer
-	class Tenthed_Fixer_Helmet : Tenthed_CH252D_Base {
+	class SCT_10th_Fixer_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
 		author = "Wolfe,Kodiak";
@@ -889,7 +889,7 @@ class cfgWeapons {
 		};
 		optreHUDStyle = "ODST_1";
 	};
-	class Tenthed_Fixer_Helmet_dp : Tenthed_CH252D_Base_dp {
+	class SCT_10th_Fixer_Helmet_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
 		scope = 1;
 		scopeArsenal = 1;
@@ -908,7 +908,7 @@ class cfgWeapons {
 	};
 
 	// Logic
-	class Tenthed_Logic_Helmet : Tenthed_CH252D_Base {
+	class SCT_10th_Logic_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
 		author = "Wolfe,Kodiak";
@@ -926,7 +926,7 @@ class cfgWeapons {
 		};
 		optreHUDStyle = "ODST_1";
 	};
-	class Tenthed_Logic_Helmet_dp : Tenthed_CH252D_Base_dp {
+	class SCT_10th_Logic_Helmet_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
 		scope = 1;
 		scopeArsenal = 1;
@@ -945,7 +945,7 @@ class cfgWeapons {
 	};
 
 	// Splash
-	class Tenthed_Splash_Helmet : Tenthed_CH252D_Base {
+	class SCT_10th_Splash_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
 		author = "Wolfe,Kodiak,Crow";
@@ -963,7 +963,7 @@ class cfgWeapons {
 		};
 		optreHUDStyle = "ODST_1";
 	};
-	class Tenthed_Splash_Helmet_dp : Tenthed_CH252D_Base_dp {
+	class SCT_10th_Splash_Helmet_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
 		scope = 1;
 		scopeArsenal = 1;
@@ -982,7 +982,7 @@ class cfgWeapons {
 	};
 
 	// Tiger
-	class Tenthed_Tiger_Helmet : Tenthed_CH252D_Base {
+	class SCT_10th_Tiger_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
 		author = "Wolfe,Kodiak";
@@ -1000,7 +1000,7 @@ class cfgWeapons {
 		};
 		optreHUDStyle = "ODST_1";
 	};
-	class Tenthed_Tiger_Helmet_dp : Tenthed_CH252D_Base_dp {
+	class SCT_10th_Tiger_Helmet_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
 		scope = 1;
 		scopeArsenal = 1;
@@ -1019,7 +1019,7 @@ class cfgWeapons {
 	};
 
 	// Evader
-	class Tenthed_FivesEvader_Helment : Tenthed_CH252D_Base {
+	class SCT_10th_FivesEvader_Helment : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
 		author = "Wolfe,Kodiak,Crow";
@@ -1037,7 +1037,7 @@ class cfgWeapons {
 		};
 		optreHUDStyle = "ODST_1";
 	};
-	class Tenthed_FivesEvader_Helment_dp : Tenthed_CH252D_Base_dp {
+	class SCT_10th_FivesEvader_Helment_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
 		scope = 1;
 		scopeArsenal = 1;
@@ -1056,7 +1056,7 @@ class cfgWeapons {
 	};
 
 	// Crow
-	class Tenthed_Crow_Helment : Tenthed_CH252D_Base {
+	class SCT_10th_Crow_Helment : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
 		author = "Wolfe,Kodiak,Crow";
@@ -1074,7 +1074,7 @@ class cfgWeapons {
 		};
 		optreHUDStyle = "ODST_1";
 	};
-	class Tenthed_Crow_Helment_dp : Tenthed_CH252D_Base_dp {
+	class SCT_10th_Crow_Helment_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
 		scope = 1;
 		scopeArsenal = 1;
@@ -1092,7 +1092,7 @@ class cfgWeapons {
 	};
 
 	// Akira
-	class Tenthed_Akira_Helment : Tenthed_CH252D_Base {
+	class SCT_10th_Akira_Helment : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
 		author = "Jogn Halo";
@@ -1110,7 +1110,7 @@ class cfgWeapons {
 		};
 		optreHUDStyle = "ODST_1";
 	};
-	class Tenthed_Akira_Helment_dp : Tenthed_CH252D_Base_dp {
+	class SCT_10th_Akira_Helment_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
 		scope = 1;
 		scopeArsenal = 1;
@@ -1129,7 +1129,7 @@ class cfgWeapons {
 	};
 
 	// Rambler
-	class Tenthed_Rambler_Helment : Tenthed_CH252D_Base {
+	class SCT_10th_Rambler_Helment : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
 		author = "Wolfe,Kodiak,Crow";
@@ -1147,7 +1147,7 @@ class cfgWeapons {
 		};
 		optreHUDStyle = "ODST_1";
 	};
-	class Tenthed_Rambler_Helment_dp : Tenthed_CH252D_Base_dp {
+	class SCT_10th_Rambler_Helment_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
 		scope = 1;
 		scopeArsenal = 1;
@@ -1166,7 +1166,7 @@ class cfgWeapons {
 	};
 
 	// Void
-	class Tenthed_Void_Helment : Tenthed_CH252D_Base {
+	class SCT_10th_Void_Helment : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
 		author = "Wolfe,Kodiak,Crow";
@@ -1184,7 +1184,7 @@ class cfgWeapons {
 		};
 		optreHUDStyle = "ODST_1";
 	};
-	class Tenthed_Void_Helment_dp : Tenthed_CH252D_Base_dp {
+	class SCT_10th_Void_Helment_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
 		scope = 1;
 		scopeArsenal = 1;
@@ -1203,7 +1203,7 @@ class cfgWeapons {
 	};
 
 	// Tiny
-	class Tenthed_Tiny_Helment : Tenthed_CH252D_Base {
+	class SCT_10th_Tiny_Helment : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
 		author = "Wolfe,Kodiak,Crow";
@@ -1221,7 +1221,7 @@ class cfgWeapons {
 		};
 		optreHUDStyle = "ODST_1";
 	};
-	class Tenthed_Tiny_Helment_dp : Tenthed_CH252D_Base_dp {
+	class SCT_10th_Tiny_Helment_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
 		scope = 1;
 		scopeArsenal = 1;
@@ -1240,7 +1240,7 @@ class cfgWeapons {
 	};
 
 	// Lego
-	class Tenthed_Lego_Helmet : Tenthed_CH252D_Base {
+	class SCT_10th_Lego_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
 		author = "Wolfe,Kodiak";
@@ -1258,7 +1258,7 @@ class cfgWeapons {
 		};
 		optreHUDStyle = "ODST_1";
 	};
-	class Tenthed_Lego_Helmet_dp : Tenthed_CH252D_Base_dp {
+	class SCT_10th_Lego_Helmet_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
 		scope = 1;
 		scopeArsenal = 1;
@@ -1277,7 +1277,7 @@ class cfgWeapons {
 	};
 
 	// Goof
-	class Tenthed_Goof_Helmet : Tenthed_CH252D_Base {
+	class SCT_10th_Goof_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
 		author = "Wolfe,Kodiak";
@@ -1295,7 +1295,7 @@ class cfgWeapons {
 		};
 		optreHUDStyle = "ODST_1";
 	};
-	class Tenthed_Goof_Helmet_dp : Tenthed_CH252D_Base_dp {
+	class SCT_10th_Goof_Helmet_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
 		scope = 1;
 		scopeArsenal = 1;
@@ -1314,7 +1314,7 @@ class cfgWeapons {
 	};
 
 	// Drake
-	class Tenthed_Drake_Helmet : Tenthed_CH252D_Base {
+	class SCT_10th_Drake_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
 		author = "Wolfe,Kodiak";
@@ -1332,7 +1332,7 @@ class cfgWeapons {
 		};
 		optreHUDStyle = "ODST_1";
 	};
-	class Tenthed_Drake_Helmet_dp : Tenthed_CH252D_Base_dp {
+	class SCT_10th_Drake_Helmet_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
 		scope = 1;
 		scopeArsenal = 1;
@@ -1351,7 +1351,7 @@ class cfgWeapons {
 	};
 
 	// HardDrop
-	class Tenthed_HardDrop_Helmet : Tenthed_CH252D_Base {
+	class SCT_10th_HardDrop_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
 		author = "Wolfe,Kodiak";
@@ -1369,7 +1369,7 @@ class cfgWeapons {
 		};
 		optreHUDStyle = "ODST_1";
 	};
-	class Tenthed_HardDrop_Helmet_dp : Tenthed_CH252D_Base_dp {
+	class SCT_10th_HardDrop_Helmet_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
 		scope = 1;
 		scopeArsenal = 1;
@@ -1388,7 +1388,7 @@ class cfgWeapons {
 	};
 
 	// Jogn
-	class Tenthed_Jogn_Helmet : Tenthed_CH252D_Base {
+	class SCT_10th_Jogn_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
 		author = "Wolfe,Kodiak";
@@ -1406,7 +1406,7 @@ class cfgWeapons {
 		};
 		optreHUDStyle = "ODST_1";
 	};
-	class Tenthed_Jogn_Helmet_dp : Tenthed_CH252D_Base_dp {
+	class SCT_10th_Jogn_Helmet_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
 		scope = 1;
 		scopeArsenal = 1;
@@ -1425,7 +1425,7 @@ class cfgWeapons {
 	};
 
 	// Kmart
-	class Tenthed_Kmart_Helmet : Tenthed_CH252D_Base {
+	class SCT_10th_Kmart_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
 		author = "Wolfe,Kodiak";
@@ -1443,7 +1443,7 @@ class cfgWeapons {
 		};
 		optreHUDStyle = "ODST_1";
 	};
-	class Tenthed_Kmart_Helmet_dp : Tenthed_CH252D_Base_dp {
+	class SCT_10th_Kmart_Helmet_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
 		scope = 1;
 		scopeArsenal = 1;
@@ -1462,7 +1462,7 @@ class cfgWeapons {
 	};
 
 	// Dakota
-	class Tenthed_Dakota_Helmet : Tenthed_CH252D_Base {
+	class SCT_10th_Dakota_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
 		author = "Wolfe,Kodiak";
@@ -1480,7 +1480,7 @@ class cfgWeapons {
 		};
 		optreHUDStyle = "ODST_1";
 	};
-	class Tenthed_Dakota_Helmet_dp : Tenthed_CH252D_Base_dp {
+	class SCT_10th_Dakota_Helmet_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
 		scope = 1;
 		scopeArsenal = 1;
@@ -1499,7 +1499,7 @@ class cfgWeapons {
 	};
 
 	// Jad
-	class Tenthed_Jad_Helmet : Tenthed_CH252D_Base {
+	class SCT_10th_Jad_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
 		author = "Wolfe,Kodiak";
@@ -1517,7 +1517,7 @@ class cfgWeapons {
 		};
 		optreHUDStyle = "ODST_1";
 	};
-	class Tenthed_Jad_Helmet_dp : Tenthed_CH252D_Base_dp {
+	class SCT_10th_Jad_Helmet_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
 		scope = 1;
 		scopeArsenal = 1;
@@ -1536,7 +1536,7 @@ class cfgWeapons {
 	};
 
 	// Goldie
-	class Tenthed_Goldie_Helmet : Tenthed_CH252D_Base {
+	class SCT_10th_Goldie_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
 		author = "Wolfe,Kodiak";
@@ -1554,7 +1554,7 @@ class cfgWeapons {
 		};
 		optreHUDStyle = "ODST_1";
 	};
-	class Tenthed_Goldie_Helmet_dp : Tenthed_CH252D_Base_dp {
+	class SCT_10th_Goldie_Helmet_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
 		scope = 1;
 		scopeArsenal = 1;
@@ -1573,7 +1573,7 @@ class cfgWeapons {
 	};
 
 	// Nova
-	class Tenthed_Nova_Helmet : Tenthed_CH252D_Base {
+	class SCT_10th_Nova_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
 		author = "Wolfe,Kodiak";
@@ -1591,7 +1591,7 @@ class cfgWeapons {
 		};
 		optreHUDStyle = "ODST_1";
 	};
-	class Tenthed_Nova_Helmet_dp : Tenthed_CH252D_Base_dp {
+	class SCT_10th_Nova_Helmet_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
 		scope = 1;
 		scopeArsenal = 1;
@@ -1610,7 +1610,7 @@ class cfgWeapons {
 	};
 
 	// Marvel
-	class Tenthed_Marvel_Helmet : Tenthed_CH252D_Base {
+	class SCT_10th_Marvel_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
 		author = "Wolfe,Kodiak";
@@ -1628,7 +1628,7 @@ class cfgWeapons {
 		};
 		optreHUDStyle = "ODST_1";
 	};
-	class Tenthed_Marvel_Helmet_dp : Tenthed_CH252D_Base_dp {
+	class SCT_10th_Marvel_Helmet_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
 		scope = 1;
 		scopeArsenal = 1;
@@ -1647,7 +1647,7 @@ class cfgWeapons {
 	};
 
 	// Flipper
-	class Tenthed_Flipper_Helmet : Tenthed_CH252D_Base {
+	class SCT_10th_Flipper_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
 		author = "Wolfe,Kodiak";
@@ -1665,7 +1665,7 @@ class cfgWeapons {
 		};
 		optreHUDStyle = "ODST_1";
 	};
-	class Tenthed_Flipper_Helmet_dp : Tenthed_CH252D_Base_dp {
+	class SCT_10th_Flipper_Helmet_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
 		scope = 1;
 		scopeArsenal = 1;
@@ -1684,7 +1684,7 @@ class cfgWeapons {
 	};
 
 	// Choco
-	class Tenthed_Choco_Helmet : Tenthed_CH252D_Base {
+	class SCT_10th_Choco_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
 		author = "Wolfe,Kodiak";
@@ -1702,7 +1702,7 @@ class cfgWeapons {
 		};
 		optreHUDStyle = "ODST_1";
 	};
-	class Tenthed_Choco_Helmet_dp : Tenthed_CH252D_Base_dp {
+	class SCT_10th_Choco_Helmet_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
 		scope = 1;
 		scopeArsenal = 1;
@@ -1721,7 +1721,7 @@ class cfgWeapons {
 	};
 
 	// Mac
-	class Tenthed_Mac_Helment : Tenthed_CH252D_Base {
+	class SCT_10th_Mac_Helment : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
 		author = "Wolfe,Kodiak,Crow,Jogn";
@@ -1739,7 +1739,7 @@ class cfgWeapons {
 		};
 		optreHUDStyle = "ODST_1";
 	};
-	class Tenthed_Mac_Helment_dp : Tenthed_CH252D_Base_dp {
+	class SCT_10th_Mac_Helment_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
 		scope = 1;
 		scopeArsenal = 1;
@@ -1758,7 +1758,7 @@ class cfgWeapons {
 	};
 
 	// Optional
-	class Tenthed_Optional_Helmet : Tenthed_CH252D_Base {
+	class SCT_10th_Optional_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
 		author = "Wolfe,Kodiak";
@@ -1776,7 +1776,7 @@ class cfgWeapons {
 		};
 		optreHUDStyle = "ODST_1";
 	};
-	class Tenthed_Optional_Helmet_dp : Tenthed_CH252D_Base_dp {
+	class SCT_10th_Optional_Helmet_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
 		scope = 1;
 		scopeArsenal = 1;
@@ -1795,7 +1795,7 @@ class cfgWeapons {
 	};
 
 	// Jinx
-	class Tenthed_Jinx_Helmet : Tenthed_Pilot_Helmet {
+	class SCT_10th_Jinx_Helmet : Tenthed_Pilot_Helmet {
 		dlc = "OPTRE_FC";
 		scope = 2;
 		scopeArsenal = 2;
@@ -1809,7 +1809,7 @@ class cfgWeapons {
 	}
 
 	// Arctic
-	class Tenthed_Arctic_Helmet : Tenthed_CH252D_Base {
+	class SCT_10th_Arctic_Helment : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
 		author = "Wolfe,Kodiak";
@@ -1827,7 +1827,7 @@ class cfgWeapons {
 		};
 		optreHUDStyle = "ODST_1";
 	};
-	class Tenthed_Arctic_Helmet_dp : Tenthed_CH252D_Base_dp {
+	class SCT_10th_Arctic_Helment_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
 		scope = 1;
 		scopeArsenal = 1;

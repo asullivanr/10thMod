@@ -15,7 +15,7 @@ class cfgVehicles {
 	class OPTRE_UNSC_Rucksack;
 	class OPTRE_ILCS_Rucksack_Black;
 
-	class Tenthed_ANPRC_521 : OPTRE_UNSC_Rucksack {
+	class 10th_ANPRC_521 : OPTRE_UNSC_Rucksack {
 		author = "Kodiak and Crow";
 		displayName = "[10th] AN/PRC-521";
 		descriptionShort = "AN/PRC-521<br>UNSC Long Range Radio<br>25km Effective Range";
@@ -44,7 +44,7 @@ class cfgVehicles {
 		tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
 		tf_hasLRradio = 1;
 	};
-	class Tenthed_ILCS_Rucksack_Medical : OPTRE_ILCS_Rucksack_Black {
+	class 10th_ILCS_Rucksack_Medical : OPTRE_ILCS_Rucksack_Black {
 		dlc = "OPTRE";
 		author = "Crow";
 		faction = "Tenthed_UnitFact_Main";

@@ -1362,7 +1362,7 @@ class cfgWeapons {
 	};
 
 	// Named Enlisted Armors
-	class Tenthed_Enlisted_Rifleman_Armor : Tenthed_Rifleman_Knife_Armor {
+	class SCT_10th_Enlisted_Rifleman_Armor : Tenthed_Rifleman_Knife_Armor {
 		scope = 2;
 		author = "Wolfe,Kodiak";
 		displayName = "[10th] M52D 'Enlisted Rifleman'";
@@ -1374,7 +1374,7 @@ class cfgWeapons {
 			"Tenthed_Armor_Base\data\enlisted\enlistedarmor.paa"
 		};
 	};
-	class Tenthed_Enlisted_Light_Armor : Tenthed_Light_Knife_Armor {
+	class SCT_10th_Enlisted_Light_Armor : Tenthed_Light_Knife_Armor {
 		scope = 2;
 		author = "Wolfe,Kodiak";
 		displayName = "[10th] M52D 'Enlisted Light'";
@@ -1386,7 +1386,7 @@ class cfgWeapons {
 			"Tenthed_Armor_Base\data\enlisted\enlistedarmor.paa"
 		};
 	};
-	class Tenthed_Enlisted_Sniper_Armor : Tenthed_Sniper_Knife_Armor {
+	class SCT_10th_Enlisted_Sniper_Armor : Tenthed_Sniper_Knife_Armor {
 		scope = 2;
 		author = "Wolfe,Kodiak";
 		displayName = "[10th] M52D 'Enlisted Sniper'";
@@ -1398,7 +1398,7 @@ class cfgWeapons {
 			"Tenthed_Armor_Base\data\enlisted\enlistedarmor.paa"
 		};
 	};
-	class Tenthed_Enlisted_Demolitons_Armor : Tenthed_Demolitions_Knife_Armor {
+	class SCT_10th_Enlisted_Demolitons_Armor : Tenthed_Demolitions_Knife_Armor {
 		scope = 2;
 		author = "Wolfe,Kodiak";
 		displayName = "[10th] M52D 'Enlisted Demoliton'";
@@ -1412,7 +1412,7 @@ class cfgWeapons {
 	};
 
 	// Named Enlisted Helmets
-	class Tenthed_Enlisted_Helmet : Tenthed_CH252D_Base {
+	class SCT_10th_Enlisted_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
 		author = "Wolfe,Kodiak";
@@ -1428,7 +1428,7 @@ class cfgWeapons {
 		};
 		optreHUDStyle = "ODST_1";
 	};
-	class Tenthed_Enlisted_Helmet_dp : Tenthed_CH252D_Base_dp {
+	class SCT_10th_Enlisted_Helmet_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
 		scope = 1;
 		scopeArsenal = 1;
@@ -1444,7 +1444,7 @@ class cfgWeapons {
 	};
 	class Tenthed_EnDress_Hat : OPTRE_UNSC_Dress_Hat {
 		dlc = "OPTRE";
-		scope = 2;
+		scope = 1; // changed so it doesnt show in arsenal
 		author = "Wolfe,Kodiak";
 		displayName = "[10th] Enlisted Dress Uniform Cap";
 		hiddenSelections[] = {
@@ -1454,7 +1454,7 @@ class cfgWeapons {
 			"Tenthed_Armor_Base\data\ncodresshat.paa"
 		};
 	};
-	class Tenthed_Green_Pilot_Camo : Tenthed_CH252D_Base {
+	class SCT_10th_Green_Pilot_Camo : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
 		author = "Wolfe,Kodiak,Crow";
@@ -1472,7 +1472,7 @@ class cfgWeapons {
 		};
 		optreHUDStyle = "ODST_1";
 	};
-	class Tenthed_Green_Pilot_Camo_dp : Tenthed_CH252D_Base_dp {
+	class SCT_10th_Green_Pilot_Camo_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
 		scope = 1;
 		scopeArsenal = 1;
@@ -1490,7 +1490,7 @@ class cfgWeapons {
 	};
 
 	// Default
-	class Tenthed_Default_Helmet : Tenthed_CH252D_Base {
+	class SCT_10th_Default_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
 		author = "Wolfe,Kodiak";
@@ -1506,7 +1506,7 @@ class cfgWeapons {
 		};
 		optreHUDStyle = "ODST_1";
 	};
-	class Tenthed_Default_Helmet_dp : Tenthed_CH252D_Base_dp {
+	class SCT_10th_Default_Helmet_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
 		scope = 1;
 		scopeArsenal = 1;
