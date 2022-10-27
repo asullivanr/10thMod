@@ -461,8 +461,8 @@ class cfgWeapons {
 			"SCT_10th_Armor_Named\data\baerarmor.paa"
 		};
 	};
-	class Tenthed_Panzer_Armor : Tenthed_Rifleman_Knife_Armor {
-		scope = 2;
+	class SCT_10th_Panzer_Armor : Tenthed_Rifleman_Knife_Armor {
+		scope = 1;
 		author = "Wolfe,Kodiak";
 		displayName = "[10th] M52D 'Panzer'";
 		hiddenSelectionsTextures[] = {
