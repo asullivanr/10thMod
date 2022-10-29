@@ -922,7 +922,7 @@ class cfgVehicles {
 	};
 	class Tenthed_Mortar_Turret : Tenthed_Mortar_01_base_F {
 		author = "$STR_A3_Bohemia_Interactive";
-		displayname = "[10th] MK6 Mortar";
+		displayname = "[10th] MK82 Mortar";
 		class SimpleObject {
 			eden = 1;
 			animate[] =
@@ -974,8 +974,7 @@ class cfgVehicles {
 		_generalMacro = "Tenthed_Mortar_Turret";
 		scope = 2;
 		side = 1;
-		availableForSupportTypes[] =
-		{
+		availableForSupportTypes[] = {
 			"Artillery"
 		};
 	};
@@ -986,7 +985,7 @@ class cfgVehicles {
 		scope = 2;
 		picture = "\A3\Weapons_F\Ammoboxes\Bags\data\UI\icon_B_C_Small_oli.paa";
 		class assembleInfo : assembleInfo {
-			displayName = "Assemble [10th] MK6";
+			displayName = "Assemble [10th] MK82";
 			assembleTo = "Tenthed_Mortar_Turret";
 		};
 	};
