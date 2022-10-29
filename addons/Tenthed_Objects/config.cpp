@@ -6,7 +6,10 @@ class CfgPatches {
             "Tenthed_core",
         };
         weapons[] = {};
-        units[] = {};
+        units[] = {
+			"Tenthed_FlagStand",
+			"Tenthed_ODST_Flag"
+		};
     };
 };
 class CfgVehicles {
