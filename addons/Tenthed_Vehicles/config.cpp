@@ -15,7 +15,10 @@ class CfgPatches {
 			"ZakuHornet",
 			"ARES_Tank",
 			"ARES_MGS",
-			"Zeus_Stallion"
+			"Zeus_Stallion",
+			"Tenthed_Pelican_Desert",
+			"Tenthed_Pelican_Jungle",
+			"Tenthed_Pelican_Urban"
 		};
 	};
 };
@@ -26,30 +29,38 @@ class CfgVehicles {
 	class OPTRE_M413_MGS_UNSC_tan;
 	class OPTRE_m1087_stallion_cover_unsc;
 
-	class Tenthed_Pelican : VES_D77HTCI_A {
-		  displayName = "10th_Pelican";
-		  author = "PocketsTheWizard";
+	class Tenthed_Pelican_Base : VES_D77HTCI_A {
+		displayName = "Tenthed_Pelican_Base";
+		author = "";
+		scope = 1;
+		scopeCurator = 1;
+		faction = "Tenthed_UnitFact_Main";
+		editorCategory = "Tenthed_EditorCategory_Main";
+		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Pelicans";
+		hiddenSelectionsTextures[] =
+		{
+			"\Tenthed_Vehicles\data\10th_pelican\10th_PelicanExterior.paa",
+			""
+		};
+	};
+
+	class Tenthed_Pelican : Tenthed_Pelican_Base {
+		  displayName = "[10th] Pelican";
+		  author = "Crow";
 		  scope = 2;
 		  scopeCurator = 2;
-		  faction = "Tenthed_UnitFact_Main";
-		  editorCategory = "Tenthed_EditorCategory_Main";
-		  editorSubcategory = "Tenthed_EditorSubcategory_Objects_Pelicans";
 		  hiddenSelectionsTextures[] =
 		  {
 			  "\Tenthed_Vehicles\data\10th_pelican\10th_PelicanExterior.paa",
 			  ""
 		  };
 	};
-	class Archangel_Pelican : VES_D77HTCI_A {
+	class Archangel_Pelican : Tenthed_Pelican_Base {
 		displayName = "Archangel_Pelican";
 		author = "PocketsTheWizard";
 		scope = 2;
 		scopeCurator = 2;
-		faction = "Tenthed_UnitFact_Main";
-		editorCategory = "Tenthed_EditorCategory_Main";
-		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Pelicans";
-		hiddenSelectionsTextures[] =
-		{
+		hiddenSelectionsTextures[] = {
 			"\Tenthed_Vehicles\data\archangel_pelican\archanglePelican.paa",
 			""
 		};
@@ -161,6 +172,37 @@ class CfgVehicles {
 			"\Tenthed_Vehicles\data\zeus_stallion\Truck_ext02_standard_co.paa",
 			"\Tenthed_Vehicles\data\zeus_stallion\Truck_cargo_standard_co.paa",
 			"\Tenthed_Vehicles\data\zeus_stallion\Truck_cover_standard_co.paa",
+		};
+	};
+
+	class Tenthed_Pelican_Desert : Tenthed_Pelican {
+		displayName = "[10th] Pelican - Desert";
+		author = "Kodiak";
+		scope = 2;
+		scopeCurator = 2;
+		hiddenSelectionsTextures[] = {
+			"\Tenthed_Vehicles\data\Pelican_Variants\pelican_DESERT.paa",
+			""
+		};
+	};
+	class Tenthed_Pelican_Jungle : Tenthed_Pelican {
+		displayName = "[10th] Pelican - Jungle";
+		author = "Kodiak";
+		scope = 2;
+		scopeCurator = 2;
+		hiddenSelectionsTextures[] = {
+			"\Tenthed_Vehicles\data\Pelican_Variants\pelican_JUNGLE.paa",
+			""
+		};
+	};
+	class Tenthed_Pelican_Urban : Tenthed_Pelican {
+		displayName = "[10th] Pelican - Urban";
+		author = "Kodiak";
+		scope = 2;
+		scopeCurator = 2;
+		hiddenSelectionsTextures[] = {
+			"\Tenthed_Vehicles\data\Pelican_Variants\pelican_URBAN.paa",
+			""
 		};
 	};
 }
