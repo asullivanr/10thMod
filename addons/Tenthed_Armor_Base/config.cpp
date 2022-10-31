@@ -1016,7 +1016,7 @@ class cfgWeapons {
 		};
 	};
 	class Tenthed_Pilot_Vest : OPTRE_FC_M52B_Armor_Vest {
-		dlc = "OPTRE"
+		dlc = "OPTRE";
 		author = "Wolfe,Kodiak";
 		scope = 2;
 		displayName = "[10th] Pilot Vest";
@@ -1113,7 +1113,7 @@ class cfgWeapons {
 		};
 	};
 	class Tenthed_Pilot_Armored : OPTRE_FC_M52B_Armor_Vest {
-		dlc = "OPTRE"
+		dlc = "OPTRE";
 		author = "Wolfe,Kodiak";
 		scope = 2;
 		displayName = "[10TH] Pilot Armored Varient";
