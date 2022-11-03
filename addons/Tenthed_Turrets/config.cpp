@@ -981,7 +981,7 @@ class cfgVehicles {
 
 	class Tenthed_Mortar_Backpack : Tenthed_Weapon_Bag_Base {
 		_generalMacro = "Tenthed_Mortar_Backpack";
-		displayName = "[10th] MK6 Backback";
+		displayName = "[10th] MK82 Backback";
 		scope = 2;
 		picture = "\A3\Weapons_F\Ammoboxes\Bags\data\UI\icon_B_C_Small_oli.paa";
 		class assembleInfo : assembleInfo {
