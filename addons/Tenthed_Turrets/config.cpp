@@ -52,19 +52,16 @@ class cfgVehicles {
 		_generalMacro = "Tenthed_Weapon_Bag_Base";
 		picture = "\OPTRE_weapons\backpacks\icons\icon_b_anprc521_ca.paa";
 		scope = 0;
-		faction = "Tenthed_UnitFact_Main";
 		editorCategory = "Tenthed_EditorCategory_Items";
 		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Backpacks";
 		model = "\OPTRE_unsc_units\army\rucksack.p3d";
-		hiddenSelections[] =
-		{
+		hiddenSelections[] = {
 			"camo",
 			"camo2",
 			"B_Medic",
 			"B_Radio"
 		};
-		hiddenSelectionsTextures[] =
-		{
+		hiddenSelectionsTextures[] = {
 			"\Tenthed_Turrets\data\TurretBackpack\soft_backpack_co.paa",
 			""
 		};
@@ -766,6 +763,8 @@ class cfgVehicles {
 	class Tenthed_HMG_Backpack : Tenthed_Weapon_Bag_Base {
 		_generalMacro = "Tenthed_HMG_Backpack";
 		displayName = "[10th] HMG Backback";
+		editorCategory = "Tenthed_EditorCategory_Items";
+		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Backpacks";
 		scope = 2;
 		picture = "\A3\Weapons_F\Ammoboxes\Bags\data\UI\icon_B_C_Small_oli.paa";
 		class assembleInfo : assembleInfo {
@@ -983,6 +982,8 @@ class cfgVehicles {
 		_generalMacro = "Tenthed_Mortar_Backpack";
 		displayName = "[10th] MK82 Backback";
 		scope = 2;
+		editorCategory = "Tenthed_EditorCategory_Items";
+		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Backpacks";
 		picture = "\A3\Weapons_F\Ammoboxes\Bags\data\UI\icon_B_C_Small_oli.paa";
 		class assembleInfo : assembleInfo {
 			displayName = "Assemble [10th] MK82";
