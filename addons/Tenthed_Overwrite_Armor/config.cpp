@@ -229,32 +229,31 @@ class cfgWeapons {
 	};
 
 	// Cossack
-	class SCT_10th_Artic_Armor : SCT_10th_Rifleman_Armor {
+	class SCT_10th_Cossack_Armor : SCT_10th_Specialist2_Armor {
 		scope = 2;
 		author = "John";
-		displayName = "[10th] M52D 'Artic'";
-		hiddenSelectionsTextures[] =
-		{
+		displayName = "[10th] M52D 'Cossack'";
+		hiddenSelectionsTextures[] = {
 			"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa",
 			"optre_unsc_units\army\data\armor_odst_co.paa",
 			"10th_AC\data\armor\odst_legs_co.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"Tenthed_Overwrite_Armor\data\Artic\Articarmor.paa"
+			"Tenthed_Overwrite_Armor\data\Cossack\CossackTorso.paa"
 		};
 	};
-	class SCT_10th_Artic_Helmet : SCT_10th_CH252D_Base {
+	class SCT_10th_Cossack_Helmet : SCT_10th_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
 		author = "John";
-		displayName = "[10th] Pilot 'Sound'";
+		displayName = "[10th] Pilot 'Cossack'";
 		model = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
 		hiddenSelections[] = {
 			"camo",
 			"camo2"
 		};
 		hiddenSelectionsTextures[] = {
-			"Tenthed_Overwrite_Armor\data\Artic\Artichelmet.paa",
-			"10th_AC\data\helmets\goldvisor.paa"
+			"Tenthed_Overwrite_Armor\data\Cossack\CossackHelmet.paa",
+			"10th_AC\data\helmets\blackvisor.paa"
 		};
 		optreHUDStyle = "ODST_1";
 		class ItemInfo : HeadgearItem {
@@ -267,8 +266,8 @@ class cfgWeapons {
 				"camo2"
 			};
 			hiddenSelectionsTextures[] = {
-				"Tenthed_Overwrite_Armor\data\Sound\soundhelmet.paa",
-				"10th_AC\data\helmets\bluevisor.paa"
+				"Tenthed_Overwrite_Armor\data\Cossack\CossackHelmet.paa",
+				"10th_AC\data\helmets\blackvisor.paa"
 			};
 			class HitpointsProtectionInfo {
 				class Head {
@@ -289,7 +288,7 @@ class cfgWeapons {
 			};
 		};
 	};
-	class SCT_10th_Artic_Helmet_dp : SCT_10th_CH252D_Base_dp {
+	class SCT_10th_Cossack_Helmet_dp : SCT_10th_CH252D_Base_dp {
 		dlc = "OPTRE";
 		scope = 1;
 		scopeArsenal = 1;
@@ -300,7 +299,7 @@ class cfgWeapons {
 			"camo"
 		};
 		hiddenSelectionsTextures[] = {
-			"Tenthed_Overwrite_Armor\data\Sound\soundhelmet.paa"
+			"Tenthed_Overwrite_Armor\data\Cossack\CossackHelmet.paa"
 		};
 		class ItemInfo : HeadgearItem {
 			uniformModel = "\OPTRE_UNSC_Units\Army\odst_helmet_dp.p3d";
@@ -308,7 +307,7 @@ class cfgWeapons {
 				"camo"
 			};
 			hiddenSelectionsTextures[] = {
-				"Tenthed_Overwrite_Armor\data\Sound\soundhelmet.paa"
+				"Tenthed_Overwrite_Armor\data\Cossack\CossackHelmet.paa"
 			};
 			class HitpointsProtectionInfo {
 				class Head {
@@ -434,10 +433,10 @@ class cfgWeapons {
 	};
 
 	// Artic
-	class SCT_10th_Artic_Armor : SCT_10th_Specialist2_Armor {
+	class SCT_10th_Arctic_Armor : SCT_10th_Specialist2_Armor {
 		scope = 2;
 		author = "Sawah";
-		displayName = "[10th] M52D 'Artic'";
+		displayName = "[10th] M52D 'Arctic'";
 		hiddenSelectionsTextures[] =
 		{
 			"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa",
@@ -447,11 +446,11 @@ class cfgWeapons {
 			"Tenthed_Overwrite_Armor\data\Artic\Articarmor.paa"
 		};
 	};
-	class SCT_10th_Artic_Helmet : SCT_10th_CH252D_Base {
+	class SCT_10th_Arctic_Helment : SCT_10th_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
 		author = "Sawah";
-		displayName = "[10th] CH252D 'Artic'";
+		displayName = "[10th] CH252D 'Arctic'";
 		model = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
 		hiddenSelections[] =
 		{
@@ -498,7 +497,7 @@ class cfgWeapons {
 			};
 		};
 	};
-	class SCT_10th_Artic_Helmet_dp : SCT_10th_CH252D_Base_dp {
+	class SCT_10th_Arctic_Helment_dp : SCT_10th_CH252D_Base_dp {
 		dlc = "OPTRE";
 		scope = 1;
 		scopeArsenal = 1;
