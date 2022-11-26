@@ -15,7 +15,6 @@ class cfgWeapons {
 
 	class Tenthed_Pilot_Helmet;
 
-	// Added update 1
 
 	// Kodiak
 	class SCT_10th_Kodiak_Helmet : Tenthed_CH252D_Base {
@@ -1135,14 +1134,12 @@ class cfgWeapons {
 		author = "Wolfe,Kodiak,Crow";
 		displayName = "[10th] CH252D 'Rambler'";
 		model = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
-		hiddenSelections[] =
-		{
+		hiddenSelections[] = {
 			"camo",
 			"camo2"
 		};
-		hiddenSelectionsTextures[] =
-		{
-			"Tenthed_Helmets_Named\data\RamblerHelment.paa",
+		hiddenSelectionsTextures[] = {
+			"Tenthed_Helmets_Named\data\RamblerHelmet.paa",
 			"Tenthed_Armor_Base\data\visors\blackvisor.paa"
 		};
 		optreHUDStyle = "ODST_1";
@@ -1155,13 +1152,11 @@ class cfgWeapons {
 		author = "Wolfe,Kodiak,Crow";
 		displayName = "[10th] CH252D 'Rambler'";
 		model = "\OPTRE_UNSC_Units\Army\odst_helmet_dp.p3d";
-		hiddenSelections[] =
-		{
+		hiddenSelections[] = {
 			"camo"
 		};
-		hiddenSelectionsTextures[] =
-		{
-			"Tenthed_Helmets_Named\data\RamblerHelment.paa"
+		hiddenSelectionsTextures[] = {
+			"Tenthed_Helmets_Named\data\RamblerHelmet.paa"
 		};
 	};
 
@@ -1206,16 +1201,14 @@ class cfgWeapons {
 	class SCT_10th_Tiny_Helment : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
-		author = "Wolfe,Kodiak,Crow";
+		author = "John";
 		displayName = "[10th] Pilot 'Tiny'";
 		model = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
-		hiddenSelections[] =
-		{
+		hiddenSelections[] = {
 			"camo",
 			"camo2"
 		};
-		hiddenSelectionsTextures[] =
-		{
+		hiddenSelectionsTextures[] = {
 			"Tenthed_Helmets_Named\data\tinyhelmet.paa",
 			"Tenthed_Armor_Base\data\visors\blackvisor.paa"
 		};
@@ -1226,15 +1219,13 @@ class cfgWeapons {
 		scope = 1;
 		scopeArsenal = 1;
 		scopeCurator = 1;
-		author = "Wolfe,Kodiak,Crow";
+		author = "John";
 		displayName = "[10th] Pilot 'Tiny'";
 		model = "\OPTRE_UNSC_Units\Army\odst_helmet_dp.p3d";
-		hiddenSelections[] =
-		{
+		hiddenSelections[] = {
 			"camo"
 		};
-		hiddenSelectionsTextures[] =
-		{
+		hiddenSelectionsTextures[] = {
 			"Tenthed_Helmets_Named\data\tinyhelmet.paa"
 		};
 	};
@@ -1764,15 +1755,13 @@ class cfgWeapons {
 		author = "Wolfe,Kodiak";
 		displayName = "[10th] Pilot 'Optional'";
 		model = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
-		hiddenSelections[] =
-		{
+		hiddenSelections[] = {
 			"camo",
 			"camo2"
 		};
-		hiddenSelectionsTextures[] =
-		{
-			"Tenthed_Helmets_Named\data\Optionalhelmet.paa",
-			"Tenthed_Armor_Base\data\visors\bluevisor.paa"
+		hiddenSelectionsTextures[] = {
+			"Tenthed_Helmets_Named\data\optionalhelmet.paa",
+			"Tenthed_Armor_Base\data\visors\blackvisor.paa"
 		};
 		optreHUDStyle = "ODST_1";
 	};
@@ -1784,13 +1773,11 @@ class cfgWeapons {
 		author = "Wolfe,Kodiak";
 		displayName = "[10th] Pilot 'Optional'";
 		model = "\OPTRE_UNSC_Units\Army\odst_helmet_dp.p3d";
-		hiddenSelections[] =
-		{
+		hiddenSelections[] = {
 			"camo"
 		};
-		hiddenSelectionsTextures[] =
-		{
-			"Tenthed_Helmets_Named\data\Optionalhelmet.paa"
+		hiddenSelectionsTextures[] = {
+			"Tenthed_Helmets_Named\data\optionalhelmet.paa"
 		};
 	};
 
@@ -1812,16 +1799,14 @@ class cfgWeapons {
 	class SCT_10th_Arctic_Helment : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
-		author = "Wolfe,Kodiak";
+		author = "Sawah";
 		displayName = "[10th] Pilot 'Arctic'";
 		model = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
-		hiddenSelections[] =
-		{
+		hiddenSelections[] = {
 			"camo",
 			"camo2"
 		};
-		hiddenSelectionsTextures[] =
-		{
+		hiddenSelectionsTextures[] = {
 			"Tenthed_Helmets_Named\data\arctichelmet.paa",
 			"Tenthed_Armor_Base\data\visors\blackvisor.paa"
 		};
@@ -1832,8 +1817,136 @@ class cfgWeapons {
 		scope = 1;
 		scopeArsenal = 1;
 		scopeCurator = 1;
-		author = "Wolfe,Kodiak";
+		author = "Sawah";
 		displayName = "[10th] Pilot 'Arctic'";
+		model = "\OPTRE_UNSC_Units\Army\odst_helmet_dp.p3d";
+		hiddenSelections[] = {
+			"camo"
+		};
+		hiddenSelectionsTextures[] = {
+			"Tenthed_Helmets_Named\data\arctichelmet.paa"
+		};
+	};
+
+	// Sound
+	class SCT_10th_Sound_Helmet : Tenthed_CH252D_Base {
+		dlc = "OPTRE";
+		scope = 2;
+		author = "Sawah";
+		displayName = "[10th] Pilot 'Sound'";
+		model = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
+		hiddenSelections[] = {
+			"camo",
+			"camo2"
+		};
+		hiddenSelectionsTextures[] = {
+			"Tenthed_Helmets_Named\data\soundhelmet.paa",
+			"Tenthed_Armor_Base\data\visors\bluevisor.paa"
+		};
+		optreHUDStyle = "ODST_1";
+	};
+	class SCT_10th_Sound_Helmet_dp : Tenthed_CH252D_Base_dp {
+		dlc = "OPTRE";
+		scope = 1;
+		scopeArsenal = 1;
+		scopeCurator = 1;
+		author = "Sawah";
+		model = "\OPTRE_UNSC_Units\Army\odst_helmet_dp.p3d";
+		hiddenSelections[] = {
+			"camo"
+		};
+		hiddenSelectionsTextures[] = {
+			"Tenthed_Helmets_Named\data\soundhelmet.paa"
+		};
+	};
+
+	// Cossack
+	class SCT_10th_Cossack_Helmet : Tenthed_CH252D_Base {
+		dlc = "OPTRE";
+		scope = 2;
+		author = "John";
+		displayName = "[10th] CH252D 'Cossack'";
+		model = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
+		hiddenSelections[] = {
+			"camo",
+			"camo2"
+		};
+		hiddenSelectionsTextures[] = {
+			"Tenthed_Helmets_Named\data\CossackHelmet.paa",
+			"Tenthed_Armor_Base\data\visors\blackvisor.paa"
+		};
+		optreHUDStyle = "ODST_1";
+	};
+	class SCT_10th_Cossack_Helmet_dp : Tenthed_CH252D_Base_dp {
+		dlc = "OPTRE";
+		scope = 1;
+		scopeArsenal = 1;
+		scopeCurator = 1;
+		author = "John";
+		model = "\OPTRE_UNSC_Units\Army\odst_helmet_dp.p3d";
+		hiddenSelections[] = {
+			"camo"
+		};
+		hiddenSelectionsTextures[] = {
+			"Tenthed_Helmets_Named\data\CossackHelmet.paa"
+		};
+	};
+
+	// Som
+	class SCT_10th_Som_Helmet : Tenthed_CH252D_Base {
+		dlc = "OPTRE";
+		scope = 2;
+		author = "Wolfe,Kodiak";
+		displayName = "[10th] CH252D 'Som'";
+		model = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
+		hiddenSelections[] = {
+			"camo",
+			"camo2"
+		};
+		hiddenSelectionsTextures[] = {
+			"Tenthed_Helmets_Named\data\somhelmet.paa",
+			"Tenthed_Armor_Base\data\visors\silvervisor.paa"
+		};
+		optreHUDStyle = "ODST_1";
+	};
+	class SCT_10th_Som_Helmet_dp : Tenthed_CH252D_Base_dp {
+		dlc = "OPTRE";
+		scope = 1;
+		scopeArsenal = 1;
+		scopeCurator = 1;
+		author = "Wolfe,Kodiak";
+		model = "\OPTRE_UNSC_Units\Army\odst_helmet_dp.p3d";
+		hiddenSelections[] = {
+			"camo"
+		};
+		hiddenSelectionsTextures[] ={
+			"Tenthed_Helmets_Named\data\somhelmet.paa"
+		};
+	};
+	
+	// Nox
+	class SCT_10th_Nox_Helment : Tenthed_CH252D_Base {
+		dlc = "OPTRE";
+		scope = 2;
+		author = "Wolfe,Kodiak,Crow,Jogn";
+		displayName = "[10th] CH252D 'Nox'";
+		model = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
+		hiddenSelections[] = {
+			"camo",
+			"camo2"
+		};
+		hiddenSelectionsTextures[] = {
+			"Tenthed_Helmets_Named\data\NoxHelmet.paa",
+			"Tenthed_Armor_Base\data\visors\blackvisor.paa"
+		};
+		optreHUDStyle = "ODST_1";
+	};
+	class SCT_10th_Nox_Helment_dp : Tenthed_CH252D_Base_dp {
+		dlc = "OPTRE";
+		scope = 1;
+		scopeArsenal = 1;
+		scopeCurator = 1;
+		author = "Wolfe,Kodiak";
 		model = "\OPTRE_UNSC_Units\Army\odst_helmet_dp.p3d";
 		hiddenSelections[] =
 		{
@@ -1841,7 +1954,8 @@ class cfgWeapons {
 		};
 		hiddenSelectionsTextures[] =
 		{
-			"Tenthed_Helmets_Named\data\arctichelmet.paa"
+			"Tenthed_Helmets_Named\data\NoxHelmet.paa"
 		};
 	};
+
 }
