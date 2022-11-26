@@ -20,7 +20,7 @@ class cfgWeapons {
 	class SCT_10th_Rifleman_Armor;
 	class SCT_10th_Specialist2_Armor;
 
-	// Optional
+	// Optional //
 	class SCT_10th_Optional_Armor : SCT_10th_Pilot_Vest {
 		dlc = "OPTRE";
 		scope = 2;
@@ -126,7 +126,7 @@ class cfgWeapons {
 		};
 	};
 
-	// Sound
+	// Sound //
 	class SCT_10th_Sound_Armor : SCT_10th_Pilot_Vest {
 		dlc = "OPTRE";
 		scope = 2;
@@ -228,8 +228,8 @@ class cfgWeapons {
 		};
 	};
 
-	// Cossack
-	class SCT_10th_Cossack_Armor : SCT_10th_Specialist2_Armor {
+	// Cossack //
+	class SCT_10th_Cossack_Armor : SCT_10th_Demolitions_Knife_Armor {
 		scope = 2;
 		author = "John";
 		displayName = "[10th] M52D 'Cossack'";
@@ -245,7 +245,7 @@ class cfgWeapons {
 		dlc = "OPTRE";
 		scope = 2;
 		author = "John";
-		displayName = "[10th] Pilot 'Cossack'";
+		displayName = "[10th] CH252D 'Cossack'";
 		model = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
 		hiddenSelections[] = {
 			"camo",
@@ -329,7 +329,7 @@ class cfgWeapons {
 		};
 	};
 
-	// Tiny
+	// Tiny //
 	class SCT_10th_Tiny_Armor : SCT_10th_Pilot_Vest {
 		dlc = "OPTRE";
 		scope = 2;
@@ -432,18 +432,17 @@ class cfgWeapons {
 		};
 	};
 
-	// Artic
+	// Arctic //
 	class SCT_10th_Arctic_Armor : SCT_10th_Specialist2_Armor {
 		scope = 2;
 		author = "Sawah";
 		displayName = "[10th] M52D 'Arctic'";
-		hiddenSelectionsTextures[] =
-		{
+		hiddenSelectionsTextures[] = {
 			"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa",
 			"optre_unsc_units\army\data\armor_odst_co.paa",
 			"10th_AC\data\armor\odst_legs_co.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"Tenthed_Overwrite_Armor\data\Artic\Articarmor.paa"
+			"Tenthed_Overwrite_Armor\data\Artic\arcticarmor.paa"
 		};
 	};
 	class SCT_10th_Arctic_Helment : SCT_10th_CH252D_Base {
@@ -459,7 +458,7 @@ class cfgWeapons {
 		};
 		hiddenSelectionsTextures[] =
 		{
-			"Tenthed_Overwrite_Armor\data\Artic\Artichelmet.paa",
+			"Tenthed_Overwrite_Armor\data\Artic\arctichelmet.paa",
 			"10th_AC\data\helmets\blackvisor.paa"
 		};
 		optreHUDStyle = "ODST_1";
@@ -475,7 +474,7 @@ class cfgWeapons {
 			};
 			hiddenSelectionsTextures[] =
 			{
-				"10th_AC\data\helmets\tinohelmet.paa",
+				"Tenthed_Overwrite_Armor\data\Artic\arctichelmet.paa",
 				"10th_AC\data\helmets\blackvisor.paa"
 			};
 			class HitpointsProtectionInfo {
@@ -542,7 +541,7 @@ class cfgWeapons {
 		};
 	};
 
-	// Tino
+	// Tino //
 	class SCT_10th_Tino_Armor : SCT_10th_Demolitions_Knife_Armor {
 		scope = 2;
 		author = "Wolfe,Kodiak";
@@ -652,13 +651,12 @@ class cfgWeapons {
 		};
 	};
 
-	// Altered
+	// Altered //
 	class SCT_10th_Altered_Armor : SCT_10th_Specialist2_Armor {
 		scope = 2;
 		author = "Wolfe,Kodiak";
 		displayName = "[10th] M52D 'Altered'";
-		hiddenSelectionsTextures[] =
-		{
+		hiddenSelectionsTextures[] = {
 			"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa",
 			"optre_unsc_units\army\data\armor_odst_co.paa",
 			"10th_AC\data\armor\odst_legs_co.paa",
@@ -769,14 +767,12 @@ class cfgWeapons {
 		author = "Wolfe,Kodiak,Crow";
 		displayName = "[10th] CH252D 'Rambler'";
 		model = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
-		hiddenSelections[] =
-		{
+		hiddenSelections[] = {
 			"camo",
 			"camo2"
 		};
-		hiddenSelectionsTextures[] =
-		{
-			"Tenthed_Overwrite_Armor\data\Rambler\RamblerHelment.paa",
+		hiddenSelectionsTextures[] = {
+			"Tenthed_Overwrite_Armor\data\Rambler\RamblerHelmet.paa",
 			"10th_AC\data\helmets\blackvisor.paa"
 		};
 		optreHUDStyle = "ODST_1";
@@ -792,7 +788,7 @@ class cfgWeapons {
 			};
 			hiddenSelectionsTextures[] =
 			{
-				"Tenthed_Overwrite_Armor\data\Rambler\RamblerHelment.paa",
+				"Tenthed_Overwrite_Armor\data\Rambler\RamblerHelmet.paa",
 				"10th_AC\data\helmets\blackvisor.paa"
 			};
 			class HitpointsProtectionInfo {
@@ -859,7 +855,7 @@ class cfgWeapons {
 		};
 	};
 
-	// Som
+	// Som //
 	class SCT_10th_Som_Armor : SCT_10th_Demolitions_Knife_Armor {
 		scope = 2;
 		author = "Wolfe,Kodiak";
@@ -948,6 +944,103 @@ class cfgWeapons {
 			hiddenSelectionsTextures[] =
 			{
 				"Tenthed_Overwrite_Armor\data\Som\somhelmet.paa"
+			};
+			class HitpointsProtectionInfo {
+				class Head {
+					hitpointName = "HitHead";
+					armor = 30;
+					passThrough = 0.2;
+				};
+				class Face {
+					hitpointName = "HitFace";
+					armor = 30;
+					passThrough = 0.2;
+				};
+				class Neck {
+					hitpointName = "HitNeck";
+					armor = 30;
+					passThrough = 0.2;
+				};
+			};
+		};
+	};
+
+	// Nox Sarah //
+	class SCT_10th_Nox_Helment : SCT_10th_CH252D_Base {
+		dlc = "OPTRE";
+		scope = 2;
+		author = "Wolfe,Kodiak,Crow,Jogn";
+		displayName = "[10th] CH252D 'Nox'";
+		model = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
+		hiddenSelections[] =
+		{
+			"camo",
+			"camo2"
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"Tenthed_Overwrite_Armor\data\Nox\NoxHelmet.paa",
+			"10th_AC\data\helmets\blackvisor.paa"
+		};
+		optreHUDStyle = "ODST_1";
+		class ItemInfo : HeadgearItem {
+			uniformModel = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
+			mass = 40;
+			modelSides[] = { 6 };
+			passThrough = 0.1;
+			hiddenSelections[] =
+			{
+				"camo",
+				"camo2"
+			};
+			hiddenSelectionsTextures[] =
+			{
+				"Tenthed_Overwrite_Armor\data\Nox\NoxHelmet.paa",
+				"10th_AC\data\helmets\blackvisor.paa"
+			};
+			class HitpointsProtectionInfo {
+				class Head {
+					hitpointName = "HitHead";
+					armor = 30;
+					passThrough = 0.2;
+				};
+				class Face {
+					hitpointName = "HitFace";
+					armor = 30;
+					passThrough = 0.2;
+				};
+				class Neck {
+					hitpointName = "HitNeck";
+					armor = 30;
+					passThrough = 0.2;
+				};
+			};
+		};
+	};
+	class SCT_10th_Nox_Helment_dp : SCT_10th_CH252D_Base_dp {
+		dlc = "OPTRE";
+		scope = 1;
+		scopeArsenal = 1;
+		scopeCurator = 1;
+		author = "Wolfe,Kodiak";
+		model = "\OPTRE_UNSC_Units\Army\odst_helmet_dp.p3d";
+		hiddenSelections[] =
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"Tenthed_Overwrite_Armor\data\Nox\NoxHelmet.paa"
+		};
+		class ItemInfo : HeadgearItem {
+			uniformModel = "\OPTRE_UNSC_Units\Army\odst_helmet_dp.p3d";
+			hiddenSelections[] =
+			{
+				"camo"
+			};
+			hiddenSelectionsTextures[] =
+			{
+				"10th_AC\data\helmets\noxhelmet.paa"
 			};
 			class HitpointsProtectionInfo {
 				class Head {
