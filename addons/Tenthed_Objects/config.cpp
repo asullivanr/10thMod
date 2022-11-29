@@ -1,6 +1,6 @@
 class CfgPatches {
     class Tenthed_objects {
-        author = "Silver, Kodiak, Crow, Akira";
+        author = "Akira";
         name = "10th ODST: Objects";
         requiredAddons[] = {
             "Tenthed_core",
@@ -8,13 +8,16 @@ class CfgPatches {
         weapons[] = {};
         units[] = {
 			"Tenthed_FlagStand",
-			"Tenthed_ODST_Flag"
+			"Tenthed_ODST_Flag",
+			"Tenthed_ODST_FlagPole"
 		};
     };
 };
 class CfgVehicles {
 	class Flagpole_F;
 	class Sign_F;
+	class Flag_White_F;
+
 	class Tenthed_FlagBase : Flagpole_F {
 		model = "\OPTRE_Misc\Multiplayer\CTF_flag_pole";
 		armor = 999999;
@@ -53,7 +56,20 @@ class CfgVehicles {
 			"camo1"
 		};
 		hiddenSelectionsTextures[] = {
-			"optre_misc\multiplayer\data\flag_guidon_redODST_co.paa"
+			"Tenthed_Objects\data\flag_guidon_10thODST_co.paa"
+		};
+	};
+	class Tenthed_ODST_FlagPole: Flag_White_F
+	{
+		author="Akira";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "[10th] Flag (Pole)";
+		editorCategory = "Tenthed_EditorCategory_Objects";
+		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Military";
+		class EventHandlers
+		{
+			init="(_this select 0) setFlagTexture '\Tenthed_Objects\data\flag_10thODST_co.paa'";
 		};
 	};
 };
