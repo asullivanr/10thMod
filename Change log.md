@@ -1,5 +1,11 @@
 Change log
 
+Current changes
+Added Unit Flag
+Added Unit Flag Pole
+
+Posted
+
 11/26/2022
 Added Optionals, Sounds, Cossacks, Tinys, Arctics, Tinos, Altereds, Ramblers and Soms armor reworks additions or changes.
 Pelicans now include The HMG and Mortar backpacks for easy resupply.
