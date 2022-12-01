@@ -110,8 +110,7 @@ class cfgWeapons {
 			"10th_Armor_Named\data\Legoamour.paa",
 		};
 	};
-	class SCT_10th_Pockets_Armor : Tenthed_Pilot_Vest
-	{
+	class SCT_10th_Pockets_Armor : Tenthed_Pilot_Vest {
 		dlc = "OPTRE";
 		scope = 2;
 		author = "Wolfe, Kodiak, Crow";
@@ -659,6 +658,18 @@ class cfgWeapons {
 			"Tenthed_Armor_Base\data\odst_legs_co.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
 			"Tenthed_Armor_Named\data\noxarmor.paa"
+		};
+	};
+	class SCT_10th_Hodge_Armor : Tenthed_Demolitions_Knife_Armor {
+		scope=1;
+		author="Wolfe,Kodiak";
+		displayName="[10th] M52D 'Hodge'";
+		hiddenSelectionsTextures[]= {
+			"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa",
+			"optre_unsc_units\army\data\armor_odst_co.paa",
+			"Tenthed_Armor_Base\data\odst_legs_co.paa",
+			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
+			"Tenthed_Armor_Named\data\hodgearmor.paa"
 		};
 	};
 }
