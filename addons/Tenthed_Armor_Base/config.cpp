@@ -12,6 +12,7 @@ class CfgPatches {
 class cfgWeapons {
 	class VestItem;
 	class HeadgearItem;
+	class ItemInfo;
 
 	class OPTRE_UNSC_M52D_Armor;
 	class OPTRE_FC_M52B_Armor_Vest;
@@ -1332,13 +1333,18 @@ class cfgWeapons {
 		dlc = "OPTRE_FC";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "[10th] VX19 Pilot";
+		displayName = "[10th] VX19 Flight Helmet";
 		author = "Wolfe, Kodiak";
+		hiddenSelections[] = {
+			"camo",
+			"camo2"
+		};
 		hiddenSelectionsTextures[] = {
 			"Tenthed_Armor_Base\data\10thpilot.paa",
 			"Tenthed_Armor_Base\data\h3_pilothelmet_visor_CO"
 		};
-		class ItemInfo : HeadgearItem {
+		class ItemInfo : ItemInfo {
+			uniformModel = "\OPTRE_FC_Units\Marines\h3_pilothelmet.p3d";
 			mass = 40;
 			passThrough = 0.1;
 			class HitpointsProtectionInfo {

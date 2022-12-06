@@ -69,6 +69,10 @@ class CfgEditorSubcategories {
     class Tenthed_EditorSubcategory_Objects_Hornets {
         displayName = "Hornets";
     };
+    // All Falcons categorized
+    class Tenthed_EditorSubcategory_Objects_Falcons {
+        displayName = "Falcons";
+    };
     // Generic for turrets
     class Tenthed_EditorSubcategory_Objects_Turrets {
         displayName = "Turrets";

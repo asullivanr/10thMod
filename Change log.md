@@ -1,10 +1,19 @@
 Change log
 
-Current changes
-Added Unit Flag
-Added Unit Flag Pole
-
 Posted
+
+12/6/2022
+Added Unit Flag
+Added Unit Flag (Pole)
+Added Squad flags
+Added 10th Hornet
+Added 10th Falcon
+Increased Hornet flair count to 240
+Increased Hornet max speed to 350
+Increased Falcon flair count to 240
+Increased Falcon max speed to 350
+Increased Pelican flair count to 300
+Fixed Visor color issue on a Helmet
 
 11/26/2022
 Added Optionals, Sounds, Cossacks, Tinys, Arctics, Tinos, Altereds, Ramblers and Soms armor reworks additions or changes.

@@ -18,7 +18,9 @@ class CfgPatches {
 			"Tenthed_Zeus_Stallion",
 			"Tenthed_Pelican_Desert",
 			"Tenthed_Pelican_Jungle",
-			"Tenthed_Pelican_Urban"
+			"Tenthed_Pelican_Urban",
+			"Tenthed_Hornet",
+			"Tenthed_Falcon"
 		};
 	};
 };
@@ -28,20 +30,30 @@ class CfgVehicles {
 	class OPTRE_M808S;
 	class OPTRE_M413_MGS_UNSC_tan;
 	class OPTRE_m1087_stallion_cover_unsc;
+	class OPTRE_UNSC_falcon_green;
 
 	class Eventhandlers;
 
+	// Base type Pelican
 	class Tenthed_Pelican_Base : VES_D77HTCI_A {
 		displayName = "Tenthed_Pelican_Base";
 		author = "";
 		scope = 1;
 		scopeCurator = 1;
+		scopeArsenal = 1;
 		faction = "Tenthed_UnitFact_Main";
 		editorCategory = "Tenthed_EditorCategory_Main";
 		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Pelicans";
 		hiddenSelectionsTextures[] = {
 			"\Tenthed_Vehicles\data\10th_pelican\10th_PelicanExterior.paa",
 			""
+		};
+		weapons[] = {
+			"CMFlareLauncher",
+			"OPTRE_missiles_Anvil1"
+		};
+		magazines[] = {
+			"300Rnd_CMFlare_Chaff_Magazine" // 168Rnd_CMFlare_Chaff_Magazine
 		};
 		class TransportBackpacks {
 			class _xx_TenthedMortarBackpack {
@@ -68,6 +80,7 @@ class CfgVehicles {
 		author = "Kodiak";
 		scope = 2;
 		scopeCurator = 2;
+		scopeArsenal = 2;
 		hiddenSelectionsTextures[] = {
 			"\Tenthed_Vehicles\data\Pelican_Variants\pelican_DESERT.paa",
 			""
@@ -78,6 +91,7 @@ class CfgVehicles {
 		author = "Kodiak";
 		scope = 2;
 		scopeCurator = 2;
+		scopeArsenal = 2;
 		hiddenSelectionsTextures[] = {
 			"\Tenthed_Vehicles\data\Pelican_Variants\pelican_JUNGLE.paa",
 			""
@@ -88,18 +102,20 @@ class CfgVehicles {
 		author = "Kodiak";
 		scope = 2;
 		scopeCurator = 2;
+		scopeArsenal = 2;
 		hiddenSelectionsTextures[] = {
 			"\Tenthed_Vehicles\data\Pelican_Variants\pelican_URBAN.paa",
 			""
 		};
 	};
 
-	// Old Varient Pelicans
+	// Old Variant Pelicans
 	class Tenthed_Pelican : Tenthed_Pelican_Base {
 		displayName = "[10th] Pelican";
 		author = "Crow";
 		scope = 2;
 		scopeCurator = 2;
+		scopeArsenal = 2;
 		hiddenSelectionsTextures[] = {
 			"\Tenthed_Vehicles\data\10th_pelican\10th_PelicanExterior.paa",
 			""
@@ -110,6 +126,7 @@ class CfgVehicles {
 		author = "PocketsTheWizard";
 		scope = 2;
 		scopeCurator = 2;
+		scopeArsenal = 2;
 		hiddenSelectionsTextures[] = {
 			"\Tenthed_Vehicles\data\archangel_pelican\archanglePelican.paa",
 			""
@@ -120,18 +137,62 @@ class CfgVehicles {
 		author = "PocketsTheWizard";
 		scope = 2;
 		scopeCurator = 2;
+		scopeArsenal = 2;
 		hiddenSelectionsTextures[] = {
 			"\Tenthed_Vehicles\data\dodo_pelican\DodoPelican.paa",
 			""
 		};
 	};
 
-	// Hornets
+	// Base type Hornets
+	class Tenthed_Hornet_Base : OPTRE_UNSC_hornet_green_CAP {
+		scope = 1;
+		scopeCurator = 1;
+		scopeArsenal = 1;
+		author = "Akira";
+		displayName = "Tenthed_Hornet_Base";
+		faction = "Tenthed_UnitFact_Main";
+		editorCategory = "Tenthed_EditorCategory_Main";
+		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Hornets";
+		hiddenSelectionsTextures[] = {
+			"optre_vehicles\hornet\data\hornet_hull_green_co.paa"
+		};
+		maxSpeed = 350;
+		weapons[] = {
+			"OPTRE_GUA23A",
+			"CMFlareLauncher",
+			"Laserdesignator_pilotCamera",
+			"OPTRE_missiles_C2GMLS"
+		};
+		magazines[] = {
+			"OPTRE_2000Rnd_20mm_HEIAP",
+			"240Rnd_CMFlare_Chaff_Magazine", // 168Rnd_CMFlare_Chaff_Magazine
+			"Laserbatteries",
+			"OPTRE_8Rnd_C2GMLS_missiles",
+			"OPTRE_8Rnd_C2GMLS_missiles"
+		};
+	};
 
-	// Old Varient Hornets
-	class Tenthed_beeHornet : OPTRE_UNSC_hornet_green_CAP {
+	// Hornets
+	class Tenthed_Hornet : Tenthed_Hornet_Base {
 		scope = 2;
 		scopeCurator = 2;
+		scopeArsenal = 2;
+		author = "Akira";
+		displayName = "[10th] Hornet";
+		faction = "Tenthed_UnitFact_Main";
+		editorCategory = "Tenthed_EditorCategory_Main";
+		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Hornets";
+		hiddenSelectionsTextures[] = {
+			"\Tenthed_Vehicles\data\bee_hornet\beeHornet.paa"
+		};
+	};
+
+	// Old Variant Hornets
+	class Tenthed_beeHornet : Tenthed_Hornet_Base {
+		scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 2;
 		author = "PcoketsTheWizard";
 		displayName = "b(ee)Hornet";
 		faction = "Tenthed_UnitFact_Main";
@@ -141,9 +202,10 @@ class CfgVehicles {
 			"\Tenthed_Vehicles\data\bee_hornet\beeHornet.paa"
 		};
 	};
-	class Tenthed_ZakuHornet : OPTRE_UNSC_hornet_green_CAP {
+	class Tenthed_ZakuHornet : Tenthed_Hornet_Base {
 		scope = 2;
 		scopeCurator = 2;
+		scopeArsenal = 2;
 		author = "PcoketsTheWizard";
 		displayName = "Red Comet Hornet";
 		faction = "Tenthed_UnitFact_Main";
@@ -154,9 +216,72 @@ class CfgVehicles {
 		};
 	};
 
+	// Base type Falcon
+	class Tenthed_Falcon_Base : OPTRE_UNSC_falcon_green {
+		scope = 1;
+		scopeCurator = 1;
+		scopeArsenal = 1;
+		displayName = "Tenthed_Falcon_Base";
+		faction = "Tenthed_UnitFact_Main";
+		editorCategory = "Tenthed_EditorCategory_Main";
+		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Falcons";
+		maxSpeed = 350;
+		hiddenSelections[] = {
+			"camo1",
+			"camo2",
+			"camo3",
+			"camo4",
+			"clan",
+			"clan_text",
+			"insignia"
+		};
+		hiddenSelectionsTextures[] = {
+			"OPTRE_Vehicles\Falcon\data\falcon_hull_CO.paa",
+			"optre_vehicles\falcon\data\falcon_hullextra_co.paa",
+			"optre_vehicles\falcon\data\falcon_wingtips_co.paa",
+			"optre_vehicles\falcon\data\falcon_skid_co.paa"
+		};
+		weapons[] = {
+			"OPTRE_M638",
+			"CMFlareLauncher",
+			"Laserdesignator_pilotCamera"
+		};
+		magazines[] = {
+			"OPTRE_2000Rnd_20mm_HE",
+			"OPTRE_2000Rnd_20mm_HE",
+			"240Rnd_CMFlare_Chaff_Magazine", // 168Rnd_CMFlare_Chaff_Magazine
+			"Laserbatteries"
+		};
+	};
+
+	// Falcons
+	class Tenthed_Falcon : Tenthed_Falcon_Base {
+		scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 2;
+		displayName = "[10th] UH-144 Falcon (Green)";
+		hiddenSelections[] = {
+			"camo1",
+			"camo2",
+			"camo3",
+			"camo4",
+			"clan",
+			"clan_text",
+			"insignia"
+		};
+		hiddenSelectionsTextures[] = {
+			"OPTRE_Vehicles\Falcon\data\falcon_hull_CO.paa",
+			"optre_vehicles\falcon\data\falcon_hullextra_co.paa",
+			"optre_vehicles\falcon\data\falcon_wingtips_co.paa",
+			"optre_vehicles\falcon\data\falcon_skid_co.paa"
+		};
+	};
+
+	// Old Variant ground vehicles
 	class Tenthed_ARES_Tank : OPTRE_M808S {
 		scope = 2;
 		scopeCurator = 2;
+		scopeArsenal = 2;
 		author = "PcoketsTheWizard";
 		displayName = "AresScorpion";
 		faction = "Tenthed_UnitFact_Main";
@@ -191,6 +316,7 @@ class CfgVehicles {
 		author = "PocketsTheWizard";
 		scope = 2;
 		scopeCurator = 2;
+		scopeArsenal = 2;
 		faction = "Tenthed_UnitFact_Main";
 		editorCategory = "Tenthed_EditorCategory_Main";
 		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Vehicles";
@@ -204,13 +330,12 @@ class CfgVehicles {
 			"\Tenthed_Vehicles\data\ares_mgs\Bison_90mm_tan_CO.paa",
 		};
 	};
-
-	// Stallions
 	class Tenthed_Zeus_Stallion : OPTRE_m1087_stallion_cover_unsc {
 		displayName = "Zeus Stallion";
 		author = "Kodiak";
 		scope = 2;
 		scopeCurator = 2;
+		scopeArsenal = 2;
 		faction = "Tenthed_UnitFact_Main";
 		editorCategory = "Tenthed_EditorCategory_Main";
 		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Vehicles";
@@ -221,4 +346,8 @@ class CfgVehicles {
 			"\Tenthed_Vehicles\data\zeus_stallion\Truck_cover_standard_co.paa",
 		};
 	};
+
+	// Fast movers
+	class FIR_F22;
+
 }

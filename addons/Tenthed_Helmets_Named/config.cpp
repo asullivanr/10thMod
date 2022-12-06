@@ -1873,7 +1873,7 @@ class cfgWeapons {
 		};
 		hiddenSelectionsTextures[] = {
 			"Tenthed_Helmets_Named\data\CossackHelmet.paa",
-			"Tenthed_Armor_Base\data\visors\blackvisor.paa"
+			"Tenthed_Armor_Base\data\visors\goldvisor.paa"
 		};
 		optreHUDStyle = "ODST_1";
 	};
