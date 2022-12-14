@@ -7,6 +7,7 @@ class CfgPatches {
 			"OPTRE_Core"
 		};
 		weapons[] = {};
+		units[] = {};
 	};
 };
 class cfgWeapons {
@@ -48,6 +49,45 @@ class cfgWeapons {
 			"Tenthed_Armor_Base\data\odst_legs_co.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
 			"Tenthed_Armor_Named\data\kitsuneamour v2.paa"
+		};
+	};
+	class SCT_10th_Gutts_Armor : Tenthed_Demolitions_Armor {
+		scope = 2;
+		author = "Wolfe,Kodiak";
+		displayName = "[10th] M52D 'Gutts'";
+		hiddenSelectionsTextures[] =
+		{
+			"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa",
+			"optre_unsc_units\army\data\armor_odst_co.paa",
+			"Tenthed_Armor_Base\data\odst_legs_co.paa",
+			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
+			"Tenthed_Armor_Named\data\guttsarmour.paa"
+		};
+	};
+	class SCT_10th_Seagull_Armor : Tenthed_Demolitions_Armor {
+		scope = 2;
+		author = "Wolfe,Kodiak";
+		displayName = "[10th] M52D 'Seagull'";
+		hiddenSelectionsTextures[] =
+		{
+			"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa",
+			"optre_unsc_units\army\data\armor_odst_co.paa",
+			"Tenthed_Armor_Base\data\odst_legs_co.paa",
+			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
+			"Tenthed_Armor_Named\data\seagullarmor.paa"
+		};
+	};
+	class SCT_10th_Clem_Armor : Tenthed_Demolitions_Armor {
+		scope = 2;
+		author = "Wolfe,Kodiak,Tiger";
+		displayName = "[10th] M52D 'Clem'";
+		hiddenSelectionsTextures[] =
+		{
+			"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa",
+			"optre_unsc_units\army\data\armor_odst_co.paa",
+			"Tenthed_Armor_Base\data\odst_legs_co.paa",
+			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
+			"Tenthed_Armor_Named\data\Clem_armor.paa"
 		};
 	};
 	class SCT_10th_Jad_Armor : Tenthed_Demolitions_Knife_Armor {
@@ -670,6 +710,31 @@ class cfgWeapons {
 			"Tenthed_Armor_Base\data\odst_legs_co.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
 			"Tenthed_Armor_Named\data\hodgearmor.paa"
+		};
+	};
+	class SCT_10th_BlindWolf_Armor : Tenthed_Specialist2_Armor {
+		scope = 2;
+		author = "Nox";
+		displayName = "[10th] M52D 'BlindWolf'";
+		hiddenSelectionsTextures[] = {
+			"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa",
+			"optre_unsc_units\army\data\armor_odst_co.paa",
+			"Tenthed_Armor_Base\data\odst_legs_co.paa",
+			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
+			"Tenthed_Armor_Named\data\blindWolfarmor.paa"
+		};
+	};
+	class SCT_10th_Cookie_Armor : Tenthed_Rifleman_Knife_Armor {
+		scope = 2;
+		author = "Wolfe,Kodiak,Crow";
+		displayName = "[10th] M52D 'Cookie'";
+		hiddenSelectionsTextures[] =
+		{
+			"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa",
+			"optre_unsc_units\army\data\armor_odst_co.paa",
+			"Tenthed_Armor_Base\data\odst_legs_co.paa",
+			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
+			"Tenthed_Armor_Named\data\Cookie Armour.paa"
 		};
 	};
 }
