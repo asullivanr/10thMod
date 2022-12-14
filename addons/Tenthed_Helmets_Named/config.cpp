@@ -1928,7 +1928,7 @@ class cfgWeapons {
 	// Nox
 	class SCT_10th_Nox_Helment : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
-		scope = 2;
+		scope = 1;
 		author = "Wolfe,Kodiak,Crow,Jogn";
 		displayName = "[10th] CH252D 'Nox'";
 		model = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";

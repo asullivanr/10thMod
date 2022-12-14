@@ -689,7 +689,7 @@ class cfgWeapons {
 		};
 	};
 	class SCT_10th_Nox_Armor : Tenthed_Specialist2_Armor {
-		scope = 2;
+		scope = 1;
 		author = "Wolfe, Crow, Jogn";
 		displayName = "[10th] M52D 'Nox'";
 		hiddenSelectionsTextures[] = {
