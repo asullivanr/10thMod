@@ -183,8 +183,8 @@ class CfgVehicles {
 		faction = "Tenthed_UnitFact_Main";
 		editorCategory = "Tenthed_EditorCategory_Main";
 		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Hornets";
-		hiddenSelectionsTextures[] = {
-			"\Tenthed_Vehicles\data\bee_hornet\beeHornet.paa"
+		hiddenSelectionsTextures[]= {
+			"optre_vehicles\hornet\data\hornet_hull_green_co.paa"
 		};
 	};
 
