@@ -1,6 +1,10 @@
 Change log
 
+
 Posted
+12/7/2022
+Added BlindWolf Armor and Helmet
+Fixed Hornet texture
 
 12/6/2022
 Added Unit Flag
