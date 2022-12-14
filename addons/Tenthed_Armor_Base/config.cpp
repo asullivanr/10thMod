@@ -7,6 +7,7 @@ class CfgPatches {
 			"OPTRE_Core"
 		};
 		weapons[] = {};
+		units[] = {};
 	};
 };
 class cfgWeapons {
