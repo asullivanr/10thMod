@@ -247,7 +247,7 @@ class cfgWeapons {
 	};
 	class SCT_10th_Mac_Armor : Tenthed_Specialist2_Armor {
 		scope = 2;
-		author = "Wolfe, Crow, Jogn";
+		author = "Someone";
 		displayName = "[10th] M52D 'Mac'";
 		hiddenSelectionsTextures[] = {
 			"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa",
@@ -735,6 +735,18 @@ class cfgWeapons {
 			"Tenthed_Armor_Base\data\odst_legs_co.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
 			"Tenthed_Armor_Named\data\Cookie Armour.paa"
+		};
+	};
+	class SCT_10th_Goose_Armor : Tenthed_Specialist2_Armor {
+		scope = 2;
+		author = "Goose";
+		displayName = "[10th] M52D 'Goose'";
+		hiddenSelectionsTextures[] = {
+			"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa",
+			"optre_unsc_units\army\data\armor_odst_co.paa",
+			"Tenthed_Armor_Base\data\odst_legs_co.paa",
+			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
+			"Tenthed_Armor_Named\data\GooseArmor.paa"
 		};
 	};
 }

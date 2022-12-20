@@ -1716,16 +1716,14 @@ class cfgWeapons {
 	class SCT_10th_Mac_Helment : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
-		author = "Wolfe,Kodiak,Crow,Jogn";
+		author = "Mac";
 		displayName = "[10th] CH252D 'Mac'";
 		model = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
-		hiddenSelections[] =
-		{
+		hiddenSelections[] = {
 			"camo",
 			"camo2"
 		};
-		hiddenSelectionsTextures[] =
-		{
+		hiddenSelectionsTextures[] = {
 			"Tenthed_Helmets_Named\data\machelmet.paa",
 			"Tenthed_Armor_Base\data\visors\goldvisor.paa"
 		};
@@ -1736,15 +1734,13 @@ class cfgWeapons {
 		scope = 1;
 		scopeArsenal = 1;
 		scopeCurator = 1;
-		author = "Wolfe,Kodiak";
+		author = "Mac";
 		displayName = "[10th] CH252D 'Mac'";
 		model = "\OPTRE_UNSC_Units\Army\odst_helmet_dp.p3d";
-		hiddenSelections[] =
-		{
+		hiddenSelections[] = {
 			"camo"
 		};
-		hiddenSelectionsTextures[] =
-		{
+		hiddenSelectionsTextures[] = {
 			"Tenthed_Helmets_Named\data\machelmet.paa"
 		};
 	};
@@ -2148,6 +2144,38 @@ class cfgWeapons {
 		};
 		hiddenSelectionsTextures[] = {
 			"Tenthed_Helmets_Named\data\Cookie Helmet.paa"
+		};
+	};
+
+	// Goose Johnny
+	class SCT_10th_Goose_Helment : Tenthed_CH252D_Base {
+		dlc = "OPTRE";
+		scope = 2;
+		author = "Goose";
+		displayName = "[10th] CH252D 'Goose'";
+		model = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
+		hiddenSelections[] = {
+			"camo",
+			"camo2"
+		};
+		hiddenSelectionsTextures[] = {
+			"Tenthed_Helmets_Named\data\GooseHelmet.paa",
+			"Tenthed_Armor_Base\data\visors\defaultvisor.paa"
+		};
+		optreHUDStyle = "ODST_1";
+	};
+	class SCT_10th_Goose_Helment_dp : Tenthed_CH252D_Base_dp {
+		dlc = "OPTRE";
+		scope = 1;
+		scopeArsenal = 1;
+		scopeCurator = 1;
+		author = "Goose";
+		model = "\OPTRE_UNSC_Units\Army\odst_helmet_dp.p3d";
+		hiddenSelections[] = {
+			"camo"
+		};
+		hiddenSelectionsTextures[] = {
+			"Tenthed_Helmets_Named\data\GooseHelmet.paa"
 		};
 	};
 }
