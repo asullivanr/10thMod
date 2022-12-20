@@ -1,5 +1,8 @@
 Change log
 
+Added Goose Armor
+Added Someone Armor Rework
+Fixed armor issue
 
 Posted
 12/7/2022
