@@ -301,6 +301,7 @@ class cfgWeapons {
 	class Tenthed_Specialist2_Armor : OPTRE_UNSC_M52D_Armor {
 		author = "Wolfe,Kodiak";
 		scope = 2;
+		displayName = "[10th] M52D Body Armor (Specialist)";
 		hiddenSelections[] = {
 			"camo",
 			"camo2",
