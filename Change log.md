@@ -1,5 +1,8 @@
 Change log
 
+
+Posted
+
 12/30/2022
 Added Goose Armor
 Added Someone Armor Rework
@@ -10,7 +13,6 @@ Added Cookie Armor Rework
 Added Cossack Armor Rework
 Fixed armor issue
 
-Posted
 12/7/2022
 Added BlindWolf Armor and Helmet
 Fixed Hornet texture
