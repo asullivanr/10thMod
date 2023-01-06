@@ -1,7 +1,13 @@
 Change log
 
+12/30/2022
 Added Goose Armor
 Added Someone Armor Rework
+Added Bob Armor
+Added Ledo Armor
+Added Goji Armor
+Added Cookie Armor Rework
+Added Cossack Armor Rework
 Fixed armor issue
 
 Posted

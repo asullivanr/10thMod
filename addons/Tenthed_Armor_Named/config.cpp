@@ -664,9 +664,9 @@ class cfgWeapons {
 			"Tenthed_Armor_Named\data\soundarmor.paa",
 		};
 	};
-	class SCT_10th_Cossack_Armor : Tenthed_Demolitions_Knife_Armor {
+	class SCT_10th_Cossack_Armor : Tenthed_Rifleman_Armor {
 		scope = 2;
-		author = "John";
+		author = "Tiny";
 		displayName = "[10th] M52D 'Cossack'";
 		hiddenSelectionsTextures[] = {
 			"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa",
@@ -726,7 +726,7 @@ class cfgWeapons {
 	};
 	class SCT_10th_Cookie_Armor : Tenthed_Rifleman_Knife_Armor {
 		scope = 2;
-		author = "Wolfe,Kodiak,Crow";
+		author = "Jogn";
 		displayName = "[10th] M52D 'Cookie'";
 		hiddenSelectionsTextures[] =
 		{
@@ -734,7 +734,7 @@ class cfgWeapons {
 			"optre_unsc_units\army\data\armor_odst_co.paa",
 			"Tenthed_Armor_Base\data\odst_legs_co.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"Tenthed_Armor_Named\data\Cookie Armour.paa"
+			"Tenthed_Armor_Named\data\Cookie_Armor.paa"
 		};
 	};
 	class SCT_10th_Goose_Armor : Tenthed_Specialist2_Armor {
@@ -747,6 +747,42 @@ class cfgWeapons {
 			"Tenthed_Armor_Base\data\odst_legs_co.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
 			"Tenthed_Armor_Named\data\GooseArmor.paa"
+		};
+	};
+	class SCT_10th_Bob_Armor : Tenthed_Rifleman_Armor {
+		scope = 2;
+		author = "Tiny";
+		displayName = "[10th] M52D 'Bob'";
+		hiddenSelectionsTextures[] = {
+			"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa",
+			"optre_unsc_units\army\data\armor_odst_co.paa",
+			"Tenthed_Armor_Base\data\odst_legs_co.paa",
+			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
+			"Tenthed_Armor_Named\data\bobarmor.paa"
+		};
+	};
+	class SCT_10th_Ledo_Armor : Tenthed_Rifleman_Armor {
+		scope = 2;
+		author = "Breadsticks";
+		displayName = "[10th] M52D 'Ledo'";
+		hiddenSelectionsTextures[] = {
+			"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa",
+			"optre_unsc_units\army\data\armor_odst_co.paa",
+			"Tenthed_Armor_Base\data\odst_legs_co.paa",
+			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
+			"Tenthed_Armor_Named\data\ledoarmor.paa"
+		};
+	};
+	class SCT_10th_Goji_Armor : Tenthed_Demolitions_Knife_Armor {
+		scope = 2;
+		author = "Mac";
+		displayName = "[10th] M52D 'Goji'";
+		hiddenSelectionsTextures[] = {
+			"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa",
+			"optre_unsc_units\army\data\armor_odst_co.paa",
+			"Tenthed_Armor_Base\data\odst_legs_co.paa",
+			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
+			"Tenthed_Armor_Named\data\gojiarmor.paa"
 		};
 	};
 }

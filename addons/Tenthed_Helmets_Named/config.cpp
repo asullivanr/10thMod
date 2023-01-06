@@ -1861,7 +1861,7 @@ class cfgWeapons {
 	class SCT_10th_Cossack_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
-		author = "John";
+		author = "Tiny";
 		displayName = "[10th] CH252D 'Cossack'";
 		model = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
 		hiddenSelections[] = {
@@ -1879,7 +1879,7 @@ class cfgWeapons {
 		scope = 1;
 		scopeArsenal = 1;
 		scopeCurator = 1;
-		author = "John";
+		author = "Tiny";
 		model = "\OPTRE_UNSC_Units\Army\odst_helmet_dp.p3d";
 		hiddenSelections[] = {
 			"camo"
@@ -2119,7 +2119,7 @@ class cfgWeapons {
 	class SCT_10th_Cookie_Helment : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
-		author = "Wolfe,Kodiak,Crow,";
+		author = "Jogn,";
 		displayName = "[10th] CH252D 'Cookie'";
 		model = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
 		hiddenSelections[] = {
@@ -2127,7 +2127,7 @@ class cfgWeapons {
 			"camo2"
 		};
 		hiddenSelectionsTextures[] = {
-			"Tenthed_Helmets_Named\data\Cookie Helmet.paa",
+			"Tenthed_Helmets_Named\data\Cookie_Helmet.paa",
 			"Tenthed_Armor_Base\data\visors\blackvisor.paa"
 		};
 		optreHUDStyle = "ODST_1";
@@ -2137,13 +2137,13 @@ class cfgWeapons {
 		scope = 1;
 		scopeArsenal = 1;
 		scopeCurator = 1;
-		author = "Wolfe,Kodiak";
+		author = "Jogn";
 		model = "\OPTRE_UNSC_Units\Army\odst_helmet_dp.p3d";
 		hiddenSelections[] = {
 			"camo"
 		};
 		hiddenSelectionsTextures[] = {
-			"Tenthed_Helmets_Named\data\Cookie Helmet.paa"
+			"Tenthed_Helmets_Named\data\Cookie_Helmet.paa"
 		};
 	};
 
@@ -2176,6 +2176,102 @@ class cfgWeapons {
 		};
 		hiddenSelectionsTextures[] = {
 			"Tenthed_Helmets_Named\data\GooseHelmet.paa"
+		};
+	};
+
+	// Bob
+	class SCT_10th_Bob_Helmet : Tenthed_CH252D_Base {
+		dlc = "OPTRE";
+		scope = 2;
+		author = "Tiny";
+		displayName = "[10th] CH252D 'Bob'";
+		model = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
+		hiddenSelections[] = {
+			"camo",
+			"camo2"
+		};
+		hiddenSelectionsTextures[] = {
+			"Tenthed_Helmets_Named\data\bobhelmet.paa",
+			"Tenthed_Armor_Base\data\visors\silvervisor.paa"
+		};
+		optreHUDStyle = "ODST_1";
+	};
+	class SCT_10th_Bob_Helmet_dp : Tenthed_CH252D_Base_dp {
+		dlc = "OPTRE";
+		scope = 1;
+		scopeArsenal = 1;
+		scopeCurator = 1;
+		author = "Tiny";
+		model = "\OPTRE_UNSC_Units\Army\odst_helmet_dp.p3d";
+		hiddenSelections[] = {
+			"camo"
+		};
+		hiddenSelectionsTextures[] = {
+			"Tenthed_Helmets_Named\data\bobhelmet.paa"
+		};
+	};
+	
+	// Ledo
+	class SCT_10th_Ledo_Helmet : Tenthed_CH252D_Base {
+		dlc = "OPTRE";
+		scope = 2;
+		author = "Breadsticks";
+		displayName = "[10th] CH252D 'Ledo'";
+		model = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
+		hiddenSelections[] = {
+			"camo",
+			"camo2"
+		};
+		hiddenSelectionsTextures[] = {
+			"Tenthed_Helmets_Named\data\ledohelmet.paa",
+			"Tenthed_Armor_Base\data\visors\silvervisor.paa"
+		};
+		optreHUDStyle = "ODST_1";
+	};
+	class SCT_10th_Ledo_Helmet_dp : Tenthed_CH252D_Base_dp {
+		dlc = "OPTRE";
+		scope = 1;
+		scopeArsenal = 1;
+		scopeCurator = 1;
+		author = "Breadsticks";
+		model = "\OPTRE_UNSC_Units\Army\odst_helmet_dp.p3d";
+		hiddenSelections[] = {
+			"camo"
+		};
+		hiddenSelectionsTextures[] = {
+			"Tenthed_Helmets_Named\data\ledohelmet.paa"
+		};
+	};
+
+	// Goji
+	class SCT_10th_Goji_Helmet : Tenthed_CH252D_Base {
+		dlc = "OPTRE";
+		scope = 2;
+		author = "Mac";
+		displayName = "[10th] CH252D 'Goji'";
+		model = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
+		hiddenSelections[] = {
+			"camo",
+			"camo2"
+		};
+		hiddenSelectionsTextures[] = {
+			"Tenthed_Helmets_Named\data\gojihelmet.paa",
+			"Tenthed_Armor_Base\data\visors\blackvisor.paa"
+		};
+		optreHUDStyle = "ODST_1";
+	};
+	class SCT_10th_Goji_Helmet_dp : Tenthed_CH252D_Base_dp {
+		dlc = "OPTRE";
+		scope = 1;
+		scopeArsenal = 1;
+		scopeCurator = 1;
+		author = "Mac";
+		model = "\OPTRE_UNSC_Units\Army\odst_helmet_dp.p3d";
+		hiddenSelections[] = {
+			"camo"
+		};
+		hiddenSelectionsTextures[] = {
+			"Tenthed_Helmets_Named\data\gojihelmet.paa"
 		};
 	};
 }
