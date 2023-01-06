@@ -6,6 +6,7 @@ class CfgPatches {
 			"Tenthed_core",
 			"OPTRE_Core"
 		};
+		weapons[] = {};
 		units[] =
 		{
 			"Tenthed_SupplyPod_Empty",
