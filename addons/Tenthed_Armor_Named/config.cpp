@@ -607,26 +607,26 @@ class cfgWeapons {
 	};
 	class SCT_10th_Tiger_Armor : Tenthed_Demolitions_Knife_Armor {
 		scope = 2;
-		author = "Wolfe,Kodiak";
+		author = "Tiger";
 		displayName = "[10th] M52D 'Tiger'";
 		hiddenSelectionsTextures[] = {
 			"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa",
 			"optre_unsc_units\army\data\armor_odst_co.paa",
 			"Tenthed_Armor_Base\data\odst_legs_co.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"Tenthed_Armor_Named\data\Tiger_Armor-v2.paa"
+			"Tenthed_Armor_Named\data\Tiger_Armor.paa"
 		};
 	};
 	class SCT_10th_FivesEvader_Armor : Tenthed_Demolitions_Knife_Armor {
 		scope = 2;
-		author = "Wolfe,Kodiak";
+		author = "Tiger";
 		displayName = "[10th] M52D 'FivesEvader'";
 		hiddenSelectionsTextures[] = {
 			"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa",
 			"optre_unsc_units\army\data\armor_odst_co.paa",
 			"Tenthed_Armor_Base\data\odst_legs_co.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"Tenthed_Armor_Named\data\FivesEvader_Armor.paa"
+			"Tenthed_Armor_Named\data\FivesEvader_armor.paa"
 		};
 	};
 	class SCT_10th_Marvel_Armor : Tenthed_Demolitions_Knife_Armor {
@@ -783,6 +783,18 @@ class cfgWeapons {
 			"Tenthed_Armor_Base\data\odst_legs_co.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
 			"Tenthed_Armor_Named\data\gojiarmor.paa"
+		};
+	};
+	class SCT_10th_Leek_Armor : Tenthed_Rifleman_Armor {
+		scope = 2;
+		author = "Goose";
+		displayName = "[10th] M52D 'Leek'";
+		hiddenSelectionsTextures[] = {
+			"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa",
+			"optre_unsc_units\army\data\armor_odst_co.paa",
+			"Tenthed_Armor_Base\data\odst_legs_co.paa",
+			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
+			"Tenthed_Armor_Named\data\Leek_Armor.paa"
 		};
 	};
 }

@@ -1,7 +1,13 @@
 Change log
 
-
 Posted
+
+1/13/2023
+Added Leek Armor
+Added Evader Armor rework
+Added Tiger Armor Rework
+Removed 10th prefilled supply pods.
+Fixed issue related to custom units requiring a mod not in the modpack.
 
 12/30/2022
 Added Goose Armor
