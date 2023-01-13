@@ -6,7 +6,7 @@ Posted
 Added Leek Armor
 Added Evader Armor rework
 Added Tiger Armor Rework
-Removed 10th prefilled supply pods.
+Fixed issue related to 10th prefilled supply pods causing issues on maps in Eden.
 Fixed issue related to custom units requiring a mod not in the modpack.
 
 12/30/2022
