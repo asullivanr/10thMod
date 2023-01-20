@@ -1797,7 +1797,7 @@ class cfgWeapons {
 		dlc = "OPTRE";
 		scope = 2;
 		author = "Sawah";
-		displayName = "[10th] Pilot 'Arctic'";
+		displayName = "[10th] CH252D 'Arctic'";
 		model = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
 		hiddenSelections[] = {
 			"camo",

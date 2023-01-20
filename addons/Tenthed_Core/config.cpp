@@ -78,6 +78,11 @@ class CfgEditorSubcategories {
         displayName = "Turrets";
     };
 
+    // Generic for Units
+    class Tenthed_EditorSubcategory_Units_Men {
+        displayName = "Men";
+    };
+
 };
 class ACEX_Fortify_Presets {
     class Tenthed_Fortify01 {

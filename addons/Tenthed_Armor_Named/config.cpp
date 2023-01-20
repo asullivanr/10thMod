@@ -269,7 +269,7 @@ class cfgWeapons {
 			"Tenthed_Armor_Named\data\Drake_Armor.paa"
 		};
 	};
-	class SCT_10th_Flipper_Armor : Tenthed_Demolitions_Knife_Armor {
+	class SCT_10th_Flipper_Armor : Tenthed_Demolitions_Armor {
 		scope = 2;
 		author = "Wolfe,Kodiak";
 		displayName = "[10th] M52D 'Flipper'";

@@ -2,6 +2,12 @@ Change log
 
 Posted
 
+1/20/2023
+Added Boomstick Rework
+Added Arctic Edit
+Added Flipper Edit
+Added New custom units
+
 1/13/2023
 Added Leek Armor
 Added Evader Armor rework
