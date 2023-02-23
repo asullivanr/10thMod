@@ -60,5 +60,11 @@ class cfgVehicles {
 		hiddenSelectionsTextures[] = {
 			"Tenthed_Backpacks\data\ruck_med_CO V1.paa"
 		};
+		tf_encryptionCode = "tf_west_radio_code";
+		tf_dialog = "rt1523g_radio_dialog";
+		tf_subtype = "digital_lr";
+		tf_range = 25000;
+		tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
+		tf_hasLRradio = 1;
 	};
 };

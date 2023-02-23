@@ -1070,7 +1070,7 @@ class cfgWeapons {
 		hiddenSelectionsTextures[] =
 		{
 			"Tenthed_Helmets_Named\data\crowshelmet.paa",
-			"Tenthed_Armor_Base\data\visors\goldvisor.paa"
+			"Tenthed_Armor_Base\data\visors\blackvisor.paa"
 		};
 		optreHUDStyle = "ODST_1";
 	};

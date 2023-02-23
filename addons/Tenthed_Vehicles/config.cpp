@@ -20,7 +20,10 @@ class CfgPatches {
 			"Tenthed_Pelican_Jungle",
 			"Tenthed_Pelican_Urban",
 			"Tenthed_Hornet",
-			"Tenthed_Falcon"
+			"Tenthed_Falcon",
+			"Tenthed_Pelican_SOCOM_Desert",
+			"Tenthed_Pelican_SOCOM_Jungle",
+			"Tenthed_Pelican_SOCOM_Urban"
 		};
 	};
 };
@@ -103,6 +106,56 @@ class CfgVehicles {
 		scope = 2;
 		scopeCurator = 2;
 		scopeArsenal = 2;
+		hiddenSelectionsTextures[] = {
+			"\Tenthed_Vehicles\data\Pelican_Variants\pelican_URBAN.paa",
+			""
+		};
+	};
+
+	class OPTRE_Pelican_armed_SOCOM;
+	class Tenthed_Pelican_SOCOM_Desert : OPTRE_Pelican_armed_SOCOM {
+		displayName = "[10th] Pelican SOCOM - Desert";
+		author = "Kodiak";
+		scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 2;
+
+		faction = "Tenthed_UnitFact_Main";
+		editorCategory = "Tenthed_EditorCategory_Main";
+		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Pelicans";
+
+		hiddenSelectionsTextures[] = {
+			"\Tenthed_Vehicles\data\Pelican_Variants\pelican_DESERT.paa",
+			""
+		};
+	};
+	class Tenthed_Pelican_SOCOM_Jungle : OPTRE_Pelican_armed_SOCOM {
+		displayName = "[10th] Pelican SOCOM - Jungle";
+		author = "Kodiak";
+		scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 2;
+
+		faction = "Tenthed_UnitFact_Main";
+		editorCategory = "Tenthed_EditorCategory_Main";
+		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Pelicans";
+
+		hiddenSelectionsTextures[] = {
+			"\Tenthed_Vehicles\data\Pelican_Variants\pelican_JUNGLE.paa",
+			""
+		};
+	};
+	class Tenthed_Pelican_SOCOM_Urban : OPTRE_Pelican_armed_SOCOM {
+		displayName = "[10th] Pelican SOCOM - Urban";
+		author = "Kodiak";
+		scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 2;
+
+		faction = "Tenthed_UnitFact_Main";
+		editorCategory = "Tenthed_EditorCategory_Main";
+		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Pelicans";
+
 		hiddenSelectionsTextures[] = {
 			"\Tenthed_Vehicles\data\Pelican_Variants\pelican_URBAN.paa",
 			""
@@ -350,4 +403,4 @@ class CfgVehicles {
 	// Fast movers
 	class FIR_F22;
 
-}
+};
