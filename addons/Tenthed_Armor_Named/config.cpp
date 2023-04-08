@@ -664,7 +664,7 @@ class cfgWeapons {
 			"Tenthed_Armor_Named\data\soundarmor.paa",
 		};
 	};
-	class SCT_10th_Cossack_Armor : Tenthed_Rifleman_Armor {
+	class SCT_10th_Cossack_Armor : Tenthed_Rifleman_Knife_Armor {
 		scope = 2;
 		author = "Tiny";
 		displayName = "[10th] M52D 'Cossack'";
@@ -795,6 +795,30 @@ class cfgWeapons {
 			"Tenthed_Armor_Base\data\odst_legs_co.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
 			"Tenthed_Armor_Named\data\Leek_Armor.paa"
+		};
+	};
+	class SCT_10th_Goldy_Armor : Tenthed_Demolitions_Knife_Armor {
+		scope = 2;
+		author = "Mac";
+		displayName = "[10th] M52D 'Goldy'";
+		hiddenSelectionsTextures[] = {
+			"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa",
+			"optre_unsc_units\army\data\armor_odst_co.paa",
+			"Tenthed_Armor_Base\data\odst_legs_co.paa",
+			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
+			"Tenthed_Armor_Named\data\GoldyArmor.paa"
+		};
+	};
+	class SCT_10th_Dex_Armor : Tenthed_Demolitions_Knife_Armor {
+		scope = 2;
+		author = "Jogn";
+		displayName = "[10th] M52D 'Dex'";
+		hiddenSelectionsTextures[] = {
+			"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa",
+			"optre_unsc_units\army\data\armor_odst_co.paa",
+			"Tenthed_Armor_Base\data\odst_legs_co.paa",
+			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
+			"Tenthed_Armor_Named\data\dexarmor.paa"
 		};
 	};
 }

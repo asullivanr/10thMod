@@ -2306,4 +2306,68 @@ class cfgWeapons {
 			"Tenthed_Helmets_Named\data\Leek_Helmet.paa"
 		};
 	};
+
+	// Goldy
+	class SCT_10th_Goldy_Helmet : Tenthed_CH252D_Base {
+		dlc = "OPTRE";
+		scope = 2;
+		author = "Mac";
+		displayName = "[10th] CH252D 'Goldy'";
+		model = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
+		hiddenSelections[] = {
+			"camo",
+			"camo2"
+		};
+		hiddenSelectionsTextures[] = {
+			"Tenthed_Helmets_Named\data\Goldy_Helm.paa",
+			"Tenthed_Armor_Base\data\visors\blackvisor.paa"
+		};
+		optreHUDStyle = "ODST_1";
+	};
+	class SCT_10th_Goldy_Helmet_dp : Tenthed_CH252D_Base_dp {
+		dlc = "OPTRE";
+		scope = 1;
+		scopeArsenal = 1;
+		scopeCurator = 1;
+		author = "Mac";
+		model = "\OPTRE_UNSC_Units\Army\odst_helmet_dp.p3d";
+		hiddenSelections[] = {
+			"camo"
+		};
+		hiddenSelectionsTextures[] = {
+			"Tenthed_Helmets_Named\data\Goldy_Helm.paa"
+		};
+	};
+
+	// Dex
+	class SCT_10th_Dex_Helmet : Tenthed_CH252D_Base {
+		dlc = "OPTRE";
+		scope = 2;
+		author = "Mac";
+		displayName = "[10th] CH252D 'Dex'";
+		model = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
+		hiddenSelections[] = {
+			"camo",
+			"camo2"
+		};
+		hiddenSelectionsTextures[] = {
+			"Tenthed_Helmets_Named\data\dexhelmet.paa",
+			"Tenthed_Armor_Base\data\visors\defaultvisor.paa"
+		};
+		optreHUDStyle = "ODST_1";
+	};
+	class SCT_10th_Dex_Helmet_dp : Tenthed_CH252D_Base_dp {
+		dlc = "OPTRE";
+		scope = 1;
+		scopeArsenal = 1;
+		scopeCurator = 1;
+		author = "Mac";
+		model = "\OPTRE_UNSC_Units\Army\odst_helmet_dp.p3d";
+		hiddenSelections[] = {
+			"camo"
+		};
+		hiddenSelectionsTextures[] = {
+			"Tenthed_Helmets_Named\data\dexhelmet.paa"
+		};
+	};
 }

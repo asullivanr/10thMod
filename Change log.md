@@ -1,6 +1,15 @@
 Change log
 
+
 Posted
+
+4/7/2023
+flipper edit
+dex new armor
+evader edit
+hard-drop edit
+optional edit
+Removed Cossacks knife from armor
 
 1/20/2023
 Added Boomstick Rework
