@@ -1232,7 +1232,7 @@ class cfgWeapons {
 	};
 
 	// Lego
-	class SCT_10th_Lego_Helmet : Tenthed_CH252D_Base {
+	class SCT_10th_Lego_Helmet : SCT_10th_Green_Pilot_Camo {
 		dlc = "OPTRE";
 		scope = 2;
 		author = "Wolfe,Kodiak";
@@ -1250,7 +1250,7 @@ class cfgWeapons {
 		};
 		optreHUDStyle = "ODST_1";
 	};
-	class SCT_10th_Lego_Helmet_dp : Tenthed_CH252D_Base_dp {
+	class SCT_10th_Lego_Helmet_dp : SCT_10th_Green_Pilot_Camo_dp {
 		dlc = "OPTRE";
 		scope = 1;
 		scopeArsenal = 1;

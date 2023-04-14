@@ -1479,6 +1479,7 @@ class cfgWeapons {
 			"Tenthed_Armor_Base\data\visors\silvervisor.paa"
 		};
 		optreHUDStyle = "ODST_1";
+		fir_visor=1; // possible code to add fir aws to helmets. in this case to the base pilot helmet.
 	};
 	class SCT_10th_Green_Pilot_Camo_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
