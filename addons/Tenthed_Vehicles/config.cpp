@@ -177,9 +177,9 @@ class CfgVehicles {
 	class Tenthed_Archangel_Pelican : Tenthed_Pelican_Base {
 		displayName = "[10th] Archangel Pelican";
 		author = "PocketsTheWizard";
-		scope = 2;
-		scopeCurator = 2;
-		scopeArsenal = 2;
+		scope = 1;
+		scopeCurator = 1;
+		scopeArsenal = 1;
 		hiddenSelectionsTextures[] = {
 			"\Tenthed_Vehicles\data\archangel_pelican\archanglePelican.paa",
 			""
@@ -188,9 +188,9 @@ class CfgVehicles {
 	class Tenthed_Dodo_Pelican : Tenthed_Pelican_Base {
 		displayName = "[10th] DodoAirLines";
 		author = "PocketsTheWizard";
-		scope = 2;
-		scopeCurator = 2;
-		scopeArsenal = 2;
+		scope = 1;
+		scopeCurator = 1;
+		scopeArsenal = 1;
 		hiddenSelectionsTextures[] = {
 			"\Tenthed_Vehicles\data\dodo_pelican\DodoPelican.paa",
 			""
@@ -243,9 +243,9 @@ class CfgVehicles {
 
 	// Old Variant Hornets
 	class Tenthed_beeHornet : Tenthed_Hornet_Base {
-		scope = 2;
-		scopeCurator = 2;
-		scopeArsenal = 2;
+		scope = 1;
+		scopeCurator = 1;
+		scopeArsenal = 1;
 		author = "PcoketsTheWizard";
 		displayName = "b(ee)Hornet";
 		faction = "Tenthed_UnitFact_Main";
@@ -256,9 +256,9 @@ class CfgVehicles {
 		};
 	};
 	class Tenthed_ZakuHornet : Tenthed_Hornet_Base {
-		scope = 2;
-		scopeCurator = 2;
-		scopeArsenal = 2;
+		scope = 1;
+		scopeCurator = 1;
+		scopeArsenal = 1;
 		author = "PcoketsTheWizard";
 		displayName = "Red Comet Hornet";
 		faction = "Tenthed_UnitFact_Main";
@@ -332,9 +332,9 @@ class CfgVehicles {
 
 	// Old Variant ground vehicles
 	class Tenthed_ARES_Tank : OPTRE_M808S {
-		scope = 2;
-		scopeCurator = 2;
-		scopeArsenal = 2;
+		scope = 1;
+		scopeCurator = 1;
+		scopeArsenal = 1;
 		author = "PcoketsTheWizard";
 		displayName = "AresScorpion";
 		faction = "Tenthed_UnitFact_Main";
@@ -367,9 +367,9 @@ class CfgVehicles {
 	class Tenthed_ARES_MGS : OPTRE_M413_MGS_UNSC_tan {
 		displayName = "AresMGS";
 		author = "PocketsTheWizard";
-		scope = 2;
-		scopeCurator = 2;
-		scopeArsenal = 2;
+		scope = 1;
+		scopeCurator = 1;
+		scopeArsenal = 1;
 		faction = "Tenthed_UnitFact_Main";
 		editorCategory = "Tenthed_EditorCategory_Main";
 		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Vehicles";
@@ -386,9 +386,9 @@ class CfgVehicles {
 	class Tenthed_Zeus_Stallion : OPTRE_m1087_stallion_cover_unsc {
 		displayName = "Zeus Stallion";
 		author = "Kodiak";
-		scope = 2;
-		scopeCurator = 2;
-		scopeArsenal = 2;
+		scope = 1;
+		scopeCurator = 1;
+		scopeArsenal = 1;
 		faction = "Tenthed_UnitFact_Main";
 		editorCategory = "Tenthed_EditorCategory_Main";
 		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Vehicles";
