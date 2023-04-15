@@ -1,6 +1,7 @@
 Change log
 
 noted 4/14/23
+added test pelican with aws fir system.
 removed old vehicle equipment.
 testing fir aws integration on pilot helmets. Test in on legos helmet. also moved legos helmet over to the correct calls inheritance.
 

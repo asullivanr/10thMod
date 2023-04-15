@@ -111,6 +111,48 @@ class CfgVehicles {
 			""
 		};
 	};
+	class Tenthed_Pelican_Urban_fir : Tenthed_Pelican_Urban {
+		displayName = "[10th] Pelican fir - Urban";
+		class eventhandlers {
+			class FIR_AWS_Common_EH
+			{
+				Init = "[_this select 0,'yes'] execVM ""\FIR_AirWeaponSystem_US\Script\init\init.sqf"";";		
+			};			
+		};
+		class UserActions {
+			class Aircraft_MFD_Open_N {
+				displayName = "Open I-TGT System";
+				position = "pos cano";
+				radius = 15;
+				shortcut = "User4";
+				condition = "('FIR_TGTPOD' in weapons this or 'Laserdesignator_pilotCamera' in weapons this) and player in this and isengineon this";				
+				statement = "this execVM ""\FIR_AirWeaponSystem_US\Script\TGTSystem\FIR_AWS_MFD_N_Open.sqf""";
+				onlyforplayer = "false";
+				hideOnUse = 1;
+			};
+			class ECM_ON {
+				displayName = "ECM JAMMER ON";
+				position = "pos cano";
+				radius = 15;
+				shortcut = "User2";
+				condition = "player in this and isengineon this and (this getvariable 'ECMJAMMER' == 'yes' or 'FIR_ECMPOD' in weapons this)";
+				statement = "[this] execVM ""\FIR_AirWeaponSystem_US\Script\ECM\ECM_ON.sqf"";";
+				onlyforplayer = "False";
+				hideOnUse = 1;
+			};
+			class AMS_LiteOpen {
+				displayName = "<t color='#739eff'>Open AMS Lite</t>";
+				position = "pos cano";
+				radius = 15;
+				shortcut = "User3";
+				condition = "player in this and (speed this < 1)";
+				statement = "this execVM ""\FIR_AirWeaponSystem_US\Script\AMS\AMS_Lite\AMS_Lite_GUI_Open.sqf""";
+				onlyforplayer = "false";
+				priority = 6;
+				hideOnUse = 1;
+			};
+		};
+	};
 
 	class OPTRE_Pelican_armed_SOCOM;
 	class Tenthed_Pelican_SOCOM_Desert : OPTRE_Pelican_armed_SOCOM {
