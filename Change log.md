@@ -1,5 +1,7 @@
 Change log
 
+Increased HMG backpack ammo cap from 400 rounds in 4 magazines to 800 rounds in 8 magazines.
+
 noted 4/14/23
 added test pelican with aws fir system.
 removed old vehicle equipment.

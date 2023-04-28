@@ -755,6 +755,11 @@ class cfgVehicles {
 					"Tenthed_100Rnd_127x99_mag_Tracer_Yellow",
 					"Tenthed_100Rnd_127x99_mag_Tracer_Yellow",
 					"Tenthed_100Rnd_127x99_mag_Tracer_Yellow",
+					"Tenthed_100Rnd_127x99_mag_Tracer_Yellow",
+					
+					"Tenthed_100Rnd_127x99_mag_Tracer_Yellow",
+					"Tenthed_100Rnd_127x99_mag_Tracer_Yellow",
+					"Tenthed_100Rnd_127x99_mag_Tracer_Yellow",
 					"Tenthed_100Rnd_127x99_mag_Tracer_Yellow"
 				};
 			};
