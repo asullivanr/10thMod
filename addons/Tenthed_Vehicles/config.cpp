@@ -23,7 +23,8 @@ class CfgPatches {
 			"Tenthed_Falcon",
 			"Tenthed_Pelican_SOCOM_Desert",
 			"Tenthed_Pelican_SOCOM_Jungle",
-			"Tenthed_Pelican_SOCOM_Urban"
+			"Tenthed_Pelican_SOCOM_Urban",
+			"Tenthed_Pelican_Urban_fir_test"
 		};
 	};
 };
@@ -111,7 +112,7 @@ class CfgVehicles {
 			""
 		};
 	};
-	class Tenthed_Pelican_Urban_fir : Tenthed_Pelican_Urban {
+	class Tenthed_Pelican_Urban_fir_test : Tenthed_Pelican_Urban {
 		displayName = "[10th] Pelican fir - Urban";
 		class eventhandlers {
 			class FIR_AWS_Common_EH
