@@ -4,6 +4,8 @@ List has no order or is otherwise noted as included.
 - [ ] Look into disabling all factions but mission factions for main ops to keep zeus menu clutter low.
 
 - Armors
+- [ ] Squad Helmets, Not for the mod
+- [ ] Complete armor rules document, Not for the mod
 - [ ] add fir aws visor display to 10th pilot helmets, Visor down version.
 - [ ] Villainess Armor
 - [ ] Lion Armor rework
