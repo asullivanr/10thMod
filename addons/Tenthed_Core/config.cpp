@@ -89,9 +89,9 @@ class ACEX_Fortify_Presets {
         displayName = "10th ODST - Fortify";
         objects[] = {
             {"Land_Plank_01_4m_F", 5},
-            {"Land_OPTRE_M72S_barrier", 13},
-            {"Land_OPTRE_M72_barrier", 13},
-            {"Land_HBarrier_1_F", 15},
+            {"Land_OPTRE_M72S_barrier", 13}, // possible removal
+            {"Land_OPTRE_M72_barrier", 13}, // possible removal
+            {"Land_HBarrier_1_F", 15}, // possible removal
             {"Land_HBarrierWall4_F", 15},
             {"Land_HBarrierWall6_F", 15},
             {"Land_HBarrierWall_corner_F", 15},

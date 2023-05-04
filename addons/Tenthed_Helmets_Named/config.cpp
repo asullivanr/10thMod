@@ -3,8 +3,9 @@ class CfgPatches {
 		author = "Silver, Kodiak, Crow, Akira";
 		name = "10th ODST: Helmets Named Retextures";
 		requiredAddons[] = {
+			"OPTRE_Core",
 			"Tenthed_core",
-			"OPTRE_Core"
+			"Tenthed_Armor_Base"
 		};
 		weapons[] = {};
 		units[] = {};
@@ -1098,11 +1099,6 @@ class cfgWeapons {
 		author = "Jogn Halo";
 		displayName = "[10th] CH252D 'Akira'";
 		model = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
-		hiddenSelections[] =
-		{
-			"camo",
-			"camo2"
-		};
 		hiddenSelectionsTextures[] =
 		{
 			"Tenthed_Helmets_Named\data\akirahelmet.paa",
@@ -1232,7 +1228,7 @@ class cfgWeapons {
 	};
 
 	// Lego
-	class SCT_10th_Lego_Helmet : SCT_10th_Green_Pilot_Camo {
+	class SCT_10th_Lego_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
 		author = "Wolfe,Kodiak";
@@ -1249,8 +1245,9 @@ class cfgWeapons {
 			"Tenthed_Armor_Base\data\visors\bluevisor.paa"
 		};
 		optreHUDStyle = "ODST_1";
+		fir_visor=1; // possible code to add fir aws to helmets. in this case to the base pilot helmet.
 	};
-	class SCT_10th_Lego_Helmet_dp : SCT_10th_Green_Pilot_Camo_dp {
+	class SCT_10th_Lego_Helmet_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
 		scope = 1;
 		scopeArsenal = 1;
@@ -2368,6 +2365,38 @@ class cfgWeapons {
 		};
 		hiddenSelectionsTextures[] = {
 			"Tenthed_Helmets_Named\data\dexhelmet.paa"
+		};
+	};
+
+	// Dovah
+	class SCT_10th_Dovah_Helmet : Tenthed_CH252D_Base {
+		dlc = "OPTRE";
+		scope = 2;
+		author = "Mac";
+		displayName = "[10th] CH252D 'Dovah'";
+		model = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
+		hiddenSelections[] = {
+			"camo",
+			"camo2"
+		};
+		hiddenSelectionsTextures[] = {
+			"Tenthed_Helmets_Named\data\Dovah_Helm.paa",
+			"Tenthed_Armor_Base\data\visors\blackvisor.paa"
+		};
+		optreHUDStyle = "ODST_1";
+	};
+	class SCT_10th_Dovah_Helmet_dp : Tenthed_CH252D_Base_dp {
+		dlc = "OPTRE";
+		scope = 1;
+		scopeArsenal = 1;
+		scopeCurator = 1;
+		author = "Mac";
+		model = "\OPTRE_UNSC_Units\Army\odst_helmet_dp.p3d";
+		hiddenSelections[] = {
+			"camo"
+		};
+		hiddenSelectionsTextures[] = {
+			"Tenthed_Helmets_Named\data\Dovah_Helm.paa"
 		};
 	};
 }

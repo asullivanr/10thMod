@@ -1221,7 +1221,8 @@ class cfgWeapons {
 		hiddenSelections[] =
 		{
 			"camo",
-			"camo2"
+			"camo2",
+			"H_Ghillie"
 		};
 		hiddenSelectionsTextures[] =
 		{
@@ -1244,7 +1245,8 @@ class cfgWeapons {
 			hiddenSelections[] =
 			{
 				"camo",
-				"camo2"
+				"camo2",
+				"H_Ghillie"
 			};
 			hiddenSelectionsTextures[] =
 			{
@@ -1283,7 +1285,7 @@ class cfgWeapons {
 		hiddenSelections[] =
 		{
 			"camo",
-			"camo2"
+			"H_Ghillie"
 		};
 		hiddenSelectionsTextures[] =
 		{
@@ -1305,7 +1307,8 @@ class cfgWeapons {
 			passThrough = 0.1;
 			hiddenSelections[] = {
 				"camo",
-				"camo2"
+				"camo2",
+				"H_Ghillie"
 			};
 			hiddenSelectionsTextures[] = {
 				"optre_unsc_units\army\data\odst_helmet_co.paa",

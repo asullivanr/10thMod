@@ -21,7 +21,14 @@ class CfgFunctions {
         {
             file="\Tenthed_Functions\functions";
             class Arsenal {};
-            // call [ _this ] call Tenthed_fnc_Arsenal;
+            // [this, true] call Tenthed_fnc_Arsenal;
+        };
+
+        class Tenthed_Server_Functions_Blacklist
+        {
+            file="\Tenthed_Functions\functions";
+            class ArsenalBlacklist {};
+            // [this, true] call Tenthed_fnc_ArsenalBlacklist;
         };
     };
 };
