@@ -24,7 +24,8 @@ class CfgPatches {
 			"Tenthed_Pelican_SOCOM_Desert",
 			"Tenthed_Pelican_SOCOM_Jungle",
 			"Tenthed_Pelican_SOCOM_Urban",
-			"Tenthed_Pelican_Urban_fir_test"
+			"Tenthed_Pelican_Urban_fir_test",
+			"Tenthed_M494_Oryx"
 		};
 	};
 };
@@ -1346,6 +1347,9 @@ class CfgVehicles {
 					"OPTRE_500Rnd_762x51_Box_Tracer",
 					"OPTRE_500Rnd_762x51_Box_Tracer",
 					"OPTRE_500Rnd_762x51_Box_Tracer",
+					"OPTRE_2Rnd_GAT_missiles",
+					"OPTRE_2Rnd_GAT_missiles",
+					"OPTRE_2Rnd_GAT_missiles",
 					"OPTRE_2Rnd_GAT_missiles",
 					"OPTRE_2Rnd_GAT_missiles",
 					"OPTRE_2Rnd_GAT_missiles",

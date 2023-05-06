@@ -313,7 +313,7 @@ class cfgWeapons {
 			"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa",
 			"optre_unsc_units\army\data\armor_odst_co.paa",
 			"Tenthed_Armor_Base\data\odst_legs_co.paa",
-			"Tenthed_Armor_Named\data\lionghilliememe.paa",
+			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
 			"Tenthed_Armor_Named\data\lionarmor.paa"
 		};
 	};
@@ -831,6 +831,18 @@ class cfgWeapons {
 			"Tenthed_Armor_Base\data\odst_legs_co.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
 			"Tenthed_Armor_Named\data\Dovah_Armor.paa"
+		};
+	};
+	class SCT_10th_Villainess_Armor : Tenthed_Specialist2_Armor {
+		scope = 2;
+		author = "Jogn";
+		displayName = "[10th] M52D 'Villainess'";
+		hiddenSelectionsTextures[] = {
+			"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa",
+			"optre_unsc_units\army\data\armor_odst_co.paa",
+			"Tenthed_Armor_Base\data\odst_legs_co.paa",
+			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
+			"Tenthed_Armor_Named\data\villainessarmor.paa"
 		};
 	};
 }
