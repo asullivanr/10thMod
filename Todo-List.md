@@ -23,6 +23,7 @@
 - [ ] make 10th Falcan variant
 - [ ] Look into taking booster code from Pelican and putting it onto other flying equipment.
 - [ ] Look into adding fir aws to Pelicans, Falcons and Hornets to create more possible variants.
+- [ ] Figure out why 10th Oryx isn't mag locking anymore.
 
 # Bugs
 - [x] Fix Ghillie helmet issue.
