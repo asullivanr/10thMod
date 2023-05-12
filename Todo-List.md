@@ -7,8 +7,6 @@
 - [ ] Squad Helmets, Not for the mod
 - [ ] Complete armor rules document, Not for the mod
 - [ ] add fir aws visor display to 10th pilot helmets, Visor down version.
-- [ ] Villainess Armor
-- [ ] Lion Armor rework
 
 # Weapons
 - [x] HMG turret backpack increase ammo.
