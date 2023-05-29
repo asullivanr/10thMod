@@ -19,7 +19,6 @@ class CfgPatches {
             "SC_B",
             "A3_Sounds_F",
             "A3_Sounds_F_Exp",
-            "immersion_pops",
             "ace_gforces",
             "ace_movement",
             "A3_Data_F",
