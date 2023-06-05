@@ -20,7 +20,6 @@ class CfgPatches {
 			"Tenthed_Pelican_Jungle",
 			"Tenthed_Pelican_Urban",
 			"Tenthed_Hornet",
-			"Tenthed_Falcon",
 			"Tenthed_Pelican_SOCOM_Desert",
 			"Tenthed_Pelican_SOCOM_Jungle",
 			"Tenthed_Pelican_SOCOM_Urban",
@@ -35,7 +34,6 @@ class CfgVehicles {
 	class OPTRE_M808S;
 	class OPTRE_M413_MGS_UNSC_tan;
 	class OPTRE_m1087_stallion_cover_unsc;
-	class OPTRE_UNSC_falcon_green;
 
 	class Eventhandlers;
 
@@ -268,67 +266,6 @@ class CfgVehicles {
 		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Hornets";
 		hiddenSelectionsTextures[] = {
 			"\Tenthed_Vehicles\data\zaku_hornet\ZakuHornet.paa"
-		};
-	};
-
-	// Base type Falcon
-	class Tenthed_Falcon_Base : OPTRE_UNSC_falcon_green {
-		scope = 1;
-		scopeCurator = 1;
-		scopeArsenal = 1;
-		displayName = "Tenthed_Falcon_Base";
-		faction = "Tenthed_UnitFact_Main";
-		editorCategory = "Tenthed_EditorCategory_Main";
-		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Falcons";
-		maxSpeed = 350;
-		hiddenSelections[] = {
-			"camo1",
-			"camo2",
-			"camo3",
-			"camo4",
-			"clan",
-			"clan_text",
-			"insignia"
-		};
-		hiddenSelectionsTextures[] = {
-			"OPTRE_Vehicles\Falcon\data\falcon_hull_CO.paa",
-			"optre_vehicles\falcon\data\falcon_hullextra_co.paa",
-			"optre_vehicles\falcon\data\falcon_wingtips_co.paa",
-			"optre_vehicles\falcon\data\falcon_skid_co.paa"
-		};
-		weapons[] = {
-			"OPTRE_M638",
-			"CMFlareLauncher",
-			"Laserdesignator_pilotCamera"
-		};
-		magazines[] = {
-			"OPTRE_2000Rnd_20mm_HE",
-			"OPTRE_2000Rnd_20mm_HE",
-			"240Rnd_CMFlare_Chaff_Magazine", // 168Rnd_CMFlare_Chaff_Magazine
-			"Laserbatteries"
-		};
-	};
-
-	// Falcons
-	class Tenthed_Falcon : Tenthed_Falcon_Base {
-		scope = 2;
-		scopeCurator = 2;
-		scopeArsenal = 2;
-		displayName = "[10th] UH-144 Falcon (Green)";
-		hiddenSelections[] = {
-			"camo1",
-			"camo2",
-			"camo3",
-			"camo4",
-			"clan",
-			"clan_text",
-			"insignia"
-		};
-		hiddenSelectionsTextures[] = {
-			"OPTRE_Vehicles\Falcon\data\falcon_hull_CO.paa",
-			"optre_vehicles\falcon\data\falcon_hullextra_co.paa",
-			"optre_vehicles\falcon\data\falcon_wingtips_co.paa",
-			"optre_vehicles\falcon\data\falcon_skid_co.paa"
 		};
 	};
 
