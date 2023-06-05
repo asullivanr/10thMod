@@ -3412,7 +3412,7 @@ class CfgVehicles {
 							objectDistanceLimitCoef = 1;
 							viewDistanceLimitCoef = 1;
 						};
-						maxTrackableSpeed = 600;
+						maxTrackableSpeed = 300;
 						animDirection = "mainGun";
 						angleRangeHorizontal = 46;
 						angleRangeVertical = 34;
@@ -3431,7 +3431,7 @@ class CfgVehicles {
 							objectDistanceLimitCoef = 1;
 							viewDistanceLimitCoef = 1;
 						};
-						maxTrackableSpeed = 600;
+						maxTrackableSpeed = 100;
 						animDirection = "mainGun";
 						angleRangeHorizontal = 46;
 						angleRangeVertical = 34;
@@ -3450,8 +3450,8 @@ class CfgVehicles {
 							objectDistanceLimitCoef = -1;
 							viewDistanceLimitCoef = -1;
 						};
-						maxTrackableSpeed = 600;
-						angleRangeHorizontal = 180;
+						maxTrackableSpeed = 100;
+						angleRangeHorizontal = 120;
 						angleRangeVertical = 90;
 						groundNoiseDistanceCoef = -1;
 						maxGroundNoiseDistance = -1;
