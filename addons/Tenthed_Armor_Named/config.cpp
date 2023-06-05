@@ -281,7 +281,7 @@ class cfgWeapons {
 			"Tenthed_Armor_Named\data\flipperarmor.paa"
 		};
 	};
-	class SCT_10th_HardDrop_Armor : Tenthed_Demolitions_Knife_Armor {
+	class SCT_10th_HardDrop_Armor : Tenthed_Demolitions_Armor {
 		scope = 2;
 		author = "Wolfe,Kodiak";
 		displayName = "[10th] M52D 'Hard-Drop'";
@@ -290,7 +290,7 @@ class cfgWeapons {
 			"optre_unsc_units\army\data\armor_odst_co.paa",
 			"Tenthed_Armor_Base\data\odst_legs_co.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"Tenthed_Armor_Named\data\harddroparmor.paa"
+			"Tenthed_Armor_Named\data\Hard-Drop_Armor.paa"
 		};
 	};
 	class SCT_10th_Kodiak_Armor : Tenthed_Demolitions_Knife_Armor {
@@ -666,7 +666,7 @@ class cfgWeapons {
 	};
 	class SCT_10th_Cossack_Armor : Tenthed_Rifleman_Knife_Armor {
 		scope = 2;
-		author = "Tiny";
+		author = "Jogn";
 		displayName = "[10th] M52D 'Cossack'";
 		hiddenSelectionsTextures[] = {
 			"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa",
@@ -843,6 +843,42 @@ class cfgWeapons {
 			"Tenthed_Armor_Base\data\odst_legs_co.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
 			"Tenthed_Armor_Named\data\villainessarmor.paa"
+		};
+	};
+	class SCT_10th_Infra_Armor : Tenthed_Demolitions_Knife_Armor {
+		scope = 2;
+		author = "Tiger";
+		displayName = "[10th] M52D 'Infra'";
+		hiddenSelectionsTextures[] = {
+			"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa",
+			"optre_unsc_units\army\data\armor_odst_co.paa",
+			"Tenthed_Armor_Base\data\odst_legs_co.paa",
+			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
+			"Tenthed_Armor_Named\data\Infra_Armor.paa"
+		};
+	};
+	class SCT_10th_Thresh_Armor : Tenthed_Sniper_Armor {
+		scope = 2;
+		author = "Tiger";
+		displayName = "[10th] M52D 'Thresh'";
+		hiddenSelectionsTextures[] = {
+			"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa",
+			"optre_unsc_units\army\data\armor_odst_co.paa",
+			"Tenthed_Armor_Base\data\odst_legs_co.paa",
+			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
+			"Tenthed_Armor_Named\data\Thresh_Armor.paa"
+		};
+	};
+	class SCT_10th_Princess_Armor : Tenthed_Sniper_Armor {
+		scope = 2;
+		author = "Tiger";
+		displayName = "[10th] M52D 'Princess'";
+		hiddenSelectionsTextures[] = {
+			"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa",
+			"optre_unsc_units\army\data\armor_odst_co.paa",
+			"Tenthed_Armor_Base\data\odst_legs_co.paa",
+			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
+			"Tenthed_Armor_Named\data\Princess_Armor.paa"
 		};
 	};
 }
