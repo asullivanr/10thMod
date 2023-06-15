@@ -2992,7 +2992,8 @@ class CfgVehicles {
 				selectionFireAnim = "zasleh3";
 				proxyIndex = 9;
 				gunnerName = "$STR_A3_RIGHT_GUNNER";
-				weapons[] = {"OPTRE_M247H_SideGun2"};
+				weapons[] = {"OPTRE_M638"};
+				magazines[] = {"OPTRE_2000Rnd_20mm_HE", "OPTRE_2000Rnd_20mm_HE"};
 				commanding = -3;
 				gunBeg = "usti hlavne3";
 				gunEnd = "konec hlavne3";
