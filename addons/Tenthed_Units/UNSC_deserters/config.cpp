@@ -10,3 +10,17 @@ class CfgPatches {
         units[] = {};
     };
 };
+class CfgFactionClasses {
+    class Tenthed_Fact_UNSCDeserters {
+        displayName = "[10th] UNSC Deserters";
+        side = 0;
+        flag = "\OPTRE_Core\Data\flag_Ins_ca.paa";
+        icon = "\OPTRE_Core\Data\flag_Ins_ca.paa";
+        priority = 0;
+    };
+};
+
+class CfgGroups {
+}
+class CfgVehicles {
+}
