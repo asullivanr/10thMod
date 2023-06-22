@@ -2,6 +2,7 @@
 
 # Generic
 - [ ] Look into disabling all factions but mission factions for main ops to keep zeus menu clutter low.
+- [ ] Look into disabling physics on some specific combat engineer spawn barricades.
 
 # Armors
 - [ ] Squad Helmet support
