@@ -66,7 +66,7 @@ class CfgVehicles {
 			AMSEnabled = 1;
 			DialogClass = "AMS_New_GUI";
 			AircraftBase = "Tenthed_Pelican_Base";
-			HardpointPicture = "OPTRE_Vehicles\OPTRE_Vehicles\Pelican\pelicanPylonPic.paa";
+			HardpointPicture = "OPTRE_Vehicles\Pelican\pelicanPylonPic.paa";
 			CustomPreset_Hashmap = "FIR_F23A_CustomPreset_Hashmap";
 			loadout_pre = "Tenthed_Vehicles\Pelican\scripts\Loadout_Pre.sqf";
 			loadout_apply = "FIR_AirWeaponSystem_US_Cfg\sqs\AMS\AMS_Loadout_Apply.sqf";
