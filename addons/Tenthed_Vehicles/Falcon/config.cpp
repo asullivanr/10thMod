@@ -3354,8 +3354,32 @@ class CfgVehicles {
 		magazines[] = {
 			"OPTRE_2000Rnd_20mm_HE",
 			"OPTRE_2000Rnd_20mm_HE",
-			"240Rnd_CMFlare_Chaff_Magazine",
+			"300Rnd_CMFlare_Chaff_Magazine",
 			"Laserbatteries"
+		};
+		class AMSData {
+			AMSEnabled = 1;
+			DialogClass = "AMS_New_GUI";
+			AircraftBase = "Tenthed_Falcon";
+			HardpointPicture = "OPTRE_Vehicles\Falcon\falconPylonPic.paa";
+			CustomPreset_Hashmap = "FIR_F23A_CustomPreset_Hashmap";
+			loadout_pre = "Tenthed_Vehicles\Falcon\scripts\Loadout_Pre.sqf";
+			loadout_apply = "FIR_AirWeaponSystem_US_Cfg\sqs\AMS\AMS_Loadout_Apply.sqf";
+			loadout_post = "Tenthed_Vehicles\Falcon\scripts\DoNothing.sqf";
+		};
+		class UserActions {
+			class AMSOpen
+			{
+				displayName = "<t color='#739eff'>Open AMS</t>";
+				position = "pos cano";
+				radius = 15;
+				shortcut = "User3";
+				condition = "(player == driver this) and (speed this < 1)";
+				statement = "this execVM ""\FIR_AirWeaponSystem_US_Cfg\sqs\AMS\AMS_GUI_Open.sqf""";
+				onlyforplayer = "false";
+				priority = 6;
+				hideOnUse = 1;
+			};
 		};
 		class Components: Components {
 			class TransportPylonsComponent {
