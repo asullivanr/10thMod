@@ -22,7 +22,7 @@ class cfgWeapons {
 	class OPTRE_FC_VX19_Helmet;
 
 	class OPTRE_UNSC_Dress_Hat; // why?
-	
+
 	// Base armor
 	// Not yet implemented
 	class Tenthed_Base_Armor : OPTRE_UNSC_M52D_Armor {
@@ -1482,7 +1482,9 @@ class cfgWeapons {
 			"Tenthed_Armor_Base\data\visors\silvervisor.paa"
 		};
 		optreHUDStyle = "ODST_1";
-		fir_visor=1; // possible code to add fir aws to helmets. in this case to the base pilot helmet.
+		fir_visor = 1;
+		fir_mask = 1;
+		fir_hmd_helmet = 1;
 	};
 	class SCT_10th_Green_Pilot_Camo_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
