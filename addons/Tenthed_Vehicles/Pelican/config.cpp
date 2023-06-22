@@ -61,8 +61,7 @@ class CfgVehicles {
 				count = 6;
 			};
 		};
-		class AMSData
-		{
+		class AMSData {
 			AMSEnabled = 1;
 			DialogClass = "AMS_New_GUI";
 			AircraftBase = "Tenthed_Pelican_Base";
