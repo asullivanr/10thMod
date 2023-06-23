@@ -2529,11 +2529,11 @@ class cfgWeapons {
 	};
 
 	// Glint
-	class SCT_10th_Princess_Helmet : Tenthed_CH252D_Base {
+	class SCT_10th_Glint_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
 		scope = 2;
 		author = "Mac";
-		displayName = "[10th] CH252D 'Princess'";
+		displayName = "[10th] CH252D 'Glint'";
 		model = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
 		hiddenSelections[] = {
 			"camo",
@@ -2545,7 +2545,7 @@ class cfgWeapons {
 		};
 		optreHUDStyle = "ODST_1";
 	};
-	class SCT_10th_Princess_Helmet_dp : Tenthed_CH252D_Base_dp {
+	class SCT_10th_Glint_Helmet_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
 		scope = 1;
 		scopeArsenal = 1;
