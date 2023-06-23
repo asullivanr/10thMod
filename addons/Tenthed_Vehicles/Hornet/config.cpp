@@ -46,6 +46,30 @@ class CfgVehicles {
 			"OPTRE_8Rnd_C2GMLS_missiles",
 			"OPTRE_8Rnd_C2GMLS_missiles"
 		};
+		class AMSData {
+			AMSEnabled = 1;
+			DialogClass = "AMS_New_GUI";
+			AircraftBase = "Tenthed_Hornet_Base";
+			HardpointPicture = "OPTRE_Vehicles\Hornet\HornetPylonPic.paa";
+			CustomPreset_Hashmap = "FIR_F23A_CustomPreset_Hashmap";
+			loadout_pre = "Tenthed_Vehicles\Hornet\scripts\Loadout_Pre.sqf";
+			loadout_apply = "FIR_AirWeaponSystem_US_Cfg\sqs\AMS\AMS_Loadout_Apply.sqf";
+			loadout_post = "Tenthed_Vehicles\Hornet\scripts\DoNothing.sqf";
+		};
+		class UserActions {
+			class AMSOpen
+			{
+				displayName = "<t color='#739eff'>Open AMS</t>";
+				position = "pos cano";
+				radius = 15;
+				shortcut = "User3";
+				condition = "(player == driver this) and (speed this < 1)";
+				statement = "this execVM ""\FIR_AirWeaponSystem_US_Cfg\sqs\AMS\AMS_GUI_Open.sqf""";
+				onlyforplayer = "false";
+				priority = 6;
+				hideOnUse = 1;
+			};
+		};
 	};
 
 	// Hornets
