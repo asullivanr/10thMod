@@ -3361,7 +3361,7 @@ class CfgVehicles {
 			AMSEnabled = 1;
 			DialogClass = "AMS_New_GUI";
 			AircraftBase = "Tenthed_Falcon";
-			HardpointPicture = "OPTRE_Vehicles\Falcon\falconPylonPic.paa";
+			HardpointPicture = "OPTRE_Vehicles_air\Falcon\falconPylonPic.paa";
 			CustomPreset_Hashmap = "FIR_F23A_CustomPreset_Hashmap";
 			loadout_pre = "Tenthed_Vehicles\Falcon\scripts\Loadout_Pre.sqf";
 			loadout_apply = "FIR_AirWeaponSystem_US_Cfg\sqs\AMS\AMS_Loadout_Apply.sqf";
