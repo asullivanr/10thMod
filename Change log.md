@@ -1,17 +1,24 @@
 Change log
 
+Posted
+
+6/5/23
+Hard Drop Armor
+Infra Armor
+Goldy Armor
+Thresh Armor
+Cossack Armor
+Princess Armor
+
+4/14/23
 Increased HMG backpack ammo cap from 400 rounds in 4 magazines to 800 rounds in 8 magazines.
 Added Dovah armor
 Added Mac armor change
 Added 10th Oryx
 Fixed Ghilie issue on ODST Helmet
 Removed old vehicle equipment
-
-noted 4/14/23
 added test pelican with aws fir system.
 testing fir aws integration on pilot helmets. Test in on legos helmet. also moved legos helmet over to the correct calls inheritance.
-
-Posted
 
 4/7/2023
 flipper edit
