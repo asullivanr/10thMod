@@ -1,5 +1,7 @@
 class CfgPatches {
 	class Tenthed_Vehicles_Pelican {
+		author = "Silver, Kodiak, Crow, Akira, Dodo";
+		name = "10th ODST: Pelicans";
 		requiredAddons[] = {
 			"Tenthed_core",
 			"OPTRE_Core"

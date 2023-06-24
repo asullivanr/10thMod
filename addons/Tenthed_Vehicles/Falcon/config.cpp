@@ -12,7 +12,7 @@ class DefaultVehicleSystemsDisplayManagerRight {class components;};
 class CfgPatches {
 	class Tenthed_Vehicles_Falcon {
 		author = "Dodo";
-		name = "10th ODST Falcon";
+		name = "10th ODST: Falcons";
 		requiredAddons[] = {
 			"Tenthed_core",
 			"OPTRE_Core"

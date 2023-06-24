@@ -1,5 +1,7 @@
 class CfgPatches {
 	class Tenthed_Vehicles_Hornet {
+		author = "Dodo, Akira";
+		name = "10th ODST: Hornets";
 		requiredAddons[] = {
 			"Tenthed_core",
 			"OPTRE_Core"
