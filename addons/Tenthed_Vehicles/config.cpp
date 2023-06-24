@@ -1,5 +1,5 @@
 class CfgPatches {
-	class Tenthed_Vehicle {
+	class Tenthed_Vehicles {
 		author = "Silver, Kodiak, Crow, Akira";
 		name = "10th ODST: Vehicle Retextures";
 		requiredAddons[] = {
