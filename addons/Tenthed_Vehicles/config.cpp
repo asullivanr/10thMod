@@ -22,9 +22,7 @@ class CfgPatches {
 			"Tenthed_Hornet",
 			"Tenthed_Pelican_SOCOM_Desert",
 			"Tenthed_Pelican_SOCOM_Jungle",
-			"Tenthed_Pelican_SOCOM_Urban",
-			"Tenthed_Pelican_Urban_fir_test",
-			"Tenthed_M494_Oryx"
+			"Tenthed_Pelican_SOCOM_Urban"
 		};
 	};
 };
