@@ -11,7 +11,6 @@ class CfgPatches {
 			"Tenthed_ARES_Tank",
 			"Tenthed_ARES_MGS",
 			"Tenthed_Zeus_Stallion",
-			"Tenthed_M494_Oryx"
 		};
 	};
 };
