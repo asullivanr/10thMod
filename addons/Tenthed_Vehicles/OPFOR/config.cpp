@@ -10,3 +10,6 @@ class CfgPatches {
 		units[] = {};
 	};
 };
+class CfgVehicles {
+
+};
