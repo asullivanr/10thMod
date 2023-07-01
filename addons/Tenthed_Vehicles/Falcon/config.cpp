@@ -2861,11 +2861,6 @@ class CfgVehicles {
 			{
 				class Components: components
 				{
-					class VehiclePrimaryGunnerDisplay
-					{
-						componentType = "TransportFeedDisplayComponent";
-						source = "PrimaryGunner";
-					};
 					class VehicleMissileDisplay
 					{
 						componentType = "TransportFeedDisplayComponent";
@@ -2884,11 +2879,6 @@ class CfgVehicles {
 				defaultDisplay = "SensorDisplay";
 				class Components: components
 				{
-					class VehiclePrimaryGunnerDisplay
-					{
-						componentType = "TransportFeedDisplayComponent";
-						source = "PrimaryGunner";
-					};
 					class VehicleMissileDisplay
 					{
 						componentType = "TransportFeedDisplayComponent";
@@ -2945,7 +2935,7 @@ class CfgVehicles {
 				weapons[] = {"OPTRE_M638"};
 				magazines[] = {"OPTRE_2000Rnd_20mm_HE", "OPTRE_2000Rnd_20mm_HE"};
 				commanding = -2;
-				primaryGunner = 1;
+				primaryGunner = 0;
 				class ViewOptics
 				{
 					initAngleX = 0;
