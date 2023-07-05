@@ -41,7 +41,23 @@ class CfgVehicles {
     class Tenthed_O_Truck_03_covered_F : O_Truck_03_covered_F {};
 
 	class O_UGV_01_rcws_F;
-    class Tenthed_O_UGV_01_rcws_F : O_UGV_01_rcws_F {};
+    class Tenthed_O_UGV_01_rcws_F : O_UGV_01_rcws_F {
+		author="Baseplate";
+		displayname="RCWS-12 Hyena";
+		editorPreview="\TCF_MISC\EditorPreviews\TCF_Hyena_Frieden.jpg";
+		scope=2;
+		scopeArsenal=2;
+		scopeCurator=2;
+		//crew="B_UAV_AI";
+		faction="Tenthed_UnitFact_Military_Insurrection";
+		side=0;
+		hiddenSelectionsTextures[]= {
+			"TCF_OPFOR\Frieden\Vehicles\Data\Stomper\UGV_01_ext_Frieden_co.paa",
+			"TCF_OPFOR\Frieden\Vehicles\Data\Stomper\UGV_01_int_Frieden_co.paa",
+			"TCF_OPFOR\Frieden\Vehicles\Data\Turret_Frieden.paa"
+		};
+		//editorCategory="TCF_Frieden";
+	};
 
 	class O_Plane_Fighter_02_F;
     class Tenthed_O_Plane_Fighter_02_F : O_Plane_Fighter_02_F {};
