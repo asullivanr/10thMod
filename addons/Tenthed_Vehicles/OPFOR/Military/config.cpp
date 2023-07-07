@@ -7,7 +7,23 @@ class CfgPatches {
 			"OPTRE_Core" 
 		};
 		weapons[] = {};
-		units[] = {};
+		units[] = {
+			"Tenthed_O_Boat_Armed_01_hmg_F",
+			"Tenthed_O_Boat_Transport_01_F",
+			"Tenthed_O_Lifeboat",
+			"Tenthed_O_Truck_03_transport_F",
+			"Tenthed_O_Truck_03_covered_F",
+			"Tenthed_O_UGV_01_rcws_F",
+			"Tenthed_O_Plane_Fighter_02_F",
+			"Tenthed_O_SDV_01_F",
+			"Tenthed_HTNK_SLA",
+			"Tenthed_HTNK_Grey",
+			"Tenthed_HTNK_Desert",
+			"Tenthed_HTNK_Snow",
+			"Tenthed_HTNK_Green",
+			"Tenthed_O_HMG_01_high_F",
+
+		};
 	};
 };
 
