@@ -1210,6 +1210,9 @@ class cfgWeapons {
 			"Tenthed_Armor_Base\data\visors\blackvisor.paa"
 		};
 		optreHUDStyle = "ODST_1";
+		fir_visor = 1;
+		fir_mask = 1;
+		fir_hmd_helmet = 1;
 	};
 	class SCT_10th_Tiny_Helment_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
@@ -1245,7 +1248,9 @@ class cfgWeapons {
 			"Tenthed_Armor_Base\data\visors\bluevisor.paa"
 		};
 		optreHUDStyle = "ODST_1";
-		fir_visor=1; // possible code to add fir aws to helmets. in this case to the base pilot helmet.
+		fir_visor = 1;
+		fir_mask = 1;
+		fir_hmd_helmet = 1;
 	};
 	class SCT_10th_Lego_Helmet_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
@@ -1758,6 +1763,9 @@ class cfgWeapons {
 			"Tenthed_Armor_Base\data\visors\blackvisor.paa"
 		};
 		optreHUDStyle = "ODST_1";
+		fir_visor = 1;
+		fir_mask = 1;
+		fir_hmd_helmet = 1;
 	};
 	class SCT_10th_Optional_Helmet_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
@@ -1787,6 +1795,10 @@ class cfgWeapons {
 			"Tenthed_Helmets_Named\data\jinxhelmet.paa",
 			"Tenthed_Armor_Base\data\h3_pilothelmet_visor_CO.paa"
 		};
+		optreHUDStyle = "ODST_1";
+		fir_visor = 1;
+		fir_mask = 1;
+		fir_hmd_helmet = 1;
 	}
 
 	// Arctic
@@ -1838,6 +1850,9 @@ class cfgWeapons {
 			"Tenthed_Armor_Base\data\visors\bluevisor.paa"
 		};
 		optreHUDStyle = "ODST_1";
+		fir_visor = 1;
+		fir_mask = 1;
+		fir_hmd_helmet = 1;
 	};
 	class SCT_10th_Sound_Helmet_dp : Tenthed_CH252D_Base_dp {
 		dlc = "OPTRE";
@@ -1917,7 +1932,7 @@ class cfgWeapons {
 			"Tenthed_Helmets_Named\data\somhelmet.paa"
 		};
 	};
-	
+
 	// Nox
 	class SCT_10th_Nox_Helment : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
@@ -2207,7 +2222,7 @@ class cfgWeapons {
 			"Tenthed_Helmets_Named\data\bobhelmet.paa"
 		};
 	};
-	
+
 	// Ledo
 	class SCT_10th_Ledo_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";

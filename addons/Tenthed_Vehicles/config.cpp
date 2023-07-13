@@ -1,271 +1,26 @@
 class CfgPatches {
-	class Tenthed_Vehicle {
+	class Tenthed_Vehicles {
 		author = "Silver, Kodiak, Crow, Akira";
-		name = "10th ODST: Vehicle Retextures";
+		name = "10th ODST: Vehicles Base";
 		requiredAddons[] = {
 			"Tenthed_core",
 			"OPTRE_Core"
 		};
 		weapons[] = {};
 		units[] = {
-			"Tenthed_Pelican",
-			"Tenthed_Archangel_Pelican",
-			"Tenthed_Dodo_Pelican",
-			"Tenthed_beeHornet",
-			"Tenthed_ZakuHornet",
 			"Tenthed_ARES_Tank",
 			"Tenthed_ARES_MGS",
 			"Tenthed_Zeus_Stallion",
-			"Tenthed_Pelican_Desert",
-			"Tenthed_Pelican_Jungle",
-			"Tenthed_Pelican_Urban",
-			"Tenthed_Hornet",
-			"Tenthed_Pelican_SOCOM_Desert",
-			"Tenthed_Pelican_SOCOM_Jungle",
-			"Tenthed_Pelican_SOCOM_Urban"
 		};
 	};
 };
 class CfgVehicles {
-	class VES_D77HTCI_A;
 	class OPTRE_UNSC_hornet_green_CAP;
 	class OPTRE_M808S;
 	class OPTRE_M413_MGS_UNSC_tan;
 	class OPTRE_m1087_stallion_cover_unsc;
 
 	class Eventhandlers;
-
-	// Base type Pelican
-	class Tenthed_Pelican_Base : VES_D77HTCI_A {
-		displayName = "Tenthed_Pelican_Base";
-		author = "";
-		scope = 1;
-		scopeCurator = 1;
-		scopeArsenal = 1;
-		faction = "Tenthed_UnitFact_Main";
-		editorCategory = "Tenthed_EditorCategory_Main";
-		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Pelicans";
-		hiddenSelectionsTextures[] = {
-			"\Tenthed_Vehicles\data\10th_pelican\10th_PelicanExterior.paa",
-			""
-		};
-		weapons[] = {
-			"CMFlareLauncher",
-			"OPTRE_missiles_Anvil1"
-		};
-		magazines[] = {
-			"300Rnd_CMFlare_Chaff_Magazine" // 168Rnd_CMFlare_Chaff_Magazine
-		};
-		class TransportBackpacks {
-			class _xx_TenthedMortarBackpack {
-				backpack = "Tenthed_Mortar_Backpack";
-				count = 6;
-			};
-			class _xx_TenthedHMGBackpack {
-				backpack = "Tenthed_HMG_Backpack";
-				count = 6;
-			};
-			class _xx_ParachuteBackpack {
-				backpack = "B_Parachute";
-				count = 6;
-			};
-		};
-		class TransportMagazines {};
-		class TransportWeapons {};
-		class TransportItems {};
-	};
-
-	// Pelicans
-	class Tenthed_Pelican_Desert : Tenthed_Pelican_Base {
-		displayName = "[10th] Pelican - Desert";
-		author = "Kodiak";
-		scope = 2;
-		scopeCurator = 2;
-		scopeArsenal = 2;
-		hiddenSelectionsTextures[] = {
-			"\Tenthed_Vehicles\data\Pelican_Variants\pelican_DESERT.paa",
-			""
-		};
-	};
-	class Tenthed_Pelican_Jungle : Tenthed_Pelican_Base {
-		displayName = "[10th] Pelican - Jungle";
-		author = "Kodiak";
-		scope = 2;
-		scopeCurator = 2;
-		scopeArsenal = 2;
-		hiddenSelectionsTextures[] = {
-			"\Tenthed_Vehicles\data\Pelican_Variants\pelican_JUNGLE.paa",
-			""
-		};
-	};
-	class Tenthed_Pelican_Urban : Tenthed_Pelican_Base {
-		displayName = "[10th] Pelican - Urban";
-		author = "Kodiak";
-		scope = 2;
-		scopeCurator = 2;
-		scopeArsenal = 2;
-		hiddenSelectionsTextures[] = {
-			"\Tenthed_Vehicles\data\Pelican_Variants\pelican_URBAN.paa",
-			""
-		};
-	};
-
-	class OPTRE_Pelican_armed_SOCOM;
-	class Tenthed_Pelican_SOCOM_Desert : OPTRE_Pelican_armed_SOCOM {
-		displayName = "[10th] Pelican SOCOM - Desert";
-		author = "Kodiak";
-		scope = 2;
-		scopeCurator = 2;
-		scopeArsenal = 2;
-
-		faction = "Tenthed_UnitFact_Main";
-		editorCategory = "Tenthed_EditorCategory_Main";
-		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Pelicans";
-
-		hiddenSelectionsTextures[] = {
-			"\Tenthed_Vehicles\data\Pelican_Variants\pelican_DESERT.paa",
-			""
-		};
-	};
-	class Tenthed_Pelican_SOCOM_Jungle : OPTRE_Pelican_armed_SOCOM {
-		displayName = "[10th] Pelican SOCOM - Jungle";
-		author = "Kodiak";
-		scope = 2;
-		scopeCurator = 2;
-		scopeArsenal = 2;
-
-		faction = "Tenthed_UnitFact_Main";
-		editorCategory = "Tenthed_EditorCategory_Main";
-		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Pelicans";
-
-		hiddenSelectionsTextures[] = {
-			"\Tenthed_Vehicles\data\Pelican_Variants\pelican_JUNGLE.paa",
-			""
-		};
-	};
-	class Tenthed_Pelican_SOCOM_Urban : OPTRE_Pelican_armed_SOCOM {
-		displayName = "[10th] Pelican SOCOM - Urban";
-		author = "Kodiak";
-		scope = 2;
-		scopeCurator = 2;
-		scopeArsenal = 2;
-
-		faction = "Tenthed_UnitFact_Main";
-		editorCategory = "Tenthed_EditorCategory_Main";
-		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Pelicans";
-
-		hiddenSelectionsTextures[] = {
-			"\Tenthed_Vehicles\data\Pelican_Variants\pelican_URBAN.paa",
-			""
-		};
-	};
-
-	// Old Variant Pelicans
-	class Tenthed_Pelican : Tenthed_Pelican_Base {
-		displayName = "[10th] Pelican";
-		author = "Crow";
-		scope = 1;
-		scopeCurator = 1;
-		scopeArsenal = 1;
-		hiddenSelectionsTextures[] = {
-			"\Tenthed_Vehicles\data\10th_pelican\10th_PelicanExterior.paa",
-			""
-		};
-	};
-	class Tenthed_Archangel_Pelican : Tenthed_Pelican_Base {
-		displayName = "[10th] Archangel Pelican";
-		author = "PocketsTheWizard";
-		scope = 1;
-		scopeCurator = 1;
-		scopeArsenal = 1;
-		hiddenSelectionsTextures[] = {
-			"\Tenthed_Vehicles\data\archangel_pelican\archanglePelican.paa",
-			""
-		};
-	};
-	class Tenthed_Dodo_Pelican : Tenthed_Pelican_Base {
-		displayName = "[10th] DodoAirLines";
-		author = "PocketsTheWizard";
-		scope = 1;
-		scopeCurator = 1;
-		scopeArsenal = 1;
-		hiddenSelectionsTextures[] = {
-			"\Tenthed_Vehicles\data\dodo_pelican\DodoPelican.paa",
-			""
-		};
-	};
-
-	// Base type Hornets
-	class Tenthed_Hornet_Base : OPTRE_UNSC_hornet_green_CAP {
-		scope = 1;
-		scopeCurator = 1;
-		scopeArsenal = 1;
-		author = "Akira";
-		displayName = "Tenthed_Hornet_Base";
-		faction = "Tenthed_UnitFact_Main";
-		editorCategory = "Tenthed_EditorCategory_Main";
-		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Hornets";
-		hiddenSelectionsTextures[] = {
-			"optre_vehicles\hornet\data\hornet_hull_green_co.paa"
-		};
-		maxSpeed = 350;
-		weapons[] = {
-			"OPTRE_GUA23A",
-			"CMFlareLauncher",
-			"Laserdesignator_pilotCamera",
-			"OPTRE_missiles_C2GMLS"
-		};
-		magazines[] = {
-			"OPTRE_2000Rnd_20mm_HEIAP",
-			"240Rnd_CMFlare_Chaff_Magazine", // 168Rnd_CMFlare_Chaff_Magazine
-			"Laserbatteries",
-			"OPTRE_8Rnd_C2GMLS_missiles",
-			"OPTRE_8Rnd_C2GMLS_missiles"
-		};
-	};
-
-	// Hornets
-	class Tenthed_Hornet : Tenthed_Hornet_Base {
-		scope = 2;
-		scopeCurator = 2;
-		scopeArsenal = 2;
-		author = "Akira";
-		displayName = "[10th] Hornet";
-		faction = "Tenthed_UnitFact_Main";
-		editorCategory = "Tenthed_EditorCategory_Main";
-		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Hornets";
-		hiddenSelectionsTextures[]= {
-			"optre_vehicles\hornet\data\hornet_hull_green_co.paa"
-		};
-	};
-
-	// Old Variant Hornets
-	class Tenthed_beeHornet : Tenthed_Hornet_Base {
-		scope = 1;
-		scopeCurator = 1;
-		scopeArsenal = 1;
-		author = "PcoketsTheWizard";
-		displayName = "b(ee)Hornet";
-		faction = "Tenthed_UnitFact_Main";
-		editorCategory = "Tenthed_EditorCategory_Main";
-		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Hornets";
-		hiddenSelectionsTextures[] = {
-			"\Tenthed_Vehicles\data\bee_hornet\beeHornet.paa"
-		};
-	};
-	class Tenthed_ZakuHornet : Tenthed_Hornet_Base {
-		scope = 1;
-		scopeCurator = 1;
-		scopeArsenal = 1;
-		author = "PcoketsTheWizard";
-		displayName = "Red Comet Hornet";
-		faction = "Tenthed_UnitFact_Main";
-		editorCategory = "Tenthed_EditorCategory_Main";
-		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Hornets";
-		hiddenSelectionsTextures[] = {
-			"\Tenthed_Vehicles\data\zaku_hornet\ZakuHornet.paa"
-		};
-	};
 
 	// Old Variant ground vehicles
 	class Tenthed_ARES_Tank : OPTRE_M808S {
@@ -336,6 +91,4 @@ class CfgVehicles {
 			"\Tenthed_Vehicles\data\zeus_stallion\Truck_cover_standard_co.paa",
 		};
 	};
-
-
 };
