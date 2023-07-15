@@ -1377,7 +1377,7 @@ class cfgWeapons {
 		};
 		hiddenSelectionsTextures[] =
 		{
-			"Tenthed_Helmets_Named\data\harddrophelmet.paa"
+			"Tenthed_Helmets_Named\data\Hard-Drop_Helment.paa"
 		};
 	};
 
@@ -1914,7 +1914,7 @@ class cfgWeapons {
 		};
 		hiddenSelectionsTextures[] = {
 			"Tenthed_Helmets_Named\data\somhelmet.paa",
-			"Tenthed_Armor_Base\data\visors\silvervisor.paa"
+			"Tenthed_Armor_Base\data\visors\blackvisor.paa"
 		};
 		optreHUDStyle = "ODST_1";
 	};
