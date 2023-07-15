@@ -83,7 +83,6 @@ class CfgPatches {
 class CfgVehicles {
 // begin
 
-
 	class O_Boat_Armed_01_hmg_F;
 	class Tenthed_O_Boat_Armed_01_hmg_F : O_Boat_Armed_01_hmg_F {
 		//displayname="";
