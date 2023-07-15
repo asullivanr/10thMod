@@ -2574,4 +2574,100 @@ class cfgWeapons {
 			"Tenthed_Helmets_Named\data\glinthelm.paa"
 		};
 	};
+
+	// Grimgnaw
+	class SCT_10th_Grimgnaw_Helmet : Tenthed_CH252D_Base {
+		dlc = "OPTRE";
+		scope = 2;
+		author = "Tiger";
+		displayName = "[10th] CH252D 'Grimgnaw'";
+		model = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
+		hiddenSelections[] = {
+			"camo",
+			"camo2"
+		};
+		hiddenSelectionsTextures[] = {
+			"Tenthed_Helmets_Named\data\Grimgnaw_Helment.paa",
+			"Tenthed_Armor_Base\data\visors\goldvisor.paa"
+		};
+		optreHUDStyle = "ODST_1";
+	};
+	class SCT_10th_Grimgnaw_Helmet_dp : Tenthed_CH252D_Base_dp {
+		dlc = "OPTRE";
+		scope = 1;
+		scopeArsenal = 1;
+		scopeCurator = 1;
+		author = "Tiger";
+		model = "\OPTRE_UNSC_Units\Army\odst_helmet_dp.p3d";
+		hiddenSelections[] = {
+			"camo"
+		};
+		hiddenSelectionsTextures[] = {
+			"Tenthed_Helmets_Named\data\Grimgnaw_Helment.paa"
+		};
+	};
+
+	// Dubbos
+	class SCT_10th_Dubbos_Helmet : Tenthed_CH252D_Base {
+		dlc = "OPTRE";
+		scope = 2;
+		author = "Tiger";
+		displayName = "[10th] CH252D 'Dubbos'";
+		model = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
+		hiddenSelections[] = {
+			"camo",
+			"camo2"
+		};
+		hiddenSelectionsTextures[] = {
+			"Tenthed_Helmets_Named\data\Dubbos_helmet.paa",
+			"Tenthed_Armor_Base\data\visors\blackvisor.paa"
+		};
+		optreHUDStyle = "ODST_1";
+	};
+	class SCT_10th_Dubbos_Helmet_dp : Tenthed_CH252D_Base_dp {
+		dlc = "OPTRE";
+		scope = 1;
+		scopeArsenal = 1;
+		scopeCurator = 1;
+		author = "Tiger";
+		model = "\OPTRE_UNSC_Units\Army\odst_helmet_dp.p3d";
+		hiddenSelections[] = {
+			"camo"
+		};
+		hiddenSelectionsTextures[] = {
+			"Tenthed_Helmets_Named\data\Dubbos_helmet.paa"
+		};
+	};
+
+	// Atlas
+	class SCT_10th_Atlas_Helmet : Tenthed_CH252D_Base {
+		dlc = "OPTRE";
+		scope = 2;
+		author = "Jogn";
+		displayName = "[10th] CH252D 'Atlas'";
+		model = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
+		hiddenSelections[] = {
+			"camo",
+			"camo2"
+		};
+		hiddenSelectionsTextures[] = {
+			"Tenthed_Helmets_Named\data\AtlasArmor.paa",
+			"Tenthed_Armor_Base\data\visors\blackvisor.paa"
+		};
+		optreHUDStyle = "ODST_1";
+	};
+	class SCT_10th_Atlas_Helmet_dp : Tenthed_CH252D_Base_dp {
+		dlc = "OPTRE";
+		scope = 1;
+		scopeArsenal = 1;
+		scopeCurator = 1;
+		author = "Tiger";
+		model = "\OPTRE_UNSC_Units\Army\odst_helmet_dp.p3d";
+		hiddenSelections[] = {
+			"camo"
+		};
+		hiddenSelectionsTextures[] = {
+			"Tenthed_Helmets_Named\data\AtlasArmor.paa"
+		};
+	};
 }
