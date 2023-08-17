@@ -2651,7 +2651,7 @@ class cfgWeapons {
 			"camo2"
 		};
 		hiddenSelectionsTextures[] = {
-			"Tenthed_Helmets_Named\data\AtlasArmor.paa",
+			"Tenthed_Helmets_Named\data\AtlasHelmet.paa",
 			"Tenthed_Armor_Base\data\visors\blackvisor.paa"
 		};
 		optreHUDStyle = "ODST_1";
@@ -2667,7 +2667,7 @@ class cfgWeapons {
 			"camo"
 		};
 		hiddenSelectionsTextures[] = {
-			"Tenthed_Helmets_Named\data\AtlasArmor.paa"
+			"Tenthed_Helmets_Named\data\AtlasHelmet.paa"
 		};
 	};
 }
