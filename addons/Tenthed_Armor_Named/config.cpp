@@ -917,7 +917,7 @@ class cfgWeapons {
 			"Tenthed_Armor_Named\data\Dubbos_armor.paa"
 		};
 	};
-	class SCT_10th_Atlas_Armor : Tenthed_Rifleman_Armor {
+	class SCT_10th_Atlas_Armor : Tenthed_Specialist2_Armor {
 		scope = 2;
 		author = "Jogn";
 		displayName = "[10th] M52D 'Atlas'";
