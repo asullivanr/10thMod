@@ -929,4 +929,64 @@ class cfgWeapons {
 			"Tenthed_Armor_Named\data\AtlasArmor.paa"
 		};
 	};
+	class SCT_10th_Bbstine_Armor : Tenthed_Specialist2_Armor {
+		scope = 2;
+		author = "Bbstine";
+		displayName = "[10th] M52D 'Bbstine'";
+		hiddenSelectionsTextures[] = {
+			"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa",
+			"optre_unsc_units\army\data\armor_odst_co.paa",
+			"Tenthed_Armor_Base\data\odst_legs_co.paa",
+			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
+			"Tenthed_Armor_Named\data\Bbstine-armor.paa"
+		};
+	};
+	class SCT_10th_Meatshield_Armor : Tenthed_Demolitions_Knife_Armor {
+		scope = 2;
+		author = "Jogn";
+		displayName = "[10th] M52D 'Meatshield'";
+		hiddenSelectionsTextures[] = {
+			"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa",
+			"optre_unsc_units\army\data\armor_odst_co.paa",
+			"Tenthed_Armor_Base\data\odst_legs_co.paa",
+			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
+			"Tenthed_Armor_Named\data\meatshieldarmor.paa"
+		};
+	};
+	class SCT_10th_Freedom_Armor : Tenthed_Specialist2_Armor {
+		scope = 2;
+		author = "Bbstine";
+		displayName = "[10th] M52D 'Freedom'";
+		hiddenSelectionsTextures[] = {
+			"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa",
+			"optre_unsc_units\army\data\armor_odst_co.paa",
+			"Tenthed_Armor_Base\data\odst_legs_co.paa",
+			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
+			"Tenthed_Armor_Named\data\Freedom_Armor_Test.paa"
+		};
+	};
+	class SCT_10th_Jody_Armor : Tenthed_Demolitions_Knife_Armor {
+		scope = 2;
+		author = "Jogn";
+		displayName = "[10th] M52D 'Jody'";
+		hiddenSelectionsTextures[] = {
+			"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa",
+			"optre_unsc_units\army\data\armor_odst_co.paa",
+			"Tenthed_Armor_Base\data\odst_legs_co.paa",
+			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
+			"Tenthed_Armor_Named\data\Jodyarmor.paa"
+		};
+	};
+	class SCT_10th_McInnes_Armor : Tenthed_Demolitions_Armor {
+		scope = 2;
+		author = "Bbstine";
+		displayName = "[10th] M52D 'McInnes'";
+		hiddenSelectionsTextures[] = {
+			"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa",
+			"optre_unsc_units\army\data\armor_odst_co.paa",
+			"Tenthed_Armor_Base\data\odst_legs_co.paa",
+			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
+			"Tenthed_Armor_Named\data\McInnes_Armor.paa"
+		};
+	};
 }
