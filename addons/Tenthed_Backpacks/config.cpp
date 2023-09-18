@@ -67,4 +67,37 @@ class cfgVehicles {
 		tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
 		tf_hasLRradio = 1;
 	};
+
+	class MA_M56S_Rucksack_Radio;
+	class Tenthed_M56S_Rucksack_Radio: MA_M56S_Rucksack_Radio {
+    displayName="[10th] M56S Rucksack (Radio)";
+    hiddenSelections[]=  {
+        "camo1",
+        "camo2",
+//        "Radio"
+    };
+    hiddenSelectionsTextures[]= {
+        "MA_Armor\data\Backpacks\ODST_Rucksack\ODST_Ruck_co.paa",
+        "MA_Armor\data\Backpacks\ODST_Rucksack\Attachments\Backpack_Radio_Green_co.paa"
+    };
+    /// TFAR LR Code
+    tf_encryptionCode="tf_west_radio_code";
+    tf_dialog="rt1523g_radio_dialog";
+    tf_subtype="digital_lr";
+    tf_range=25000;
+    tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel";
+    tf_hasLRradio=1;
+	};
+
+	class Tenthed_M56S_Rucksack_ODST_Radio: Tenthed_M56S_Rucksack_Radio {
+    displayName="[10th] M56S Rucksack (ODST Radio)";
+    hiddenSelections[]= {
+        "camo1",
+        "camo2",
+//        "Radio"
+    };
+    hiddenSelectionsTextures[]= {
+        "MA_Armor\data\Backpacks\ODST_Rucksack\ODST_Ruck_co.paa",
+        "MA_Armor\data\Backpacks\ODST_Rucksack\Attachments\Backpack_Radio_ODST_co.paa"
+    };
 };
