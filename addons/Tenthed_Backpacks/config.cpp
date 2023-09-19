@@ -132,7 +132,7 @@ class cfgVehicles {
 		};
 		hiddenSelectionsTextures[]= {
 			"MA_Armor\data\Backpacks\ODST_Rucksack\Medical_ODST_Ruck_co.paa",
-			"MA_Armor\data\Backpacks\ODST_Rucksack\Attachments\Backpack_Radio_Green_co.paa"
+			"MA_Armor\data\Backpacks\ODST_Rucksack\Attachments\Backpack_Radio_ODST_co.paa"
 		};
 	};
 };
