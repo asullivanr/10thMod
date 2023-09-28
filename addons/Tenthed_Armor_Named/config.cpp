@@ -163,7 +163,8 @@ class cfgWeapons {
 		};
 	};
 	class SCT_10th_Akira_Armor : Tenthed_Specialist2_Armor {
-		scope = 2;
+		scope=0;
+		scopeArsenal=0;
 		author = "Jogn Halo";
 		displayName = "[10th] M52D 'Akira'";
 		hiddenSelectionsTextures[] = {
@@ -176,7 +177,8 @@ class cfgWeapons {
 	};
 	class SCT_10th_Tiny_Armor : Tenthed_Pilot_Vest {
 		dlc = "OPTRE";
-		scope = 2;
+		scope=0;
+		scopeArsenal=0;
 		author = "John";
 		displayName = "[10th] M52B 'Tiny'";
 		model = "\OPTRE_FC_Units\Marines\h3_vest.p3d";
@@ -222,7 +224,8 @@ class cfgWeapons {
 		};
 	};
 	class SCT_10th_Rambler_Armor : Tenthed_Specialist2_Armor {
-		scope = 2;
+		scope=0;
+		scopeArsenal=0;
 		author = "Wolfe, Crow";
 		displayName = "[10th] M52D 'Rambler'";
 		hiddenSelectionsTextures[] = {
@@ -246,7 +249,8 @@ class cfgWeapons {
 		};
 	};
 	class SCT_10th_Mac_Armor : Tenthed_Specialist2_Armor {
-		scope = 2;
+		scope=0;
+		scopeArsenal=0;
 		author = "Someone";
 		displayName = "[10th] M52D 'Mac'";
 		hiddenSelectionsTextures[] = {
@@ -270,7 +274,8 @@ class cfgWeapons {
 		};
 	};
 	class SCT_10th_Flipper_Armor : Tenthed_Demolitions_Armor {
-		scope = 2;
+		scope=0;
+		scopeArsenal=0;
 		author = "Wolfe,Kodiak";
 		displayName = "[10th] M52D 'Flipper'";
 		hiddenSelectionsTextures[] = {
@@ -306,7 +311,8 @@ class cfgWeapons {
 		};
 	};
 	class SCT_10th_Lion_Armor : Tenthed_Demolitions_Knife_Armor {
-		scope = 2;
+		scope=0;
+		scopeArsenal=0;
 		author = "Wolfe,Kodiak";
 		displayName = "[10th] M52D 'Lion'";
 		hiddenSelectionsTextures[] = {
@@ -354,7 +360,8 @@ class cfgWeapons {
 		};
 	};
 	class SCT_10th_Slim_Armor : Tenthed_Specialist2_Armor {
-		scope = 2;
+		scope=0;
+		scopeArsenal=0;
 		author = "Wolfe,Kodiak";
 		displayName = "[10th] M52D 'Slim'";
 		hiddenSelectionsTextures[] = {
@@ -402,7 +409,8 @@ class cfgWeapons {
 		};
 	};
 	class SCT_10th_Void_Armor : Tenthed_Sniper_Armor {
-		scope = 2;
+		scope=0;
+		scopeArsenal=0;
 		author = "Wolfe,Kodiak";
 		displayName = "[10th] M52D 'Void'";
 		hiddenSelectionsTextures[] = {
@@ -414,7 +422,8 @@ class cfgWeapons {
 		};
 	};
 	class SCT_10th_Nova_Armor : Tenthed_Light_Knife_Armor {
-		scope = 2;
+		scope=0;
+		scopeArsenal=0;
 		author = "Wolfe,Kodiak";
 		displayName = "[10th] M52D 'Nova'";
 		hiddenSelectionsTextures[] = {
@@ -834,7 +843,8 @@ class cfgWeapons {
 		};
 	};
 	class SCT_10th_Villainess_Armor : Tenthed_Specialist2_Armor {
-		scope = 2;
+		scope=0;
+		scopeArsenal=0;
 		author = "Jogn";
 		displayName = "[10th] M52D 'Villainess'";
 		hiddenSelectionsTextures[] = {
@@ -930,7 +940,8 @@ class cfgWeapons {
 		};
 	};
 	class SCT_10th_Bbstine_Armor : Tenthed_Specialist2_Armor {
-		scope = 2;
+		scope=0;
+		scopeArsenal=0;
 		author = "Bbstine";
 		displayName = "[10th] M52D 'Bbstine'";
 		hiddenSelectionsTextures[] = {

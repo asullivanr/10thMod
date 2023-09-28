@@ -31,8 +31,8 @@ class cfgWeapons {
 	};
 	
 	class Tenthed_Helmet_Base: ItemCore {
-		scope=1;
-		scopeArsenal=1;
+		scope=0;
+		scopeArsenal=0;
 		author="Misriah Armory";
 		ace_hearing_protection=1;
 		displayName="[10th] Base Helmet";
@@ -56,18 +56,18 @@ class cfgWeapons {
 			class HitpointsProtectionInfo {
 				class Head {
 					hitpointName="HitHead";
-					armor=25;
-					passThrough=0.1;
+					armor = 30;
+					passThrough = 0.1;
 				};
 				class Face {
 					hitpointName="HitFace";
-					armor=25;
-					passThrough=0.1;
+					armor = 30;
+					passThrough = 0.1;
 				};
 				class Neck {
 					hitpointName="HitNeck";
-					armor=20;
-					passThrough=0.1;
+					armor = 30;
+					passThrough = 0.1;
 				};
 			};
 		};
@@ -164,7 +164,7 @@ class cfgWeapons {
 				"MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_Green_co.paa"
 			};
 			uniformModel="";
-			containerClass="Supply200";
+			containerClass="Supply350";
 			mass=20;
 			passThrough=0.1;
 			modelSides[]={6};
@@ -213,7 +213,8 @@ class cfgWeapons {
 		};
 	};
 
-	class Tenthed_M56SR_Helmet_Base : Tenthed_Helmet_Base {
+	// M56S-R (Base ODST Helmet)
+	class Tenthed_M56SR_Helmet : Tenthed_Helmet_Base {
 		scope=2;
 		scopeArsenal=2;
 		displayName="[10th] M56S-R Helmet";
@@ -222,9 +223,74 @@ class cfgWeapons {
 		hiddenSelectionsTextures[]= {
 			"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Helmet_CO.paa",
 			"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_Blue_co.paa"
+			//"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_black_co.paa" // Black Visor
+			//"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_gold_co.paa" // Gold Visor
+			//"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_red_co.paa" // Red Visor
+			//"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_white_co.paa" // White Visor
 		};
 		class ItemInfo: ItemInfo {
 			uniformModel="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
+		};
+	};
+
+	// M56-A "Air Assault" (Horus Helmet)
+	class Tenthed_M56A_Helmet: Tenthed_Helmet_Base {
+		scope=2;
+		scopeArsenal=2;
+		displayName="[10th] M56-A Helmet";
+		model="MA_Armor\data\Helmets\AA\AA_Helmet.p3d";
+		picture="MA_Armor\data\Icons\AA_Helmet.paa";
+		hiddenSelectionsTextures[]= {
+			"MA_Armor\data\Helmets\AA\AA_Helm_co.paa",
+			"MA_Armor\data\Helmets\AA\AA_Visor_Blue_co.paa"
+			//"MA_Armor\data\Helmets\AA\AA_Visor_Black_co.paa" // Black Visor
+			//"MA_Armor\data\Helmets\AA\AA_Visor_Gold_co.paa" // Gold Visor
+			//"MA_Armor\data\Helmets\AA\AA_Visor_Red_co.paa" // Red Visor
+			//"MA_Armor\data\Helmets\AA\AA_Visor_White_co.paa" // White Visor
+		};
+		class ItemInfo: ItemInfo {
+			uniformModel="MA_Armor\data\Helmets\AA\AA_Helmet.p3d";
+		};
+	};
+
+	//M56-G "Gungnir" (Anubis Helmet)
+	class Tenthed_M56G_Helmet: Tenthed_Helmet_Base {
+		scope=2;
+		scopeArsenal=2;
+		author="Misriah Armory & aclarke064";
+		displayName="[10th] M56-G Helmet";
+		model="MA_Armor\data\Helmets\Gungnir\Gungnir_Helmet.p3d";
+		picture="MA_Armor\data\Icons\Gungnir_Helmet.paa";
+		hiddenSelectionsTextures[]= {
+			"MA_Armor\data\Helmets\Gungnir\Gungnir_co.paa",
+			"MA_Armor\data\Helmets\Gungnir\Gungnir_Visor_Blue_co.paa"
+			//"MA_Armor\data\Helmets\Gungnir\Gungnir_Visor_Black_co.paa" // Black Visor
+			//"MA_Armor\data\Helmets\Gungnir\Gungnir_Visor_Gold_co.paa" // Gold Visor
+			//"MA_Armor\data\Helmets\Gungnir\Gungnir_Visor_Red_co.paa" // Red Visor
+			//"MA_Armor\data\Helmets\Gungnir\Gungnir_Visor_White_co.paa" // White Visor
+		};
+		class ItemInfo: ItemInfo {
+			uniformModel="MA_Armor\data\Helmets\Gungnir\Gungnir_Helmet.p3d";
+		};
+	};
+
+	// M56-E "EOD" (Osiris Helmet)
+	class Tenthed_M56E_Helmet: Tenthed_Helmet_Base {
+		scope=2;
+		scopeArsenal=2;
+		displayName="[10th] M56-E Helmet";
+		model="MA_Armor\data\Helmets\EOD\EOD_Helmet.p3d";
+		picture="MA_Armor\data\Icons\EOD_Helm.paa";
+		hiddenSelectionsTextures[]= {
+			"MA_Armor\data\Helmets\EOD\EOD_Helmet_co.paa",
+			"MA_Armor\data\Helmets\EOD\EOD_Visor_Blue_co.paa" // Blue Visor
+			//"MA_Armor\data\Helmets\EOD\EOD_Visor_Black_co.paa" // Black Visor
+			//"MA_Armor\data\Helmets\EOD\EOD_Visor_Gold_co.paa" // Gold Visor
+			//"MA_Armor\data\Helmets\EOD\EOD_Visor_Red_co.paa" // Red Visor
+			//"MA_Armor\data\Helmets\EOD\EOD_Visor_White_co.paa" // White Visor
+		};
+		class ItemInfo: ItemInfo {
+			uniformModel="MA_Armor\data\Helmets\EOD\EOD_Helmet.p3d";
 		};
 	};
 
@@ -283,7 +349,7 @@ class cfgWeapons {
 	class Tenthed_M56R_Vest_Rifleman_radio_right : Tenthed_Vest_Base {
 		scope=2;
 		scopeArsenal=2;
-		displayName="[10th] M56R Combat Armor (Rifleman - Radio Shoulder right)";
+		displayName="[10th] M56R Combat Armor (Rifleman - Radio)";
 		model="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
 		picture="MA_Armor\data\Icons\H3ODST_Vest.paa";
 		hiddenSelectionsTextures[]= {
@@ -301,7 +367,7 @@ class cfgWeapons {
 		class ItemInfo: ItemInfo {
 			vestType="Rebreather";
 			uniformModel="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
-			containerClass="Supply200";
+			containerClass="Supply350";
 			hiddenSelections[]= {
 				"camo1",
 				"camo2",
@@ -342,12 +408,12 @@ class cfgWeapons {
 			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
 			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
 			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
-			"Tenthed_Armor_Misriah\data\enlisted\Reach_Armor_Upper_Enlisted_co.paa",
+			"Tenthed_Armor_Misriah_Base\data\enlisted\Reach_Armor_Upper_Enlisted_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
-			"Tenthed_Armor_Misriah\data\enlisted\Sniper_Enlisted_co.paa",
-			"Tenthed_Armor_Misriah\data\enlisted\CQB_Enlisted_co.paa",
+			"Tenthed_Armor_Misriah_Base\data\enlisted\Sniper_Enlisted_co.paa",
+			"Tenthed_Armor_Misriah_Base\data\enlisted\CQB_Enlisted_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa"
 		};
 		class ItemInfo: ItemInfo {
@@ -393,12 +459,12 @@ class cfgWeapons {
 			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
 			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
 			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
-			"Tenthed_Armor_Misriah\data\enlisted\Reach_Armor_Upper_Enlisted_co.paa",
+			"Tenthed_Armor_Misriah_Base\data\enlisted\Reach_Armor_Upper_Enlisted_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
-			"Tenthed_Armor_Misriah\data\enlisted\Sniper_Enlisted_co.paa",
-			"Tenthed_Armor_Misriah\data\enlisted\CQB_Enlisted_co.paa",
+			"Tenthed_Armor_Misriah_Base\data\enlisted\Sniper_Enlisted_co.paa",
+			"Tenthed_Armor_Misriah_Base\data\enlisted\CQB_Enlisted_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa"
 		};
 		class ItemInfo: ItemInfo {
@@ -443,12 +509,12 @@ class cfgWeapons {
 			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
 			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
 			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
-			"Tenthed_Armor_Misriah\data\enlisted\Reach_Armor_Upper_Enlisted_co.paa",
+			"Tenthed_Armor_Misriah_Base\data\enlisted\Reach_Armor_Upper_Enlisted_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
-			"Tenthed_Armor_Misriah\data\enlisted\Sniper_Enlisted_co.paa",
-			"Tenthed_Armor_Misriah\data\enlisted\CQB_Enlisted_co.paa",
+			"Tenthed_Armor_Misriah_Base\data\enlisted\Sniper_Enlisted_co.paa",
+			"Tenthed_Armor_Misriah_Base\data\enlisted\CQB_Enlisted_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa"
 		};
 		class ItemInfo: ItemInfo {
@@ -500,12 +566,12 @@ class cfgWeapons {
 			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
 			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
 			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
-			"Tenthed_Armor_Misriah\data\enlisted\Reach_Armor_Upper_Enlisted_co.paa",
+			"Tenthed_Armor_Misriah_Base\data\enlisted\Reach_Armor_Upper_Enlisted_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
-			"Tenthed_Armor_Misriah\data\enlisted\Sniper_Enlisted_co.paa",
-			"Tenthed_Armor_Misriah\data\enlisted\CQB_Enlisted_co.paa",
+			"Tenthed_Armor_Misriah_Base\data\enlisted\Sniper_Enlisted_co.paa",
+			"Tenthed_Armor_Misriah_Base\data\enlisted\CQB_Enlisted_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa"
 		};
 		class ItemInfo: ItemInfo {
@@ -548,14 +614,14 @@ class cfgWeapons {
 	};
 
 	// Enlisted Helmet
-	class Tenthed_M56SR_Enlisted_Helmet : Tenthed_M56SR_Helmet_Base {
+	class Tenthed_M56SR_Enlisted_Helmet : Tenthed_M56SR_Helmet {
 		scope=2;
 		scopeArsenal=2;
 		displayName="[10th] M56S-R Enlisted Helmet";
 		model="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
 		picture="MA_Armor\data\Icons\Halo_Reach_ODST_Helmet.paa";
 		hiddenSelectionsTextures[]= {
-			"Tenthed_Armor_Misriah\data\enlisted\HR_ODST_Helmet_Enlisted_co.paa",
+			"Tenthed_Armor_Misriah_Base\data\enlisted\HR_ODST_Helmet_Enlisted_co.paa",
 			"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_Blue_co.paa"
 		};
 		class ItemInfo: ItemInfo {
@@ -573,6 +639,7 @@ class cfgWeapons {
 		picture="MA_Armor\data\Icons\H3_ODST_Uniform.paa";
 		class ItemInfo: UniformItem {
 			uniformModel="-";
+			uniformType = "Neopren";
 			uniformClass="Tenthed_M56S_BDU_Base";
 			containerClass="Supply150";
 			mass=10;
@@ -589,6 +656,7 @@ class cfgWeapons {
 		picture="MA_Armor\data\Icons\H3_ODST_Uniform.paa";
 		class ItemInfo: UniformItem {
 			uniformModel="-";
+			uniformType = "Neopren";
 			uniformClass="Tenthed_M56S_BDU_Base_Green";
 			containerClass="Supply150";
 			mass=10;
@@ -605,6 +673,7 @@ class cfgWeapons {
 		picture="MA_Armor\data\Icons\H3_ODST_Uniform.paa";
 		class ItemInfo: UniformItem {
 			uniformModel="-";
+			uniformType = "Neopren";
 			uniformClass="Tenthed_M56S_BDU_Base_Desert";
 			containerClass="Supply150";
 			mass=10;
@@ -621,6 +690,7 @@ class cfgWeapons {
 		picture="MA_Armor\data\Icons\H3_ODST_Uniform.paa";
 		class ItemInfo: UniformItem {
 			uniformModel="-";
+			uniformType = "Neopren";
 			uniformClass="Tenthed_M56S_BDU_Base_WhiteSilver";
 			containerClass="Supply150";
 			mass=10;
@@ -637,6 +707,7 @@ class cfgWeapons {
 		picture="MA_Armor\data\Icons\H3_ODST_Uniform.paa";
 		class ItemInfo: UniformItem {
 			uniformModel="-";
+			uniformType = "Neopren";
 			uniformClass="Tenthed_M56S_BDU_Base_Grey";
 			containerClass="Supply150";
 			mass=10;
@@ -877,7 +948,7 @@ class CfgVehicles {
 		picture="MA_Armor\data\Icons\H3_ODST_Uniform.paa";
 		hiddenSelectionsTextures[]=
 		{
-			"Tenthed_Armor_Misriah\data\uniforms\H3_Undersuit_green_co.paa"
+			"Tenthed_Armor_Misriah_Base\data\uniforms\H3_Undersuit_green_co.paa"
 		};
 	};
 	class Tenthed_M56S_BDU_Base_Desert: Tenthed_Uniform_Base {
@@ -888,7 +959,7 @@ class CfgVehicles {
 		picture="MA_Armor\data\Icons\H3_ODST_Uniform.paa";
 		hiddenSelectionsTextures[]=
 		{
-			"Tenthed_Armor_Misriah\data\uniforms\H3_Undersuit_desert_co.paa"
+			"Tenthed_Armor_Misriah_Base\data\uniforms\H3_Undersuit_desert_co.paa"
 		};
 	};
 	class Tenthed_M56S_BDU_Base_WhiteSilver: Tenthed_Uniform_Base {
@@ -899,7 +970,7 @@ class CfgVehicles {
 		picture="MA_Armor\data\Icons\H3_ODST_Uniform.paa";
 		hiddenSelectionsTextures[]=
 		{
-			"Tenthed_Armor_Misriah\data\uniforms\H3_Undersuit_whitesilver_co.paa"
+			"Tenthed_Armor_Misriah_Base\data\uniforms\H3_Undersuit_whitesilver_co.paa"
 		};
 	};
 	class Tenthed_M56S_BDU_Base_Grey: Tenthed_Uniform_Base {
@@ -910,7 +981,7 @@ class CfgVehicles {
 		picture="MA_Armor\data\Icons\H3_ODST_Uniform.paa";
 		hiddenSelectionsTextures[]=
 		{
-			"Tenthed_Armor_Misriah\data\uniforms\H3_Undersuit_grey_co.paa"
+			"Tenthed_Armor_Misriah_Base\data\uniforms\H3_Undersuit_grey_co.paa"
 		};
 	};
 };
