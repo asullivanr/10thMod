@@ -29,7 +29,7 @@ class cfgWeapons {
 	// Named Armors
 	class SCT_10th_Jinx_Armor : Tenthed_Pilot_Vest {
 		dlc = "OPTRE";
-		scope = 2;
+		scope = 0;
 		author = "Wolfe, Kodiak";
 		displayName = "[10th] M52B 'Jinx'";
 		model = "\OPTRE_FC_Units\Marines\h3_vest.p3d";
@@ -40,7 +40,7 @@ class cfgWeapons {
 		};
 	};
 	class SCT_10th_Kitsune_Armor : Tenthed_Demolitions_Knife_Armor {
-		scope = 2;
+		scope = 0;
 		author = "Wolfe,Kodiak";
 		displayName = "[10th] M52D 'Kitsune'";
 		hiddenSelectionsTextures[] = {
@@ -103,7 +103,7 @@ class cfgWeapons {
 		};
 	};
 	class SCT_10th_Dakota_Armor : Tenthed_Demolitions_Knife_Armor {
-		scope = 2;
+		scope = 0;
 		author = "Wolfe,Kodiak";
 		displayName = "[10th] M52D 'Dakota'";
 		hiddenSelectionsTextures[] = {
@@ -116,7 +116,7 @@ class cfgWeapons {
 	};
 	class SCT_10th_Choco_Armor : Tenthed_Pilot_Vest {
 		dlc = "OPTRE";
-		scope = 2;
+		scope = 0;
 		author = "Wolfe, Kodiak, Crow";
 		displayName = "[10th] M52B 'Choco'";
 		model = "\OPTRE_FC_Units\Marines\h3_vest.p3d";
@@ -152,7 +152,7 @@ class cfgWeapons {
 	};
 	class SCT_10th_Pockets_Armor : Tenthed_Pilot_Vest {
 		dlc = "OPTRE";
-		scope = 2;
+		scope = 0;
 		author = "Wolfe, Kodiak, Crow";
 		displayName = "[10th] M52B 'Pockets'";
 		model = "\OPTRE_FC_Units\Marines\h3_vest.p3d";
@@ -237,7 +237,7 @@ class cfgWeapons {
 		};
 	};
 	class SCT_10th_Goldie_Armor : Tenthed_Specialist2_Armor {
-		scope = 2;
+		scope = 0;
 		author = "Wolfe, Crow";
 		displayName = "[10th] M52D 'Goldie'";
 		hiddenSelectionsTextures[] = {
@@ -324,7 +324,7 @@ class cfgWeapons {
 		};
 	};
 	class SCT_10th_Wolfe_Armor : Tenthed_Rifleman_Knife_Armor {
-		scope = 2;
+		scope = 0;
 		author = "Wolfe,Kodiak";
 		displayName = "[10th] M52D 'Wolfe'";
 		hiddenSelectionsTextures[] = {
@@ -348,7 +348,7 @@ class cfgWeapons {
 		};
 	};
 	class SCT_10th_Sixfour_Armor : Tenthed_Rifleman_Knife_Armor {
-		scope = 2;
+		scope = 0;
 		author = "Wolfe,Kodiak";
 		displayName = "[10th] M52D 'Sixfour'";
 		hiddenSelectionsTextures[] = {
@@ -397,7 +397,7 @@ class cfgWeapons {
 		};
 	};
 	class SCT_10th_Kmart_Armor : Tenthed_Sniper_Armor {
-		scope = 2;
+		scope = 0;
 		author = "Wolfe,Kodiak,Tiger";
 		displayName = "[10th] M52D 'Kmart'";
 		hiddenSelectionsTextures[] = {
@@ -471,7 +471,7 @@ class cfgWeapons {
 		};
 	};
 	class SCT_10th_Tower_Armor : Tenthed_Rifleman_Knife_Armor {
-		scope = 2;
+		scope = 0;
 		author = "Wolfe,Kodiak";
 		displayName = "[10th] M52D 'Tower'";
 		hiddenSelectionsTextures[] = {
@@ -483,7 +483,7 @@ class cfgWeapons {
 		};
 	};
 	class SCT_10th_Firefly_Armor : Tenthed_Specialist2_Armor {
-		scope = 2;
+		scope = 0;
 		author = "Wolfe,Kodiak";
 		displayName = "[10th] M52D 'Firefly'";
 		hiddenSelectionsTextures[] = {
@@ -519,7 +519,7 @@ class cfgWeapons {
 		};
 	};
 	class SCT_10th_Mustang_Armor : Tenthed_Specialist2_Armor {
-		scope = 2;
+		scope = 0;
 		author = "Wolfe,Kodiak";
 		displayName = "[10th] M52D 'Mustang'";
 		hiddenSelectionsTextures[] = {
@@ -555,7 +555,7 @@ class cfgWeapons {
 		};
 	};
 	class SCT_10th_Tino_Armor : Tenthed_Demolitions_Knife_Armor {
-		scope = 2;
+		scope = 0;
 		author = "Wolfe,Kodiak";
 		displayName = "[10th] M52D 'Tino'";
 		hiddenSelectionsTextures[] = {
@@ -579,7 +579,7 @@ class cfgWeapons {
 		};
 	};
 	class SCT_10th_Fixer_Armor : Tenthed_Rifleman_Knife_Armor {
-		scope = 2;
+		scope = 0;
 		author = "Wolfe,Kodiak";
 		displayName = "[10th] M52D 'Fixer'";
 		hiddenSelectionsTextures[] = {
@@ -591,7 +591,7 @@ class cfgWeapons {
 		};
 	};
 	class SCT_10th_Logic_Armor : Tenthed_Specialist2_Armor {
-		scope = 2;
+		scope = 0;
 		author = "Wolfe,Kodiak";
 		displayName = "[10th] M52D 'Logic'";
 		hiddenSelectionsTextures[] = {
@@ -747,7 +747,7 @@ class cfgWeapons {
 		};
 	};
 	class SCT_10th_Goose_Armor : Tenthed_Specialist2_Armor {
-		scope = 2;
+		scope = 0;
 		author = "Goose";
 		displayName = "[10th] M52D 'Goose'";
 		hiddenSelectionsTextures[] = {
@@ -771,7 +771,7 @@ class cfgWeapons {
 		};
 	};
 	class SCT_10th_Ledo_Armor : Tenthed_Rifleman_Armor {
-		scope = 2;
+		scope = 0;
 		author = "Breadsticks";
 		displayName = "[10th] M52D 'Ledo'";
 		hiddenSelectionsTextures[] = {

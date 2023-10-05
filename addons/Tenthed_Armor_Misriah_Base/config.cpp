@@ -74,10 +74,10 @@ class cfgWeapons {
 	};
 
 	class Tenthed_Vest_Base: V_PlateCarrier1_rgr {
-		scope=1;
-		scopeArsenal=1;
+		scope=0;
+		scopeArsenal=0;
 		author="Misriah Armory";
-		displayName="[MA] Base Vest";
+		displayName="[10th] Base Vest";
 		model="";
 		picture="";
 		hiddenSelections[]= {
@@ -293,12 +293,28 @@ class cfgWeapons {
 			uniformModel="MA_Armor\data\Helmets\EOD\EOD_Helmet.p3d";
 		};
 	};
+	// M65-S "Recon"
+	class Tenthed_M56_Scout_Helmet: Tenthed_Helmet_Base {
+		scope=2;
+		scopeArsenal=2;
+		displayName="[10th] M65-S Helmet";
+		model="MA_Armor\data\Helmets\H4_Scout\H4_Scout_Helmet.p3d";
+		picture="MA_Armor\data\Icons\H4_Scout_Helmet.paa";
+		hiddenSelectionsTextures[]= {
+			"MA_Armor\data\Helmets\H4_Scout\Scout_Helm_co.paa",
+			"MA_Armor\data\Helmets\H4_Scout\Scout_Visor_Blue_co.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			uniformModel="MA_Armor\data\Helmets\H4_Scout\H4_Scout_Helmet.p3d";
+		};
+	};
 
 	// Rifleman - no radio
 	class Tenthed_M56R_Vest_Rifleman : Tenthed_Vest_Base {
 		scope=2;
 		scopeArsenal=2;
-		displayName="[10th] M56R Combat Armor (Rifleman)";
+		displayName="[10th] M56R Combat Armor";
 		model="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
 		picture="MA_Armor\data\Icons\H3ODST_Vest.paa";
 		hiddenSelectionsTextures[]= {
@@ -346,10 +362,10 @@ class cfgWeapons {
 		};
 	};
 	// Rifleman - Radio right
-	class Tenthed_M56R_Vest_Rifleman_radio_right : Tenthed_Vest_Base {
+	class Tenthed_M56R_Vest_Rifleman_ODST_radio_right : Tenthed_Vest_Base {
 		scope=2;
 		scopeArsenal=2;
-		displayName="[10th] M56R Combat Armor (Rifleman - Radio)";
+		displayName="[10th] M56R Combat Armor (ODST Radio Shoulder)";
 		model="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
 		picture="MA_Armor\data\Icons\H3ODST_Vest.paa";
 		hiddenSelectionsTextures[]= {
@@ -395,13 +411,322 @@ class cfgWeapons {
 			};
 		};
 	};
+	// Rifleman - Radio right Green
+	class Tenthed_M56R_Vest_Rifleman_radio_right : Tenthed_Vest_Base {
+		scope=2;
+		scopeArsenal=2;
+		displayName="[10th] M56R Combat Armor (Radio Shoulder)";
+		model="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+		picture="MA_Armor\data\Icons\H3ODST_Vest.paa";
+		hiddenSelectionsTextures[]= {
+			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
+			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
+			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Upper_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_Green_co.paa"
+		};
+		class ItemInfo: ItemInfo {
+			vestType="Rebreather";
+			uniformModel="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+			containerClass="Supply350";
+			hiddenSelections[]= {
+				"camo1",
+				"camo2",
+				"camo3",
+				"camo4",
+				"camo5",
+				"camo6",
+				"camo7",
+				"camo8",
+				"camo9",
+				"camo10",
+				"H3_Forearm_Left",
+				"H3_Forearm_Right",
+				"H3_Pauldron_Left",
+				"H3_Pauldron_Right",
+				"Reach_Shoulder_Radio_Left",
+				"Reach_Sniper_Pauldron_Left",
+				"Reach_Sniper_Pauldron_Right",
+				"Reach_CQB_Pauldron_Left",
+				"Reach_CQB_Pauldron_Right",
+				"Thigh_Pouch",
+				"H3_Armor_Upper",
+				"H3_Armor_Lower",
+				"Canisters"
+			};
+		};
+	};
+
+	class Tenthed_M56R_Recon_Vest: Tenthed_Vest_Base {
+		displayName="[10th] M56R Combat Armor (Recon)";
+		hiddenSelectionsTextures[]= {
+			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
+			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
+			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Upper_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_Green_co.paa"
+		};
+		class ItemInfo: ItemInfo {
+			vestType="Rebreather";
+			uniformModel="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+			containerClass="Supply350";
+			hiddenSelections[]= {
+				"camo1",
+				"camo2",
+				"camo3",
+				"camo4",
+				"camo5",
+				"camo6",
+				"camo7",
+				"camo8",
+				"camo9",
+				"camo10",
+				"H3_Forearm_Left",
+				"H3_Forearm_Right",
+				"H3_Pauldron_Left",
+				"H3_Pauldron_Right",
+				"Reach_Pauldron_Left",
+				"Reach_Pauldron_Right",
+				"Reach_Shoulder_Radio_Left",
+				"Reach_Shoulder_Radio_Right",
+				"Reach_Sniper_Pauldron_Left",
+				"Reach_Sniper_Pauldron_Right",
+				"Reach_CQB_Pauldron_Left",
+				"Reach_CQB_Pauldron_Right",
+				"Thigh_Pouch",
+				"H3_Armor_Upper",
+				"H3_Armor_Lower"
+			};
+		};
+	};
+	class Tenthed_M56R_Light_Vest: Tenthed_Vest_Base {
+		displayName="[10th] M56R Combat Armor (Light)";
+		hiddenSelectionsTextures[]= {
+			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
+			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
+			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Upper_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_Green_co.paa"
+		};
+		class ItemInfo: ItemInfo {
+			vestType="Rebreather";
+			uniformModel="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+			containerClass="Supply350";
+			hiddenSelections[]= {
+				"camo1",
+				"camo2",
+				"camo3",
+				"camo4",
+				"camo5",
+				"camo6",
+				"camo7",
+				"camo8",
+				"camo9",
+				"camo10",
+				"H3_Forearm_Left",
+				"H3_Forearm_Right",
+				"Reach_Forearm_Left",
+				"Reach_Forearm_Right",
+				"H3_Pauldron_Left",
+				"H3_Pauldron_Right",
+				"Reach_Pauldron_Left",
+				"Reach_Pauldron_Right",
+				"Reach_Shoulder_Radio_Left",
+				"Reach_Shoulder_Radio_Right",
+				"Reach_Sniper_Pauldron_Left",
+				"Reach_Sniper_Pauldron_Right",
+				"Reach_CQB_Pauldron_Left",
+				"Reach_CQB_Pauldron_Right",
+				"Thigh_Pouch",
+				"H3_Armor_Upper",
+				"H3_Armor_Lower",
+				"Forearm_Vent_Left",
+				"Forearm_Vent_Right"
+			};
+		};
+	};
+	class Tenthed_M56R_Medic_Vest: Tenthed_Vest_Base {
+		scope=2;
+		scopeArsenal=2;
+		displayName="[10th] M56R Combat Armor (Medic)";
+		model="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+		picture="MA_Armor\data\Icons\H3ODST_Vest.paa";
+		hiddenSelectionsTextures[]= {
+			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
+			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
+			"MA_Armor\data\Vests\H3_ODST\Addons\Medic_Thigh_Pouch_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Reach_Medical_Armor_Upper_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_Green_co.paa"
+		};
+		class ItemInfo: ItemInfo {
+			vestType="Rebreather";
+			uniformModel="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+			containerClass="Supply350";
+			hiddenSelections[]= {
+				"camo1",
+				"camo2",
+				"camo3",
+				"camo4",
+				"camo5",
+				"camo6",
+				"camo7",
+				"camo8",
+				"camo9",
+				"camo10",
+				"H3_Forearm_Left",
+				"H3_Forearm_Right",
+				"H3_Pauldron_Left",
+				"H3_Pauldron_Right",
+				"Reach_Shoulder_Radio_Left",
+				"Reach_Shoulder_Radio_Right",
+				"Reach_Sniper_Pauldron_Left",
+				"Reach_Sniper_Pauldron_Right",
+				"Reach_CQB_Pauldron_Left",
+				"Reach_CQB_Pauldron_Right",
+				"H3_Armor_Upper",
+				"H3_Armor_Lower"
+			};
+		};
+	};
+	class Tenthed_M56R_Vest_Sniper : Tenthed_Vest_Base {
+		scope=2;
+		scopeArsenal=2;
+		displayName="[10th] M56R Combat Armor (Sniper)";
+		model="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+		picture="MA_Armor\data\Icons\H3ODST_Vest.paa";
+		hiddenSelectionsTextures[]= {
+			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
+			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
+			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Upper_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_Green_co.paa"
+		};
+		class ItemInfo: ItemInfo {
+			vestType="Rebreather";
+			uniformModel="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+			containerClass="Supply350";
+			hiddenSelections[]= {
+				"camo1",
+				"camo2",
+				"camo3",
+				"camo4",
+				"camo5",
+				"camo6",
+				"camo7",
+				"camo8",
+				"camo9",
+				"camo10",
+				"H3_Forearm_Left",
+				"H3_Forearm_Right",
+				//"Reach_Forearm_Left",
+				//"Reach_Forearm_Right",
+				"H3_Pauldron_Left",
+				"H3_Pauldron_Right",
+				"Reach_Pauldron_Left",
+				"Reach_Pauldron_Right",
+				"Reach_Shoulder_Radio_Left",
+				"Reach_Shoulder_Radio_Right",
+				//"Reach_Sniper_Pauldron_Left",
+				//"Reach_Sniper_Pauldron_Right",
+				"Reach_CQB_Pauldron_Left",
+				"Reach_CQB_Pauldron_Right",
+				"Thigh_Pouch",
+				"H3_Armor_Upper",
+				"H3_Armor_Lower",
+				//"Forearm_Vent_Left",
+				//"Forearm_Vent_Right",
+				"Canisters"
+			};
+		};
+	};
+	class Tenthed_M56R_Vest_CQB : Tenthed_Vest_Base {
+		scope=2;
+		scopeArsenal=2;
+		displayName="[10th] M56R Combat Armor (CQB)";
+		model="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+		picture="MA_Armor\data\Icons\H3ODST_Vest.paa";
+		hiddenSelectionsTextures[]= {
+			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
+			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
+			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Upper_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_Green_co.paa"
+		};
+		class ItemInfo: ItemInfo {
+			vestType="Rebreather";
+			uniformModel="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+			containerClass="Supply350";
+			hiddenSelections[]= {
+				"camo1",
+				"camo2",
+				"camo3",
+				"camo4",
+				"camo5",
+				"camo6",
+				"camo7",
+				"camo8",
+				"camo9",
+				"camo10",
+				"H3_Forearm_Left",
+				"H3_Forearm_Right",
+				//"Reach_Forearm_Left",
+				//"Reach_Forearm_Right",
+				"H3_Pauldron_Left",
+				"H3_Pauldron_Right",
+				"Reach_Pauldron_Left",
+				"Reach_Pauldron_Right",
+				"Reach_Shoulder_Radio_Left",
+				"Reach_Shoulder_Radio_Right",
+				"Reach_Sniper_Pauldron_Left",
+				"Reach_Sniper_Pauldron_Right",
+				//"Reach_CQB_Pauldron_Left",
+				//"Reach_CQB_Pauldron_Right",
+				"Thigh_Pouch",
+				"H3_Armor_Upper",
+				"H3_Armor_Lower",
+				//"Forearm_Vent_Left",
+				//"Forearm_Vent_Right",
+				"Canisters"
+			};
+		};
+	};
 
 	// Enlisted Variants
 	// Enlisted Rifleman - no radio
 	class Tenthed_M56R_Vest_Enlisted_Rifleman : Tenthed_Vest_Base {
 		scope=2;
 		scopeArsenal=2;
-		displayName="[10th] Enlisted M56R Combat Armor (Rifleman)";
+		displayName="[10th] M56R Combat Armor Enlisted (Rifleman)";
 		model="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
 		picture="MA_Armor\data\Icons\H3ODST_Vest.paa";
 		hiddenSelectionsTextures[]= {
@@ -452,7 +777,7 @@ class cfgWeapons {
 	class Tenthed_M56R_Vest_Enlisted_Rifleman_radio_right : Tenthed_Vest_Base {
 		scope=2;
 		scopeArsenal=2;
-		displayName="[10th] Enlisted M56R Combat Armor (Rifleman - Radio)";
+		displayName="[10th] M56R Combat Armor Enlisted (Rifleman - Radio)";
 		model="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
 		picture="MA_Armor\data\Icons\H3ODST_Vest.paa";
 		hiddenSelectionsTextures[]= {
@@ -470,7 +795,7 @@ class cfgWeapons {
 		class ItemInfo: ItemInfo {
 			vestType="Rebreather";
 			uniformModel="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
-			containerClass="Supply200";
+			containerClass="Supply350";
 			hiddenSelections[]= {
 				"camo1",
 				"camo2",
@@ -502,7 +827,7 @@ class cfgWeapons {
 	class Tenthed_M56R_Vest_Enlisted_Sniper : Tenthed_Vest_Base {
 		scope=2;
 		scopeArsenal=2;
-		displayName="[10th] Enlisted M56R Combat Armor (Sniper)";
+		displayName="[10th] M56R Combat Armor Enlisted (Sniper)";
 		model="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
 		picture="MA_Armor\data\Icons\H3ODST_Vest.paa";
 		hiddenSelectionsTextures[]= {
@@ -559,7 +884,7 @@ class cfgWeapons {
 	class Tenthed_M56R_Vest_Enlisted_CQB : Tenthed_Vest_Base {
 		scope=2;
 		scopeArsenal=2;
-		displayName="[10th] Enlisted M56R Combat Armor (CQB)";
+		displayName="[10th] M56R Combat Armor Enlisted (CQB)";
 		model="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
 		picture="MA_Armor\data\Icons\H3ODST_Vest.paa";
 		hiddenSelectionsTextures[]= {
@@ -617,7 +942,7 @@ class cfgWeapons {
 	class Tenthed_M56SR_Enlisted_Helmet : Tenthed_M56SR_Helmet {
 		scope=2;
 		scopeArsenal=2;
-		displayName="[10th] M56S-R Enlisted Helmet";
+		displayName="[10th] Enlisted M56S-R Helmet";
 		model="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
 		picture="MA_Armor\data\Icons\Halo_Reach_ODST_Helmet.paa";
 		hiddenSelectionsTextures[]= {
@@ -634,7 +959,7 @@ class cfgWeapons {
 		scope=2;
 		scopeArsenal=2;
 		author="Misriah Armoury";
-		displayName="[10th] M56S BDU";
+		displayName="[10th] M56S - Black";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		picture="MA_Armor\data\Icons\H3_ODST_Uniform.paa";
 		class ItemInfo: UniformItem {
@@ -651,7 +976,7 @@ class cfgWeapons {
 		scope=2;
 		scopeArsenal=2;
 		author="Misriah Armoury";
-		displayName="[10th] M56S BDU - Green";
+		displayName="[10th] M56S - Green";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		picture="MA_Armor\data\Icons\H3_ODST_Uniform.paa";
 		class ItemInfo: UniformItem {
@@ -668,7 +993,7 @@ class cfgWeapons {
 		scope=2;
 		scopeArsenal=2;
 		author="Misriah Armoury";
-		displayName="[10th] M56S BDU - Desert";
+		displayName="[10th] M56S - Desert";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		picture="MA_Armor\data\Icons\H3_ODST_Uniform.paa";
 		class ItemInfo: UniformItem {
@@ -685,7 +1010,7 @@ class cfgWeapons {
 		scope=2;
 		scopeArsenal=2;
 		author="Misriah Armoury";
-		displayName="[10th] M56S BDU - Silver";
+		displayName="[10th] M56S - Silver";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		picture="MA_Armor\data\Icons\H3_ODST_Uniform.paa";
 		class ItemInfo: UniformItem {
@@ -702,7 +1027,7 @@ class cfgWeapons {
 		scope=2;
 		scopeArsenal=2;
 		author="Misriah Armoury";
-		displayName="[10th] M56S BDU - Grey";
+		displayName="[10th] M56S - Grey";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		picture="MA_Armor\data\Icons\H3_ODST_Uniform.paa";
 		class ItemInfo: UniformItem {
@@ -984,4 +1309,116 @@ class CfgVehicles {
 			"Tenthed_Armor_Misriah_Base\data\uniforms\H3_Undersuit_grey_co.paa"
 		};
 	};
+
+	// Backpacks
+	class B_Kitbag_rgr;
+	class Tenthed_Backpack_Base: B_Kitbag_rgr {
+		scope=0;
+		scopeArsenal=0;
+		faction = "Tenthed_UnitFact_Main";
+		editorCategory = "Tenthed_EditorCategory_Items";
+		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Backpacks";
+		author="Misriah Armory";
+		displayname="[10th] Base Backpack";
+		model="";
+		maximumLoad=250;
+		hiddenSelections[]= {
+			"camo"
+		};
+	};
+	// Base backpack
+	class Tenthed_M56S_Rucksack: Tenthed_Backpack_Base {
+		scope=2;
+		scopeArsenal=2;
+		displayName="[10th] M56S Rucksack";
+		model="MA_Armor\data\Backpacks\ODST_Rucksack\ODST_Ruck.p3d";
+		picture="MA_Armor\data\Icons\ODST_Rucksack.paa";
+		maximumLoad=350;
+		hiddenSelections[]= {
+			"camo1",
+			"camo2",
+			"Radio"
+		};
+		hiddenSelectionsTextures[]= {
+			"MA_Armor\data\Backpacks\ODST_Rucksack\ODST_Ruck_co.paa",
+			"MA_Armor\data\Backpacks\ODST_Rucksack\Attachments\Backpack_Radio_Green_co.paa"
+		};
+	};
+	// LR backpack
+	class Tenthed_M56S_Rucksack_Radio: Tenthed_M56S_Rucksack {
+		displayName="[10th] M56S Rucksack (ODST Radio)";
+		hiddenSelections[]= {
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]= {
+			"Tenthed_Armor_Misriah_Base\data\backpacks\Enlisted_Ruck_co.paa",
+			"MA_Armor\data\Backpacks\ODST_Rucksack\Attachments\Backpack_Radio_ODST_co.paa"
+		};
+		tf_encryptionCode="tf_west_radio_code";
+		tf_dialog="rt1523g_radio_dialog";
+		tf_subtype="digital_lr";
+		tf_range=25000;
+		tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel";
+		tf_hasLRradio=1;
+	};
+	// Medic Backpack
+	class Tenthed_M56S_Rucksack_Medic: Tenthed_M56S_Rucksack {
+		displayName="[10th] M56S Rucksack (Medic)";
+		maximumLoad=400;
+		hiddenSelections[]= {
+			"camo1",
+			"camo2",
+			"Radio"
+		};
+		hiddenSelectionsTextures[]= {
+			"Tenthed_Armor_Misriah_Base\data\backpacks\Medic_Ruck_co.paa",
+			"MA_Armor\data\Backpacks\ODST_Rucksack\Attachments\Backpack_Radio_Green_co.paa"
+		};
+		tf_encryptionCode="tf_west_radio_code";
+		tf_dialog="rt1523g_radio_dialog";
+		tf_subtype="digital_lr";
+		tf_range=25000;
+		tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel";
+		tf_hasLRradio=1;
+	};
+	class Tenthed_M56S_Rucksack_Medic_Radio: Tenthed_M56S_Rucksack {
+		displayName="[10th] M56S Rucksack (Medic - Radio)";
+		maximumLoad=400;
+		hiddenSelections[]= {
+			"camo1",
+			"camo2",
+			//"Radio"
+		};
+		hiddenSelectionsTextures[]= {
+			"Tenthed_Armor_Misriah_Base\data\backpacks\Medic_Ruck_co.paa",
+			"MA_Armor\data\Backpacks\ODST_Rucksack\Attachments\Backpack_Radio_Green_co.paa"
+		};
+		tf_encryptionCode="tf_west_radio_code";
+		tf_dialog="rt1523g_radio_dialog";
+		tf_subtype="digital_lr";
+		tf_range=25000;
+		tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel";
+		tf_hasLRradio=1;
+	};
+
+	// AR-CB Rucksack
+	class B_Carryall_oli;
+	class Tenthed_ARCB: B_Carryall_oli {
+		scope=2;
+		scopeCurator=2;
+		scopeArsenal=2;
+		displayName="[10th] AR-CB Rucksack";
+		model="\a3\weapons_f\empty.p3d";
+		author="Akira";
+		maximumLoad=350;
+
+		tf_encryptionCode="tf_west_radio_code";
+		tf_dialog="rt1523g_radio_dialog";
+		tf_subtype="digital_lr";
+		tf_range=25000;
+		tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel";
+		tf_hasLRradio=1;
+	};
+
 };
