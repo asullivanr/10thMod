@@ -52,7 +52,7 @@ class cfgWeapons {
 		};
 	};
 	class SCT_10th_Gutts_Armor : Tenthed_Demolitions_Armor {
-		scope = 2;
+		scope = 0;
 		author = "Wolfe,Kodiak";
 		displayName = "[10th] M52D 'Gutts'";
 		hiddenSelectionsTextures[] =
@@ -65,7 +65,7 @@ class cfgWeapons {
 		};
 	};
 	class SCT_10th_Seagull_Armor : Tenthed_Demolitions_Armor {
-		scope = 2;
+		scope = 0;
 		author = "Wolfe,Kodiak";
 		displayName = "[10th] M52D 'Seagull'";
 		hiddenSelectionsTextures[] =
@@ -78,7 +78,7 @@ class cfgWeapons {
 		};
 	};
 	class SCT_10th_Clem_Armor : Tenthed_Demolitions_Armor {
-		scope = 2;
+		scope = 0;
 		author = "Wolfe,Kodiak,Tiger";
 		displayName = "[10th] M52D 'Clem'";
 		hiddenSelectionsTextures[] =
@@ -262,7 +262,7 @@ class cfgWeapons {
 		};
 	};
 	class SCT_10th_Drake_Armor : Tenthed_Demolitions_Knife_Armor {
-		scope = 2;
+		scope = 0;
 		author = "Wolfe,Kodiak";
 		displayName = "[10th] M52D 'Drake'";
 		hiddenSelectionsTextures[] = {
@@ -287,7 +287,7 @@ class cfgWeapons {
 		};
 	};
 	class SCT_10th_HardDrop_Armor : Tenthed_Demolitions_Armor {
-		scope = 2;
+		scope = 0;
 		author = "Wolfe,Kodiak";
 		displayName = "[10th] M52D 'Hard-Drop'";
 		hiddenSelectionsTextures[] = {
@@ -447,7 +447,7 @@ class cfgWeapons {
 		};
 	};
 	class SCT_10th_Nobody_Armor : Tenthed_Specialist2_Armor {
-		scope = 2;
+		scope = 0;
 		author = "Wolfe,Kodiak";
 		displayName = "[10th] M52D 'Nobody'";
 		hiddenSelectionsTextures[] = {
@@ -567,7 +567,7 @@ class cfgWeapons {
 		};
 	};
 	class SCT_10th_Hatchet_Armor : Tenthed_Sniper_Knife_Armor {
-		scope = 2;
+		scope = 0;
 		author = "Wolfe,Kodiak";
 		displayName = "[10th] M52D 'Hatchet'";
 		hiddenSelectionsTextures[] = {
@@ -686,7 +686,7 @@ class cfgWeapons {
 		};
 	};
 	class SCT_10th_Som_Armor : Tenthed_Sniper_Knife_Armor {
-		scope = 2;
+		scope = 0;
 		author = "Mac";
 		displayName = "[10th] M52D 'Som'";
 		hiddenSelectionsTextures[] = {
@@ -734,7 +734,7 @@ class cfgWeapons {
 		};
 	};
 	class SCT_10th_Cookie_Armor : Tenthed_Rifleman_Knife_Armor {
-		scope = 2;
+		scope = 0;
 		author = "Jogn";
 		displayName = "[10th] M52D 'Cookie'";
 		hiddenSelectionsTextures[] =
@@ -795,7 +795,7 @@ class cfgWeapons {
 		};
 	};
 	class SCT_10th_Leek_Armor : Tenthed_Rifleman_Armor {
-		scope = 2;
+		scope = 0;
 		author = "Goose";
 		displayName = "[10th] M52D 'Leek'";
 		hiddenSelectionsTextures[] = {
@@ -831,7 +831,7 @@ class cfgWeapons {
 		};
 	};
 	class SCT_10th_Dovah_Armor : Tenthed_Specialist2_Armor {
-		scope = 2;
+		scope = 0;
 		author = "Mac";
 		displayName = "[10th] M52D 'Dovah'";
 		hiddenSelectionsTextures[] = {
