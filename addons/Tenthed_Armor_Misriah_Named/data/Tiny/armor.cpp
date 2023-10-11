@@ -1,7 +1,7 @@
 	class Tenthed_M56A_Helmet_Tiny : Tenthed_M56A_Helmet {
 		scope=2;
 		scopeArsenal=2;
-		displayName="[10th] M56A Helmet (Tiny)";
+		displayName="[10th] M56-A Helmet (Tiny)";
 		model="MA_Armor\data\Helmets\AA\AA_Helmet.p3d";
 		picture="MA_Armor\data\Icons\AA_Helmet.paa";
 		hiddenSelectionsTextures[]= { // un comment out which visor color you would like to test. make sure to comment out the old color or else there will be errors. Blue visor enabled by default.

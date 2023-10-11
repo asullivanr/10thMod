@@ -76,7 +76,7 @@
 	class Tenthed_M56E_Helmet_Lion : Tenthed_M56E_Helmet {
 		scope=2;
 		scopeArsenal=2;
-		displayName="[10th] M56E Helmet (Lion)";
+		displayName="[10th] M56-E Helmet (Lion)";
 		model="MA_Armor\data\Helmets\EOD\EOD_Helmet.p3d";
 		picture="MA_Armor\data\Icons\EOD_Helm.paa";
 		hiddenSelectionsTextures[]= { // un comment out which visor color you would like to test. make sure to comment out the old color or else there will be errors. Blue visor enabled by default.
