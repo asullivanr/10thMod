@@ -108,4 +108,34 @@ class cfgWeapons {
 
 	// Som
 	#include "data\Som\armor.cpp"
+//
+	// Cossack
+	#include "data\Cossack\armor.cpp"
+
+	// Evader
+	#include "data\Evader\armor.cpp"
+
+	// Freedom
+	#include "data\Freedom\armor.cpp"
+
+	// Goldy
+	#include "data\Goldy\armor.cpp"
+
+	// Grimgnaw
+	#include "data\Grimgnaw\armor.cpp"
+
+	// Hodge
+	#include "data\Hodge\armor.cpp"
+
+	// Infra
+	#include "data\Infra\armor.cpp"
+
+	// McInnes
+	#include "data\McInnes\armor.cpp"
+
+	// Meatshield
+	#include "data\Meatshield\armor.cpp"
+
+	// Tiger
+	#include "data\Tiger\armor.cpp"
 };

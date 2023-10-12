@@ -64,9 +64,9 @@
 		hiddenSelectionsTextures[]= { // un comment out which visor color you would like to test. make sure to comment out the old color or else there will be errors. Blue visor enabled by default.
 			"Tenthed_Armor_Misriah_Named\data\Villainess\Scout_Helmet_Villainess_co.paa",
 			//"MA_Armor\data\Helmets\Gungnir\Gungnir_Visor_Blue_co.paa" // Blue Visor
-			"MA_Armor\data\Helmets\H4_Scout\Scout_Visor_Black_co.paa" // Black Visor
+			//"MA_Armor\data\Helmets\H4_Scout\Scout_Visor_Black_co.paa" // Black Visor
 			//"MA_Armor\data\Helmets\Gungnir\Gungnir_Visor_Gold_co.paa" // Gold Visor
-			//"MA_Armor\data\Helmets\Gungnir\Gungnir_Visor_Red_co.paa" // Red Visor
+			"MA_Armor\data\Helmets\Gungnir\Gungnir_Visor_Red_co.paa" // Red Visor
 			//"MA_Armor\data\Helmets\Gungnir\Gungnir_Visor_White_co.paa"// White Visor
 		};
 		class ItemInfo: ItemInfo {
