@@ -3,6 +3,8 @@ class CfgPatches {
 		author = "Akira";
 		name = "10th Armor Base - Misriah";
 		requiredAddons[] = {
+			"OPTRE_Core",
+			"Tenthed_core",
 			"MA_Armor"
 		};
 		weapons[] = {};
