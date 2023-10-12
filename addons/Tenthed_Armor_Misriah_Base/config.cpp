@@ -463,7 +463,11 @@ class cfgWeapons {
 	};
 
 	class Tenthed_M56R_Recon_Vest: Tenthed_Vest_Base {
+		scope=2;
+		scopeArsenal=2;
 		displayName="[10th] M56R Combat Armor (Recon)";
+		model="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+		picture="MA_Armor\data\Icons\H3ODST_Vest.paa";
 		hiddenSelectionsTextures[]= {
 			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
 			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
@@ -510,7 +514,11 @@ class cfgWeapons {
 		};
 	};
 	class Tenthed_M56R_Light_Vest: Tenthed_Vest_Base {
+		scope=2;
+		scopeArsenal=2;
 		displayName="[10th] M56R Combat Armor (Light)";
+		model="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+		picture="MA_Armor\data\Icons\H3ODST_Vest.paa";
 		hiddenSelectionsTextures[]= {
 			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
 			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
@@ -716,62 +724,6 @@ class cfgWeapons {
 				"H3_Armor_Lower",
 				//"Forearm_Vent_Left",
 				//"Forearm_Vent_Right",
-				"Canisters"
-			};
-		};
-	};
-	class Tenthed_M56R_Vest_Light : Tenthed_Vest_Base {
-		scope=2;
-		scopeArsenal=2;
-		displayName="[10th] M56R Combat Armor (Light)";
-		model="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
-		picture="MA_Armor\data\Icons\H3ODST_Vest.paa";
-		hiddenSelectionsTextures[]= {
-			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
-			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
-			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
-			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Upper_co.paa",
-			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
-			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
-			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
-			"MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
-			"MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa",
-			"MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_Green_co.paa"
-		};
-		class ItemInfo: ItemInfo {
-			vestType="Rebreather";
-			uniformModel="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
-			containerClass="Supply350";
-			hiddenSelections[]= { // put a // in front of section to show the item. by default the right sniper pauldron is shown and the CQB left pauldron is shown.
-				"camo1",
-				"camo2",
-				"camo3",
-				"camo4",
-				"camo5",
-				"camo6",
-				"camo7",
-				"camo8",
-				"camo9",
-				"camo10",
-				"H3_Forearm_Left",
-				"H3_Forearm_Right",
-				"Reach_Forearm_Left",
-				"Reach_Forearm_Right",
-				"H3_Pauldron_Left",
-				"H3_Pauldron_Right",
-				"Reach_Pauldron_Left",
-				"Reach_Pauldron_Right",
-				"Reach_Shoulder_Radio_Left",
-				"Reach_Shoulder_Radio_Right",
-				"Reach_Sniper_Pauldron_Left",
-				"Reach_Sniper_Pauldron_Right",
-				"Reach_CQB_Pauldron_Left",
-				"Reach_CQB_Pauldron_Right",
-				"Thigh_Pouch",
-				"H3_Armor_Upper",
-				"H3_Armor_Lower",
-				"Forearm_Vent_Left",
-				"Forearm_Vent_Right",
 				"Canisters"
 			};
 		};
@@ -1107,22 +1059,196 @@ class CfgVehicleCLasses {
 	};
 };
 class CfgVehicles {
-	class SoldierWB;
-	class Tenthed_Soldier_Base: SoldierWB {
-		class EventHandlers;
-		class HitPoints {
-			class HitHead;
-			class HitBody;
-			class HitHands;
-			class HitLegs;
+	class OPTRE_UNSC_Army_Soldier_WDL;
+	class Tenthed_BDU_Base: OPTRE_UNSC_Army_Soldier_WDL {
+		class HitPoints
+		{
+			class HitFace
+			{
+				armor=1;
+				material=-1;
+				name="face_hub";
+				passThrough=0.80000001;
+				radius=0.079999998;
+				explosionShielding=0.1;
+				minimalHit=0.0099999998;
+			};
+			class HitNeck: HitFace
+			{
+				armor=4;
+				material=-1;
+				name="neck";
+				passThrough=0.80000001;
+				radius=0.1;
+				explosionShielding=0.5;
+				minimalHit=0.0099999998;
+			};
+			class HitHead: HitNeck
+			{
+				armor=1;
+				material=-1;
+				name="head";
+				passThrough=0.80000001;
+				radius=0.2;
+				explosionShielding=0.5;
+				minimalHit=0.0099999998;
+				depends="HitFace max HitNeck";
+			};
+			class HitPelvis: HitHead
+			{
+				armor=8;
+				material=-1;
+				name="pelvis";
+				passThrough=0.80000001;
+				radius=0.23999999;
+				explosionShielding=1;
+				visual="injury_body";
+				minimalHit=0.0099999998;
+				depends="0";
+			};
+			class HitAbdomen: HitPelvis
+			{
+				armor=4;
+				material=-1;
+				name="spine1";
+				passThrough=0.80000001;
+				radius=0.16;
+				explosionShielding=1;
+				visual="injury_body";
+				minimalHit=0.0099999998;
+			};
+			class HitDiaphragm: HitAbdomen
+			{
+				armor=4;
+				material=-1;
+				name="spine2";
+				passThrough=0.80000001;
+				radius=0.18000001;
+				explosionShielding=2.4000001;
+				visual="injury_body";
+				minimalHit=0.0099999998;
+			};
+			class HitChest: HitDiaphragm
+			{
+				armor=4;
+				material=-1;
+				name="spine3";
+				passThrough=0.80000001;
+				radius=0.18000001;
+				explosionShielding=2.4000001;
+				visual="injury_body";
+				minimalHit=0.0099999998;
+			};
+			class HitBody: HitChest
+			{
+				armor=1000;
+				material=-1;
+				name="body";
+				passThrough=1;
+				radius=0;
+				explosionShielding=2.4000001;
+				visual="injury_body";
+				minimalHit=0.0099999998;
+				depends="HitPelvis max HitAbdomen max HitDiaphragm max HitChest";
+			};
+			class HitArms: HitBody
+			{
+				armor=6;
+				material=-1;
+				name="arms";
+				passThrough=1;
+				radius=0.1;
+				explosionShielding=0.30000001;
+				visual="injury_hands";
+				minimalHit=0.0099999998;
+				depends="0";
+			};
+			class HitHands: HitArms
+			{
+				armor=6;
+				material=-1;
+				name="hands";
+				passThrough=1;
+				radius=0.1;
+				explosionShielding=0.30000001;
+				visual="injury_hands";
+				minimalHit=0.0099999998;
+				depends="HitArms";
+			};
+			class HitLegs: HitHands
+			{
+				armor=6;
+				material=-1;
+				name="legs";
+				passThrough=1;
+				radius=0.14;
+				explosionShielding=0.30000001;
+				visual="injury_legs";
+				minimalHit=0.0099999998;
+				depends="0";
+			};
+			class Incapacitated: HitLegs
+			{
+				armor=1000;
+				material=-1;
+				name="body";
+				passThrough=1;
+				radius=0;
+				explosionShielding=1;
+				visual="";
+				minimalHit=0;
+				depends="(((Total - 0.25) max 0) + ((HitHead - 0.25) max 0) + ((HitBody - 0.25) max 0)) * 2";
+			};
+			class HitLeftArm
+			{
+				armor=2;
+				material=-1;
+				name="hand_l";
+				passThrough=1;
+				radius=0.079999998;
+				explosionShielding=1;
+				visual="injury_hands";
+				minimalHit=0.0099999998;
+			};
+			class HitRightArm: HitLeftArm
+			{
+				name="hand_r";
+			};
+			class HitLeftLeg
+			{
+				armor=2;
+				material=-1;
+				name="leg_l";
+				passThrough=1;
+				radius=0.1;
+				explosionShielding=1;
+				visual="injury_legs";
+				minimalHit=0.0099999998;
+			};
+			class HitRightLeg: HitLeftLeg
+			{
+				name="leg_r";
+			};
+			class ACE_HDBracket
+			{
+				armor=1;
+				material=-1;
+				name="head";
+				passThrough=0;
+				radius=1;
+				explosionShielding=1;
+				visual="";
+				minimalHit=0;
+				depends="HitHead";
+			};
 		};
 	};
 
-	class Tenthed_Uniform_Base: Tenthed_Soldier_Base {
+	class Tenthed_Uniform_Base: Tenthed_BDU_Base {
 		scope=0;
 		scopeCurator=0;
 		side=1;
-		author="Misriah Armoury";
+		author="Akira";
 		UniformClass="";
 		vehicleClass="";
 		model="";
@@ -1146,169 +1272,6 @@ class CfgVehicles {
 			"camo"
 		};
 		hiddenSelectionsTextures[]={};
-		class HitPoints {
-			class HitFace {
-				armor=1;
-				material=-1;
-				name="face_hub";
-				passThrough=0.80000001;
-				radius=0.079999998;
-				explosionShielding=0.1;
-				minimalHit=0.0099999998;
-			};
-			class HitNeck: HitFace {
-				armor=1;
-				material=-1;
-				name="neck";
-				passThrough=0.80000001;
-				radius=0.1;
-				explosionShielding=0.5;
-				minimalHit=0.0099999998;
-			};
-			class HitHead: HitNeck {
-				armor=1;
-				material=-1;
-				name="head";
-				passThrough=0.80000001;
-				radius=0.2;
-				explosionShielding=0.5;
-				minimalHit=0.0099999998;
-				depends="HitFace max HitNeck";
-			};
-			class HitPelvis: HitHead {
-				armor=6;
-				material=-1;
-				name="pelvis";
-				passThrough=0.80000001;
-				radius=0.23999999;
-				explosionShielding=1;
-				visual="injury_body";
-				minimalHit=0.0099999998;
-				depends="0";
-			};
-			class HitAbdomen: HitPelvis {
-				armor=1;
-				material=-1;
-				name="spine1";
-				passThrough=0.80000001;
-				radius=0.16;
-				explosionShielding=1;
-				visual="injury_body";
-				minimalHit=0.0099999998;
-			};
-			class HitDiaphragm: HitAbdomen {
-				armor=1;
-				material=-1;
-				name="spine2";
-				passThrough=0.80000001;
-				radius=0.18000001;
-				explosionShielding=2.4000001;
-				visual="injury_body";
-				minimalHit=0.0099999998;
-			};
-			class HitChest: HitDiaphragm {
-				armor=1;
-				material=-1;
-				name="spine3";
-				passThrough=0.80000001;
-				radius=0.18000001;
-				explosionShielding=2.4000001;
-				visual="injury_body";
-				minimalHit=0.0099999998;
-			};
-			class HitBody: HitChest {
-				armor=1;
-				material=-1;
-				name="body";
-				passThrough=1;
-				radius=0;
-				explosionShielding=2.4000001;
-				visual="injury_body";
-				minimalHit=0.0099999998;
-				depends="HitPelvis max HitAbdomen max HitDiaphragm max HitChest";
-			};
-			class HitArms: HitBody {
-				armor=5;
-				material=-1;
-				name="arms";
-				passThrough=1;
-				radius=0.1;
-				explosionShielding=0.30000001;
-				visual="injury_hands";
-				minimalHit=0.0099999998;
-				depends="0";
-			};
-			class HitHands: HitArms {
-				armor=5;
-				material=-1;
-				name="hands";
-				passThrough=1;
-				radius=0.1;
-				explosionShielding=0.30000001;
-				visual="injury_hands";
-				minimalHit=0.0099999998;
-				depends="HitArms";
-			};
-			class HitLegs: HitHands {
-				armor=5;
-				material=-1;
-				name="legs";
-				passThrough=1;
-				radius=0.14;
-				explosionShielding=0.30000001;
-				visual="injury_legs";
-				minimalHit=0.0099999998;
-				depends="0";
-			};
-			class Incapacitated: HitLegs {
-				armor=1000;
-				material=-1;
-				name="body";
-				passThrough=1;
-				radius=0;
-				explosionShielding=1;
-				visual="";
-				minimalHit=0;
-				depends="(((Total - 0.25) max 0) + ((HitHead - 0.25) max 0) + ((HitBody - 0.25) max 0)) * 2";
-			};
-			class HitLeftArm {
-				armor=2;
-				material=-1;
-				name="hand_l";
-				passThrough=1;
-				radius=0.079999998;
-				explosionShielding=1;
-				visual="injury_hands";
-				minimalHit=0.0099999998;
-			};
-			class HitRightArm: HitLeftArm {
-				name="hand_r";
-			};
-			class HitLeftLeg {
-				armor=2;
-				material=-1;
-				name="leg_l";
-				passThrough=1;
-				radius=0.1;
-				explosionShielding=1;
-				visual="injury_legs";
-				minimalHit=0.0099999998;
-			};
-			class HitRightLeg: HitLeftLeg {
-				name="leg_r";
-			};
-			class ACE_HDBracket {
-				armor=1;
-				material=-1;
-				name="head";
-				passThrough=0;
-				radius=1;
-				explosionShielding=1;
-				visual="";
-				minimalHit=0;
-				depends="HitHead";
-			};
-		};
 	};
 	class Tenthed_M56S_BDU_Base: Tenthed_Uniform_Base {
 		scope=1;
@@ -1378,6 +1341,7 @@ class CfgVehicles {
 		displayname="[10th] Base Backpack";
 		model="";
 		maximumLoad=250;
+		mass=50;
 		hiddenSelections[]= {
 			"camo"
 		};
@@ -1389,7 +1353,8 @@ class CfgVehicles {
 		displayName="[10th] M56S Rucksack";
 		model="MA_Armor\data\Backpacks\ODST_Rucksack\ODST_Ruck.p3d";
 		picture="MA_Armor\data\Icons\ODST_Rucksack.paa";
-		maximumLoad=350;
+		maximumLoad=400;
+		mass=50;
 		hiddenSelections[]= {
 			"camo1",
 			"camo2",
@@ -1403,6 +1368,8 @@ class CfgVehicles {
 	// LR backpack
 	class Tenthed_M56S_Rucksack_Radio: Tenthed_M56S_Rucksack {
 		displayName="[10th] M56S Rucksack (ODST Radio)";
+		maximumLoad = 350;
+		mass = 50;
 		hiddenSelections[]= {
 			"camo1",
 			"camo2"
@@ -1421,7 +1388,8 @@ class CfgVehicles {
 	// Medic Backpack
 	class Tenthed_M56S_Rucksack_Medic: Tenthed_M56S_Rucksack {
 		displayName="[10th] M56S Rucksack (Medic)";
-		maximumLoad=400;
+		maximumLoad = 400;
+		mass = 40;
 		hiddenSelections[]= {
 			"camo1",
 			"camo2",
@@ -1438,9 +1406,8 @@ class CfgVehicles {
 		tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel";
 		tf_hasLRradio=1;
 	};
-	class Tenthed_M56S_Rucksack_Medic_Radio: Tenthed_M56S_Rucksack {
+	class Tenthed_M56S_Rucksack_Medic_Radio: Tenthed_M56S_Rucksack_Medic {
 		displayName="[10th] M56S Rucksack (Medic - Radio)";
-		maximumLoad=400;
 		hiddenSelections[]= {
 			"camo1",
 			"camo2",
@@ -1450,12 +1417,6 @@ class CfgVehicles {
 			"Tenthed_Armor_Misriah_Base\data\backpacks\Medic_Ruck_co.paa",
 			"MA_Armor\data\Backpacks\ODST_Rucksack\Attachments\Backpack_Radio_Green_co.paa"
 		};
-		tf_encryptionCode="tf_west_radio_code";
-		tf_dialog="rt1523g_radio_dialog";
-		tf_subtype="digital_lr";
-		tf_range=25000;
-		tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel";
-		tf_hasLRradio=1;
 	};
 
 	// AR-CB Rucksack
@@ -1467,7 +1428,8 @@ class CfgVehicles {
 		displayName="[10th] AR-CB Rucksack";
 		model="\a3\weapons_f\empty.p3d";
 		author="Akira";
-		maximumLoad=350;
+		maximumLoad=150;
+		mass=50;
 
 		tf_encryptionCode="tf_west_radio_code";
 		tf_dialog="rt1523g_radio_dialog";
