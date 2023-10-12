@@ -1,4 +1,4 @@
-	class Tenthed_M56E_Helmet_Jad : Tenthed_M56SR_Helmet {
+	class Tenthed_M56E_Helmet_Jad : Tenthed_M56E_Helmet {
 		scope=2;
 		scopeArsenal=2;
 		displayName="[10th] M56-E Helmet (Jad)";
