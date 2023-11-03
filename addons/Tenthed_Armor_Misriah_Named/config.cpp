@@ -138,4 +138,34 @@ class cfgWeapons {
 
 	// Tiger
 	#include "data\Tiger\armor.cpp"
+//
+	// Atlas
+	#include "data\Atlas\armor.cpp"
+
+	// Dex
+	#include "data\Dex\armor.cpp"
+
+	// Dubbos
+	#include "data\Dubbos\armor.cpp"
+
+	// Fwog
+	#include "data\Fwog\armor.cpp"
+
+	// Glint
+	#include "data\Glint\armor.cpp"
+
+	// Jody
+	#include "data\Jody\armor.cpp"
+
+	// Marvel
+	#include "data\Marvel\armor.cpp"
+
+	// Mom
+	#include "data\Mom\armor.cpp"
+
+	// Optional
+	#include "data\Optional\armor.cpp"
+
+	// Storm
+	#include "data\Storm\armor.cpp"
 };

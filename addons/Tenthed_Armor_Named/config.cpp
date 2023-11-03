@@ -128,7 +128,7 @@ class cfgWeapons {
 	};
 	class SCT_10th_Optional_Armor : Tenthed_Pilot_Vest {
 		dlc = "OPTRE";
-		scope = 2;
+		scope = 0;
 		author = "Wolfe, Kodiak, Crow, Tiger";
 		displayName = "[10th] M52B 'Optional'";
 		model = "\OPTRE_FC_Units\Marines\h3_vest.p3d";
@@ -373,7 +373,7 @@ class cfgWeapons {
 		};
 	};
 	class SCT_10th_Lilly_Armor : Tenthed_Rifleman_Armor {
-		scope = 2;
+		scope = 0;
 		author = "Wolfe,Kodiak";
 		displayName = "[10th] M52D 'Lilly'";
 		hiddenSelectionsTextures[] = {
@@ -639,7 +639,7 @@ class cfgWeapons {
 		};
 	};
 	class SCT_10th_Marvel_Armor : Tenthed_Demolitions_Knife_Armor {
-		scope = 2;
+		scope = 0;
 		author = "Wolfe,Kodiak";
 		displayName = "[10th] M52D 'Marvel'";
 		hiddenSelectionsTextures[] = {
@@ -819,7 +819,7 @@ class cfgWeapons {
 		};
 	};
 	class SCT_10th_Dex_Armor : Tenthed_Demolitions_Knife_Armor {
-		scope = 2;
+		scope = 0;
 		author = "Jogn";
 		displayName = "[10th] M52D 'Dex'";
 		hiddenSelectionsTextures[] = {
@@ -868,7 +868,7 @@ class cfgWeapons {
 		};
 	};
 	class SCT_10th_Thresh_Armor : Tenthed_Sniper_Armor {
-		scope = 2;
+		scope = 0;
 		author = "Tiger";
 		displayName = "[10th] M52D 'Thresh'";
 		hiddenSelectionsTextures[] = {
@@ -892,7 +892,7 @@ class cfgWeapons {
 		};
 	};
 	class SCT_10th_Glint_Armor : Tenthed_Specialist2_Armor {
-		scope = 2;
+		scope = 0;
 		author = "Mac";
 		displayName = "[10th] M52D 'Glint'";
 		hiddenSelectionsTextures[] = {
@@ -916,7 +916,7 @@ class cfgWeapons {
 		};
 	};
 	class SCT_10th_Dubbos_Armor : Tenthed_Rifleman_Armor {
-		scope = 2;
+		scope = 0;
 		author = "Tiger";
 		displayName = "[10th] M52D 'Dubbos'";
 		hiddenSelectionsTextures[] = {
@@ -928,7 +928,7 @@ class cfgWeapons {
 		};
 	};
 	class SCT_10th_Atlas_Armor : Tenthed_Specialist2_Armor {
-		scope = 2;
+		scope = 0;
 		author = "Jogn";
 		displayName = "[10th] M52D 'Atlas'";
 		hiddenSelectionsTextures[] = {
@@ -977,7 +977,7 @@ class cfgWeapons {
 		};
 	};
 	class SCT_10th_Jody_Armor : Tenthed_Demolitions_Knife_Armor {
-		scope = 2;
+		scope = 0;
 		author = "Jogn";
 		displayName = "[10th] M52D 'Jody'";
 		hiddenSelectionsTextures[] = {
