@@ -13,7 +13,9 @@ class CfgPatches {
 			"Tenthed_M56S_Rucksack_Radio",
 			"Tenthed_M56S_Rucksack_ODST_Radio",
 			"Tenthed_M56S_Rucksack_Medical",
-			"Tenthed_M56S_Rucksack_Medical_Radio"
+			"Tenthed_M56S_Rucksack_Medical_Radio",
+
+			"Tenthed_Marine_Rucksack"
 		};
 	};
 };
@@ -72,5 +74,32 @@ class cfgVehicles {
 		tf_range = 25000;
 		tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
 		tf_hasLRradio = 1;
+	};
+
+	class Bag_Base;
+	class Tenthed_Marine_Rucksack : Bag_Base {
+		dlc = "OPTRE";
+		author = "OPTRE Devs, Akira";
+		faction = "Tenthed_UnitFact_Main";
+		editorCategory = "Tenthed_EditorCategory_Items";
+		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Backpacks";
+		displayName = "[10th] Marine Rucksack Backpack";
+
+		picture = "\OPTRE_weapons\backpacks\icons\icon_b_anprc521_ca.paa";
+		scope = 2;
+		model = "\OPTRE_unsc_units\army\rucksack.p3d";
+		hiddenSelections[] = {
+			"camo",
+			"camo2",
+			"B_Medic",
+			"B_Radio"
+		};
+		hiddenSelectionsTextures[] = {
+			"\Tenthed_Turrets\data\TurretBackpack\soft_backpack_co.paa", // TODO: Change texture path.
+			""
+		};
+		
+		maximumLoad = 300;
+		mass = 50;
 	};
 };
