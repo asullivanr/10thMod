@@ -435,7 +435,7 @@ class cfgWeapons {
 		};
 	};
 	class SCT_10th_Metro_Armor : Tenthed_Rifleman_Knife_Armor {
-		scope = 2;
+		scope = 0;
 		author = "Wolfe,Kodiak";
 		displayName = "[10th] M52D 'Metro'";
 		hiddenSelectionsTextures[] = {

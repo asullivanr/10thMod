@@ -552,7 +552,7 @@ class cfgWeapons {
 	// Metro
 	class SCT_10th_Metro_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
-		scope = 2;
+		scope = 0;
 		author = "Wolfe,Kodiak";
 		displayName = "[10th] CH252D 'Metro'";
 		model = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";

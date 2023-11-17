@@ -1,16 +1,34 @@
-	class Tenthed_M56R_Vest_Villainess : Tenthed_Vest_Base {
+	class Tenthed_M56E_Helmet_Mage : Tenthed_M56E_Helmet {
 		scope=2;
 		scopeArsenal=2;
-		displayName="[10th] M56R Armor (Villainess)";
+		displayName="[10th] M56-E Helmet (Mage)";
+		model="MA_Armor\data\Helmets\EOD\EOD_Helmet.p3d";
+		picture="MA_Armor\data\Icons\EOD_Helm.paa";
+		hiddenSelectionsTextures[]= { // un comment out which visor color you would like to test. make sure to comment out the old color or else there will be errors. Blue visor enabled by default.
+			"Tenthed_Armor_Misriah_Named\data\Mage\EOD_Helmet_Mage_co.paa",
+			//"MA_Armor\data\Helmets\EOD\EOD_Visor_Blue_co.paa" // Blue Visor
+			"MA_Armor\data\Helmets\EOD\EOD_Visor_Black_co.paa" // Black Visor
+			//"MA_Armor\data\Helmets\EOD\EOD_Visor_Gold_co.paa" // Gold Visor
+			//"MA_Armor\data\Helmets\EOD\EOD_Visor_Red_co.paa" // Red Visor
+			//"MA_Armor\data\Helmets\EOD\EOD_Visor_White_co.paa"// White Visor
+		};
+		class ItemInfo: ItemInfo {
+			uniformModel="MA_Armor\data\Helmets\EOD\EOD_Helmet.p3d";
+		};
+	};
+	class Tenthed_M56R_Vest_Mage : Tenthed_Vest_Base {
+		scope=2;
+		scopeArsenal=2;
+		displayName="[10th] M56R Armor (Mage)";
 		model="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
 		picture="MA_Armor\data\Icons\H3ODST_Vest.paa";
 		hiddenSelectionsTextures[]= { // Change folder to Armor-Misriah\data and put files into that folder. example "Armor-Misriah\data\akira_helmet.paa"
 			// No other texture files then the ones posted will be changed
 			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
 			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
-			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
-			"Tenthed_Armor_Misriah_Named\data\Villainess\Reach_Armor_Upper_Villainess_co.paa", // Upper armor texture
-			"Tenthed_Armor_Misriah_Named\data\Villainess\Reach_Armor_Lower_Villainess_co.paa",
+			"Tenthed_Armor_Misriah_Named\data\Mage\Thigh_Pouch_Mage_co.paa",
+			"Tenthed_Armor_Misriah_Named\data\Mage\Reach_Armor_Upper_Mage_co.paa", // Upper armor texture
+			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa", // Sniper Shoulders
@@ -40,36 +58,18 @@
 				"H3_Pauldron_Right",
 				//"Reach_Pauldron_Left",
 				//"Reach_Pauldron_Right",
-				"Reach_Shoulder_Radio_Left",
-				"Reach_Shoulder_Radio_Right",
+				//"Reach_Shoulder_Radio_Left",
+				//"Reach_Shoulder_Radio_Right",
 				"Reach_Sniper_Pauldron_Left",
 				"Reach_Sniper_Pauldron_Right",
 				"Reach_CQB_Pauldron_Left",
 				"Reach_CQB_Pauldron_Right",
-				"Thigh_Pouch",
+				//"Thigh_Pouch",
 				"H3_Armor_Upper",
 				"H3_Armor_Lower",
 				//"Forearm_Vent_Left",
 				//"Forearm_Vent_Right",
-				"Canisters"
+				//"Canisters"
 			};
-		};
-	};
-	class Tenthed_M56G_Helmet_Villainess : Tenthed_M56_Scout_Helmet {
-		scope=2;
-		scopeArsenal=2;
-		displayName="[10th] M65-S Helmet (Villainess)";
-		model="MA_Armor\data\Helmets\H4_Scout\H4_Scout_Helmet.p3d";
-		picture="MA_Armor\data\Icons\H4_Scout_Helmet.paa";
-		hiddenSelectionsTextures[]= { // un comment out which visor color you would like to test. make sure to comment out the old color or else there will be errors. Blue visor enabled by default.
-			"Tenthed_Armor_Misriah_Named\data\Villainess\Scout_Helm_Villainess_co.paa",
-			//"MA_Armor\data\Helmets\H4_Scout\Scout_Visor_Blue_co.paa" // Blue Visor
-			//"MA_Armor\data\Helmets\H4_Scout\Scout_Visor_Black_co.paa" // Black Visor
-			//"MA_Armor\data\Helmets\H4_Scout\Scout_Visor_Gold_co.paa" // Gold Visor
-			"MA_Armor\data\Helmets\H4_Scout\Scout_Visor_Red_co.paa" // Red Visor
-			//"MA_Armor\data\Helmets\H4_Scout\Scout_Visor_White_co.paa"// White Visor
-		};
-		class ItemInfo: ItemInfo {
-			uniformModel="MA_Armor\data\Helmets\H4_Scout\H4_Scout_Helmet.p3d";
 		};
 	};
