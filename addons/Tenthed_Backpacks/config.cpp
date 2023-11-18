@@ -15,7 +15,8 @@ class CfgPatches {
 			"Tenthed_M56S_Rucksack_Medical",
 			"Tenthed_M56S_Rucksack_Medical_Radio",
 
-			"Tenthed_Marine_Rucksack"
+			"Tenthed_Marine_Rucksack",
+			"Tenthed_Marine_Medical_Rucksack"
 		};
 	};
 };
@@ -83,7 +84,7 @@ class cfgVehicles {
 		faction = "Tenthed_UnitFact_Main";
 		editorCategory = "Tenthed_EditorCategory_Items";
 		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Backpacks";
-		displayName = "[10th] Marine Rucksack Backpack";
+		displayName = "[10th] Marine Rucksack";
 
 		picture = "\OPTRE_weapons\backpacks\icons\icon_b_anprc521_ca.paa";
 		scope = 2;
@@ -101,5 +102,41 @@ class cfgVehicles {
 		
 		maximumLoad = 300;
 		mass = 50;
+	};
+
+	class Tenthed_Marine_Medical_Rucksack : Tenthed_Marine_Rucksack
+	{
+		displayName = "[10th] Marine Medical Rucksack";
+		maximumLoad = 400;
+
+		hiddenSelections[] = {
+			"camo",
+			"camo2",
+			//"B_Medic",
+			"B_Addons",
+			"B_Radio"
+		};
+
+		tf_encryptionCode = "tf_west_radio_code";
+		tf_dialog = "rt1523g_radio_dialog";
+		tf_subtype = "digital_lr";
+		tf_range = 25000;
+		tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
+		tf_hasLRradio = 1;
+	};
+	class Tenthed_Marine_Heavy_Rucksack: Tenthed_Marine_Rucksack
+	{
+		dlc="OPTRE";
+		author="Article 2 Studios";
+		displayName="[10th] Marine Heavy Rucksack";
+		maximumLoad=400;
+		mass=50;
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo2",
+			"B_Medic",
+			"B_Radio"
+		};
 	};
 };
