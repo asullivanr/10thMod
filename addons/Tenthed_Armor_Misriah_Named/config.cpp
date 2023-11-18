@@ -168,4 +168,28 @@ class cfgWeapons {
 
 	// Storm
 	#include "data\Storm\armor.cpp"
+//
+	// Beans
+	#include "data\Beans\armor.cpp"
+
+	// Blasphemy
+	#include "data\Blasphemy\armor.cpp"
+
+	// Hetzen
+	#include "data\Hetzen\armor.cpp"
+
+	// Jaeger
+	#include "data\Jaeger\armor.cpp"
+
+	// Knight
+	#include "data\Knight\armor.cpp"
+
+	// Mage
+	#include "data\Mage\armor.cpp"
+
+	// Metro
+	#include "data\Metro\armor.cpp"
+
+	// Xyric
+	#include "data\Xyric\armor.cpp"
 };
