@@ -6,11 +6,11 @@
 		picture="MA_Armor\data\Icons\Halo_Reach_ODST_Helmet.paa";
 		hiddenSelectionsTextures[]= { // un comment out which visor color you would like to test. make sure to comment out the old color or else there will be errors. Blue visor enabled by default.
 			"Tenthed_Armor_Misriah_Named\data\Bbstine\HR_ODST_Helmet_Bbstine_co.paa", // change this texture file to test different helmet textures.
-			"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_Blue_co.paa" // Blue Visor
+			//"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_Blue_co.paa" // Blue Visor
 			//"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_black_co.paa" // Black Visor
 			//"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_gold_co.paa" // Gold Visor
 			//"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_red_co.paa" // Red Visor
-			//"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_white_co.paa" // White Visor
+			"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_white_co.paa" // White Visor
 		};
 		class ItemInfo: ItemInfo {
 			uniformModel="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
@@ -58,7 +58,7 @@
 				"H3_Pauldron_Right", // not used
 				//"Reach_Pauldron_Left",
 				//"Reach_Pauldron_Right",
-				"Reach_Shoulder_Radio_Left",
+				//"Reach_Shoulder_Radio_Left",
 				"Reach_Shoulder_Radio_Right",
 				"Reach_Sniper_Pauldron_Left",
 				"Reach_Sniper_Pauldron_Right",
@@ -69,7 +69,7 @@
 				"H3_Armor_Lower", // not used
 				//"Forearm_Vent_Left",  // if the forearms are enabled they must have the vents
 				//"Forearm_Vent_Right", // if the forearms are enabled they must have the vents
-				"Canisters" // the canisters around the waist
+				//"Canisters" // the canisters around the waist
 			};
 		};
 	};
