@@ -405,6 +405,116 @@ class cfgWeapons {
 		};
 	};
 
+	// Marine Medic Armor
+	class Tenthed_M52A_AR_Medic_WDL: Tenthed_Marine_Vest_Base {
+		author="Burgess and Baseplate";
+		scope=2;
+        scopeArsenal=2;
+		displayName="[10th] M52A (Medic) [Woodland]";
+		model="\OPTRE_UNSC_Units\Army\armor.p3d";
+		hiddenSelections[]= {
+			"camo",
+			"camo2",
+			"camo3",
+			"camo4",
+			"camo5",
+			"A_KneesMarLeft",
+			"A_KneesMarRight",
+			"A_ShinArmorLeft",
+			"A_ShinArmorRight",
+			"A_Ghillie",
+			"A_ODST",
+			"A_TacPad",
+			"AS_LargeLeft",
+			"AS_LargeRight",
+			"AS_ODSTCQBLeft",
+			"AS_ODSTCQBRight",
+			"AS_ODSTLeft",
+			"AS_ODSTRight",
+			"AS_ODSTSniperLeft",
+			"AS_ODSTSniperRight",
+			"AS_SmallLeft",
+			"AS_SmallRight",
+			"AP_BR",
+			"AP_Canteen",
+			"AP_GL",
+			"AP_Knife",
+			"AP_MGThigh",
+			"AP_Pack",
+			"AP_Pistol",
+			"AP_Rounds",
+			"AP_SG",
+			"AP_SMG",
+			"AP_Sniper",
+			"AP_Thigh",
+			"APO_AR",
+			"APO_BR",
+			"APO_Knife",
+			"APO_SMG",
+			"APO_Sniper",
+			"CustomKit_Scorch"
+		};
+		hiddenSelectionsMaterials[]= {
+			"TCF_EQUIPMENT\Vests\Misc\data\Vest_OP.rvmat",
+			"TCF_EQUIPMENT\Vests\Misc\data\armor_OP.rvmat",
+			"TCF_EQUIPMENT\Vests\Misc\data\legs_OP.rvmat"
+		};
+		hiddenSelectionsTextures[]= {
+			"TCF_EQUIPMENT\Vests\Misc\data\M52A_WDL_2.paa",
+			"TCF_EQUIPMENT\Vests\Misc\data\M52A_WDL.paa",
+			"TCF_EQUIPMENT\Vests\Misc\data\M52A_WDL_3.paa",
+			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
+			"optre_unsc_units\army\data\odst_armor_co.paa"
+		};
+		class ItemInfo: ItemInfo {
+			uniformModel="\OPTRE_UNSC_Units\Army\armor.p3d";
+			hiddenSelections[]= {
+				"camo",
+				"camo2",
+				"camo3",
+				"camo4",
+				"camo5",
+				"A_KneesMarLeft",
+				"A_KneesMarRight",
+				"A_ShinArmorLeft",
+				"A_ShinArmorRight",
+				"A_Ghillie",
+				"A_ODST",
+				"A_TacPad",
+				"AS_LargeLeft",
+				"AS_LargeRight",
+				"AS_ODSTCQBLeft",
+				"AS_ODSTCQBRight",
+				"AS_ODSTLeft",
+				"AS_ODSTRight",
+				"AS_ODSTSniperLeft",
+				"AS_ODSTSniperRight",
+				"AS_SmallLeft",
+				"AS_SmallRight",
+				"AP_BR",
+				"AP_Canteen",
+				"AP_GL",
+				"AP_Knife",
+				"AP_MGThigh",
+				"AP_Pack",
+				"AP_Pistol",
+				"AP_Rounds",
+				"AP_SG",
+				"AP_SMG",
+				"AP_Sniper",
+				"AP_Thigh",
+				"APO_AR",
+				"APO_BR",
+				"APO_Knife",
+				"APO_SMG",
+				"APO_Sniper",
+				"CustomKit_Scorch"
+			};
+			containerClass="Supply250";
+		};
+	};
+
+	// Marine Light Armor
 	class Tenthed_M52A_AR_Light_WDL: Tenthed_Marine_Vest_Base {
 		author="Burgess and Baseplate";
 		scope=2;
@@ -529,6 +639,7 @@ class cfgWeapons {
 		};
 	};
 
+	// Marine Grenadier Armor
 	class Tenthed_M52A_AR_Grenadier_WDL: Tenthed_Marine_Vest_Base {
 		author="Burgess and Baseplate";
 		scope=2;
@@ -635,6 +746,7 @@ class cfgWeapons {
 		};
 	};
 
+	// Marine Breacher Armor
     class Tenthed_M52A_AR_Breacher_WDL: Tenthed_Marine_Vest_Base {
 		author="Burgess and Baseplate";
 		scope=2;
