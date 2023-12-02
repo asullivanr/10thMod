@@ -21,18 +21,18 @@ class CfgPatches {
             "O_Astra_Engineer_01",
             "O_Astra_VIP_03",
             "O_Astra_Crewmen_01",
-            "O_Astra_Pelican_01",
-            "O_Astra_Banshee_01",
-            "O_Astra_AA_Wraith_01",
-            "O_Astra_Ghost_01",
-            "O_Astra_Wraith_01",
-            "O_Astra_Wraith_Tank_01",
-            "O_Astra_LAAG_Warthog_01",
-            "O_Astra_LAAG_Turret_01",
-            "O_Astra_Shade_Turret_01",
-            "O_Astra_Shade_Turret_02",
-            "O_Astra_Shade_Turret_03",
-            "O_Astra_Falcon_01"
+            //"O_Astra_Pelican_01",
+            //"O_Astra_Banshee_01",
+            //"O_Astra_AA_Wraith_01",
+            //"O_Astra_Ghost_01",
+            //"O_Astra_Wraith_01",
+            //"O_Astra_Wraith_Tank_01",
+            //"O_Astra_LAAG_Warthog_01",
+            //"O_Astra_LAAG_Turret_01",
+            //"O_Astra_Shade_Turret_01",
+            //"O_Astra_Shade_Turret_02",
+            //"O_Astra_Shade_Turret_03",
+            //"O_Astra_Falcon_01"
         };
         weapons[] = {};
         requiredVersion = 1.62;
