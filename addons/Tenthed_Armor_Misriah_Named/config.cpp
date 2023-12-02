@@ -192,4 +192,10 @@ class cfgWeapons {
 
 	// Xyric
 	#include "data\Xyric\armor.cpp"
+//
+	// Den
+	#include "data\Den\armor.cpp"
+
+	// Naffen
+	#include "data\Naffen\armor.cpp"
 };
