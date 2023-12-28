@@ -88,15 +88,17 @@ class ACEX_Fortify_Presets {
     class Tenthed_Fortify01 {
         displayName = "10th ODST - Fortify";
         objects[] = {
-            {"Land_Plank_01_4m_F", 5},
-            {"Land_OPTRE_M72S_barrier", 13}, // possible removal
-            {"Land_OPTRE_M72_barrier", 13}, // possible removal
-            {"Land_HBarrier_1_F", 15}, // possible removal
-            {"Land_HBarrierWall4_F", 15},
-            {"Land_HBarrierWall6_F", 15},
-            {"Land_HBarrierWall_corner_F", 15},
-            {"Land_HBarrierWall_corridor_F", 15},
-            {"Land_HBarrierTower_F", 20}
+            {"Land_BagFence_Round_F", 25},
+            {"Land_BagFence_Long_F", 25},
+            {"Land_BagFence_Short_F", 25},
+
+            {"Land_Plank_01_4m_F", 15},
+            {"Land_HBarrier_1_F", 55},
+            {"Land_HBarrierWall4_F", 55},
+            {"Land_HBarrierWall6_F", 55},
+            {"Land_HBarrierWall_corner_F", 55},
+            {"Land_HBarrierWall_corridor_F", 55},
+            {"Land_HBarrierTower_F", 120}
         };
     };
 };
