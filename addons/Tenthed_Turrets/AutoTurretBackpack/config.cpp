@@ -32,9 +32,17 @@ class CfgVehicles {
 	class B_HMG_01_F;
 	class Weapon_Bag_Base;
 	class Tenthed_Turret_Bag : Weapon_Bag_Base {
-		model = "\A3\Weapons_F\Ammoboxes\Bags\Backpack_Fast.p3d";
-		hiddenSelectionsTextures[] = {"\A3\Weapons_F\Ammoboxes\Bags\Data\backpack_fast_mcamo_co.paa"};
-		picture = "\A3\Weapons_F\Ammoboxes\Bags\data\UI\icon_B_C_Kitbag_mcamo.paa";
+		model="MA_Armor\data\Backpacks\ODST_Rucksack\ODST_Ruck.p3d";
+		picture="MA_Armor\data\Icons\ODST_Rucksack.paa";
+		hiddenSelections[]= {
+			"camo1",
+			"camo2",
+			"Radio"
+		};
+		hiddenSelectionsTextures[]= {
+			"MA_Armor\data\Backpacks\ODST_Rucksack\ODST_Ruck_co.paa",
+			"MA_Armor\data\Backpacks\ODST_Rucksack\Attachments\Backpack_Radio_Green_co.paa"
+		};
 		faction = BLU_F;
 		mass = 240;
 		_generalMacro = "Tenthed_Turret_Bag";
