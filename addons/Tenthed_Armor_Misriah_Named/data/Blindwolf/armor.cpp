@@ -9,8 +9,8 @@
 			//"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_Blue_co.paa" // Blue Visor
 			//"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_black_co.paa" // Black Visor
 			//"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_gold_co.paa" // Gold Visor
-			"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_red_co.paa" // Red Visor
-			//"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_white_co.paa" // White Visor
+			//"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_red_co.paa" // Red Visor
+			"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_white_co.paa" // White Visor
 		};
 		class ItemInfo: ItemInfo {
 			uniformModel="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
@@ -59,7 +59,7 @@
 				"Reach_Pauldron_Left",
 				//"Reach_Pauldron_Right",
 				"Reach_Shoulder_Radio_Left",
-				"Reach_Shoulder_Radio_Right",
+				//"Reach_Shoulder_Radio_Right",
 				//"Reach_Sniper_Pauldron_Left",
 				"Reach_Sniper_Pauldron_Right",
 				"Reach_CQB_Pauldron_Left",

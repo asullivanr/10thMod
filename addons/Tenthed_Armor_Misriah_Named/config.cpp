@@ -198,4 +198,19 @@ class cfgWeapons {
 
 	// Naffen
 	#include "data\Naffen\armor.cpp"
+//
+	// Cheeto
+	#include "data\Cheeto\armor.cpp"
+
+	// Failure
+	#include "data\Failure\armor.cpp"
+
+	// Goober
+	#include "data\Goober\armor.cpp"
+
+	// Radical
+	#include "data\Radical\armor.cpp"
+
+	// Rook
+	#include "data\Rook\armor.cpp"
 };

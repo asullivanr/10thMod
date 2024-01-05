@@ -8,7 +8,7 @@
 			// No other texture files then the ones with comments will be altered.
 			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
 			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
-			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa", // Thigh pouch texture
+			"Tenthed_Armor_Misriah_Named\data\HardDrop\Thigh_Pouch_HardDrop_co.paa", // Thigh pouch texture
 			"Tenthed_Armor_Misriah_Named\data\HardDrop\Reach_Armor_Upper_HardDrop_co.paa", // Upper armor texture and base ODST shoulders.
 			"Tenthed_Armor_Misriah_Named\data\HardDrop\Reach_Armor_Lower_HardDrop_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa", // Canisters texture
@@ -66,9 +66,9 @@
 		hiddenSelectionsTextures[]= { // un comment out which visor color you would like to test. make sure to comment out the old color or else there will be errors. Blue visor enabled by default.
 			"Tenthed_Armor_Misriah_Named\data\HardDrop\HR_ODST_Helmet_HardDrop_co.paa", // change this texture file to test different helmet textures.
 			//"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_Blue_co.paa" // Blue Visor
-			"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_black_co.paa" // Black Visor
+			//"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_black_co.paa" // Black Visor
 			//"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_gold_co.paa" // Gold Visor
-			//"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_red_co.paa" // Red Visor
+			"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_red_co.paa" // Red Visor
 			//"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_white_co.paa" // White Visor
 		};
 		class ItemInfo: ItemInfo {
