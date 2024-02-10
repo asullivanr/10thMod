@@ -218,7 +218,7 @@ class cfgWeapons {
 	#include "data\Fynn\armor.cpp"
 
 	// Life
-	#include "data\FLife\armor.cpp"
+	#include "data\Life\armor.cpp"
 
 	// Rad
 	#include "data\Rad\armor.cpp"
