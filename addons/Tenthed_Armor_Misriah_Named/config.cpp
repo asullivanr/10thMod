@@ -213,4 +213,19 @@ class cfgWeapons {
 
 	// Rook
 	#include "data\Rook\armor.cpp"
+//
+	// Fynn
+	#include "data\Fynn\armor.cpp"
+
+	// Life
+	#include "data\FLife\armor.cpp"
+
+	// Rad
+	#include "data\Rad\armor.cpp"
+
+	// Silver
+	#include "data\Silver\armor.cpp"
+
+	// Vex
+	#include "data\Vex\armor.cpp"
 };

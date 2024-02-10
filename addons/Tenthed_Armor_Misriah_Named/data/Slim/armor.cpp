@@ -26,7 +26,7 @@
 			// No other texture files then the ones with comments will be altered.
 			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
 			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
-			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa", // Thigh pouch texture
+			"Tenthed_Armor_Misriah_Named\data\Slim\Thigh_Pouch_Slim_co.paa", // Thigh pouch texture
 			"Tenthed_Armor_Misriah_Named\data\Slim\Reach_Armor_Upper_Slim_co.paa", // Upper armor texture and base ODST shoulders.
 			"Tenthed_Armor_Misriah_Named\data\Slim\Reach_Armor_Lower_Slim_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa", // Canisters texture
@@ -64,7 +64,7 @@
 				"Reach_Sniper_Pauldron_Right",
 				"Reach_CQB_Pauldron_Left",
 				"Reach_CQB_Pauldron_Right",
-				"Thigh_Pouch",
+				//"Thigh_Pouch",
 				"H3_Armor_Upper", // not used
 				"H3_Armor_Lower", // not used
 				//"Forearm_Vent_Left",  // if the forearms are enabled they must have the vents
