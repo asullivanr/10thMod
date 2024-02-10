@@ -50,7 +50,7 @@ class CfgVehicles {
 		scope = 1;
 		scopeArsenal = 1;
 		class assembleInfo : assembleInfo {
-			displayName = "Mk30 HMG .50 (Raised)";
+			displayName = "Mk30 HMG .50";
 			assembleTo = "Tenthed_HMG_02_F_Auto";
 			base[] = {""};
 		};
