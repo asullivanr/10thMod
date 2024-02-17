@@ -1,6 +1,5 @@
 <p align="center">
-    <img src="https://github.com/10thODST/10thMod/logo.png" width="480">
-    <img src="https://github.com/asullivanr/10thMod/logo.png" width="480">
+    <img src="https://raw.githubusercontent.com/asullivanr/10thMod/main/logo.png" width="480">
 </p>
 
 <p align="center">
