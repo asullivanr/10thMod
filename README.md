@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://raw.githubusercontent.com/asullivanr/10thMod/main/logo.png" width="480">
+    <img src="https://raw.githubusercontent.com/10thODST/10thMod/main/logo.png" width="480">
 </p>
 
 <p align="center">
@@ -8,9 +8,13 @@
     </a>
 </p>
 
-Description.
+Built with <a href="https://github.com/BrettMayson/HEMTT">HEMTT</a> in mind.
 
-## header
+## Build options
 
-- item 1
-- item 2
+- 01_dev.bat
+    - Used for testing optional addons before its content is implemented into main addons
+- 02_build.bat
+    - Used for testing latest additions before release.
+- 03_release.bat
+    - The Release branch for steam.
