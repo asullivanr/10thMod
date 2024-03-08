@@ -1061,7 +1061,7 @@ class cfgWeapons {
 	// Crow
 	class SCT_10th_Crow_Helment : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
-		scope = 2;
+		scope = 0;
 		author = "Wolfe,Kodiak,Crow";
 		displayName = "[10th] CH252D 'Crow'";
 		model = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";

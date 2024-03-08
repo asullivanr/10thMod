@@ -188,7 +188,7 @@ class cfgWeapons {
 		};
 	};
 	class SCT_10th_Crow_Armor : Tenthed_Specialist2_Armor {
-		scope = 2;
+		scope = 0;
 		author = "Wolfe, Crow";
 		displayName = "[10th] M52D 'Crow'";
 		hiddenSelectionsTextures[] = {
