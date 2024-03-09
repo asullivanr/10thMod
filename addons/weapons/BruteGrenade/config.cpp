@@ -14,7 +14,7 @@ class CfgPatches {
 		{
 			"A3_Weapons_F",
 			"OPTRE_Core",
-            "TenthedCore"
+            "Tenthed_Core"
 		};
 		author="Slim, Akira";
 	};
