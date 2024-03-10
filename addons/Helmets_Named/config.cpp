@@ -2533,8 +2533,8 @@ class cfgWeapons {
 			"camo2"
 		};
 		hiddenSelectionsTextures[] = {
-			"Helmets_Named\data\Princess_Helment.paa",
-			"Armor_Base\data\visors\blackvisor.paa"
+			"z\10thMod\addons\Helmets_Named\data\Princess_Helment.paa",
+			"z\10thMod\addons\Armor_Base\data\visors\blackvisor.paa"
 		};
 		optreHUDStyle = "ODST_1";
 	};
