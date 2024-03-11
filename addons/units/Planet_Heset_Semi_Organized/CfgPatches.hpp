@@ -23,7 +23,6 @@ class CfgPatches {
             "A3_Data_F_Curator",
             "A3_Air_F_Heli",
             "ace_thermals",
-            "tfar_core",
             "ace_refuel",
             "CUP_Core",
             "cba_xeh"
