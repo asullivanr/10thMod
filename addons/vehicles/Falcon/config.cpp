@@ -3114,7 +3114,15 @@ class CfgVehicles {
 		incomingMissileDetectionSystem = "8 + 16";
 		enableManualFire = 0;
 		hiddenSelections[] = {"camo1","camo2","camo3","attach_gun","attach_sideguns"};
-		hiddenSelectionsTextures[] = {"\OPTRE_Vehicles_Air\Falcon\data\Green\Green_Falcon_Main_co.paa","\OPTRE_Vehicles_Air\Falcon\data\Green\Green_Falcon_Attachments_co.paa","\OPTRE_Vehicles_Air\Falcon\data\Green\Green_Falcon_Interior_co.paa"};
+		hiddenSelectionsTextures[]= 
+		{
+			"\OPTRE_Vehicles_Air\Falcon\data\Green\Falcon_Main_co.paa",
+			"\OPTRE_Vehicles_Air\Falcon\data\Green\Falcon_Attachments_co.paa",
+			"\OPTRE_Vehicles_Air\Falcon\data\Falcon_Interior_co.paa",
+			"\OPTRE_Vehicles_Air\Falcon\data\Falcon_gun_co.paa",
+			"\optre_vehicles_air\falcon\data\falcon_glass_ca.paa",
+			"\optre_vehicles_air\falcon\data\falcon_glass_ca.paa"
+		};
 		cost = 1000000;
 		threat[] = {0.8,0.1,0.6};
 		numberPhysicalWheels = 3;
@@ -3240,7 +3248,15 @@ class CfgVehicles {
 		crew = "OPTRE_UNSC_Airforce_Soldier_Airman";
 		vehicleClass = "OPTRE_UNSC_Air_class";
 		hiddenSelections[] = {"camo1","camo2","camo3","attach_gun"};
-		hiddenSelectionsTextures[] = {"\OPTRE_Vehicles_Air\Falcon\data\Green\Green_Falcon_Main_co.paa","\OPTRE_Vehicles_Air\Falcon\data\Green\Green_Falcon_Attachments_co.paa","\OPTRE_Vehicles_Air\Falcon\data\Green\Green_Falcon_Interior_co.paa"};
+		hiddenSelectionsTextures[]= 
+		{
+			"\OPTRE_Vehicles_Air\Falcon\data\Green\Falcon_Main_co.paa",
+			"\OPTRE_Vehicles_Air\Falcon\data\Green\Falcon_Attachments_co.paa",
+			"\OPTRE_Vehicles_Air\Falcon\data\Falcon_Interior_co.paa",
+			"\OPTRE_Vehicles_Air\Falcon\data\Falcon_gun_co.paa",
+			"\optre_vehicles_air\falcon\data\falcon_glass_ca.paa",
+			"\optre_vehicles_air\falcon\data\falcon_glass_ca.paa"
+		};
 		class Components: Components {
 			class TransportPylonsComponent {
 				UIPicture = "\optre_vehicles_air\falcon\FalconPylonPic.paa";
@@ -3279,7 +3295,15 @@ class CfgVehicles {
 		side = 1;
 		faction = "OPTRE_UNSC";
 		hiddenSelections[] = {"camo1","camo2","camo3"};
-		hiddenSelectionsTextures[] = {"\OPTRE_Vehicles_Air\Falcon\data\Green\Green_Falcon_Main_co.paa","\OPTRE_Vehicles_Air\Falcon\data\Green\Green_Falcon_Attachments_co.paa","\OPTRE_Vehicles_Air\Falcon\data\Green\Green_Falcon_Interior_co.paa"};
+		hiddenSelectionsTextures[]= 
+		{
+			"\OPTRE_Vehicles_Air\Falcon\data\Green\Falcon_Main_co.paa",
+			"\OPTRE_Vehicles_Air\Falcon\data\Green\Falcon_Attachments_co.paa",
+			"\OPTRE_Vehicles_Air\Falcon\data\Falcon_Interior_co.paa",
+			"\OPTRE_Vehicles_Air\Falcon\data\Falcon_gun_co.paa",
+			"\optre_vehicles_air\falcon\data\falcon_glass_ca.paa",
+			"\optre_vehicles_air\falcon\data\falcon_glass_ca.paa"
+		};
 		weapons[] = {"OPTRE_M638","CMFlareLauncher","Laserdesignator_pilotCamera"};
 		magazines[] = {"OPTRE_2000Rnd_20mm_HE","OPTRE_2000Rnd_20mm_HE","168Rnd_CMFlare_Chaff_Magazine","Laserbatteries"};
 		memoryPointGun = "machinegun_end";
@@ -3335,7 +3359,15 @@ class CfgVehicles {
 		faction = "Tenthed_UnitFact_Main";
 		maxSpeed = 400;
 		hiddenSelections[] = {"camo1", "camo2", "camo3", "attach_gun"};
-		hiddenSelectionsTextures[] = {"\OPTRE_Vehicles_Air\Falcon\data\Green\Green_Falcon_Main_co.paa", "\OPTRE_Vehicles_Air\Falcon\data\Green\Green_Falcon_Attachments_co.paa", "\OPTRE_Vehicles_Air\Falcon\data\Green\Green_Falcon_Interior_co.paa"};
+		hiddenSelectionsTextures[]= 
+		{
+			"\OPTRE_Vehicles_Air\Falcon\data\Green\Falcon_Main_co.paa",
+			"\OPTRE_Vehicles_Air\Falcon\data\Green\Falcon_Attachments_co.paa",
+			"\OPTRE_Vehicles_Air\Falcon\data\Falcon_Interior_co.paa",
+			"\OPTRE_Vehicles_Air\Falcon\data\Falcon_gun_co.paa",
+			"\optre_vehicles_air\falcon\data\falcon_glass_ca.paa",
+			"\optre_vehicles_air\falcon\data\falcon_glass_ca.paa"
+		};
 		weapons[] = {
 			"OPTRE_M638",
 			"CMFlareLauncher",
