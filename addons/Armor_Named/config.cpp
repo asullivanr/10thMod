@@ -880,7 +880,7 @@ class cfgWeapons {
 		};
 	};
 	class SCT_10th_Princess_Armor : Tenthed_Sniper_Armor {
-		scope = 2;
+		scope = 0;
 		author = "Tiger";
 		displayName = "[10th] M52D 'Princess'";
 		hiddenSelectionsTextures[] = {
