@@ -5,4 +5,5 @@ let addons_to_remove = ["Tenthed_objects.pbo", "Tenthed_supplies.pbo"]; // which
 for removelist in addons_to_remove {
     release_addons.join(removelist).remove_file();
     release_addons.join(removelist + "." + HEMTT.project().prefix() + "_" + HEMTT.project().version().to_string() + ".bisign").remove_file();
+    print("Removed addon: " + removelist);
 }
