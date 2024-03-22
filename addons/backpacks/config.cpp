@@ -96,7 +96,7 @@ class cfgVehicles {
 			"B_Radio"
 		};
 		hiddenSelectionsTextures[] = {
-			"\Tenthed_Turrets\data\TurretBackpack\soft_backpack_co.paa", // TODO: Change texture path.
+			"\z\10thMod\addons\turrets\data\TurretBackpack\soft_backpack_co.paa", // TODO: Change texture path.
 			""
 		};
 		

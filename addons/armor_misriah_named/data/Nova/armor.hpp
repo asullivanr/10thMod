@@ -51,7 +51,7 @@
 				"H3_Armor_Lower",
 				//"Forearm_Vent_Left",
 				//"Forearm_Vent_Right",
-				"Canisters"
+				//"Canisters"
 			};
 		};
 	};
@@ -64,10 +64,10 @@
 		hiddenSelectionsTextures[]= { // un comment out which visor color you would like to test. make sure to comment out the old color or else there will be errors. Blue visor enabled by default.
 			"z\10thMod\addons\armor_misriah_named\data\Nova\HR_ODST_Helmet_Nova_co.paa",
 			//"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_Blue_co.paa" // Blue Visor
-			//"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_black_co.paa" // Black Visor
+			"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_black_co.paa" // Black Visor
 			//"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_gold_co.paa" // Gold Visor
 			//"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_red_co.paa" // Red Visor
-			"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_white_co.paa" // White Visor
+			//"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_white_co.paa" // White Visor
 		};
 		class ItemInfo: ItemInfo {
 			uniformModel="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
