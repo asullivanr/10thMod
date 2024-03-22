@@ -69,7 +69,7 @@
 				"H3_Armor_Lower", // not used
 				//"Forearm_Vent_Left",  // if the forearms are enabled they must have the vents
 				//"Forearm_Vent_Right", // if the forearms are enabled they must have the vents
-				"Canisters" // the canisters around the waist
+				//"Canisters" // the canisters around the waist
 			};
 		};
 	};

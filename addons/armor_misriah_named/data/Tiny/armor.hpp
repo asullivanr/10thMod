@@ -16,6 +16,8 @@
 			uniformModel="MA_Armor\data\Helmets\AA\AA_Helmet.p3d";
 		};
 	};
+
+	
 	class Tenthed_M56R_Vest_Tiny : Tenthed_Vest_Base {
 		scope=2;
 		scopeArsenal=2;

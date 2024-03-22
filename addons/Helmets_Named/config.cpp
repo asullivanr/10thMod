@@ -2524,7 +2524,7 @@ class cfgWeapons {
 	// Princess
 	class SCT_10th_Princess_Helmet : Tenthed_CH252D_Base {
 		dlc = "OPTRE";
-		scope = 2;
+		scope = 0;
 		author = "Tiger";
 		displayName = "[10th] CH252D 'Princess'";
 		model = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";

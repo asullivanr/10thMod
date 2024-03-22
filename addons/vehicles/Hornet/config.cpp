@@ -30,7 +30,7 @@ class CfgVehicles {
 		editorCategory = "Tenthed_EditorCategory_Main";
 		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Hornets";
 		hiddenSelectionsTextures[] = {
-			"optre_vehicles\hornet\data\hornet_hull_green_co.paa"
+			"optre_vehicles_air\hornet\data\hornet_hull_green_co.paa"
 		};
 		maxSpeed = 350;
 		weapons[] = {
@@ -50,7 +50,7 @@ class CfgVehicles {
 			AMSEnabled = 1;
 			DialogClass = "AMS_New_GUI";
 			AircraftBase = "Tenthed_Hornet_Base";
-			HardpointPicture = "OPTRE_Vehicles\Hornet\HornetPylonPic.paa";
+			HardpointPicture = "OPTRE_Vehicles_Air\Hornet\HornetPylonPic.paa";
 			CustomPreset_Hashmap = "FIR_F23A_CustomPreset_Hashmap";
 			loadout_pre = "z\10thMod\addons\vehicles\Hornet\scripts\Loadout_Pre.sqf";
 			loadout_apply = "FIR_AirWeaponSystem_US_Cfg\sqs\AMS\AMS_Loadout_Apply.sqf";
@@ -83,7 +83,7 @@ class CfgVehicles {
 		editorCategory = "Tenthed_EditorCategory_Main";
 		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Hornets";
 		hiddenSelectionsTextures[]= {
-			"optre_vehicles\hornet\data\hornet_hull_green_co.paa"
+			"optre_vehicles_air\hornet\data\hornet_hull_green_co.paa"
 		};
 	};
 

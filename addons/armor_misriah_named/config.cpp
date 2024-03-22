@@ -47,7 +47,7 @@ class cfgWeapons {
 	#include "data\Nova\armor.hpp"
 
 	// Villainess
-	#include "data\Villainess\armor.hpp"
+	// #include "data\Villainess\armor.hpp"
 	
 	// Void
 	#include "data\Void\armor.hpp"
@@ -122,7 +122,7 @@ class cfgWeapons {
 	#include "data\Goldy\armor.hpp"
 
 	// Grimgnaw
-	#include "data\Grimgnaw\armor.hpp"
+	// #include "data\Grimgnaw\armor.hpp"
 
 	// Hodge
 	#include "data\Hodge\armor.hpp"
@@ -243,4 +243,7 @@ class cfgWeapons {
 
 	// Thor
 	#include "data\Thor\armor.hpp"
+//
+	// Nightmare
+	#include "data\Nightmare\armor.hpp"
 };
