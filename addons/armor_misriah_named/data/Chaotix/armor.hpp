@@ -51,7 +51,7 @@
 				"H3_Armor_Lower", // not used
 				//"Forearm_Vent_Left",  // if the forearms are enabled they must have the vents
 				//"Forearm_Vent_Right", // if the forearms are enabled they must have the vents
-				//"Canisters" // the canisters around the waist
+				"Canisters" // the canisters around the waist
 			};
 		};
 	};
@@ -65,11 +65,11 @@
 		picture="MA_Armor\data\Icons\EOD_Helm.paa";
 		hiddenSelectionsTextures[]= { // un comment out which visor color you would like to test. make sure to comment out the old color or else there will be errors. Blue visor enabled by default.
 			"z\10thMod\addons\armor_misriah_named\data\Chaotix\EOD_Helmet_Chaotix_co.paa", // change this texture file to test different helmet textures.
-			//"MA_Armor\data\Helmets\EOD\EOD_Visor_Blue_co.paa" // Blue Visor
+			"MA_Armor\data\Helmets\EOD\EOD_Visor_Blue_co.paa" // Blue Visor
 			//"MA_Armor\data\Helmets\EOD\EOD_Visor_Black_co.paa" // Black Visor
 			//"MA_Armor\data\Helmets\EOD\EOD_Visor_Gold_co.paa" // Gold Visor
 			//"MA_Armor\data\Helmets\EOD\EOD_Visor_Red_co.paa" // Red Visor
-			"MA_Armor\data\Helmets\EOD\EOD_Visor_White_co.paa" // White Visor
+			//"MA_Armor\data\Helmets\EOD\EOD_Visor_White_co.paa" // White Visor
 		};
 		class ItemInfo: ItemInfo {
 			uniformModel="MA_Armor\data\Helmets\EOD\EOD_Helmet.p3d";

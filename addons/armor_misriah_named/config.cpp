@@ -245,7 +245,7 @@ class cfgWeapons {
 	#include "data\Thor\armor.hpp"
 //
 	// Chaotix
-	// #include "data\Chaotix\armor.hpp"
+	#include "data\Chaotix\armor.hpp"
 
 	// Dinner
 	#include "data\Dinner\armor.hpp"
@@ -255,4 +255,7 @@ class cfgWeapons {
 
 	// Shakes
 	#include "data\Shakes\armor.hpp"
+
+	// Gater
+	#include "data\Gater\armor.hpp"
 };
