@@ -28,7 +28,7 @@
 			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
 			"z\10thMod\addons\armor_misriah_named\data\Mage\Thigh_Pouch_Mage_co.paa",
 			"z\10thMod\addons\armor_misriah_named\data\Mage\Reach_Armor_Upper_Mage_co.paa", // Upper armor texture
-			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
+			"z\10thMod\addons\armor_misriah_named\data\Mage\Reach_Armor_Lower_Mage_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa", // Sniper Shoulders

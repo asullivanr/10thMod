@@ -104,10 +104,10 @@ class cfgWeapons {
 	#include "data\Nobody\armor.hpp"
 
 	// Seagull
-	#include "data\Seagull\armor.hpp"
+	// #include "data\Seagull\armor.hpp"
 
 	// Som
-	#include "data\Som\armor.hpp"
+	// #include "data\Som\armor.hpp"
 //
 	// Cossack
 	#include "data\Cossack\armor.hpp"
@@ -134,7 +134,7 @@ class cfgWeapons {
 	#include "data\McInnes\armor.hpp"
 
 	// Meatshield
-	#include "data\Meatshield\armor.hpp"
+	// #include "data\Meatshield\armor.hpp"
 
 	// Tiger
 	#include "data\Tiger\armor.hpp"
@@ -179,7 +179,7 @@ class cfgWeapons {
 	#include "data\Hetzen\armor.hpp"
 
 	// Jaeger
-	#include "data\Jaeger\armor.hpp"
+	// #include "data\Jaeger\armor.hpp"
 
 	// Knight
 	#include "data\Knight\armor.hpp"
@@ -244,6 +244,18 @@ class cfgWeapons {
 	// Thor
 	#include "data\Thor\armor.hpp"
 //
+	// Chaotix
+	#include "data\Chaotix\armor.hpp"
+
+	// Dinner
+	#include "data\Dinner\armor.hpp"
+
 	// Nightmare
 	#include "data\Nightmare\armor.hpp"
+
+	// Shakes
+	#include "data\Shakes\armor.hpp"
+
+	// Gater
+	#include "data\Gater\armor.hpp"
 };
