@@ -184,7 +184,7 @@ class cfgWeapons {
 			{
 				class Abdomen
 				{
-					armor=35;
+					armor=90;
 					hitpointName="HitAbdomen";
 					passThrough=0.1;
 				};
@@ -487,4 +487,242 @@ class cfgWeapons {
 		};
 	};
 
+
+
+	// Spartan Armors
+
+	// MA_Mjolnir_JFO_Helmet
+	class MA_Mjolnir_JFO_Helmet;  // SL	 helmet
+	class Tenthed_AstraSpartan_SL_Helmet: MA_Mjolnir_JFO_Helmet {
+		scope=2;
+		scopeArsenal=2;
+		author="Misriah Armory";
+		displayName="[10th] Mjolnir JFO Helmet";
+		model="MA_Armor\data\Helmets\JFO\JFO_Helmet.p3d";
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"MA_Armor\data\Helmets\JFO\Helmets\Olive_JFO_Helmet_CO.paa",
+			"MA_Armor\data\Helmets\JFO\Visors\Base_JFO_Visor_CO.paa"
+		};
+		MJOLNIR_isHelmet=1;
+		//MJOLNIR_helmetOverlay="\OPTRE_Suit_Scripts\textures\OPTRE_MJOLNIR_hudBackground.paa";
+		//MJOLNIR_helmetOutline="\OPTRE_Suit_Scripts\textures\OPTRE_MJOLNIR_hudHelmetOutline.paa";
+		class ItemInfo: HeadgearItem
+		{
+			uniformModel="MA_Armor\data\Helmets\JFO\JFO_Helmet.p3d";
+			class HitpointsProtectionInfo {
+				class Head
+				{
+					hitpointName="HitHead";
+					armor=50;
+					passThrough=0.1;
+				};
+				class Face
+				{
+					hitpointName="HitFace";
+					armor=50;
+					passThrough=0.1;
+				};
+				class Neck
+				{
+					hitpointName="HitNeck";
+					armor=50;
+					passThrough=0.1;
+				};
+			};
+		};
+	};
+
+	// MA_Mjolnir_MKVB_Helmet
+	class MA_Mjolnir_MKVB_Helmet; // basic helmet
+	class Tenthed_AstraSpartan_Basic_Helmet : MA_Mjolnir_MKVB_Helmet {
+		scope=2;
+		scopeArsenal=2;
+		displayName="[10th] Mjolnir Mark VB Helmet";
+		model="MA_Armor\data\Helmets\MKVB\MKVB_Helm.p3d";
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"MA_Armor\data\Helmets\MKVB\Helmets\Olive_MKVB_Helmet_CO.paa",
+			"MA_Armor\data\Helmets\MKVB\Visors\Base_MKVB_Visor_CO.paa"
+		};
+		MJOLNIR_isHelmet=1;
+		class ItemInfo: HeadgearItem
+		{
+			uniformModel="MA_Armor\data\Helmets\MKVB\MKVB_Helm.p3d";
+			class HitpointsProtectionInfo {
+				class Head
+				{
+					hitpointName="HitHead";
+					armor=50;
+					passThrough=0.1;
+				};
+				class Face
+				{
+					hitpointName="HitFace";
+					armor=50;
+					passThrough=0.1;
+				};
+				class Neck
+				{
+					hitpointName="HitNeck";
+					armor=50;
+					passThrough=0.1;
+				};
+			};
+		};
+	};
+
+	//MA_Mjolnir_Gungnir_Helmet
+	class MA_Mjolnir_Gungnir_Helmet; // recon helmet
+	class Tenthed_AstraSpartan_Recon_Helmet : MA_Mjolnir_Gungnir_Helmet {
+		scope=2;
+		scopeArsenal=2;
+		author="Misriah Armory";
+		displayName="[10th] Mjolnir Gungnir Helmet";
+		model="MA_Armor\data\Helmets\Gungnir\Gungnir_Helmet.p3d";
+		hiddenSelections[]=
+		{
+			"Camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"MA_Armor\data\Helmets\Gungnir\Helmets\Olive_GUNGNIR_Helmet_CO.paa"
+		};
+		MJOLNIR_isHelmet=1;
+		class ItemInfo: HeadgearItem
+		{
+			uniformModel="MA_Armor\data\Helmets\Gungnir\Gungnir_Helmet.p3d";
+			class HitpointsProtectionInfo {
+				class Head
+				{
+					hitpointName="HitHead";
+					armor=50;
+					passThrough=0.1;
+				};
+				class Face
+				{
+					hitpointName="HitFace";
+					armor=50;
+					passThrough=0.1;
+				};
+				class Neck
+				{
+					hitpointName="HitNeck";
+					armor=50;
+					passThrough=0.1;
+				};
+			};
+		};
+	};
+
+	// MA_MKVB_Armor
+	class MA_MKVB_Armor;
+	class Tenthed_AstraSpartan_Armor: MA_MKVB_Armor {
+		scope=2;
+		scopeArsenal=2;
+		author="Misriah Armory";
+		displayName="[10th] Mjolnir Armor";
+		model="MA_Armor\data\Vests\MKVB\MKVB_Armor.p3d";
+		picture="";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"MA_Armor\data\Vests\MKVB\Color_Variants\Olive_MKV_Upper_CO.paa",
+			"MA_Armor\data\Vests\MKVB\Color_Variants\Olive_MKV_Lower_CO.paa"
+		};
+		MJOLNIR_isArmor=1;
+		MJOLNIR_shieldStrength=300;
+		MJOLNIR_shieldChargeValue=1;
+		MJOLNIR_shieldChargeDelay=0.1;
+		class ItemInfo: VestItem
+		{
+			vestType="Rebreather";
+			hiddenSelections[]=
+			{
+				"camo1",
+				"camo2"
+			};
+			hiddenSelectionsTextures[]=
+			{
+				"MA_Armor\data\Vests\MKVB\Color_Variants\Olive_MKV_Upper_CO.paa",
+				"MA_Armor\data\Vests\MKVB\Color_Variants\Olive_MKV_Lower_CO.paa"
+			};
+			uniformModel="MA_Armor\data\Vests\MKVB\MKVB_Armor.p3d";
+			containerClass="Supply300";
+			mass=20;
+			passThrough=0.1;
+			modelSides[]={6};
+			class HitpointsProtectionInfo
+			{
+				class Neck
+				{
+					hitpointName="HitNeck";
+					armor=150;
+					passThrough=0.5;
+				};
+				class Legs
+				{
+					hitpointName="HitLegs";
+					armor=150;
+					passThrough=0.5;
+				};
+				class Arms
+				{
+					hitpointName="HitArms";
+					armor=150;
+					passThrough=0.1;
+				};
+				class Hands
+				{
+					hitpointName="HitHands";
+					armor=150;
+					passThrough=0.1;
+				};
+				class Chest
+				{
+					hitpointName="HitChest";
+					armor=150;
+					passThrough=0.1;
+				};
+				class Diaphragm
+				{
+					hitpointName="HitDiaphragm";
+					armor=150;
+					passThrough=0.1;
+				};
+				class Abdomen
+				{
+					hitpointName="HitAbdomen";
+					armor=150;
+					passThrough=0.1;
+				};
+				class Pelvis
+				{
+					hitpointName="HitPelvis";
+					armor=150;
+					passThrough=0.1;
+				};
+				class Body
+				{
+					armor=150;
+					hitpointName="HitBody";
+					passThrough=0.1;
+				};
+			};
+		};
+	};	
 };
