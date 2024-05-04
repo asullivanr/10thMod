@@ -34,6 +34,11 @@ class CfgEditorCategories {
     };
 };
 class CfgEditorSubcategories {
+    // Eden and Zeus Categories //
+    class Tenthed_EditorSubcategory_Objects_Zeus {
+        displayName = "Mission building";
+    };
+
     // Prop Categories //
     class Tenthed_EditorSubcategory_Objects_Military {
         displayName = "Military";
