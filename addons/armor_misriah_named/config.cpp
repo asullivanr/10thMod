@@ -258,4 +258,16 @@ class cfgWeapons {
 
 	// Gater
 	#include "data\Gater\armor.hpp"
+//
+	// Bardok
+	#include "data\Bardok\armor.hpp"
+
+	// Crusader
+	#include "data\Crusader\armor.hpp"
+
+	// Dadbod
+	#include "data\Dadbod\armor.hpp"
+
+	// Woo
+	#include "data\Woo\armor.hpp"
 };
