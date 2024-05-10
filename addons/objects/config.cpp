@@ -7,20 +7,20 @@ class CfgPatches {
         };
         weapons[] = {};
         units[] = {
-			"Tenthed_FlagStand",
-			"Tenthed_ODST_Flag",
-			"Tenthed_ODST_FlagPole",
-			"Tenthed_Squad_Flag_Chaos",
-			"Tenthed_Squad_Flag_Zeus",
-			"Tenthed_Squad_Flag_Hades",
-			"Tenthed_Squad_Flag_Artemis",
-			"Tenthed_Squad_Flag_Ares",
-			"Tenthed_Squad_Flag_Odin",
-			"Tenthed_Squad_Flag_Baldur",
-			"Tenthed_Squad_Flag_Heimdall",
-			"Tenthed_Squad_Flag_Tyr",
-			"Tenthed_Squad_Flag_Tiamat",
-			"Tenthed_Squad_Flag_Aethur"
+			// "Tenthed_FlagStand",
+			// "Tenthed_ODST_Flag",
+			// "Tenthed_ODST_FlagPole",
+			// "Tenthed_Squad_Flag_Chaos",
+			// "Tenthed_Squad_Flag_Zeus",
+			// "Tenthed_Squad_Flag_Hades",
+			// "Tenthed_Squad_Flag_Artemis",
+			// "Tenthed_Squad_Flag_Ares",
+			// "Tenthed_Squad_Flag_Odin",
+			// "Tenthed_Squad_Flag_Baldur",
+			// "Tenthed_Squad_Flag_Heimdall",
+			// "Tenthed_Squad_Flag_Tyr",
+			// "Tenthed_Squad_Flag_Tiamat",
+			// "Tenthed_Squad_Flag_Aethur"
 		};
     };
 };
