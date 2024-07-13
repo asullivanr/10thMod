@@ -1,4 +1,4 @@
-	class Tenthed_M56R_Vest_Dovah : Tenthed_Vest_Base {
+	class Tenthed_M56R_Vest_Dovah : Tenthed_Vest_Powered {
 		scope=2;
 		scopeArsenal=2;
 		displayName="[10th] M56R Armor (Dovah)";

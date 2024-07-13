@@ -14,21 +14,22 @@ class CfgFunctions {
     class Tenthed_functions
     {
     	//Prefix for functions ie Tenthed_fnc_# (_fnc_ is added automatically between tag and file name see below)
-    	//tag = "Tenthed";
+    	tag = "Tenthed";
       
         //Category
-        //class Tenthed_Server_Functions
-        //{
-            //file="\Tenthed_Functions\functions";
-            //class Arsenal {};
+        class Tenthed_Server_Functions
+        {
+            file="z\10thMod\addons\functions\functions";
+            class Arsenal {};
             // [this, true] call Tenthed_fnc_Arsenal;
-        //};
+        };
 
-        //class Tenthed_Server_Functions_Blacklist
-        //{
-            //file="\Tenthed_Functions\functions";
-            //class ArsenalBlacklist {};
+        class Tenthed_Server_Functions_Blacklist
+        {
+            file="z\10thMod\addons\functions\functions";
+            class ArsenalBlacklist {};
             // [this, true] call Tenthed_fnc_ArsenalBlacklist;
-        //};
+        };
+
     };
 };
