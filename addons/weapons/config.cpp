@@ -36,6 +36,7 @@ class PointerSlot;
 
 class CfgWeapons {
 
+	// Original Weapons
 	class SC_Rifle_PKMP;
 	class Tenthed_SC_Rifle_PKMP : SC_Rifle_PKMP {
 		scope = 2;
@@ -1127,4 +1128,12 @@ class CfgWeapons {
 			recoilProne = "recoil_single_prone_mx";
 		};
 	};
+
+	//New Weapons
+	class OPTRE_M6C; // Infantry Pistol
+	class TCF_M6D; // Pilot Pistol
+	class LM_OPCAN_AR0M37; // common pool rifle
+	class LM_OPCAN_AR0M37_SHT;
+	class TCF_MA1B;
+	class OPTRE_BR45;
 };

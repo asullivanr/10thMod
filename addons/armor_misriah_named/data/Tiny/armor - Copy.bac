@@ -18,7 +18,7 @@
 	};
 
 	
-	class Tenthed_M56R_Vest_Tiny : Tenthed_Vest_Powered {
+	class Tenthed_M56R_Vest_Tiny : Tenthed_Vest_Base {
 		scope=2;
 		scopeArsenal=2;
 		displayName="[10th] M56R Armor (Tiny)";

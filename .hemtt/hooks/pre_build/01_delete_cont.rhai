@@ -4,7 +4,7 @@ if(HEMTT.is_release())
     HEMTT_VFS.join("addons").join("weapons").join("BruteGrenade").remove_file();
 
     HEMTT_VFS.join("addons").join("functions").join("ArcherMissile").remove_file();
-    HEMTT_VFS.join("addons").join("functions").join("functions").remove_file();
+    //HEMTT_VFS.join("addons").join("functions").join("functions").remove_file();
 }
 else if(HEMTT.is_build())
 {

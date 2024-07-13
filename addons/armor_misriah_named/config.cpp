@@ -33,6 +33,7 @@ class cfgWeapons {
 	class Tenthed_M56_Scout_Helmet;
 
 	class Tenthed_Vest_Base;
+	class Tenthed_Vest_Powered;
 
 	// Akira
 	#include "data\Akira\armor.hpp"
