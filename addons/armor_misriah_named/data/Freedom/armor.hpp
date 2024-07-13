@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 	class Tenthed_M56SR_Helmet_Freedom : Tenthed_M56SR_Helmet {
 		scope=2;
 		scopeArsenal=2;
@@ -17,11 +16,8 @@
 			uniformModel="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
 		};
 	};
-	class Tenthed_M56R_Vest_Freedom : Tenthed_Vest_Base {
-=======
 
 	class Tenthed_M56R_Vest_Freedom : Tenthed_Vest_Powered {
->>>>>>> Stashed changes
 		scope=2;
 		scopeArsenal=2;
 		displayName="[10th] M56R Armor (Freedom)";
