@@ -4,9 +4,7 @@ class CfgPatches
 		author = "Akira";
 		name = "10th Backpacks";
 		requiredAddons[] = {
-			"OPTRE_Core",
-			"Silvers_Customs",
-			"Tenthed_Test_Armor"
+			"OPTRE_Core"
 		};
 		weapons[] = {};
 		units[] = {

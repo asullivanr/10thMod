@@ -86,7 +86,7 @@ class cfgWeapons {
 	#include "data\Dovah\armor.hpp"
 
 	// Drake
-	#include "data\Drake\armor.hpp"
+	// #include "data\Drake\armor.hpp"
 
 	// Gutts
 	#include "data\Gutts\armor.hpp"
@@ -125,7 +125,7 @@ class cfgWeapons {
 	// #include "data\Grimgnaw\armor.hpp"
 
 	// Hodge
-	#include "data\Hodge\armor.hpp"
+	// #include "data\Hodge\armor.hpp"
 
 	// Infra
 	#include "data\Infra\armor.hpp"
@@ -149,7 +149,7 @@ class cfgWeapons {
 	#include "data\Dubbos\armor.hpp"
 
 	// Fwog
-	#include "data\Fwog\armor.hpp"
+	//#include "data\Fwog\armor.hpp"
 
 	// Glint
 	#include "data\Glint\armor.hpp"
@@ -270,4 +270,34 @@ class cfgWeapons {
 
 	// Woo
 	#include "data\Woo\armor.hpp"
+//
+	// Enlisted New
+	//#include "data\EnlistedNew\armor.hpp"
+
+	// Enlisted Odin
+	//#include "data\EnlistedOdin\armor.hpp"
+
+	// Enlisted Zeus
+	//#include "data\EnlistedZeus\armor.hpp"
+//
+	// Harpy
+	#include "data\Harpy\armor.hpp"
+
+	// Karma
+	#include "data\Karma\armor.hpp"
+
+	// Milly
+	#include "data\Miller\armor.hpp"
+
+	// Ninja
+	#include "data\Ninja\armor.hpp"
+
+	// Teal
+	#include "data\Teal\armor.hpp"
+
+	// Velo
+	#include "data\Velo\armor.hpp"
+
+	// Vio
+	#include "data\Vio\armor.hpp"
 };
