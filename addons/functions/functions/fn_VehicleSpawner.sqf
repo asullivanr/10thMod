@@ -1,4 +1,4 @@
-if (!isServer) exitWith {};
+//if (!isServer) exitWith {};
 
 params [
 	["_logic", objNull, [objNull]],		// Argument 0 is module logic
@@ -8,47 +8,60 @@ params [
 
 ];
 
-_air_001 = [];
-_air_002 = [];
-
-_ground_001 = [];
-_ground_002 = [];
+padLocation = _importPad;
 
 
-switch _mode do
+utilities_001 = [];
+utilities_001_name = ["1","2","3","The Kart"];
+
+air_001 = [];
+air_001_name = [];
+
+air_002 = [];
+air_002_name = [];
+
+ground_001 = [];
+ground_001_name = [];
+ground_002 = [];
+ground_002_name = [];
+
+switch (_mode) do
 {
+    case (_mode = "utilities"): {};
+    case (_mode = "Air1"): {};
+    case (_mode = "Air2"): {};
+    case (_mode = "Air3"): {};
+    case (_mode = "Air4"): {};
 
+    {code} forEach Array
 };
 
 
-this addAction ["Spawn Terra Pelican", 
- { 
-  if (surfaceIsWater position Spawn_PadSide3) then 
-  { 
-   _pad1 = getPosASL Spawn_PadSide3; 
-   _dir = getDir Spawn_PadSide3; 
-         _veh = createVehicle 
-          [ 
-              "O_TE_Terra_Pelican_01", _pad1, 
-              [], 
-              0, 
-              "NONE" 
-          ]; 
-         _veh setDir _dir; 
-      } 
-       else 
-     { 
-      _pad1 = getPosATL Spawn_PadSide3; 
-      _dir = getDir Spawn_PadSide3; 
-         _veh = createVehicle 
-          [ 
-              "O_TE_Terra_Pelican_01", 
-              _pad1, 
-              [], 
-              0, 
-              "NONE" 
-          ];         
-         _veh setDir _dir; 
-    }; 
-   } 
-]; 
+this addAction ["Spawn Terra Pelican", {
+    if (surfaceIsWater position padLocation) then
+    {
+    _pad = getPosASL padLocation;
+    _dir = getDir padLocation;
+    _veh = createVehicle [
+            "O_TE_Terra_Pelican_01", _pad,
+            [],
+            0,
+            "NONE"
+        ];
+        _veh setDir _dir;
+    }
+    else
+    {
+    _pad = getPosATL padLocation;
+    _dir = getDir padLocation;
+    _veh = createVehicle [
+            "O_TE_Terra_Pelican_01",
+            _pad,
+            [],
+            0,
+            "NONE"
+        ];
+        _veh setDir _dir;
+    };
+}
+];

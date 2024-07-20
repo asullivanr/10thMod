@@ -4,7 +4,8 @@ class CfgPatches {
         name = "10th ODST: Modules";
         requiredAddons[] = {
             "OPTRE_Core",
-            "Tenthed_core"
+            "Tenthed_core",
+            "A3_Modules_F"
         };
         weapons[] = {};
         units[] = {};
