@@ -27,13 +27,13 @@ ground_002_name = [];
 
 switch (_mode) do
 {
-    case (_mode = "utilities"): {};
-    case (_mode = "Air1"): {};
-    case (_mode = "Air2"): {};
-    case (_mode = "Air3"): {};
-    case (_mode = "Air4"): {};
+    //case (_mode = "utilities"): {};
+    //case (_mode = "Air1"): {};
+    //case (_mode = "Air2"): {};
+    //case (_mode = "Air3"): {};
+    //case (_mode = "Air4"): {};
 
-    {code} forEach Array
+    //{code} forEach Array
 };
 
 
