@@ -17,7 +17,7 @@ _utility = [ // 0
 // List of vehicles to choose from
 _airPelican = [ // 1
     "Tenthed_Pelican_SOCOM_Jungle", // 0
-    "Tenthed_Pelican_Jungle", // 1
+    "Tenthed_Pelican_Jungle" // 1
     // Add more vehicles as needed
 ];
 // List of vehicles to choose from
@@ -32,7 +32,7 @@ _airAdditional = [ // 1
 _airFastMovers = [ // 1
     "FIR_F23A_Wizard", // 0
     "FIR_F35B_VMFA531", // 1
-    "B_Plane_CAS_01_dynamicLoadOut_F", // 2
+    "B_Plane_CAS_01_dynamicLoadOut_F" // 2
     // Add more vehicles as needed
 ];
 // List of vehicles to choose from
@@ -54,7 +54,7 @@ _tank = [ // 2
 // List of vehicles to choose from
 _car = [ // 3
     "OPTRE_M12_FAV_APC", // 0
-    "OPTRE_M12_LRV", // 1
+    "OPTRE_M12_LRV" // 1
     // Add more vehicles as needed
 ];
 // List of vehicles to choose from
@@ -99,11 +99,10 @@ if (_vehicleIndex >= 0) then {
 
     if (surfaceIsWater position _spawnPoint) then {
         _pad1 = getPosASL _spawnPoint;
-        _dir = getDir _spawnPoint;
     } else {
         _pad1 = getPosATL _spawnPoint;
-        _dir = getDir _spawnPoint;
     };
+    _dir = getDir _spawnPoint;
 
     // Spawn the selected vehicle at the calculated position and direction
     _veh = createVehicle [_selectedVehicle, _pad1, [], 0, "NONE"];
