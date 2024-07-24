@@ -31,5 +31,13 @@ class CfgFunctions {
             // [this, true] call Tenthed_fnc_ArsenalBlacklist;
         };
 
+        class Tenthed_Server_Functions_VehicleSpawner
+        {
+            file="z\10thMod\addons\functions\functions";
+            class VehicleSpawner {};
+            // [_spawnPoint, _categoryIndex, _vehicleIndexToSpawn] call Tenthed_fnc_VehicleSpawner;
+            // this addAction ["Spawn Vehicle", { [_spawnPoint, _categoryIndex, _vehicleIndexToSpawn] call Tenthed_fnc_VehicleSpawner }];
+        };
+
     };
 };
