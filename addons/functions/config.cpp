@@ -31,5 +31,25 @@ class CfgFunctions {
             // [this, true] call Tenthed_fnc_ArsenalBlacklist;
         };
 
+        class Tenthed_Server_Functions_VehicleSpawner
+        {
+            file="z\10thMod\addons\functions\functions";
+            class VehicleSpawner {};
+            // this addAction ["Spawn X", { [_spawnPoint, _categoryIndex, _vehicleIndexToSpawn] call Tenthed_fnc_VehicleSpawner }]; 
+        };
+
+        class Tenthed_Server_Functions_VehicleSpawnerGeneric
+        {
+            file="z\10thMod\addons\functions\functions";
+            class VehicleSpawnerGeneric {};
+            // this ["_vehicleName", _ClassName, _spawnPoint] call Tenthed_fnc_AddTeleportAction;
+        };
+
+        class Tenthed_Server_Functions_Teleport
+        {
+            file="z\10thMod\addons\functions\functions";
+            class AddTeleportAction {};
+            // this ["Killhouse A", "Lift_KHA"] call Tenthed_fnc_AddTeleportAction;
+        };
     };
 };
