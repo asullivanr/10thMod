@@ -64,7 +64,7 @@
 				"Reach_Sniper_Pauldron_Right",
 				"Reach_CQB_Pauldron_Left",
 				"Reach_CQB_Pauldron_Right",
-				"Thigh_Pouch",
+				//"Thigh_Pouch",
 				"H3_Armor_Upper", // not used
 				"H3_Armor_Lower", // not used
 				"Forearm_Vent_Left",  // if the forearms are enabled they must have the vents
