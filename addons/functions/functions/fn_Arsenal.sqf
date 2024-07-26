@@ -435,7 +435,8 @@ _magazines = [
   "OPTRE_40Rnd_30x06_Mag",
   "OPTRE_40Rnd_30x06_Mag_Tracer",
   "TCF_30Rnd_30x06_Mag_AP_Tracer",
-  "RD_45Rnd_45HP_Mag"
+  "RD_45Rnd_45HP_Mag",
+  "Laserbatteries"
 ];
 _weapons = [
   "Itemwatch",
