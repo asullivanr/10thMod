@@ -19,7 +19,8 @@ _backpacks = [
   "Tenthed_ArcherMissileTablet",
   "Tenthed_Marine_Medical_Rucksack",
   "Tenthed_Marine_Heavy_Rucksack",
-  "Tenthed_Marine_Rucksack"
+  "Tenthed_Marine_Rucksack",
+  "OPTRE_AU_44_Mortar_Bag_Weapon_Single"
 ];
 _magazines = [
   "OPTRE_M41_Twin_Smoke_O",
