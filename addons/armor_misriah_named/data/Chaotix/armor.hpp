@@ -10,7 +10,7 @@
 			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
 			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa", // Thigh pouch texture
 			"z\10thMod\addons\armor_misriah_named\data\Chaotix\Reach_Armor_Upper_Chaotix_co.paa", // Upper armor texture and base ODST shoulders.
-			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
+			"z\10thMod\addons\armor_misriah_named\data\Chaotix\Reach_Armor_Lower_Chaotix_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa", // Canisters texture
 			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa", // Sniper Shoulders
@@ -57,21 +57,21 @@
 	};
 
 
-	class Tenthed_M56E_Helmet_Chaotix : Tenthed_M56E_Helmet {
+    class Tenthed_M56SR_Helmet_Chaotix : Tenthed_M56SR_Helmet {
 		scope=2;
 		scopeArsenal=2;
-		displayName="[10th] M56-E Helmet (Chaotix)";
-		model="MA_Armor\data\Helmets\EOD\EOD_Helmet.p3d";
-		picture="MA_Armor\data\Icons\EOD_Helm.paa";
+		displayName="[10th] M56S-R Helmet (Chaotix)";
+		model="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
+		picture="MA_Armor\data\Icons\Halo_Reach_ODST_Helmet.paa";
 		hiddenSelectionsTextures[]= { // un comment out which visor color you would like to test. make sure to comment out the old color or else there will be errors. Blue visor enabled by default.
-			"z\10thMod\addons\armor_misriah_named\data\Chaotix\EOD_Helmet_Chaotix_co.paa", // change this texture file to test different helmet textures.
-			"MA_Armor\data\Helmets\EOD\EOD_Visor_Blue_co.paa" // Blue Visor
-			//"MA_Armor\data\Helmets\EOD\EOD_Visor_Black_co.paa" // Black Visor
-			//"MA_Armor\data\Helmets\EOD\EOD_Visor_Gold_co.paa" // Gold Visor
-			//"MA_Armor\data\Helmets\EOD\EOD_Visor_Red_co.paa" // Red Visor
-			//"MA_Armor\data\Helmets\EOD\EOD_Visor_White_co.paa" // White Visor
+			"z\10thMod\addons\armor_misriah_named\data\Chaotix\HR_ODST_Helmet_Chaotix_co.paa", // change this texture file to test different helmet textures.
+			"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_Blue_co.paa" // Blue Visor
+			//"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_black_co.paa" // Black Visor
+			//"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_gold_co.paa" // Gold Visor
+			//"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_red_co.paa" // Red Visor
+			//"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_white_co.paa" // White Visor
 		};
 		class ItemInfo: ItemInfo {
-			uniformModel="MA_Armor\data\Helmets\EOD\EOD_Helmet.p3d";
+			uniformModel="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
 		};
 	};

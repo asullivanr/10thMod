@@ -847,12 +847,12 @@ class cfgWeapons {
 			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
 			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
 			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
-			"z\10thMod\addons\armor_misriah_base\data\enlisted\Reach_Armor_Upper_Enlisted_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\enlisted\Enlisted\Reach_Armor_Upper_Enlisted_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
-			"z\10thMod\addons\armor_misriah_base\data\enlisted\Sniper_Enlisted_co.paa",
-			"z\10thMod\addons\armor_misriah_base\data\enlisted\CQB_Enlisted_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\enlisted\Enlisted\Sniper_Enlisted_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\enlisted\Enlisted\CQB_Enlisted_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa"
 		};
 		class ItemInfo: ItemInfo {
@@ -887,6 +887,109 @@ class cfgWeapons {
 			};
 		};
 	};
+
+	class Tenthed_M56R_Vest_OdinEnlisted_Rifleman : Tenthed_Vest_Base {
+		scope=2;
+		scopeArsenal=2;
+		displayName="[10th] M56R Combat Armor Odin Enlisted (Rifleman)";
+		model="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+		picture="MA_Armor\data\Icons\H3ODST_Vest.paa";
+		hiddenSelectionsTextures[]= {
+			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
+			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
+			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\enlisted\OdinEnlisted\Reach_Armor_Upper_OdinEnlisted_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\enlisted\OdinEnlisted\Sniper_OdinEnlisted_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\enlisted\OdinEnlisted\CQB_OdinEnlisted_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa"
+		};
+		class ItemInfo: ItemInfo {
+			vestType="Rebreather";
+			uniformModel="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+			containerClass="Supply350";
+			hiddenSelections[]= {
+				"camo1",
+				"camo2",
+				"camo3",
+				"camo4",
+				"camo5",
+				"camo6",
+				"camo7",
+				"camo8",
+				"camo9",
+				"camo10",
+				"H3_Forearm_Left",
+				"H3_Forearm_Right",
+				"H3_Pauldron_Left",
+				"H3_Pauldron_Right",
+				"Reach_Shoulder_Radio_Left",
+				"Reach_Shoulder_Radio_Right",
+				"Reach_Sniper_Pauldron_Left",
+				"Reach_Sniper_Pauldron_Right",
+				"Reach_CQB_Pauldron_Left",
+				"Reach_CQB_Pauldron_Right",
+				"Thigh_Pouch",
+				"H3_Armor_Upper",
+				"H3_Armor_Lower",
+				"Canisters"
+			};
+		};
+	};
+
+	class Tenthed_M56R_Vest_ZeusEnlisted_Rifleman : Tenthed_Vest_Base {
+		scope=2;
+		scopeArsenal=2;
+		displayName="[10th] M56R Combat Armor Zeus Enlisted (Rifleman)";
+		model="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+		picture="MA_Armor\data\Icons\H3ODST_Vest.paa";
+		hiddenSelectionsTextures[]= {
+			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
+			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
+			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\enlisted\ZeusEnlisted\Reach_Armor_Upper_ZeusEnlisted_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\enlisted\ZeusEnlisted\Sniper_ZeusEnlisted_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\enlisted\ZeusEnlisted\CQB_ZeusEnlisted_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa"
+		};
+		class ItemInfo: ItemInfo {
+			vestType="Rebreather";
+			uniformModel="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+			containerClass="Supply350";
+			hiddenSelections[]= {
+				"camo1",
+				"camo2",
+				"camo3",
+				"camo4",
+				"camo5",
+				"camo6",
+				"camo7",
+				"camo8",
+				"camo9",
+				"camo10",
+				"H3_Forearm_Left",
+				"H3_Forearm_Right",
+				"H3_Pauldron_Left",
+				"H3_Pauldron_Right",
+				"Reach_Shoulder_Radio_Left",
+				"Reach_Shoulder_Radio_Right",
+				"Reach_Sniper_Pauldron_Left",
+				"Reach_Sniper_Pauldron_Right",
+				"Reach_CQB_Pauldron_Left",
+				"Reach_CQB_Pauldron_Right",
+				"Thigh_Pouch",
+				"H3_Armor_Upper",
+				"H3_Armor_Lower",
+				"Canisters"
+			};
+		};
+	};
+
 	// Enlisted Rifleman - Radio right
 	class Tenthed_M56R_Vest_Enlisted_Rifleman_radio_right : Tenthed_Vest_Base {
 		scope=2;
@@ -898,12 +1001,12 @@ class cfgWeapons {
 			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
 			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
 			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
-			"z\10thMod\addons\armor_misriah_base\data\enlisted\Reach_Armor_Upper_Enlisted_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\enlisted\Enlisted\Reach_Armor_Upper_Enlisted_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
-			"z\10thMod\addons\armor_misriah_base\data\enlisted\Sniper_Enlisted_co.paa",
-			"z\10thMod\addons\armor_misriah_base\data\enlisted\CQB_Enlisted_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\enlisted\Enlisted\Sniper_Enlisted_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\enlisted\Enlisted\CQB_Enlisted_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa"
 		};
 		class ItemInfo: ItemInfo {
@@ -937,6 +1040,107 @@ class cfgWeapons {
 			};
 		};
 	};
+
+	class Tenthed_M56R_Vest_OdinEnlisted_Rifleman_radio_right : Tenthed_Vest_Base {
+		scope=2;
+		scopeArsenal=2;
+		displayName="[10th] M56R Combat Armor Odin Enlisted (Rifleman - Radio)";
+		model="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+		picture="MA_Armor\data\Icons\H3ODST_Vest.paa";
+		hiddenSelectionsTextures[]= {
+			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
+			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
+			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\enlisted\OdinEnlisted\Reach_Armor_Upper_OdinEnlisted_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\enlisted\OdinEnlisted\Sniper_OdinEnlisted_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\enlisted\OdinEnlisted\CQB_OdinEnlisted_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa"
+		};
+		class ItemInfo: ItemInfo {
+			vestType="Rebreather";
+			uniformModel="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+			containerClass="Supply350";
+			hiddenSelections[]= {
+				"camo1",
+				"camo2",
+				"camo3",
+				"camo4",
+				"camo5",
+				"camo6",
+				"camo7",
+				"camo8",
+				"camo9",
+				"camo10",
+				"H3_Forearm_Left",
+				"H3_Forearm_Right",
+				"H3_Pauldron_Left",
+				"H3_Pauldron_Right",
+				"Reach_Shoulder_Radio_Left",
+				"Reach_Sniper_Pauldron_Left",
+				"Reach_Sniper_Pauldron_Right",
+				"Reach_CQB_Pauldron_Left",
+				"Reach_CQB_Pauldron_Right",
+				"Thigh_Pouch",
+				"H3_Armor_Upper",
+				"H3_Armor_Lower",
+				"Canisters"
+			};
+		};
+	};
+
+	class Tenthed_M56R_Vest_ZeusEnlisted_Rifleman_radio_right : Tenthed_Vest_Base {
+		scope=2;
+		scopeArsenal=2;
+		displayName="[10th] M56R Combat Armor Zeus Enlisted (Rifleman - Radio)";
+		model="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+		picture="MA_Armor\data\Icons\H3ODST_Vest.paa";
+		hiddenSelectionsTextures[]= {
+			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
+			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
+			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\enlisted\ZeusEnlisted\Reach_Armor_Upper_ZeusEnlisted_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\enlisted\ZeusEnlisted\Sniper_ZeusEnlisted_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\enlisted\ZeusEnlisted\CQB_ZeusEnlisted_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa"
+		};
+		class ItemInfo: ItemInfo {
+			vestType="Rebreather";
+			uniformModel="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+			containerClass="Supply350";
+			hiddenSelections[]= {
+				"camo1",
+				"camo2",
+				"camo3",
+				"camo4",
+				"camo5",
+				"camo6",
+				"camo7",
+				"camo8",
+				"camo9",
+				"camo10",
+				"H3_Forearm_Left",
+				"H3_Forearm_Right",
+				"H3_Pauldron_Left",
+				"H3_Pauldron_Right",
+				"Reach_Shoulder_Radio_Left",
+				"Reach_Sniper_Pauldron_Left",
+				"Reach_Sniper_Pauldron_Right",
+				"Reach_CQB_Pauldron_Left",
+				"Reach_CQB_Pauldron_Right",
+				"Thigh_Pouch",
+				"H3_Armor_Upper",
+				"H3_Armor_Lower",
+				"Canisters"
+			};
+		};
+	};
+
 	// Enlisted Sniper
 	class Tenthed_M56R_Vest_Enlisted_Sniper : Tenthed_Vest_Base {
 		scope=2;
@@ -948,12 +1152,12 @@ class cfgWeapons {
 			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
 			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
 			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
-			"z\10thMod\addons\armor_misriah_base\data\enlisted\Reach_Armor_Upper_Enlisted_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\enlisted\Enlisted\Reach_Armor_Upper_Enlisted_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
-			"z\10thMod\addons\armor_misriah_base\data\enlisted\Sniper_Enlisted_co.paa",
-			"z\10thMod\addons\armor_misriah_base\data\enlisted\CQB_Enlisted_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\enlisted\Enlisted\Sniper_Enlisted_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\enlisted\Enlisted\CQB_Enlisted_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa"
 		};
 		class ItemInfo: ItemInfo {
@@ -994,6 +1198,121 @@ class cfgWeapons {
 			};
 		};
 	};
+
+	class Tenthed_M56R_Vest_OdinEnlisted_Sniper : Tenthed_Vest_Base {
+		scope=2;
+		scopeArsenal=2;
+		displayName="[10th] M56R Combat Armor Odin Enlisted (Sniper)";
+		model="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+		picture="MA_Armor\data\Icons\H3ODST_Vest.paa";
+		hiddenSelectionsTextures[]= {
+			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
+			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
+			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\enlisted\OdinEnlisted\Reach_Armor_Upper_OdinEnlisted_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\enlisted\OdinEnlisted\Sniper_OdinEnlisted_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\enlisted\OdinEnlisted\CQB_OdinEnlisted_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa"
+		};
+		class ItemInfo: ItemInfo {
+			vestType="Rebreather";
+			uniformModel="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+			containerClass="Supply350";
+			hiddenSelections[]= {
+				"camo1",
+				"camo2",
+				"camo3",
+				"camo4",
+				"camo5",
+				"camo6",
+				"camo7",
+				"camo8",
+				"camo9",
+				"camo10",
+				"H3_Forearm_Left",
+				"H3_Forearm_Right",
+				//"Reach_Forearm_Left",
+				//"Reach_Forearm_Right",
+				"H3_Pauldron_Left",
+				"H3_Pauldron_Right",
+				"Reach_Pauldron_Left",
+				"Reach_Pauldron_Right",
+				"Reach_Shoulder_Radio_Left",
+				"Reach_Shoulder_Radio_Right",
+				//"Reach_Sniper_Pauldron_Left",
+				//"Reach_Sniper_Pauldron_Right",
+				"Reach_CQB_Pauldron_Left",
+				"Reach_CQB_Pauldron_Right",
+				"Thigh_Pouch",
+				"H3_Armor_Upper",
+				"H3_Armor_Lower",
+				//"Forearm_Vent_Left",
+				//"Forearm_Vent_Right",
+				"Canisters"
+			};
+		};
+	};
+
+	class Tenthed_M56R_Vest_ZeusEnlisted_Sniper : Tenthed_Vest_Base {
+		scope=2;
+		scopeArsenal=2;
+		displayName="[10th] M56R Combat Armor Zeus Enlisted (Sniper)";
+		model="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+		picture="MA_Armor\data\Icons\H3ODST_Vest.paa";
+		hiddenSelectionsTextures[]= {
+			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
+			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
+			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\enlisted\ZeusEnlisted\Reach_Armor_Upper_ZeusEnlisted_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\enlisted\ZeusEnlisted\Sniper_ZeusEnlisted_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\enlisted\ZeusEnlisted\CQB_ZeusEnlisted_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa"
+		};
+		class ItemInfo: ItemInfo {
+			vestType="Rebreather";
+			uniformModel="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+			containerClass="Supply350";
+			hiddenSelections[]= {
+				"camo1",
+				"camo2",
+				"camo3",
+				"camo4",
+				"camo5",
+				"camo6",
+				"camo7",
+				"camo8",
+				"camo9",
+				"camo10",
+				"H3_Forearm_Left",
+				"H3_Forearm_Right",
+				//"Reach_Forearm_Left",
+				//"Reach_Forearm_Right",
+				"H3_Pauldron_Left",
+				"H3_Pauldron_Right",
+				"Reach_Pauldron_Left",
+				"Reach_Pauldron_Right",
+				"Reach_Shoulder_Radio_Left",
+				"Reach_Shoulder_Radio_Right",
+				//"Reach_Sniper_Pauldron_Left",
+				//"Reach_Sniper_Pauldron_Right",
+				"Reach_CQB_Pauldron_Left",
+				"Reach_CQB_Pauldron_Right",
+				"Thigh_Pouch",
+				"H3_Armor_Upper",
+				"H3_Armor_Lower",
+				//"Forearm_Vent_Left",
+				//"Forearm_Vent_Right",
+				"Canisters"
+			};
+		};
+	};
+
 	// Enlisted CQB
 	class Tenthed_M56R_Vest_Enlisted_CQB : Tenthed_Vest_Base {
 		scope=2;
@@ -1005,12 +1324,126 @@ class cfgWeapons {
 			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
 			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
 			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
-			"z\10thMod\addons\armor_misriah_base\data\enlisted\Reach_Armor_Upper_Enlisted_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\enlisted\Enlisted\Reach_Armor_Upper_Enlisted_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
-			"z\10thMod\addons\armor_misriah_base\data\enlisted\Sniper_Enlisted_co.paa",
-			"z\10thMod\addons\armor_misriah_base\data\enlisted\CQB_Enlisted_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\enlisted\Enlisted\Sniper_Enlisted_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\enlisted\Enlisted\CQB_Enlisted_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa"
+		};
+		class ItemInfo: ItemInfo {
+			vestType="Rebreather";
+			uniformModel="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+			containerClass="Supply350";
+			hiddenSelections[]= {
+				"camo1",
+				"camo2",
+				"camo3",
+				"camo4",
+				"camo5",
+				"camo6",
+				"camo7",
+				"camo8",
+				"camo9",
+				"camo10",
+				"H3_Forearm_Left",
+				"H3_Forearm_Right",
+				//"Reach_Forearm_Left",
+				//"Reach_Forearm_Right",
+				"H3_Pauldron_Left",
+				"H3_Pauldron_Right",
+				"Reach_Pauldron_Left",
+				"Reach_Pauldron_Right",
+				"Reach_Shoulder_Radio_Left",
+				"Reach_Shoulder_Radio_Right",
+				"Reach_Sniper_Pauldron_Left",
+				"Reach_Sniper_Pauldron_Right",
+				//"Reach_CQB_Pauldron_Left",
+				//"Reach_CQB_Pauldron_Right",
+				"Thigh_Pouch",
+				"H3_Armor_Upper",
+				"H3_Armor_Lower",
+				//"Forearm_Vent_Left",
+				//"Forearm_Vent_Right",
+				"Canisters"
+			};
+		};
+	};
+
+	class Tenthed_M56R_Vest_OdinEnlisted_CQB : Tenthed_Vest_Base {
+		scope=2;
+		scopeArsenal=2;
+		displayName="[10th] M56R Combat Armor Odin Enlisted (CQB)";
+		model="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+		picture="MA_Armor\data\Icons\H3ODST_Vest.paa";
+		hiddenSelectionsTextures[]= {
+			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
+			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
+			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\enlisted\OdinEnlisted\Reach_Armor_Upper_OdinEnlisted_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\enlisted\OdinEnlisted\Sniper_OdinEnlisted_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\enlisted\OdinEnlisted\CQB_OdinEnlisted_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa"
+		};
+		class ItemInfo: ItemInfo {
+			vestType="Rebreather";
+			uniformModel="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+			containerClass="Supply350";
+			hiddenSelections[]= {
+				"camo1",
+				"camo2",
+				"camo3",
+				"camo4",
+				"camo5",
+				"camo6",
+				"camo7",
+				"camo8",
+				"camo9",
+				"camo10",
+				"H3_Forearm_Left",
+				"H3_Forearm_Right",
+				//"Reach_Forearm_Left",
+				//"Reach_Forearm_Right",
+				"H3_Pauldron_Left",
+				"H3_Pauldron_Right",
+				"Reach_Pauldron_Left",
+				"Reach_Pauldron_Right",
+				"Reach_Shoulder_Radio_Left",
+				"Reach_Shoulder_Radio_Right",
+				"Reach_Sniper_Pauldron_Left",
+				"Reach_Sniper_Pauldron_Right",
+				//"Reach_CQB_Pauldron_Left",
+				//"Reach_CQB_Pauldron_Right",
+				"Thigh_Pouch",
+				"H3_Armor_Upper",
+				"H3_Armor_Lower",
+				//"Forearm_Vent_Left",
+				//"Forearm_Vent_Right",
+				"Canisters"
+			};
+		};
+	};
+
+	class Tenthed_M56R_Vest_ZeusEnlisted_CQB : Tenthed_Vest_Base {
+		scope=2;
+		scopeArsenal=2;
+		displayName="[10th] M56R Combat Armor Zeus Enlisted (CQB)";
+		model="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+		picture="MA_Armor\data\Icons\H3ODST_Vest.paa";
+		hiddenSelectionsTextures[]= {
+			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
+			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
+			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\enlisted\ZeusEnlisted\Reach_Armor_Upper_ZeusEnlisted_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\enlisted\ZeusEnlisted\Sniper_ZeusEnlisted_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\enlisted\ZeusEnlisted\CQB_ZeusEnlisted_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa"
 		};
 		class ItemInfo: ItemInfo {
@@ -1056,11 +1489,41 @@ class cfgWeapons {
 	class Tenthed_M56SR_Enlisted_Helmet : Tenthed_M56SR_Helmet {
 		scope=2;
 		scopeArsenal=2;
-		displayName="[10th] Enlisted M56S-R Helmet";
+		displayName="[10th] M56S-R Helmet Enlisted";
 		model="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
 		picture="MA_Armor\data\Icons\Halo_Reach_ODST_Helmet.paa";
 		hiddenSelectionsTextures[]= {
-			"z\10thMod\addons\armor_misriah_base\data\enlisted\HR_ODST_Helmet_Enlisted_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\enlisted\Enlisted\HR_ODST_Helmet_Enlisted_co.paa",
+			"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_Blue_co.paa"
+		};
+		class ItemInfo: ItemInfo {
+			uniformModel="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
+		};
+	};
+
+	class Tenthed_M56SR_OdinEnlisted_Helmet : Tenthed_M56SR_Helmet {
+		scope=2;
+		scopeArsenal=2;
+		displayName="[10th] M56S-R Helmet Odin Enlisted";
+		model="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
+		picture="MA_Armor\data\Icons\Halo_Reach_ODST_Helmet.paa";
+		hiddenSelectionsTextures[]= {
+			"z\10thMod\addons\armor_misriah_base\data\enlisted\OdinEnlisted\HR_ODST_Helmet_OdinEnlisted_co.paa",
+			"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_Blue_co.paa"
+		};
+		class ItemInfo: ItemInfo {
+			uniformModel="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
+		};
+	};
+
+	class Tenthed_M56SR_ZeusEnlisted_Helmet : Tenthed_M56SR_Helmet {
+		scope=2;
+		scopeArsenal=2;
+		displayName="[10th] M56S-R Helmet Zeus Enlisted";
+		model="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
+		picture="MA_Armor\data\Icons\Halo_Reach_ODST_Helmet.paa";
+		hiddenSelectionsTextures[]= {
+			"z\10thMod\addons\armor_misriah_base\data\enlisted\ZeusEnlisted\HR_ODST_Helmet_ZeusEnlisted_co.paa",
 			"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_Blue_co.paa"
 		};
 		class ItemInfo: ItemInfo {

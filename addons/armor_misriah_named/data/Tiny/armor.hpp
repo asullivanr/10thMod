@@ -7,10 +7,10 @@
 		hiddenSelectionsTextures[]= { // un comment out which visor color you would like to test. make sure to comment out the old color or else there will be errors. Blue visor enabled by default.
 			"z\10thMod\addons\armor_misriah_named\data\Tiny\AA_Helmet_Tiny_co.paa",
 			//"MA_Armor\data\Helmets\AA\AA_Visor_Blue_co.paa" // Blue Visor
-			"MA_Armor\data\Helmets\AA\AA_Visor_Black_co.paa" // Black Visor
+			//"MA_Armor\data\Helmets\AA\AA_Visor_Black_co.paa" // Black Visor
 			//"MA_Armor\data\Helmets\AA\AA_Visor_Gold_co.paa" // Gold Visor
 			//"MA_Armor\data\Helmets\AA\AA_Visor_Red_co.paa" // Red Visor
-			//"MA_Armor\data\Helmets\AA\AA_Visor_White_co.paa"// White Visor
+			"MA_Armor\data\Helmets\AA\AA_Visor_White_co.paa"// White Visor
 		};
 		class ItemInfo: ItemInfo {
 			uniformModel="MA_Armor\data\Helmets\AA\AA_Helmet.p3d";
@@ -62,7 +62,7 @@
 				"Reach_Pauldron_Right",
 				"Reach_Shoulder_Radio_Left",
 				"Reach_Shoulder_Radio_Right",
-				//"Reach_Sniper_Pauldron_Left",
+				"Reach_Sniper_Pauldron_Left",
 				"Reach_Sniper_Pauldron_Right",
 				"Reach_CQB_Pauldron_Left",
 				"Reach_CQB_Pauldron_Right",
