@@ -13,7 +13,8 @@ class CfgPatches {
 			"Tenthed_HMG_Turret",
 			"Tenthed_HMG_Backpack",
 			"Tenthed_Mortar_Turret",
-			"Tenthed_Mortar_Backpack"
+			"Tenthed_Mortar_Backpack",
+			"Tenthed_AU_44_Mortar"
 		};
     };
 };
@@ -1003,7 +1004,7 @@ class cfgVehicles {
 		scope = 2;
 		editorCategory = "Tenthed_EditorCategory_Items";
 		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Backpacks";
-		class assembleInfo : assembleInfo {
+		class assembleInfo {
 			displayName = "Assemble [10th] AU-44 Backback";
 			assembleTo = "";
 			dissasembleTo[] = { "Tenthed_AU_Mortar_Backpack" };

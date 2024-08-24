@@ -54,7 +54,7 @@ class cfgWeapons {
 	#include "data\Void\armor.hpp"
 
 	// Mac
-	#include "data\Mac\armor.hpp"
+	//#include "data\Mac\armor.hpp"
 	
 	// Bbstine
 	#include "data\Bbstine\armor.hpp"
@@ -132,7 +132,7 @@ class cfgWeapons {
 	#include "data\Infra\armor.hpp"
 
 	// McInnes
-	#include "data\McInnes\armor.hpp"
+	//#include "data\McInnes\armor.hpp"
 
 	// Meatshield
 	// #include "data\Meatshield\armor.hpp"
@@ -186,7 +186,7 @@ class cfgWeapons {
 	#include "data\Knight\armor.hpp"
 
 	// Mage
-	#include "data\Mage\armor.hpp"
+	//#include "data\Mage\armor.hpp"
 
 	// Metro
 	#include "data\Metro\armor.hpp"
@@ -198,7 +198,7 @@ class cfgWeapons {
 	#include "data\Den\armor.hpp"
 
 	// Naffen
-	#include "data\Naffen\armor.hpp"
+	//#include "data\Naffen\armor.hpp"
 //
 	// Cheeto
 	#include "data\Cheeto\armor.hpp"
@@ -272,15 +272,6 @@ class cfgWeapons {
 	// Woo
 	#include "data\Woo\armor.hpp"
 //
-	// Enlisted New
-	//#include "data\EnlistedNew\armor.hpp"
-
-	// Enlisted Odin
-	//#include "data\EnlistedOdin\armor.hpp"
-
-	// Enlisted Zeus
-	//#include "data\EnlistedZeus\armor.hpp"
-//
 	// Harpy
 	#include "data\Harpy\armor.hpp"
 
@@ -301,4 +292,7 @@ class cfgWeapons {
 
 	// Vio
 	#include "data\Vio\armor.hpp"
+//
+	// Astral
+	#include "data\Astral\armor.hpp"
 };
