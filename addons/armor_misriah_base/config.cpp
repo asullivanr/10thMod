@@ -217,10 +217,11 @@ class cfgWeapons {
 
 	// power armor additions for testing. will be moved back into Tenthed_Vest_Base when approved.
 	class Tenthed_Vest_Powered : Tenthed_Vest_Base {
+		displayName="[10th] Power Armor Vest Test";
 		MJOLNIR_isArmor=1;
 		MJOLNIR_shieldStrength=125;
 		MJOLNIR_shieldChargeValue=1;
-		MJOLNIR_shieldChargeDelay=10;
+		MJOLNIR_shieldChargeDelay=15;
 		class ItemInfo: VestItem {
 			vestType="Rebreather";
 			hiddenSelections[]= {

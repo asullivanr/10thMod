@@ -997,29 +997,4 @@ class cfgVehicles {
 		};
 	};
 
-	class OPTRE_AU_44_Mortar;
-	class Tenthed_AU_44_Mortar : OPTRE_AU_44_Mortar {
-		displayname = "[10th] MK82 Mortar";
-		_generalMacro = "Tenthed_AU_44_Mortar";
-		scope = 2;
-		editorCategory = "Tenthed_EditorCategory_Items";
-		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Backpacks";
-		class assembleInfo {
-			displayName = "Assemble [10th] AU-44 Backback";
-			assembleTo = "";
-			dissasembleTo[] = { "Tenthed_AU_Mortar_Backpack" };
-		};
-	};
-	class Tenthed_AU_Mortar_Backpack : Tenthed_Weapon_Bag_Base {
-		_generalMacro = "Tenthed_AU_Mortar_Backpack";
-		displayName = "[10th] AU-44 Backback";
-		scope = 2;
-		editorCategory = "Tenthed_EditorCategory_Items";
-		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Backpacks";
-		picture = "\A3\Weapons_F\Ammoboxes\Bags\data\UI\icon_B_C_Small_oli.paa";
-		class assembleInfo : assembleInfo {
-			displayName = "Assemble [10th] AU-44";
-			assembleTo = "Tenthed_AU_44_Mortar";
-		};
-	};
 };
