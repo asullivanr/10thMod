@@ -9,7 +9,22 @@ class CfgPatches {
         };
         weapons[] = {};
         units[] = {
-            "O_Astra_Spartan_01",
+            // Base MSF Unit
+            "O_MSF_01",
+            // Riflemen
+            "O_MSF_Riflemen_01",
+            // Heavy Machine Gunner
+            // Shotgunner
+            "O_MSF_ShotGunner_01",
+            "O_MSF_ShotGunner_02",
+            // Recon
+            // Medic
+            "O_MSF_Medic_01",
+            // RTO
+            // AT
+            "O_MSF_AT_01",
+            // AA
+            "O_MSF_AA_01",
         };
     };
 };

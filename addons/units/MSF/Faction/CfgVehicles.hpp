@@ -84,6 +84,72 @@ class CfgVehicles {
     };
 
     // Riflemen Variant
+    class O_MSF_Riflemen_01 : O_MSF_01 {
+        displayName = "MSF Riflemen";
+
+        backpack="OPTRE_UNSC_Rucksack_Heavy";
+        uniformClass = "MGS_Soldier_uniform";
+
+        linkedItems[] = {
+            "MGS_Soldier_vest_02",
+            "MSF_mercenaries_headphones",
+            "ItemMap",
+            "ItemGPS",
+            "ItemRadio",
+            "ItemCompass",
+            "ACE_Altimeter",
+            "OPTRE_NVG"
+        };
+        respawnlinkedItems[] = {
+            "MGS_Soldier_vest_02",
+            "MSF_mercenaries_headphones",
+            "ItemMap",
+            "ItemGPS",
+            "ItemRadio",
+            "ItemCompass",
+            "ACE_Altimeter",
+            "OPTRE_NVG"
+        };
+
+        Items[] = { "FirstAidKit" };			// Which items the character has.
+        RespawnItems[] = { "FirstAidKit" };		// Which items the character respawns with.
+
+        weapons[] = {
+            "Throw",
+            "Put",
+            "Tenthed_ARG47",
+            "OPTRE_Smartfinder_Vector"
+        };
+        respawnWeapons[] = {
+            "Throw",
+            "Put",
+            "Tenthed_ARG47",
+            "OPTRE_Smartfinder_Vector"
+        };
+
+        magazines[] = {
+            "Tenthed_30Rnd_762x39_Shrapnel_Mag_Tracer_Yellow",
+            "Tenthed_30Rnd_762x39_Shrapnel_Mag_Tracer_Yellow",
+            "Tenthed_30Rnd_762x39_Shrapnel_Mag_Tracer_Yellow",
+            "Tenthed_30Rnd_762x39_Shrapnel_Mag_Tracer_Yellow",
+            "Tenthed_30Rnd_762x39_Shrapnel_Mag_Tracer_Yellow",
+            "Tenthed_30Rnd_762x39_Shrapnel_Mag_Tracer_Yellow",
+            "Tenthed_30Rnd_762x39_Shrapnel_Mag_Tracer_Yellow",
+            "Tenthed_30Rnd_762x39_Shrapnel_Mag_Tracer_Yellow",
+            "Laserbatteries"
+        };
+        respawnMagazines[] = {
+            "Tenthed_30Rnd_762x39_Shrapnel_Mag_Tracer_Yellow",
+            "Tenthed_30Rnd_762x39_Shrapnel_Mag_Tracer_Yellow",
+            "Tenthed_30Rnd_762x39_Shrapnel_Mag_Tracer_Yellow",
+            "Tenthed_30Rnd_762x39_Shrapnel_Mag_Tracer_Yellow",
+            "Tenthed_30Rnd_762x39_Shrapnel_Mag_Tracer_Yellow",
+            "Tenthed_30Rnd_762x39_Shrapnel_Mag_Tracer_Yellow",
+            "Tenthed_30Rnd_762x39_Shrapnel_Mag_Tracer_Yellow",
+            "Tenthed_30Rnd_762x39_Shrapnel_Mag_Tracer_Yellow",
+            "Laserbatteries"
+        };
+    };
     // Riflemen Variant
     // Riflemen Variant
     // Riflemen Variant
