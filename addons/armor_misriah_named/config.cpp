@@ -295,4 +295,13 @@ class cfgWeapons {
 //
 	// Astral
 	#include "data\Astral\armor.hpp"
+
+	// Mercury
+	#include "data\Mercury\armor.hpp"
+
+	// Razor
+	#include "data\Razor\armor.hpp"
+
+	// Splash
+	#include "data\Splash\armor.hpp"
 };
