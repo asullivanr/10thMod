@@ -8,7 +8,7 @@
 			// No other texture files then the ones with comments will be altered.
 			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
 			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
-			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa", // Thigh pouch texture
+			"z\10thMod\addons\armor_misriah_named\data\Chaotix\Thigh_Pouch_Chaotix_co.paa", // Thigh pouch texture
 			"z\10thMod\addons\armor_misriah_named\data\Chaotix\Reach_Armor_Upper_Chaotix_co.paa", // Upper armor texture and base ODST shoulders.
 			"z\10thMod\addons\armor_misriah_named\data\Chaotix\Reach_Armor_Lower_Chaotix_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa", // Canisters texture
@@ -41,17 +41,17 @@
 				//"Reach_Pauldron_Left",
 				//"Reach_Pauldron_Right",
 				"Reach_Shoulder_Radio_Left",
-				"Reach_Shoulder_Radio_Right",
+				//"Reach_Shoulder_Radio_Right",
 				"Reach_Sniper_Pauldron_Left",
 				"Reach_Sniper_Pauldron_Right",
 				"Reach_CQB_Pauldron_Left",
 				"Reach_CQB_Pauldron_Right",
-				"Thigh_Pouch",
+				//"Thigh_Pouch",
 				"H3_Armor_Upper", // not used
 				"H3_Armor_Lower", // not used
 				//"Forearm_Vent_Left",  // if the forearms are enabled they must have the vents
 				//"Forearm_Vent_Right", // if the forearms are enabled they must have the vents
-				"Canisters" // the canisters around the waist
+				//"Canisters" // the canisters around the waist
 			};
 		};
 	};
