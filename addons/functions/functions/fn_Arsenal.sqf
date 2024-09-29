@@ -551,6 +551,12 @@ _weapons = [
   "MA_MK50_Sidekick"
 ];
 _items = [
+  "Tenthed_M56SR_Helmet_Mercury",
+  "Tenthed_M56R_Vest_Mercury",
+  "Tenthed_M56SR_Helmet_Razor",
+  "Tenthed_M56R_Vest_Razor",
+  "Tenthed_M56SR_Helmet_Splash",
+  "Tenthed_M56R_Vest_Splash",
   "Tenthed_M56_Scout_Helmet",
   "Tenthed_M56SR_Helmet_Xyric",
   "Tenthed_M56SR_Helmet_Woo",
