@@ -76,6 +76,11 @@ class cfgWeapons {
 	};
 
 	class Tenthed_Vest_Base: V_PlateCarrier1_rgr {
+		MJOLNIR_isArmor=1;
+		MJOLNIR_shieldStrength=80;
+		MJOLNIR_shieldChargeValue=1;
+		MJOLNIR_shieldChargeDelay=25;
+
 		scope=0;
 		scopeArsenal=0;
 		author="Misriah Armory";
@@ -219,9 +224,9 @@ class cfgWeapons {
 	class Tenthed_Vest_Powered : Tenthed_Vest_Base {
 		displayName="[10th] Power Armor Vest Test";
 		MJOLNIR_isArmor=1;
-		MJOLNIR_shieldStrength=125;
+		MJOLNIR_shieldStrength=80;
 		MJOLNIR_shieldChargeValue=1;
-		MJOLNIR_shieldChargeDelay=15;
+		MJOLNIR_shieldChargeDelay=25;
 		class ItemInfo: VestItem {
 			vestType="Rebreather";
 			hiddenSelections[]= {
