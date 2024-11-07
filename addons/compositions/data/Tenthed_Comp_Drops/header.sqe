@@ -1,0 +1,11 @@
+version=54;
+name="Tenthed_Comp_Drops";
+author="Akira";
+category="EdSubcat_GO_Cliffs";
+requiredAddons[]=
+{
+	"A3_Characters_F",
+	"ace_fortify",
+	"A3_Modules_F_Curator_Curator",
+	"Desert"
+};

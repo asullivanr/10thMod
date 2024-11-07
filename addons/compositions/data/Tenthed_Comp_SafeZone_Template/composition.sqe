@@ -1,0 +1,60 @@
+version=54;
+center[]={2050.4048,5,4034.3022};
+class items
+{
+	items=1;
+	class Item0
+	{
+		dataType="Layer";
+		name="Tenthed_Comp_SafeZone_Template";
+		class Entities
+		{
+			items=3;
+			class Item0
+			{
+				dataType="Trigger";
+				position[]={-1.03125,3.2199707,2.2028809};
+				angle=1.5892889;
+				class Attributes
+				{
+					condition="CESactivationTrigger;";
+					onActivation="if (!isServer) exitWith {}; " \n "{  " \n " _x allowDamage false; " \n " [_x, false] remoteExec [""allowDamage"", 0]; " \n " if (_x == player) then { " \n "  [] spawn { " \n "   [""Entered Safe Zone""] remoteExec [""hint"", owner _x]; " \n "   sleep 3; " \n "   [""""] remoteExec [""hintSilent"", owner _x]; " \n "  }; " \n " }; " \n "} forEach (allPlayers inAreaArray thisTrigger); " \n "{    " \n " _x allowDamage true; " \n " [_x, true] remoteExec [""allowDamage"", 0]; " \n " if (_x == player) then { " \n "  [] spawn { " \n "   [""Left Safe Zone""] remoteExec [""hint"", owner _x]; " \n "   sleep 3; " \n "   [""""] remoteExec [""hintSilent"", owner _x]; " \n "  }; " \n " }; " \n "} forEach (allPlayers - (allPlayers inAreaArray thisTrigger));";
+					sizeA=49.430367;
+					sizeB=76.388481;
+					sizeC=62.54467;
+					repeatable=1;
+					isRectangle=1;
+					isServerOnly=1;
+				};
+				id=6299;
+				type="EmptyDetectorArea10x10";
+				atlOffset=3.2199707;
+			};
+			class Item1
+			{
+				dataType="Logic";
+				class PositionInfo
+				{
+					position[]={-0.18164063,0.011016846,-2.1994629};
+					angles[]={0,1.6623912,0};
+				};
+				init="if(!isServer) exitWith {};  " \n "if (scriptDone CESTriggerLoop == false) exitWith {}; " \n "CESTriggerLoop = [] spawn   " \n "{  " \n " CESactivationTrigger = true;  " \n " while {true} do   " \n " {  " \n "  CESactivationTrigger = !CESactivationTrigger;  " \n "  sleep 1;  " \n " };  " \n "};";
+				id=6300;
+				type="HeadlessClient_F";
+				atlOffset=0.011016846;
+			};
+			class Item2
+			{
+				dataType="Comment";
+				class PositionInfo
+				{
+					position[]={1.2128906,0,-0.0041503906};
+				};
+				title="SafeZone";
+				id=6301;
+			};
+		};
+		id=6302;
+		atlOffset=0.80774689;
+	};
+};

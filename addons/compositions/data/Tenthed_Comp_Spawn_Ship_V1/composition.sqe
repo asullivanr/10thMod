@@ -1,0 +1,31 @@
+version=54;
+center[]={2780.2839,139.89786,2828.999};
+class items
+{
+	items=1;
+	class Item0
+	{
+		dataType="Layer";
+		name="Tenthed_Comp_Spawn_Ship_V1";
+		class Entities
+		{
+			items=2;
+			class Item0
+			{
+				dataType="Layer";
+				name="Base";
+				id=6401;
+				atlOffset=4.127182;
+			};
+			class Item1
+			{
+				dataType="Layer";
+				name="UNSC";
+				id=6337;
+				atlOffset=134.89786;
+			};
+		};
+		id=6406;
+		atlOffset=1.8728638;
+	};
+};

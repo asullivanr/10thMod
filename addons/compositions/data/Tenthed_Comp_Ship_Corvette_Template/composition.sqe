@@ -1,0 +1,468 @@
+version=54;
+center[]={3378.7358,114.25,2635.4036};
+class items
+{
+	items=1;
+	class Item0
+	{
+		dataType="Layer";
+		name="Tenthed_Comp_Ship_Corvette_Template";
+		class Entities
+		{
+			items=12;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={0.014160156,34.217255,-15.903564};
+				};
+				side="Empty";
+				flags=1;
+				class Attributes
+				{
+				};
+				id=5738;
+				type="OPTRE_bridge";
+				atlOffset=9.0001678;
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isRepairFacility";
+						expression="if (_value != (if (isNumber (configOf _this >> ""ace_repair_canRepair"")) then {getNumber (configOf _this >> ""ace_repair_canRepair"")} else {(parseNumber (getRepairCargo _this > 0))})) then {_this setVariable ['ace_isRepairFacility', _value, true]}";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=1;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="ace_isMedicalFacility";
+						expression="_this setVariable [""ace_medical_isMedicalFacility"", _value, true];";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=1;
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="ace_rearm_rearmCargo";
+						expression="if (_value != (if (isNumber (configOf _this >> 'ace_rearm_defaultSupply')) then {getNumber (configOf _this >> 'ace_rearm_defaultSupply')} else {(if (getAmmoCargo _this > 0) then {getAmmoCargo _this} else {-1})})) then {[_this, _value] call ace_rearm_fnc_makeSource}";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=100000;
+							};
+						};
+					};
+					nAttributes=4;
+				};
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={0.014160156,19.611603,29.073486};
+				};
+				side="Empty";
+				flags=1;
+				class Attributes
+				{
+				};
+				id=5739;
+				type="OPTRE_center_nose";
+				atlOffset=109.25001;
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=0;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item2
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={0.014160156,18.891769,67.703369};
+				};
+				side="Empty";
+				flags=1;
+				class Attributes
+				{
+				};
+				id=5747;
+				type="OPTRE_nose";
+				atlOffset=109.25001;
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=0;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item3
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={0.0034179688,30.736649,55.633545};
+				};
+				side="Empty";
+				class Attributes
+				{
+					reportRemoteTargets=1;
+					receiveRemoteTargets=1;
+					reportOwnPosition=1;
+					aiRadarUsage=1;
+				};
+				id=5745;
+				type="OPTRE_Corvette_M910_Turret";
+				atlOffset=3.1175995;
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=0;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item4
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={0.077636719,25.245163,-72.445068};
+					angles[]={0,3.1415927,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					reportRemoteTargets=1;
+					receiveRemoteTargets=1;
+					reportOwnPosition=1;
+					aiRadarUsage=1;
+				};
+				id=5744;
+				type="OPTRE_Corvette_M910_Turret";
+				atlOffset=1.5258789e-05;
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=0;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item5
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={0.034667969,5.1508331,30.776123};
+				};
+				side="Empty";
+				class Attributes
+				{
+					reportRemoteTargets=1;
+					receiveRemoteTargets=1;
+					reportOwnPosition=1;
+					aiRadarUsage=1;
+				};
+				id=5746;
+				type="OPTRE_Corvette_M910_Turret_u";
+				atlOffset=119.396;
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=0;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item6
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-12.38623,28.882706,37.780518};
+				};
+				side="Empty";
+				class Attributes
+				{
+					reportRemoteTargets=1;
+					receiveRemoteTargets=1;
+					reportOwnPosition=1;
+				};
+				id=5736;
+				type="OPTRE_Corvette_archer_system";
+				atlOffset=138.1279;
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=0;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item7
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={12.38916,28.82135,37.463135};
+					angles[]={0,3.1415927,0};
+				};
+				side="Empty";
+				class Attributes
+				{
+					reportRemoteTargets=1;
+					receiveRemoteTargets=1;
+					reportOwnPosition=1;
+				};
+				id=5737;
+				type="OPTRE_Corvette_archer_system";
+				atlOffset=138.06654;
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=0;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item8
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={0.014160156,9.6027756,-57.585693};
+				};
+				side="Empty";
+				flags=1;
+				class Attributes
+				{
+				};
+				id=5743;
+				type="OPTRE_tail";
+				atlOffset=109.25;
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=0;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item9
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-28.586426,12.629036,-51.096924};
+				};
+				side="Empty";
+				flags=1;
+				class Attributes
+				{
+				};
+				id=5740;
+				type="OPTRE_engine_left";
+				atlOffset=109.25;
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=0;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item10
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={28.61377,12.629036,-51.096924};
+				};
+				side="Empty";
+				flags=1;
+				class Attributes
+				{
+				};
+				id=5741;
+				type="OPTRE_engine_right";
+				atlOffset=109.25;
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=0;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item11
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={0.014160156,10.240845,-10.530029};
+				};
+				side="Empty";
+				flags=1;
+				class Attributes
+				{
+				};
+				id=5742;
+				type="OPTRE_center";
+				atlOffset=8.9979553;
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=0;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+		};
+		id=5748;
+		atlOffset=10.593994;
+	};
+};

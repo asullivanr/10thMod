@@ -1,0 +1,128 @@
+version=54;
+center[]={3552.6553,5.0691891,3085.4678};
+class items
+{
+	items=1;
+	class Item0
+	{
+		dataType="Layer";
+		name="Tenthed_Comp_SpawnUnitsOnPosition";
+		class Entities
+		{
+			items=6;
+			class Item0
+			{
+				dataType="Trigger";
+				position[]={-4.2756348,0,2.5415039};
+				class Attributes
+				{
+					condition="this || !alive templateVar;";
+					onActivation="scriptedGroup = createGroup east; " \n "{ " \n "_unitList = [""O_Soldier_A_F"", ""O_crew_F""] call BIS_fnc_selectRandom; " \n "Pos = getPosATLVisual _x; " \n "scriptedUnit = scriptedGroup createUnit [_unitList, Pos, [], 0, 'CAN_COLLIDE']; " \n "scriptedUnit setBehaviour 'SAFE'; " \n "scriptedUnit disableAI ""MOVE""; " \n "scriptedUnit disableAI ""PATH""; " \n "scriptedUnit setPosATL [Pos select 0, Pos select 1, Pos select 2];  " \n "scriptedUnit setDir (getDir _x);} forEach (synchronizedObjects thisTrigger);";
+					sizeA=3.674;
+					sizeB=3.895;
+					sizeC=5;
+					repeatable=1;
+					activationBy="ANYPLAYER";
+					isRectangle=1;
+				};
+				id=5730;
+				type="EmptyDetector";
+				atlOffset=0.069189072;
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-6.9367676,0.1585803,-4.6098633};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					name="templateVar";
+				};
+				id=5731;
+				type="Land_CerealsBox_F";
+				atlOffset=0.069189072;
+			};
+			class Item2
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={8.6726074,0.039909363,2.6533203};
+				};
+				side="Empty";
+				class Attributes
+				{
+				};
+				id=5732;
+				type="CBA_BuildingPos";
+				atlOffset=0.069189072;
+			};
+			class Item3
+			{
+				dataType="Comment";
+				class PositionInfo
+				{
+					position[]={9.901123,0,1.3383789};
+				};
+				title="Note: Copy these and sync to trigger for each spot you want a spawn";
+				id=5734;
+				atlOffset=0.069189072;
+			};
+			class Item4
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-4.4875488,0.78521252,2.628418};
+				};
+				side="Empty";
+				flags=1;
+				class Attributes
+				{
+				};
+				id=5729;
+				type="VR_Area_01_square_4x4_yellow_F";
+				atlOffset=0.8538332;
+			};
+			class Item5
+			{
+				dataType="Comment";
+				class PositionInfo
+				{
+					position[]={-2.8737793,0,-4.5522461};
+				};
+				title="Template: Spawn Units on position.";
+				description="Change this to change the side of the spawned unit." \n "Be careful as you can create issues if the unit spawned is of a different faction then what is set here." \n "scriptedGroup = createGroup east; " \n "east, west, civ, guer" \n "" \n "Change this line to add or remove possible random units that could be spawned." \n "_unitList = [""O_Soldier_A_F"", ""O_crew_F""] .." \n "" \n "These options can be Disabled or changed. Enabled by default." \n "scriptedUnit setBehaviour 'SAFE'; " \n "scriptedUnit disableAI ""MOVE""; " \n "scriptedUnit disableAI ""PATH""; " \n "" \n "The Cereal box is used as a manual trigger for the trigger. Not required for the script to run." \n "" \n "For server use make sure to tick Server only to on.";
+				id=5733;
+				atlOffset=0.069189072;
+			};
+		};
+		id=5735;
+		atlOffset=0.26535034;
+	};
+};
+class connections
+{
+	class LinkIDProvider
+	{
+		nextID=1;
+	};
+	class Links
+	{
+		items=1;
+		class Item0
+		{
+			linkID=0;
+			item0=5732;
+			item1=5730;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+	};
+};

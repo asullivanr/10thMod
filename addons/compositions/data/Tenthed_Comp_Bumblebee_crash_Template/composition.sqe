@@ -1,0 +1,113 @@
+version=54;
+center[]={4001.488,5.0000005,3294.8406};
+class items
+{
+	items=1;
+	class Item0
+	{
+		dataType="Layer";
+		name="Tenthed_Comp_Bumblebee_crash_Template";
+		class Entities
+		{
+			items=5;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-0.37451172,0.36195517,2.4033203};
+					angles[]={6.2810364,0.078265347,6.2557774};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+				};
+				id=6655;
+				type="CraterLong";
+				atlOffset=0.12207413;
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={0.56445313,0.044961452,-7.4545898};
+					angles[]={6.278182,0,6.2581916};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+				};
+				id=6656;
+				type="CraterLong_small";
+				atlOffset=4.7683716e-07;
+			};
+			class Item2
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-0.26367188,0.19032145,-2.8046875};
+					angles[]={6.270689,0,6.2606897};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+				};
+				id=6657;
+				type="CraterLong";
+				atlOffset=0.11847544;
+			};
+			class Item3
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-0.040039063,2.3143325,1.9633789};
+					angles[]={0,0,6.2581916};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+				};
+				id=6653;
+				type="VES_Lifeboat_Wreck";
+				atlOffset=0.20915031;
+			};
+			class Item4
+			{
+				dataType="Logic";
+				class PositionInfo
+				{
+					position[]={0.11230469,0.42838907,5.8925781};
+				};
+				id=6654;
+				type="ModulePersistentSmokePillar_F";
+				atlOffset=0.42838955;
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ModulePersistentSmokePillar_F_Type";
+						expression="_this setVariable ['Type',_value,true];";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+		};
+		id=6658;
+		atlOffset=0.25260639;
+	};
+};

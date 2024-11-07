@@ -1,0 +1,492 @@
+version=54;
+center[]={1883.9066,5,3474.9368};
+class items
+{
+	items=1;
+	class Item0
+	{
+		dataType="Layer";
+		name="Tenthed_Comp_Anti-Air_System_Template";
+		class Entities
+		{
+			items=10;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={23.69104,5.0515804,-20.895264};
+					angles[]={0,3.4381068,0};
+				};
+				side="Empty";
+				flags=1;
+				class Attributes
+				{
+					init="this addAction [""Disable Anti-Air system"",{ triggerNorthAirfield setDammage 1; }]; " \n "";
+				};
+				id=6018;
+				type="OPTRE_RS_ConsoleDoor";
+				atlOffset=4.1305733;
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-20.156616,0.1585803,-3.9367676};
+					angles[]={6.2814941,0,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					name="triggerNorthAirfield";
+				};
+				id=6024;
+				type="Land_CerealsBox_F";
+			};
+			class Item2
+			{
+				dataType="Group";
+				side="East";
+				class Entities
+				{
+					items=1;
+					class Item0
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-1679.6816,30.786072,240.15356};
+							angles[]={0.0072670453,6.1213074,0.019143159};
+						};
+						side="East";
+						flags=2;
+						class Attributes
+						{
+						};
+						id=6026;
+						type="O_UAV_AI";
+						atlOffset=30.784634;
+					};
+				};
+				class Attributes
+				{
+				};
+				class CrewLinks
+				{
+					class LinkIDProvider
+					{
+						nextID=1;
+					};
+					class Links
+					{
+						items=1;
+						class Item0
+						{
+							linkID=0;
+							item0=6026;
+							item1=6027;
+							class CustomData
+							{
+								role=2;
+								turretPath[]={0};
+							};
+						};
+					};
+				};
+				id=6025;
+				atlOffset=0.4718442;
+			};
+			class Item3
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={0.49377441,3.4007626,48.118408};
+					angles[]={0.0072670453,6.1213074,0.019143159};
+				};
+				side="East";
+				flags=2;
+				class Attributes
+				{
+					reportRemoteTargets=1;
+					receiveRemoteTargets=1;
+					reportOwnPosition=1;
+					aiRadarUsage=1;
+				};
+				id=6027;
+				type="Tenthed_FRI_RAD_Regular";
+				atlOffset=0.4718442;
+			};
+			class Item4
+			{
+				dataType="Group";
+				side="East";
+				class Entities
+				{
+					items=1;
+					class Item0
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-1665.1719,29.642303,278.2356};
+							angles[]={6.2375059,0,0.0050271684};
+						};
+						side="East";
+						flags=2;
+						class Attributes
+						{
+						};
+						id=6029;
+						type="B_UAV_AI";
+						atlOffset=29.640865;
+					};
+				};
+				class Attributes
+				{
+				};
+				class CrewLinks
+				{
+					class LinkIDProvider
+					{
+						nextID=1;
+					};
+					class Links
+					{
+						items=1;
+						class Item0
+						{
+							linkID=0;
+							item0=6029;
+							item1=6030;
+							class CustomData
+							{
+								role=2;
+								turretPath[]={0};
+							};
+						};
+					};
+				};
+				id=6028;
+				atlOffset=0.4993;
+			};
+			class Item5
+			{
+				dataType="Group";
+				side="East";
+				class Entities
+				{
+					items=3;
+					class Item0
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-1247.9443,0.020965576,-656.76636};
+							angles[]={0,3.5637703,0};
+						};
+						side="East";
+						flags=4;
+						class Attributes
+						{
+						};
+						id=6020;
+						type="OPTRE_Ins_URF_Rifleman_AR";
+						atlOffset=0.019526482;
+					};
+					class Item1
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-1248.0049,3.0050354,-656.82886};
+							angles[]={0,3.5637703,0};
+						};
+						side="East";
+						class Attributes
+						{
+						};
+						id=6021;
+						type="OPTRE_Ins_URF_Rifleman_AR";
+						atlOffset=3.0035963;
+					};
+					class Item2
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-1248.0049,3.0050354,-656.82886};
+							angles[]={0,3.5637703,0};
+						};
+						side="East";
+						flags=2;
+						class Attributes
+						{
+						};
+						id=6022;
+						type="OPTRE_Ins_URF_Rifleman_AR";
+						atlOffset=3.0035963;
+					};
+				};
+				class Attributes
+				{
+				};
+				class CrewLinks
+				{
+					class LinkIDProvider
+					{
+						nextID=3;
+					};
+					class Links
+					{
+						items=3;
+						class Item0
+						{
+							linkID=0;
+							item0=6020;
+							item1=6023;
+							class CustomData
+							{
+								role=1;
+							};
+						};
+						class Item1
+						{
+							linkID=1;
+							item0=6021;
+							item1=6023;
+							class CustomData
+							{
+								role=2;
+								turretPath[]={0};
+							};
+						};
+						class Item2
+						{
+							linkID=2;
+							item0=6022;
+							item1=6023;
+							class CustomData
+							{
+								role=2;
+								turretPath[]={0,0};
+							};
+						};
+					};
+				};
+				id=6019;
+				atlOffset=0.069210052;
+			};
+			class Item6
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-4.395874,3.0545712,-26.225342};
+					angles[]={0,3.5637703,0};
+				};
+				side="East";
+				flags=6;
+				class Attributes
+				{
+					fuel=0;
+					init="this addEventHandler [""Fired"",{(_this select 0) setVehicleAmmo 1}]";
+					reportRemoteTargets=1;
+					receiveRemoteTargets=1;
+				};
+				id=6023;
+				type="Tenthed_OPTRE_tarantula_02";
+				atlOffset=0.069210052;
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ammoBox";
+						expression="[_this,_value] call bis_fnc_initAmmoBox;";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="[[[[""arifle_MX_F"",""arifle_MX_SW_F"",""launch_NLAW_F"",""FirstAidKit""],[2,1,1,10]],[[""30Rnd_65x39_caseless_mag"",""100Rnd_65x39_caseless_mag"",""HandGrenade"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""1Rnd_Smoke_Grenade_shell"",""1Rnd_SmokeGreen_Grenade_shell"",""1Rnd_SmokeOrange_Grenade_shell"",""1Rnd_SmokeBlue_Grenade_shell"",""SmokeShell"",""SmokeShellGreen"",""SmokeShellOrange"",""SmokeShellBlue"",""NLAW_F"",""Titan_AT"",""Titan_AP"",""Titan_AA""],[24,12,6,6,6,3,3,3,3,8,8,8,8,5,2,2,2]],[[],[]],[[],[]]],false]";
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item7
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={17.588501,2.2557735,30.995361};
+					angles[]={6.2375059,0,0.0050271684};
+				};
+				side="East";
+				flags=2;
+				class Attributes
+				{
+					init="this addEventHandler [""Fired"",{(_this select 0) setVehicleAmmo 1}]";
+					reportRemoteTargets=1;
+					receiveRemoteTargets=1;
+					reportOwnPosition=1;
+					aiRadarUsage=1;
+				};
+				id=6030;
+				type="Tenthed_TCF_M92_BOLT_FRI";
+				atlOffset=0.4993;
+			};
+			class Item8
+			{
+				dataType="Trigger";
+				position[]={-31.406616,0,-32.686768};
+				class Attributes
+				{
+					condition="!alive triggerNorthAirfield;";
+					onActivation="{_x setDammage 1;} forEach (synchronizedObjects thisTrigger); ";
+					sizeA=0;
+					sizeB=0;
+				};
+				id=6031;
+				type="EmptyDetector";
+			};
+			class Item9
+			{
+				dataType="Trigger";
+				position[]={0.49963379,0.069189072,-48.256592};
+				class Attributes
+				{
+					condition="!alive triggerNorthAirfield;";
+					onActivation="{_x setDammage 1;} forEach (synchronizedObjects thisTrigger); ";
+					sizeA=0;
+					sizeB=0;
+					isServerOnly=1;
+				};
+				id=6032;
+				type="EmptyDetector";
+				atlOffset=0.069189072;
+			};
+		};
+		id=6033;
+		atlOffset=0.12489414;
+	};
+};
+class connections
+{
+	class LinkIDProvider
+	{
+		nextID=4;
+	};
+	class Links
+	{
+		items=4;
+		class Item0
+		{
+			linkID=0;
+			item0=6027;
+			item1=6031;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item1
+		{
+			linkID=1;
+			item0=6030;
+			item1=6031;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item2
+		{
+			linkID=2;
+			item0=6027;
+			item1=6032;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item3
+		{
+			linkID=3;
+			item0=6030;
+			item1=6032;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+	};
+};
+class VehicleInVehicleLinks
+{
+	class LinkIDProvider
+	{
+		nextID=5;
+	};
+	class Links
+	{
+		items=5;
+		class Item0
+		{
+			linkID=0;
+			item0=6026;
+			item1=6027;
+			class CustomData
+			{
+				role=2;
+				turretPath[]={0};
+			};
+		};
+		class Item1
+		{
+			linkID=1;
+			item0=6029;
+			item1=6030;
+			class CustomData
+			{
+				role=2;
+				turretPath[]={0};
+			};
+		};
+		class Item2
+		{
+			linkID=2;
+			item0=6020;
+			item1=6023;
+			class CustomData
+			{
+				role=1;
+			};
+		};
+		class Item3
+		{
+			linkID=3;
+			item0=6021;
+			item1=6023;
+			class CustomData
+			{
+				role=2;
+				turretPath[]={0};
+			};
+		};
+		class Item4
+		{
+			linkID=4;
+			item0=6022;
+			item1=6023;
+			class CustomData
+			{
+				role=2;
+				turretPath[]={0,0};
+			};
+		};
+	};
+};

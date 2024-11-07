@@ -1,0 +1,48 @@
+version=54;
+center[]={3403.4053,5.0689998,3336.9897};
+class items
+{
+	items=1;
+	class Item0
+	{
+		dataType="Layer";
+		name="Tenthed_Comp_Healing_Terminal";
+		class Entities
+		{
+			items=2;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-0.48608398,0.92120981,2.5568848};
+					angles[]={0,2.000252,0};
+				};
+				side="Empty";
+				flags=5;
+				class Attributes
+				{
+					init="call{this addAction [""<t color='#0ac6d2'>Heal</t>"", ""[objNull, player] call ace_medical_treatment_fnc_fullHeal;""];}";
+					name="MedicHealer";
+				};
+				id=5666;
+				type="OPTRE_RS_ConsoleDoor";
+				atlOffset=0.069201946;
+			};
+			class Item1
+			{
+				dataType="Comment";
+				class PositionInfo
+				{
+					position[]={0.48583984,0,-2.5566406};
+				};
+				title="Healing Terminal";
+				description="Terminal will provide a full z-heal to whichever player who interacts with it";
+				id=5671;
+				atlOffset=0.068999767;
+			};
+		};
+		id=5667;
+		atlOffset=0.069100857;
+	};
+};

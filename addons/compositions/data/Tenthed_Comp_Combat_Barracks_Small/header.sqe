@@ -1,0 +1,10 @@
+version=54;
+name="Tenthed_Comp_Combat_Barracks_Small";
+author="Akira";
+category="EdSubcat_GO_Cliffs";
+requiredAddons[]=
+{
+	"OPTRE_Buildings_Camp",
+	"tfar_antennas",
+	"OPTRE_UNSC_Structure_Buildings"
+};

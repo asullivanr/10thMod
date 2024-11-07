@@ -1,0 +1,11 @@
+version=54;
+name="Tenthed_Comp_Vehicle_Spawn_System_Type2";
+author="Akira";
+category="EdSubcat_GO_Cliffs";
+requiredAddons[]=
+{
+	"A3_Structures_F_Bootcamp_VR_Helpers",
+	"Desert",
+	"OPTRE_BW_DoorConsole",
+	"TCF_Objects"
+};

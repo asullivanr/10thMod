@@ -1,0 +1,529 @@
+version=54;
+center[]={2752.7202,5.000001,4097.2944};
+class items
+{
+	items=1;
+	class Item0
+	{
+		dataType="Layer";
+		name="Tenthed_Comp_Spawn_System_Template";
+		class Entities
+		{
+			items=7;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={0.98046875,1.6736403,18.976563};
+					angles[]={0,3.1307125,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+				};
+				id=6306;
+				type="OPTRE_Cryopod";
+				atlOffset=0.00014591217;
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={8.9296875,1.6736383,16.130859};
+					angles[]={0,3.1307125,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+				};
+				id=6307;
+				type="OPTRE_Cryopod";
+				atlOffset=0.00014400482;
+			};
+			class Item2
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-17.956055,2.416501,0.69921875};
+					angles[]={0,6.2678437,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					init="[this, true] call ace_arsenal_fnc_initBox; " \n "0 = [""AmmoboxInit"",[this,true]] spawn BIS_fnc_arsenal;";
+				};
+				id=6304;
+				type="OPTRE_m1087_stallion_cover_unsc";
+				atlOffset=9.5367432e-07;
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ammoBox";
+						expression="[_this,_value] call bis_fnc_initAmmoBox;";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="[[[[""FirstAidKit""],[10]],[[],[]],[[],[]],[[],[]]],false]";
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item3
+			{
+				dataType="Logic";
+				class PositionInfo
+				{
+					position[]={5.7734375,2.3586855,-0.21191406};
+					angles[]={0,1.5108442,0};
+				};
+				name="respawn_west_pos";
+				id=6305;
+				type="ModuleRespawnPosition_F";
+				atlOffset=2.3586864;
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ModuleRespawnPosition_F_Marker";
+						expression="_this setVariable ['Marker',_value,true];";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="0";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ModuleRespawnPosition_F_Name";
+						expression="_this setVariable ['Name',_value,true];";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="Cryopod";
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="ModuleRespawnPosition_F_Side";
+						expression="_this setVariable ['Side',_value,true];";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="1";
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="ModuleRespawnPosition_F_ShowNotification";
+						expression="_this setVariable ['ShowNotification',_value,true];";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="1";
+							};
+						};
+					};
+					class Attribute4
+					{
+						property="ModuleRespawnPosition_F_Type";
+						expression="_this setVariable ['Type',_value,true];";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="0";
+							};
+						};
+					};
+					nAttributes=5;
+				};
+			};
+			class Item4
+			{
+				dataType="Logic";
+				class PositionInfo
+				{
+					position[]={17.445313,2.3586855,-3.1601563};
+					angles[]={0,1.5108442,0};
+				};
+				name="respawn_west_pos_1";
+				id=6308;
+				type="ModuleRespawnPosition_F";
+				atlOffset=2.3586864;
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ModuleRespawnPosition_F_Marker";
+						expression="_this setVariable ['Marker',_value,true];";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="0";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ModuleRespawnPosition_F_Name";
+						expression="_this setVariable ['Name',_value,true];";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="Cryopod";
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="ModuleRespawnPosition_F_Side";
+						expression="_this setVariable ['Side',_value,true];";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="1";
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="ModuleRespawnPosition_F_ShowNotification";
+						expression="_this setVariable ['ShowNotification',_value,true];";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="1";
+							};
+						};
+					};
+					class Attribute4
+					{
+						property="ModuleRespawnPosition_F_Type";
+						expression="_this setVariable ['Type',_value,true];";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="0";
+							};
+						};
+					};
+					nAttributes=5;
+				};
+			};
+			class Item5
+			{
+				dataType="Logic";
+				class PositionInfo
+				{
+					position[]={-13.302734,3.2360258,-20.260742};
+					angles[]={0,1.5108443,0};
+				};
+				name="respawn_west_vic";
+				id=6309;
+				type="ModuleRespawnPosition_F";
+				atlOffset=3.2360268;
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ModuleRespawnPosition_F_Marker";
+						expression="_this setVariable ['Marker',_value,true];";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="0";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ModuleRespawnPosition_F_Name";
+						expression="_this setVariable ['Name',_value,true];";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="Respawn Vic 1";
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="ModuleRespawnPosition_F_Side";
+						expression="_this setVariable ['Side',_value,true];";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="1";
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="ModuleRespawnPosition_F_ShowNotification";
+						expression="_this setVariable ['ShowNotification',_value,true];";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="1";
+							};
+						};
+					};
+					class Attribute4
+					{
+						property="ModuleRespawnPosition_F_Type";
+						expression="_this setVariable ['Type',_value,true];";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="0";
+							};
+						};
+					};
+					nAttributes=5;
+				};
+			};
+			class Item6
+			{
+				dataType="Logic";
+				class PositionInfo
+				{
+					position[]={-1.8945313,2.8606081,-12.171875};
+					angles[]={0,1.5108442,0};
+				};
+				id=6310;
+				type="ModuleRespawnVehicle_F";
+				atlOffset=2.8606091;
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ModuleRespawnVehicle_F_ForcedRespawn";
+						expression="_this setVariable ['ForcedRespawn',_value,true];";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="0";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ModuleRespawnVehicle_F_Init";
+						expression="_this setVariable ['Init',_value,true];";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="";
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="ModuleRespawnVehicle_F_RespawnWhenDisabled";
+						expression="_this setVariable ['RespawnWhenDisabled',_value,true];";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=0;
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="ModuleRespawnVehicle_F_DesertedDistance";
+						expression="_this setVariable ['DesertedDistance',_value,true];";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="";
+							};
+						};
+					};
+					class Attribute4
+					{
+						property="ModuleRespawnVehicle_F_PositionType";
+						expression="_this setVariable ['PositionType',_value,true];";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="2";
+							};
+						};
+					};
+					class Attribute5
+					{
+						property="ModuleRespawnVehicle_F_RespawnCount";
+						expression="_this setVariable ['RespawnCount',_value,true];";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="";
+							};
+						};
+					};
+					class Attribute6
+					{
+						property="ModuleRespawnVehicle_F_Position";
+						expression="_this setVariable ['Position',_value,true];";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="0";
+							};
+						};
+					};
+					class Attribute7
+					{
+						property="ModuleRespawnVehicle_F_Wreck";
+						expression="_this setVariable ['Wreck',_value,true];";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="2";
+							};
+						};
+					};
+					class Attribute8
+					{
+						property="ModuleRespawnVehicle_F_Delay";
+						expression="_this setVariable ['Delay',_value,true];";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="";
+							};
+						};
+					};
+					class Attribute9
+					{
+						property="ModuleRespawnVehicle_F_ShowNotification";
+						expression="_this setVariable ['ShowNotification',_value,true];";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="0";
+							};
+						};
+					};
+					nAttributes=10;
+				};
+			};
+		};
+		id=6311;
+		atlOffset=2.6815696;
+	};
+};
+class connections
+{
+	class LinkIDProvider
+	{
+		nextID=4;
+	};
+	class Links
+	{
+		items=4;
+		class Item0
+		{
+			linkID=0;
+			item0=6309;
+			item1=6304;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item1
+		{
+			linkID=1;
+			item0=6310;
+			item1=6304;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item2
+		{
+			linkID=2;
+			item0=6308;
+			item1=6307;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item3
+		{
+			linkID=3;
+			item0=6305;
+			item1=6306;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+	};
+};

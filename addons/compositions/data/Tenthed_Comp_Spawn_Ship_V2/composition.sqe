@@ -1,0 +1,881 @@
+version=54;
+center[]={1782.9899,94.208862,4445.9741};
+class items
+{
+	items=1;
+	class Item0
+	{
+		dataType="Layer";
+		name="Tenthed_Comp_Spawn_Ship_V2";
+		class Entities
+		{
+			items=27;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-23.400513,56.849991,48.401855};
+					angles[]={0,4.7069407,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					init="call{this setPlateNumber ""E. Hill"";}";
+				};
+				id=6244;
+				type="OPTRE_Cryopod";
+				atlOffset=0.10145569;
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=1;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-23.415649,56.849014,51.190918};
+					angles[]={0,4.7069407,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					init="call{this setPlateNumber ""W. Pockets"";}";
+				};
+				id=6245;
+				type="OPTRE_Cryopod";
+				atlOffset=0.10047913;
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=1;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item2
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-23.428833,56.849014,53.989746};
+					angles[]={0,4.7069407,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					init="call{this setPlateNumber ""J. Doe"";}";
+				};
+				id=6246;
+				type="OPTRE_Cryopod";
+				atlOffset=0.10047913;
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=1;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item3
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-23.437134,56.849991,56.774902};
+					angles[]={0,4.7069407,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					init="call{this setPlateNumber ""R. Nielsson"";}";
+				};
+				id=6247;
+				type="OPTRE_Cryopod";
+				atlOffset=0.10145569;
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=1;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item4
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-28.372192,56.84996,-72.08252};
+					angles[]={0,1.5653478,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					init="call{this setPlateNumber ""Empty"";}";
+				};
+				id=6248;
+				type="OPTRE_Cryopod";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=1;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item5
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-28.391235,56.84996,-69.289551};
+					angles[]={0,1.5653478,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					init="call{this setPlateNumber ""Empty"";}";
+				};
+				id=6249;
+				type="OPTRE_Cryopod";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=1;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item6
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-28.424927,56.848923,-66.479004};
+					angles[]={0,1.5653478,0};
+				};
+				side="Empty";
+				class Attributes
+				{
+					init="call{this setPlateNumber ""Empty"";}";
+				};
+				id=6250;
+				type="OPTRE_Cryopod";
+				atlOffset=144.38429;
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=1;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item7
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-28.432251,56.848923,-63.697754};
+					angles[]={0,1.5653478,0};
+				};
+				side="Empty";
+				class Attributes
+				{
+					init="call{this setPlateNumber ""Empty"";}";
+				};
+				id=6251;
+				type="OPTRE_Cryopod";
+				atlOffset=144.38429;
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=1;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item8
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-28.446411,56.848923,-60.902832};
+					angles[]={0,1.5653478,0};
+				};
+				side="Empty";
+				class Attributes
+				{
+					init="call{this setPlateNumber ""R. Hodge"";}";
+				};
+				id=6252;
+				type="OPTRE_Cryopod";
+				atlOffset=144.38429;
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=1;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item9
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-28.461548,56.84996,-58.11377};
+					angles[]={0,1.5653478,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					init="call{this setPlateNumber ""P. Dayton"";}";
+				};
+				id=6253;
+				type="OPTRE_Cryopod";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=1;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item10
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-28.470825,56.84697,-55.311035};
+					angles[]={0,1.5653478,0};
+				};
+				side="Empty";
+				class Attributes
+				{
+					init="call{this setPlateNumber ""L. Grayal"";}";
+				};
+				id=6254;
+				type="OPTRE_Cryopod";
+				atlOffset=144.38234;
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=1;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item11
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-28.493774,56.84996,-52.521973};
+					angles[]={0,1.5653478,0};
+				};
+				side="Empty";
+				class Attributes
+				{
+					init="call{this setPlateNumber ""D. polson"";}";
+				};
+				id=6255;
+				type="OPTRE_Cryopod";
+				atlOffset=144.38533;
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=1;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item12
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-23.385864,56.84996,-66.455566};
+					angles[]={0,4.7069407,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					init="call{this setPlateNumber ""Lenore"";}";
+				};
+				id=6256;
+				type="OPTRE_Cryopod";
+				atlOffset=0.10145569;
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=1;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item13
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-23.401978,56.848923,-63.666504};
+					angles[]={0,4.7069407,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					init="call{this setPlateNumber ""P. Jogn"";}";
+				};
+				id=6257;
+				type="OPTRE_Cryopod";
+				atlOffset=0.10041809;
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=1;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item14
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-23.415161,56.848923,-60.867676};
+					angles[]={0,4.7069407,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					init="call{this setPlateNumber ""R. Wolff"";}";
+				};
+				id=6258;
+				type="OPTRE_Cryopod";
+				atlOffset=0.10041809;
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=1;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item15
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-23.423462,56.848923,-58.08252};
+					angles[]={0,4.7069407,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					init="call{this setPlateNumber ""G. Goof"";}";
+				};
+				id=6259;
+				type="OPTRE_Cryopod";
+				atlOffset=0.10041809;
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=1;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item16
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-28.385864,56.849991,42.774902};
+					angles[]={0,1.5653478,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					init="call{this setPlateNumber ""K. Austin"";}";
+				};
+				id=6260;
+				type="OPTRE_Cryopod";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=1;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item17
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-28.404907,56.849991,45.567383};
+					angles[]={0,1.5653478,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					init="call{this setPlateNumber ""A. Sullivan"";}";
+				};
+				id=6261;
+				type="OPTRE_Cryopod";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=1;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item18
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-28.439575,56.849014,48.378418};
+					angles[]={0,1.5653478,0};
+				};
+				side="Empty";
+				class Attributes
+				{
+					init="call{this setPlateNumber ""S. Dayton"";}";
+				};
+				id=6262;
+				type="OPTRE_Cryopod";
+				atlOffset=144.38438;
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=1;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item19
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-28.445923,56.849014,51.159668};
+					angles[]={0,1.5653478,0};
+				};
+				side="Empty";
+				class Attributes
+				{
+					init="call{this setPlateNumber ""R. Crow"";}";
+				};
+				id=6263;
+				type="OPTRE_Cryopod";
+				atlOffset=144.38438;
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=1;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item20
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-28.460083,56.849991,53.953613};
+					angles[]={0,1.5653478,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					init="call{this setPlateNumber ""A. Tiberian"";}";
+				};
+				id=6264;
+				type="OPTRE_Cryopod";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=1;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item21
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-28.47522,56.849991,56.743652};
+					angles[]={0,1.5653478,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					init="call{this setPlateNumber ""V. Rambler"";}";
+				};
+				id=6265;
+				type="OPTRE_Cryopod";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=1;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item22
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-28.484009,56.849014,59.544434};
+					angles[]={0,1.5653478,0};
+				};
+				side="Empty";
+				class Attributes
+				{
+					init="call{this setPlateNumber ""K. Raven"";}";
+				};
+				id=6266;
+				type="OPTRE_Cryopod";
+				atlOffset=144.38438;
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=1;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item23
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-28.508911,56.849014,62.335449};
+					angles[]={0,1.5653478,0};
+				};
+				side="Empty";
+				class Attributes
+				{
+					init="call{this setPlateNumber ""J. Marcus"";}";
+				};
+				id=6267;
+				type="OPTRE_Cryopod";
+				atlOffset=144.38438;
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=1;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item24
+			{
+				dataType="Layer";
+				name="New spawn ship";
+				id=6048;
+				atlOffset=89.208862;
+			};
+			class Item25
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={129.94031,57.860092,37.835938};
+				};
+				side="Empty";
+				flags=1;
+				class Attributes
+				{
+				};
+				id=6271;
+				type="VR_Area_01_square_1x1_yellow_F";
+				atlOffset=0.91175842;
+			};
+			class Item26
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-3.4576416,54.586395,52.166016};
+					angles[]={0,1.5713714,0};
+				};
+				side="Empty";
+				flags=1;
+				class Attributes
+				{
+				};
+				id=6273;
+				type="Land_SmallComsPlatform";
+				atlOffset=1.0563507;
+			};
+		};
+		id=6294;
+		atlOffset=138.51936;
+	};
+};

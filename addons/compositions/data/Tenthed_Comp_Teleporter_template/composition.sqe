@@ -1,0 +1,52 @@
+version=54;
+center[]={2633.6252,5.069191,3133.7603};
+class items
+{
+	items=1;
+	class Item0
+	{
+		dataType="Layer";
+		name="Tenthed_Comp_Teleporter_template";
+		class Entities
+		{
+			items=2;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-2.0844727,0.92286491,1.0161133};
+					angles[]={0,4.1232705,0};
+				};
+				side="Empty";
+				flags=1;
+				class Attributes
+				{
+					name="endex";
+				};
+				id=6016;
+				type="VR_Area_01_square_1x1_yellow_F";
+				atlOffset=0.99155569;
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={2.0844727,3.9768047,-1.0161133};
+				};
+				side="Empty";
+				flags=5;
+				class Attributes
+				{
+					init="this addAction [""Teleport to BLUFOR Spawn"",{player setPosATL (getPosATL padSpawn)}];";
+				};
+				id=6015;
+				type="Flag_NATO_F";
+				atlOffset=0.069190979;
+			};
+		};
+		id=6017;
+		atlOffset=0.53037357;
+	};
+};
