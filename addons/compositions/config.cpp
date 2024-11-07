@@ -85,7 +85,7 @@ class Cfg3DEN {
 			icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
 			useSideColorOnIcon = 1;
 		};
-		class Tenthed_Comp_Orbat {
+		class Tenthed_Comp_SpawnSystem {
 			path = "z\10thMod\addons\compositions\data\Tenthed_Comp_Spawn_System_Template";
 			side = 8;
 			editorCategory = "Tenthed_Comps";
@@ -134,7 +134,7 @@ class Cfg3DEN {
 			icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
 			useSideColorOnIcon = 1;
 		};
-		class Tenthed_Comp_Corvette_Template {
+		class Tenthed_Comp_Teleport_Template {
 			path = "z\10thMod\addons\compositions\data\Tenthed_Comp_Teleporter_template";
 			side = 8;
 			editorCategory = "Tenthed_Comps";
