@@ -1,0 +1,11 @@
+version=54;
+name="Tenthed_Comp_Spawn_Ship_V2";
+author="Akira";
+category="EdSubcat_GO_Cliffs";
+requiredAddons[]=
+{
+	"OPTRE_Vehicles_Cryopod",
+	"A3_Structures_F_Bootcamp_VR_Helpers",
+	"OPTRE_BW_Platform",
+	"TCF_Objects"
+};

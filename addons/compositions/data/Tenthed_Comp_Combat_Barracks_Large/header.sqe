@@ -1,0 +1,8 @@
+version=54;
+name="Tenthed_Comp_Combat_Barracks_Large";
+author="Akira";
+category="EdSubcat_GO_Cliffs";
+requiredAddons[]=
+{
+	"OPTRE_UNSC_Structure_Buildings"
+};

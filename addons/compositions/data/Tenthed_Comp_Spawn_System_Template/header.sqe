@@ -1,0 +1,10 @@
+version=54;
+name="Tenthed_Comp_Spawn_System_Template";
+author="Akira";
+category="EdSubcat_GO_Cliffs";
+requiredAddons[]=
+{
+	"OPTRE_Vehicles_Cryopod",
+	"OPTRE_Vehicles_Misc",
+	"A3_Modules_F_Multiplayer"
+};

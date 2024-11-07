@@ -1,0 +1,223 @@
+version=54;
+center[]={3835.2156,5,3691.8813};
+class items
+{
+	items=1;
+	class Item0
+	{
+		dataType="Layer";
+		name="Tenthed_Comp_Testing_Template";
+		class Entities
+		{
+			items=4;
+			class Item0
+			{
+				dataType="Group";
+				side="West";
+				class Entities
+				{
+					items=1;
+					class Item0
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={0.33032227,0.13262796,1.1140137};
+						};
+						side="West";
+						flags=7;
+						class Attributes
+						{
+							name="ztest";
+							isPlayable=1;
+						};
+						id=100;
+						type="B_soldier_AAR_F";
+						atlOffset=0.13118887;
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										singleType="STRING";
+										value="Male11ENG";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=1.05;
+									};
+								};
+							};
+							nAttributes=2;
+						};
+					};
+				};
+				class Attributes
+				{
+				};
+				id=99;
+				atlOffset=0.13118887;
+			};
+			class Item1
+			{
+				dataType="Logic";
+				class PositionInfo
+				{
+					position[]={-0.41357422,0.094189167,-1.8391113};
+				};
+				id=101;
+				type="ModuleCurator_F";
+				atlOffset=0.094189167;
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ModuleCurator_F_Owner";
+						expression="_this setVariable ['Owner',_value,true];";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="ztest";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ModuleCurator_F_Forced";
+						expression="_this setVariable ['Forced',_value,true];";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="ModuleCurator_F_Name";
+						expression="_this setVariable ['Name',_value,true];";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="";
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="ModuleCurator_F_Addons";
+						expression="_this setVariable ['Addons',_value,true];";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=3;
+							};
+						};
+					};
+					nAttributes=4;
+				};
+			};
+			class Item2
+			{
+				dataType="Logic";
+				class PositionInfo
+				{
+					position[]={-1.7890625,0.069189072,0.21923828};
+				};
+				id=102;
+				type="acex_fortify_setupModule";
+				atlOffset=0.069189072;
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_fortify_setupModule_Budget";
+						expression="_this setVariable ['Budget',_value,true];";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=-1;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_fortify_setupModule_AddToolItem";
+						expression="_this setVariable ['AddToolItem',_value,true];";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=1;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="ace_fortify_setupModule_Preset";
+						expression="_this setVariable ['Preset',_value,true];";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="Tenthed_Fortify01";
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="ace_fortify_setupModule_Side";
+						expression="_this setVariable ['Side',_value,true];";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=1;
+							};
+						};
+					};
+					nAttributes=4;
+				};
+			};
+			class Item3
+			{
+				dataType="Comment";
+				class PositionInfo
+				{
+					position[]={1.5424805,0,-0.50927734};
+				};
+				title="a simple tester unit with gamemaster abilities";
+				id=6429;
+			};
+		};
+		id=103;
+		atlOffset=0.045469284;
+	};
+};

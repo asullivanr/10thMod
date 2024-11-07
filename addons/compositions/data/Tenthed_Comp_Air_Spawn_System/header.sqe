@@ -1,0 +1,15 @@
+version=54;
+name="Tenthed_Comp_Air_Spawn_System";
+author="Akira";
+category="EdSubcat_GO_Cliffs";
+requiredAddons[]=
+{
+	"A3_Structures_F_EPA_Items_Food",
+	"OPTRE_Ins_Units_URF",
+	"OPTRE_UNSC_Units_Army",
+	"Tenthed_OPFOR_Vehicles_Military",
+	"hbq_spawner",
+	"TCF_OPFOR_URF_Units",
+	"TCF_OPFOR_Frieden_Units",
+	"Desert"
+};
