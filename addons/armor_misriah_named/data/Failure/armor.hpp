@@ -28,7 +28,7 @@
 			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
 			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa", // Thigh pouch texture
 			"z\10thMod\addons\armor_misriah_named\data\Failure\Reach_Armor_Upper_Failure_co.paa", // Upper armor texture and base ODST shoulders.
-			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
+			"z\10thMod\addons\armor_misriah_named\data\Failure\Reach_Armor_Lower_Failure_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa", // Canisters texture
 			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
 			"z\10thMod\addons\armor_misriah_named\data\Failure\Sniper_Failure_co.paa", // Sniper Shoulders
@@ -64,7 +64,7 @@
 				"Reach_Sniper_Pauldron_Right",
 				"Reach_CQB_Pauldron_Left",
 				"Reach_CQB_Pauldron_Right",
-				"Thigh_Pouch",
+				//"Thigh_Pouch",
 				"H3_Armor_Upper", // not used
 				"H3_Armor_Lower", // not used
 				//"Forearm_Vent_Left",  // if the forearms are enabled they must have the vents

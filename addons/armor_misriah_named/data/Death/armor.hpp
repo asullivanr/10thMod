@@ -1,14 +1,14 @@
-	class Tenthed_M56SR_Helmet_Freedom : Tenthed_M56SR_Helmet {
+	class Tenthed_M56SR_Helmet_Death : Tenthed_M56SR_Helmet {
 		scope=2;
 		scopeArsenal=2;
-		displayName="[10th] M56S-R Helmet (Freedom)";
+		displayName="[10th] M56S-R Helmet (Death)";
 		model="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
 		picture="MA_Armor\data\Icons\Halo_Reach_ODST_Helmet.paa";
 		hiddenSelectionsTextures[]= { // un comment out which visor color you would like to test. make sure to comment out the old color or else there will be errors. Blue visor enabled by default.
-			"z\10thMod\addons\armor_misriah_named\data\Freedom\HR_ODST_Helmet_Freedom_co.paa", // change this texture file to test different helmet textures.
+			"z\10thMod\addons\armor_misriah_named\data\Death\HR_ODST_Helmet_Death_co.paa", // change this texture file to test different helmet textures.
 			//"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_Blue_co.paa" // Blue Visor
-			//"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_black_co.paa" // Black Visor
-			"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_gold_co.paa" // Gold Visor
+			"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_black_co.paa" // Black Visor
+			//"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_gold_co.paa" // Gold Visor
 			//"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_red_co.paa" // Red Visor
 			//"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_white_co.paa" // White Visor
 		};
@@ -16,11 +16,10 @@
 			uniformModel="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
 		};
 	};
-
-	class Tenthed_M56R_Vest_Freedom : Tenthed_Vest_Powered {
+	class Tenthed_M56R_Vest_Death : Tenthed_Vest_Base {
 		scope=2;
 		scopeArsenal=2;
-		displayName="[10th] M56R Armor (Freedom)";
+		displayName="[10th] M56R Armor (Death)";
 		model="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
 		picture="MA_Armor\data\Icons\H3ODST_Vest.paa";
 		hiddenSelectionsTextures[]= { // Change folder to Armor-Misriah\data and put files into that folder. example "Armor-Misriah\data\akira_helmet.paa"
@@ -28,11 +27,11 @@
 			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
 			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
 			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa", // Thigh pouch texture
-			"z\10thMod\addons\armor_misriah_named\data\Freedom\Reach_Armor_Upper_Freedom_co.paa", // Upper armor texture and base ODST shoulders.
-			"z\10thMod\addons\armor_misriah_named\data\Freedom\Reach_Armor_Lower_Freedom_co.paa",
+			"z\10thMod\addons\armor_misriah_named\data\Death\Reach_Armor_Upper_Death_co.paa", // Upper armor texture and base ODST shoulders.
+			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa", // Canisters texture
 			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
-			"z\10thMod\addons\armor_misriah_named\data\Freedom\Sniper_Freedom_co.paa", // Sniper Shoulders
+			"MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa", // Sniper Shoulders
 			"MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa", // CQB Shoulders
 			"MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa"
 		};
@@ -70,7 +69,7 @@
 				"H3_Armor_Lower", // not used
 				//"Forearm_Vent_Left",  // if the forearms are enabled they must have the vents
 				//"Forearm_Vent_Right", // if the forearms are enabled they must have the vents
-				"Canisters" // the canisters around the waist
+				//"Canisters" // the canisters around the waist
 			};
 		};
 	};
