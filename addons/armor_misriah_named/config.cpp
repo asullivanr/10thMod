@@ -153,13 +153,13 @@ class cfgWeapons {
 	//#include "data\Fwog\armor.hpp"
 
 	// Glint
-	#include "data\Glint\armor.hpp"
+	//#include "data\Glint\armor.hpp"
 
 	// Jody
 	#include "data\Jody\armor.hpp"
 
 	// Marvel
-	#include "data\Marvel\armor.hpp"
+	//#include "data\Marvel\armor.hpp"
 
 	// Mom
 	#include "data\Mom\armor.hpp"
@@ -195,7 +195,7 @@ class cfgWeapons {
 	#include "data\Xyric\armor.hpp"
 //
 	// Den
-	#include "data\Den\armor.hpp"
+	//#include "data\Den\armor.hpp"
 
 	// Naffen
 	//#include "data\Naffen\armor.hpp"
@@ -243,13 +243,13 @@ class cfgWeapons {
 	#include "data\Sound\armor.hpp"
 
 	// Thor
-	#include "data\Thor\armor.hpp"
+	//#include "data\Thor\armor.hpp"
 //
 	// Chaotix
 	#include "data\Chaotix\armor.hpp"
 
 	// Dinner
-	#include "data\Dinner\armor.hpp"
+	//#include "data\Dinner\armor.hpp"
 
 	// Nightmare
 	#include "data\Nightmare\armor.hpp"
@@ -304,4 +304,28 @@ class cfgWeapons {
 
 	// Splash
 	#include "data\Splash\armor.hpp"
+//
+	// Death
+	#include "data\Death\armor.hpp"
+
+	// Jinx
+	//#include "data\Jinx\armor.hpp"
+
+	// Joker
+	#include "data\Joker\armor.hpp"
+
+	// Sprite
+	#include "data\Sprite\armor.hpp"
+
+	// Stabs
+	#include "data\Stabs\armor.hpp"
+
+	// Venom
+	#include "data\Venom\armor.hpp"
+
+	// Troll
+	#include "data\Troll\armor.hpp"
+
+	// Elder
+	#include "data\Elder\armor.hpp"
 };
