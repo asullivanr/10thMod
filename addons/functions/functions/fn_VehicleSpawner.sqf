@@ -7,11 +7,18 @@ _categoryIndex = _this select 1;  // Index of the category to spawn in _category
 _vehicleIndex = _this select 2;  // Index of the vehicle to spawn in _vehicles array
 
 // List of vehicles to choose from
-_utility = [ // 0
+_utility = [ // Vehicle class
     "B_Truck_01_Repair_F", // 0
     "B_Truck_01_fuel_F", // 1
     "B_Truck_01_ammo_F", // 2
     "OPTRE_cart" // 3
+    // Add more vehicles as needed
+];
+_utility_name = [ // Vehicle Name, index # must match above
+    "Repair_F", // 0
+    "fuel_F", // 1
+    "ammo_F", // 2
+    "cart" // 3
     // Add more vehicles as needed
 ];
 // List of vehicles to choose from
