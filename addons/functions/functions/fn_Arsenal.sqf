@@ -1650,15 +1650,7 @@ _items = [
   "bipod_02_F_tan"
 ];
 
-[_obj, _backpacks] call BIS_fnc_addVirtualBackpackCargo;
-[_obj, _magazines] call BIS_fnc_addVirtualMagazineCargo;
-[_obj, _weapons] call BIS_fnc_addVirtualWeaponCargo;
-[_obj, _items] call BIS_fnc_addVirtualItemCargo;
-
 private _bftarray = [];
-_bftarray append _backpacks;
-_bftarray append _magazines;
-_bftarray append _weapons;
 _bftarray append _items;
 
 [_obj, false, false] call ace_arsenal_fnc_initBox;
