@@ -4,7 +4,10 @@ class CfgPatches {
         name = "10th ODST: Functions";
         requiredAddons[] = {
             "OPTRE_Core",
-            "Tenthed_core"
+            "Tenthed_core",
+            "TCP_Data",
+            "TCP_Weapons",
+            "TCP_Ui"
         };
         weapons[] = {};
         units[] = {};
@@ -50,6 +53,28 @@ class CfgFunctions {
             file="z\10thMod\addons\functions\functions";
             class AddTeleportAction {};
             // this ["Killhouse A", "Lift_KHA"] call Tenthed_fnc_AddTeleportAction;
+        };
+    };
+};
+// Change TFC Main menu to use ace arsenal over the bis arsenal.
+class RscControlsGroupNoScrollbars;
+class RscStandardDisplay;
+class RscShortcutButton;
+class RscButtonMenu: RscShortcutButton
+{
+    class ShortcutPos;
+};
+class RscTCPButtonMenu: RscButtonMenu {};
+class RscDisplayMain: RscStandardDisplay
+{
+    class controls
+    {
+        class TCP_ButtonArsenal: RscTCPButtonMenu
+        {
+            idc = 2500;
+            text = "ACE Firing Range";
+            onbuttonclick = "playMission ['', '\z\ace\addons\arsenal\missions\Arsenal.VR']";            
+            y = "12.5 * ((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) + (safezoneY + safezoneH - (((safezoneW / safezoneH) min 1.2) / 1.2))";
         };
     };
 };

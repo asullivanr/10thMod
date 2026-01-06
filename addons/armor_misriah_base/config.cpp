@@ -76,10 +76,10 @@ class cfgWeapons {
 	};
 
 	class Tenthed_Vest_Base: V_PlateCarrier1_rgr {
-		MJOLNIR_isArmor=1;
-		MJOLNIR_shieldStrength=80;
-		MJOLNIR_shieldChargeValue=1;
-		MJOLNIR_shieldChargeDelay=25;
+		//MJOLNIR_isArmor=1;
+		//MJOLNIR_shieldStrength=80;
+		//MJOLNIR_shieldChargeValue=1;
+		//MJOLNIR_shieldChargeDelay=25;
 
 		scope=0;
 		scopeArsenal=0;
@@ -178,42 +178,42 @@ class cfgWeapons {
 			class HitpointsProtectionInfo {
 				class Neck {
 					hitpointName = "HitNeck";
-					armor = 100;
+					armor = 90;
 					passThrough = 0.1;
 				};
 				class Legs {
 					hitpointName = "HitLegs";
-					armor = 100;
+					armor = 90;
 					passThrough = 0.1;
 				};
 				class Arms {
 					hitpointName = "HitArms";
-					armor = 100;
+					armor = 90;
 					passThrough = 0.1;
 				};
 				class Hands {
 					hitpointName = "HitHands";
-					armor = 100;
+					armor = 90;
 					passThrough = 0.1;
 				};
 				class Chest {
 					hitpointName = "HitChest";
-					armor = 100;
+					armor = 90;
 					passThrough = 0.1;
 				};
 				class Diaphragm {
 					hitpointName = "HitDiaphragm";
-					armor = 100;
+					armor = 90;
 					passThrough = 0.1;
 				};
 				class Abdomen {
 					hitpointName = "HitAbdomen";
-					armor = 100;
+					armor = 90;
 					passThrough = 0.1;
 				};
 				class Body {
 					hitpointName = "HitBody";
-					armor = 100;
+					armor = 90;
 					passThrough = 0.1;
 				};
 			};

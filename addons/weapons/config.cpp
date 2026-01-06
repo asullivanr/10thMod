@@ -139,7 +139,7 @@ class CfgWeapons {
 		scopeArsenal = 2;
 		displayName = "[10th] M247H HMG 'Etilka'";
 		descriptionShort = "The 10ths Etilka";
-		model = "\OPTRE_Weapons\Etilka\M247H_Jorge.p3d";
+		//model = "\OPTRE_Weapons\Etilka\M247H_Jorge.p3d";
 		cursor = "OPTRE_M41";
 		magazines[] = {
 			"Tenthed_SC_200Rnd_338_Mag"
