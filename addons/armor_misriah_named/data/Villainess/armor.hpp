@@ -8,7 +8,7 @@
 			// No other texture files then the ones posted will be changed
 			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
 			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
-			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\Default-Pouch.paa",
 			"z\10thMod\addons\armor_misriah_named\data\Villainess\Reach_Armor_Upper_Villainess_co.paa", // Upper armor texture
 			"z\10thMod\addons\armor_misriah_named\data\Villainess\Reach_Armor_Lower_Villainess_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
