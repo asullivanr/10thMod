@@ -13,6 +13,39 @@ class CfgPatches {
         units[] = {};
     };
 };
+class CfgSurfaces {
+	class Default {
+		AIAvoidStance = 2;
+	};
+};
+class RscTitles {
+    class Tenthed_RscServerFPS {
+        idd = -1;
+        duration = 1e10;
+        movingEnable = 0;
+        onLoad = "uiNamespace setVariable ['Tenthed_RscServerFPS_display', _this select 0]";
+        onUnload = "uiNamespace setVariable ['Tenthed_RscServerFPS_display', displayNull]";
+        fadein = 0;
+        fadeout = 0;
+
+        class controls {
+            class ServerFPS_Text {
+                idc = 1000;
+                type = 13;
+                style = 0;
+                x = safeZoneX + 0.01;
+                y = safeZoneY + 0.01;
+                w = 0.25;
+                h = 0.08;
+                size = 0.035;
+                colorBackground[] = {0,0,0,0.3};
+                colorText[] = {1,1,1,1};
+                font = "PuristaMedium";
+                text = "";
+            };
+        };
+    };
+};
 class CfgFunctions {
     class Tenthed_functions
     {
@@ -53,6 +86,12 @@ class CfgFunctions {
             file="z\10thMod\addons\functions\functions";
             class AddTeleportAction {};
             // this ["Killhouse A", "Lift_KHA"] call Tenthed_fnc_AddTeleportAction;
+        };
+
+        class serverFPS {
+            file = "z\10thJTF\addons\functions\functions";
+            class isAuthorizedPlayer {};
+            class toggleServerFPS {};
         };
     };
 };
