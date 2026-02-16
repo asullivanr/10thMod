@@ -1425,6 +1425,7 @@ _items = [
   "Tenthed_M56SR_Helmet_Mercury",
   "Tenthed_M56SR_Helmet_Razor",
   "Tenthed_M56SR_Helmet_Splash",
+  "Tenthed_M56R_Vest_Splash",
   "Tenthed_M56R_Vest_Mercury",
   "Tenthed_M56R_Vest_Razor",
   "immersion_pops_pop0",
