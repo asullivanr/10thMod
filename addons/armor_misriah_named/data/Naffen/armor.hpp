@@ -28,7 +28,7 @@
 			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
 			"z\10thMod\addons\armor_misriah_named\data\Naffen\Thigh_Pouch_Naffen_co.paa",
 			"z\10thMod\addons\armor_misriah_named\data\Naffen\Reach_Armor_Upper_Naffen_co.paa", // Upper armor texture
-			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\Default-Legs.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa", // Sniper Shoulders

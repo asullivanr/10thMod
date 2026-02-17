@@ -76,10 +76,10 @@ class cfgWeapons {
 	};
 
 	class Tenthed_Vest_Base: V_PlateCarrier1_rgr {
-		MJOLNIR_isArmor=1;
-		MJOLNIR_shieldStrength=80;
-		MJOLNIR_shieldChargeValue=1;
-		MJOLNIR_shieldChargeDelay=25;
+		//MJOLNIR_isArmor=1;
+		//MJOLNIR_shieldStrength=80;
+		//MJOLNIR_shieldChargeValue=1;
+		//MJOLNIR_shieldChargeDelay=25;
 
 		scope=0;
 		scopeArsenal=0;
@@ -161,9 +161,9 @@ class cfgWeapons {
 			hiddenSelectionsTextures[]= {
 				"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
 				"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
-				"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
-				"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Upper_co.paa",
-				"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
+				"z\10thMod\addons\armor_misriah_base\data\Default-Pouch.paa",
+				"z\10thMod\addons\armor_misriah_base\data\Default-Armor.paa",
+				"z\10thMod\addons\armor_misriah_base\data\Default-Legs.paa",
 				"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
 				"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
 				"MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
@@ -178,42 +178,42 @@ class cfgWeapons {
 			class HitpointsProtectionInfo {
 				class Neck {
 					hitpointName = "HitNeck";
-					armor = 100;
+					armor = 90;
 					passThrough = 0.1;
 				};
 				class Legs {
 					hitpointName = "HitLegs";
-					armor = 100;
+					armor = 90;
 					passThrough = 0.1;
 				};
 				class Arms {
 					hitpointName = "HitArms";
-					armor = 100;
+					armor = 90;
 					passThrough = 0.1;
 				};
 				class Hands {
 					hitpointName = "HitHands";
-					armor = 100;
+					armor = 90;
 					passThrough = 0.1;
 				};
 				class Chest {
 					hitpointName = "HitChest";
-					armor = 100;
+					armor = 90;
 					passThrough = 0.1;
 				};
 				class Diaphragm {
 					hitpointName = "HitDiaphragm";
-					armor = 100;
+					armor = 90;
 					passThrough = 0.1;
 				};
 				class Abdomen {
 					hitpointName = "HitAbdomen";
-					armor = 100;
+					armor = 90;
 					passThrough = 0.1;
 				};
 				class Body {
 					hitpointName = "HitBody";
-					armor = 100;
+					armor = 90;
 					passThrough = 0.1;
 				};
 			};
@@ -331,9 +331,9 @@ class cfgWeapons {
 		hiddenSelectionsTextures[]= {
 			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
 			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
-			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
-			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Upper_co.paa",
-			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\Default-Pouch.paa",
+			"z\10thMod\addons\armor_misriah_base\data\Default-Armor.paa",
+			"z\10thMod\addons\armor_misriah_base\data\Default-Legs.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
@@ -382,9 +382,9 @@ class cfgWeapons {
 		hiddenSelectionsTextures[]= {
 			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
 			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
-			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
-			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Upper_co.paa",
-			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\Default-Pouch.paa",
+			"z\10thMod\addons\armor_misriah_base\data\Default-Armor.paa",
+			"z\10thMod\addons\armor_misriah_base\data\Default-Legs.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
@@ -432,9 +432,9 @@ class cfgWeapons {
 		hiddenSelectionsTextures[]= {
 			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
 			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
-			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
-			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Upper_co.paa",
-			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\Default-Pouch.paa",
+			"z\10thMod\addons\armor_misriah_base\data\Default-Armor.paa",
+			"z\10thMod\addons\armor_misriah_base\data\Default-Legs.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
@@ -482,9 +482,9 @@ class cfgWeapons {
 		hiddenSelectionsTextures[]= {
 			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
 			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
-			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
-			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Upper_co.paa",
-			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\Default-Pouch.paa",
+			"z\10thMod\addons\armor_misriah_base\data\Default-Armor.paa",
+			"z\10thMod\addons\armor_misriah_base\data\Default-Legs.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
@@ -533,9 +533,9 @@ class cfgWeapons {
 		hiddenSelectionsTextures[]= {
 			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
 			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
-			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
-			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Upper_co.paa",
-			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\Default-Pouch.paa",
+			"z\10thMod\addons\armor_misriah_base\data\Default-Armor.paa",
+			"z\10thMod\addons\armor_misriah_base\data\Default-Legs.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
@@ -590,7 +590,7 @@ class cfgWeapons {
 			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
 			"MA_Armor\data\Vests\H3_ODST\Addons\Medic_Thigh_Pouch_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Reach_Medical_Armor_Upper_co.paa",
-			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\Default-Legs.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
@@ -636,9 +636,9 @@ class cfgWeapons {
 		hiddenSelectionsTextures[]= {
 			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
 			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
-			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
-			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Upper_co.paa",
-			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\Default-Pouch.paa",
+			"z\10thMod\addons\armor_misriah_base\data\Default-Armor.paa",
+			"z\10thMod\addons\armor_misriah_base\data\Default-Legs.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
@@ -692,9 +692,9 @@ class cfgWeapons {
 		hiddenSelectionsTextures[]= {
 			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
 			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
-			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
-			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Upper_co.paa",
-			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\Default-Pouch.paa",
+			"z\10thMod\addons\armor_misriah_base\data\Default-Armor.paa",
+			"z\10thMod\addons\armor_misriah_base\data\Default-Legs.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
@@ -751,9 +751,9 @@ class cfgWeapons {
 		hiddenSelectionsTextures[]= {
 			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
 			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
-			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\Default-Pouch.paa",
 			"z\10thMod\addons\armor_misriah_base\data\enlisted\Enlisted\Reach_Armor_Upper_Enlisted_co.paa",
-			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\Default-Legs.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
 			"z\10thMod\addons\armor_misriah_base\data\enlisted\Enlisted\Sniper_Enlisted_co.paa",
@@ -802,9 +802,9 @@ class cfgWeapons {
 		hiddenSelectionsTextures[]= {
 			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
 			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
-			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\Default-Pouch.paa",
 			"z\10thMod\addons\armor_misriah_base\data\enlisted\OdinEnlisted\Reach_Armor_Upper_OdinEnlisted_co.paa",
-			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\Default-Legs.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
 			"z\10thMod\addons\armor_misriah_base\data\enlisted\OdinEnlisted\Sniper_OdinEnlisted_co.paa",
@@ -853,9 +853,9 @@ class cfgWeapons {
 		hiddenSelectionsTextures[]= {
 			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
 			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
-			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\Default-Pouch.paa",
 			"z\10thMod\addons\armor_misriah_base\data\enlisted\ZeusEnlisted\Reach_Armor_Upper_ZeusEnlisted_co.paa",
-			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\Default-Legs.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
 			"z\10thMod\addons\armor_misriah_base\data\enlisted\ZeusEnlisted\Sniper_ZeusEnlisted_co.paa",
@@ -905,9 +905,9 @@ class cfgWeapons {
 		hiddenSelectionsTextures[]= {
 			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
 			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
-			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\Default-Pouch.paa",
 			"z\10thMod\addons\armor_misriah_base\data\enlisted\Enlisted\Reach_Armor_Upper_Enlisted_co.paa",
-			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\Default-Legs.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
 			"z\10thMod\addons\armor_misriah_base\data\enlisted\Enlisted\Sniper_Enlisted_co.paa",
@@ -955,9 +955,9 @@ class cfgWeapons {
 		hiddenSelectionsTextures[]= {
 			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
 			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
-			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\Default-Pouch.paa",
 			"z\10thMod\addons\armor_misriah_base\data\enlisted\OdinEnlisted\Reach_Armor_Upper_OdinEnlisted_co.paa",
-			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\Default-Legs.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
 			"z\10thMod\addons\armor_misriah_base\data\enlisted\OdinEnlisted\Sniper_OdinEnlisted_co.paa",
@@ -1005,9 +1005,9 @@ class cfgWeapons {
 		hiddenSelectionsTextures[]= {
 			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
 			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
-			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\Default-Pouch.paa",
 			"z\10thMod\addons\armor_misriah_base\data\enlisted\ZeusEnlisted\Reach_Armor_Upper_ZeusEnlisted_co.paa",
-			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\Default-Legs.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
 			"z\10thMod\addons\armor_misriah_base\data\enlisted\ZeusEnlisted\Sniper_ZeusEnlisted_co.paa",
@@ -1056,9 +1056,9 @@ class cfgWeapons {
 		hiddenSelectionsTextures[]= {
 			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
 			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
-			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\Default-Pouch.paa",
 			"z\10thMod\addons\armor_misriah_base\data\enlisted\Enlisted\Reach_Armor_Upper_Enlisted_co.paa",
-			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\Default-Legs.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
 			"z\10thMod\addons\armor_misriah_base\data\enlisted\Enlisted\Sniper_Enlisted_co.paa",
@@ -1113,9 +1113,9 @@ class cfgWeapons {
 		hiddenSelectionsTextures[]= {
 			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
 			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
-			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\Default-Pouch.paa",
 			"z\10thMod\addons\armor_misriah_base\data\enlisted\OdinEnlisted\Reach_Armor_Upper_OdinEnlisted_co.paa",
-			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\Default-Legs.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
 			"z\10thMod\addons\armor_misriah_base\data\enlisted\OdinEnlisted\Sniper_OdinEnlisted_co.paa",
@@ -1170,9 +1170,9 @@ class cfgWeapons {
 		hiddenSelectionsTextures[]= {
 			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
 			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
-			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\Default-Pouch.paa",
 			"z\10thMod\addons\armor_misriah_base\data\enlisted\ZeusEnlisted\Reach_Armor_Upper_ZeusEnlisted_co.paa",
-			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\Default-Legs.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
 			"z\10thMod\addons\armor_misriah_base\data\enlisted\ZeusEnlisted\Sniper_ZeusEnlisted_co.paa",
@@ -1228,9 +1228,9 @@ class cfgWeapons {
 		hiddenSelectionsTextures[]= {
 			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
 			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
-			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\Default-Pouch.paa",
 			"z\10thMod\addons\armor_misriah_base\data\enlisted\Enlisted\Reach_Armor_Upper_Enlisted_co.paa",
-			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\Default-Legs.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
 			"z\10thMod\addons\armor_misriah_base\data\enlisted\Enlisted\Sniper_Enlisted_co.paa",
@@ -1285,9 +1285,9 @@ class cfgWeapons {
 		hiddenSelectionsTextures[]= {
 			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
 			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
-			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\Default-Pouch.paa",
 			"z\10thMod\addons\armor_misriah_base\data\enlisted\OdinEnlisted\Reach_Armor_Upper_OdinEnlisted_co.paa",
-			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\Default-Legs.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
 			"z\10thMod\addons\armor_misriah_base\data\enlisted\OdinEnlisted\Sniper_OdinEnlisted_co.paa",
@@ -1342,9 +1342,9 @@ class cfgWeapons {
 		hiddenSelectionsTextures[]= {
 			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
 			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
-			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\Default-Pouch.paa",
 			"z\10thMod\addons\armor_misriah_base\data\enlisted\ZeusEnlisted\Reach_Armor_Upper_ZeusEnlisted_co.paa",
-			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\Default-Legs.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
 			"z\10thMod\addons\armor_misriah_base\data\enlisted\ZeusEnlisted\Sniper_ZeusEnlisted_co.paa",

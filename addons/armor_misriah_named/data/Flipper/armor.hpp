@@ -26,9 +26,9 @@
 			// No other texture files then the ones with comments will be altered.
 			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
 			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
-			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa", // Thigh pouch texture
+			"z\10thMod\addons\armor_misriah_base\data\Default-Pouch.paa", // Thigh pouch texture
 			"z\10thMod\addons\armor_misriah_named\data\Flipper\Reach_Armor_Upper_Flipper_co.paa", // Upper armor texture and base ODST shoulders.
-			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
+			"z\10thMod\addons\armor_misriah_base\data\Default-Legs.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa", // Canisters texture
 			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa", // Sniper Shoulders
