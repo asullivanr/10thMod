@@ -5,6 +5,7 @@ class CfgPatches {
         requiredAddons[] = {
             "OPTRE_Core",
             "Tenthed_core",
+            "cba_main"
             "TCP_Data",
             "TCP_Weapons",
             "TCP_Ui"
@@ -115,5 +116,10 @@ class RscDisplayMain: RscStandardDisplay
             onbuttonclick = "playMission ['', '\z\ace\addons\arsenal\missions\Arsenal.VR']";            
             y = "12.5 * ((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) + (safezoneY + safezoneH - (((safezoneW / safezoneH) min 1.2) / 1.2))";
         };
+    };
+};
+class Extended_PostInit_EventHandlers {
+    class Tenthed_ServerFPSDisplay {
+        init = "call compile preprocessFileLineNumbers 'z\10thJTF\addons\functions\XEH_postInit.sqf'";
     };
 };

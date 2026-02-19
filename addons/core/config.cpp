@@ -96,14 +96,14 @@ class ACEX_Fortify_Presets {
             {"Land_BagFence_Round_F", 10},
             {"Land_BagFence_Long_F", 10},
             {"Land_BagFence_Short_F", 10},
-
             {"Land_Plank_01_4m_F", 10},
-            {"Land_HBarrier_1_F", 30},
-            {"Land_HBarrierWall4_F", 30},
-            {"Land_HBarrierWall6_F", 30},
-            {"Land_HBarrierWall_corner_F", 30},
-            {"Land_HBarrierWall_corridor_F", 30},
-            {"Land_HBarrierTower_F", 60}
+
+            {"OPTRE_Ridgco_Barrier_One", 30},
+            {"OPTRE_Ridgco_Barrier_Tunnel", 30},
+            {"OPTRE_Ridgco_Barrier_Tower", 60},
+            {"OPTRE_Ridgco_Barrier_Corner", 30},
+            {"OPTRE_Ridgco_Barrier_Wall_Long", 30},
+            {"OPTRE_Ridgco_Barrier_Wall_Short", 30}
         };
     };
 };
