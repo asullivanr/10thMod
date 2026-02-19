@@ -7,14 +7,16 @@ class CfgPatches {
         };
         weapons[] = {
 			"Tenthed_HMG_static",
-			"Tenthed_mortar_82mm"
+			"Tenthed_mortar_82mm",
+			"Tenthed_OPTRE_Static_FG75_turret"
 		};
 		units[] = {
 			"Tenthed_HMG_Turret",
 			"Tenthed_HMG_Backpack",
 			"Tenthed_Mortar_Turret",
 			"Tenthed_Mortar_Backpack",
-			"Tenthed_AU_44_Mortar"
+			"Tenthed_AU_44_Mortar",
+			"Tenthed_FieldGun_Backpack"
 		};
     };
 };
@@ -997,4 +999,37 @@ class cfgVehicles {
 		};
 	};
 
+	// Field Gun
+	class OPTRE_Static_FG75;
+	class Tenthed_OPTRE_Static_FG75_turret : OPTRE_Static_FG75 {
+		displayname="[10th] Field Gun";
+		scope = 2;
+		scopeArsenal = 2;
+		scopeCurator = 2;
+		editorCategory = "Tenthed_EditorCategory_Main";
+		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Turrets";
+		crew = "";
+		faction = "Tenthed_UnitFact_Main";
+		side = 1;
+		class assembleInfo {
+			primary = 0;
+			base = "";
+			assembleTo = "";
+			dissasembleTo[] = { "Tenthed_FieldGun_Backpack" };
+			displayName = "";
+		};
+	};
+
+	class Tenthed_FieldGun_Backpack : Tenthed_Weapon_Bag_Base {
+		_generalMacro = "Tenthed_FieldGun_Backpack";
+		displayName = "[10th] Field Gun Backback";
+		scope = 2;
+		editorCategory = "Tenthed_EditorCategory_Items";
+		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Backpacks";
+		picture = "\A3\Weapons_F\Ammoboxes\Bags\data\UI\icon_B_C_Small_oli.paa";
+		class assembleInfo : assembleInfo {
+			displayName = "Assemble [10th] Field Gun";
+			assembleTo = "Tenthed_OPTRE_Static_FG75_turret";
+		};
+	};
 };
