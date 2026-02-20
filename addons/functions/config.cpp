@@ -5,7 +5,7 @@ class CfgPatches {
         requiredAddons[] = {
             "OPTRE_Core",
             "Tenthed_core",
-            "cba_main"
+            "cba_main",
             "TCP_Data",
             "TCP_Weapons",
             "TCP_Ui"
@@ -90,7 +90,7 @@ class CfgFunctions {
         };
 
         class serverFPS {
-            file = "z\10thJTF\addons\functions\functions";
+            file = "z\10thMod\addons\functions\functions";
             class isAuthorizedPlayer {};
             class toggleServerFPS {};
         };
@@ -120,6 +120,6 @@ class RscDisplayMain: RscStandardDisplay
 };
 class Extended_PostInit_EventHandlers {
     class Tenthed_ServerFPSDisplay {
-        init = "call compile preprocessFileLineNumbers 'z\10thJTF\addons\functions\XEH_postInit.sqf'";
+        init = "call compile preprocessFileLineNumbers 'z\10thMod\addons\functions\XEH_postInit.sqf'";
     };
 };
