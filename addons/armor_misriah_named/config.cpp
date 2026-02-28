@@ -41,11 +41,14 @@ class cfgWeapons {
 	// Tiny
 	#include "data\Tiny\armor.hpp"
 
+	// Tester
+	//#include "data\Tester\armor.hpp"
+
 	// Lion
 	#include "data\Lion\armor.hpp"
 
 	// Nova
-	#include "data\Nova\armor.hpp"
+	//#include "data\Nova\armor.hpp"
 
 	// Villainess
 	// #include "data\Villainess\armor.hpp"
@@ -63,10 +66,10 @@ class cfgWeapons {
 	#include "data\Flipper\armor.hpp"
 
 	// Rambler
-	#include "data\Rambler\armor.hpp"
+	//#include "data\Rambler\armor.hpp"
 
 	// Slim
-	#include "data\Slim\armor.hpp"
+	//#include "data\Slim\armor.hpp"
 
 	// Boomstick
 	#include "data\Boomstick\armor.hpp"
@@ -78,7 +81,7 @@ class cfgWeapons {
 	#include "data\Jad\armor.hpp"
 //
 	// Clem
-	#include "data\Clem\armor.hpp"
+	//#include "data\Clem\armor.hpp"
 
 	// Cookie
 	#include "data\Cookie\armor.hpp"
@@ -90,19 +93,19 @@ class cfgWeapons {
 	// #include "data\Drake\armor.hpp"
 
 	// Gutts
-	#include "data\Gutts\armor.hpp"
+	//#include "data\Gutts\armor.hpp"
 
 	// HardDrop
 	#include "data\HardDrop\armor.hpp"
 
 	// Hatchet
-	#include "data\Hatchet\armor.hpp"
+	//#include "data\Hatchet\armor.hpp"
 
 	// Leek
-	#include "data\Leek\armor.hpp"
+	//#include "data\Leek\armor.hpp"
 
 	// Nobody
-	#include "data\Nobody\armor.hpp"
+	//#include "data\Nobody\armor.hpp"
 
 	// Seagull
 	// #include "data\Seagull\armor.hpp"
@@ -111,7 +114,7 @@ class cfgWeapons {
 	// #include "data\Som\armor.hpp"
 //
 	// Cossack
-	#include "data\Cossack\armor.hpp"
+	//#include "data\Cossack\armor.hpp"
 
 	// Evader
 	#include "data\Evader\armor.hpp"
@@ -129,7 +132,7 @@ class cfgWeapons {
 	// #include "data\Hodge\armor.hpp"
 
 	// Infra
-	#include "data\Infra\armor.hpp"
+	//#include "data\Infra\armor.hpp"
 
 	// McInnes
 	//#include "data\McInnes\armor.hpp"
@@ -138,7 +141,7 @@ class cfgWeapons {
 	// #include "data\Meatshield\armor.hpp"
 
 	// Tiger
-	#include "data\Tiger\armor.hpp"
+	//#include "data\Tiger\armor.hpp"
 //
 	// Atlas
 	#include "data\Atlas\armor.hpp"
@@ -162,13 +165,13 @@ class cfgWeapons {
 	//#include "data\Marvel\armor.hpp"
 
 	// Mom
-	#include "data\Mom\armor.hpp"
+	//#include "data\Mom\armor.hpp"
 
 	// Optional
 	#include "data\Optional\armor.hpp"
 
 	// Storm
-	#include "data\Storm\armor.hpp"
+	//#include "data\Storm\armor.hpp"
 //
 	// Beans
 	#include "data\Beans\armor.hpp"
@@ -177,7 +180,7 @@ class cfgWeapons {
 	#include "data\Blasphemy\armor.hpp"
 
 	// Hetzen
-	#include "data\Hetzen\armor.hpp"
+	//#include "data\Hetzen\armor.hpp"
 
 	// Jaeger
 	// #include "data\Jaeger\armor.hpp"
@@ -192,7 +195,7 @@ class cfgWeapons {
 	#include "data\Metro\armor.hpp"
 
 	// Xyric
-	#include "data\Xyric\armor.hpp"
+	//#include "data\Xyric\armor.hpp"
 //
 	// Den
 	//#include "data\Den\armor.hpp"
@@ -216,28 +219,28 @@ class cfgWeapons {
 	#include "data\Rook\armor.hpp"
 //
 	// Fynn
-	#include "data\Fynn\armor.hpp"
+	//#include "data\Fynn\armor.hpp"
 
 	// Life
 	#include "data\Life\armor.hpp"
 
 	// Rad
-	#include "data\Rad\armor.hpp"
+	//#include "data\Rad\armor.hpp"
 
 	// Silver
 	#include "data\Silver\armor.hpp"
 
 	// Vex
-	#include "data\Vex\armor.hpp"
+	//#include "data\Vex\armor.hpp"
 //
 	// Gunner
-	#include "data\Gunner\armor.hpp"
+	//#include "data\Gunner\armor.hpp"
 
 	// Lego
 	#include "data\Lego\armor.hpp"
 
 	// Jack
-	#include "data\Jack\armor.hpp"
+	//#include "data\Jack\armor.hpp"
 
 	// Sound
 	#include "data\Sound\armor.hpp"
@@ -246,7 +249,7 @@ class cfgWeapons {
 	//#include "data\Thor\armor.hpp"
 //
 	// Chaotix
-	#include "data\Chaotix\armor.hpp"
+	//#include "data\Chaotix\armor.hpp"
 
 	// Dinner
 	//#include "data\Dinner\armor.hpp"
@@ -255,7 +258,7 @@ class cfgWeapons {
 	#include "data\Nightmare\armor.hpp"
 
 	// Shakes
-	#include "data\Shakes\armor.hpp"
+	//#include "data\Shakes\armor.hpp"
 
 	// Gater
 	#include "data\Gater\armor.hpp"
@@ -264,7 +267,7 @@ class cfgWeapons {
 	#include "data\Bardok\armor.hpp"
 
 	// Crusader
-	#include "data\Crusader\armor.hpp"
+	//#include "data\Crusader\armor.hpp"
 
 	// Dadbod
 	#include "data\Dadbod\armor.hpp"
@@ -276,10 +279,10 @@ class cfgWeapons {
 	#include "data\Harpy\armor.hpp"
 
 	// Karma
-	#include "data\Karma\armor.hpp"
+	//#include "data\Karma\armor.hpp"
 
 	// Milly
-	#include "data\Miller\armor.hpp"
+	//#include "data\Miller\armor.hpp"
 
 	// Ninja
 	#include "data\Ninja\armor.hpp"
@@ -288,7 +291,7 @@ class cfgWeapons {
 	#include "data\Teal\armor.hpp"
 
 	// Velo
-	#include "data\Velo\armor.hpp"
+	//#include "data\Velo\armor.hpp"
 
 	// Vio
 	#include "data\Vio\armor.hpp"
@@ -297,7 +300,7 @@ class cfgWeapons {
 	#include "data\Astral\armor.hpp"
 
 	// Mercury
-	#include "data\Mercury\armor.hpp"
+	//#include "data\Mercury\armor.hpp"
 
 	// Razor
 	#include "data\Razor\armor.hpp"
@@ -328,4 +331,19 @@ class cfgWeapons {
 
 	// Elder
 	#include "data\Elder\armor.hpp"
+//
+	// Qal
+	#include "data\Qal\armor.hpp"
+
+	// Trejon
+	#include "data\Trejon\armor.hpp"
+
+	// Renegade
+	#include "data\Renegade\armor.hpp"
+
+	// Menace
+	#include "data\Menace\armor.hpp"
+
+	// Cinny
+	#include "data\Cinny\armor.hpp"
 };
