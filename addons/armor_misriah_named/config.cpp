@@ -346,4 +346,13 @@ class cfgWeapons {
 
 	// Cinny
 	#include "data\Cinny\armor.hpp"
+// 
+	// Ash
+	#include "data\Ash\armor.hpp"
+
+	// Cheese
+	#include "data\Cheese\armor.hpp"
+
+	// Trollface
+	#include "data\Trollface\armor.hpp"
 };
