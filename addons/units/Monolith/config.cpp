@@ -894,7 +894,7 @@ class CfgVehicles
 		weapons[]=
 		{
 			"TKE_MDRifle_Optic",
-			"launch_B_Titan_olive_F",
+			//"launch_B_Titan_olive_F",
 			"Throw",
 			"Put"
 		};
@@ -907,9 +907,9 @@ class CfgVehicles
 			"TKE_35rnd_62x35_magTGMD",
 			"TKE_35rnd_62x35_magTGMD",
 			"TKE_FRAG_mag",
-			"TKE_SMOKE_mag",
-			"Titan_AA",
-			"Titan_AA"
+			"TKE_SMOKE_mag"//,
+			//"Titan_AA",
+			//"Titan_AA"
 		};
 		backpack="TKE_BackPack1MDCamo";
 		Items[]=
