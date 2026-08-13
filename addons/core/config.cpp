@@ -18,6 +18,9 @@ class CfgFactionClasses {
         icon = "\Tenthed_Core\data\logo.paa";
         flag = "\Tenthed_Core\data\logo.paa";
     };
+    class Tenthed_EditorCategory_Modules {
+        displayName = "[10th] Modules";
+    };
 };
 class CfgEditorCategories {
     // Primary unit category used for units
@@ -31,10 +34,6 @@ class CfgEditorCategories {
     // Category used for Items
     class Tenthed_EditorCategory_Items {
         displayName = "[10th] Items";
-    };
-    // Category used for Modules
-    class Tenthed_EditorCategory_Modules {
-        displayName = "[10th] Modules";
     };
 };
 class CfgEditorSubcategories {
