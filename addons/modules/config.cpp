@@ -8,7 +8,9 @@ class CfgPatches {
             "A3_Modules_F"
         };
         weapons[] = {};
-        units[] = {};
+		units[] = {
+			"Tenthed_Module_Arsenal"
+		};
     };
 };
 class CfgVehicles
@@ -44,7 +46,7 @@ class CfgFunctions
         {
             class ArsenalModule
             {
-                file = "functions\fn_ArsenalModule.sqf";
+                file = "z\10thMod\addons\modules\functions\fn_ArsenalModule.sqf";
             };
         };
     };
